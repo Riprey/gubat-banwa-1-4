@@ -1,0 +1,30 @@
+{
+  "folder": "8N8ulG4W3ZU86uV1",
+  "name": "II - Live Hand",
+  "type": "technique",
+  "_id": "1mOt2DdHsFQevIZV",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>Your hand becomes loose, as if it's not readied. In truth, it has taken a life of its own.</em></p><p>Spend 1 Beat to take on the <strong>Live Hand Stance</strong> until the start of your next Riff. While in this stance, when you're attacked by a melee attack, change the target to another fighter in range 3, or back at the attacker. The new target may defend against it as normal. Lose the Stance.</p><p><strong>Dancing Furious Mad:</strong> Spend 2 Beats. You can now use this against ranged and area attacks, though redirecting an area attack simply redirects yours and does not affect the other targets of the attack.</p><p><strong>Avalokitesvara's Thousand Hands:</strong> Spend 3 Beats. You now no longer need to lose the stance to redirect attacks, though you can only use it 1/riff, and the redirected attack rolls half the dice. Then, Fly 1.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>You've trained your hands: they move faster than the wind. Your attacks flow into the next one, not one being a mistake, each one a set up for the next.</em></p>",
+    "discipline": "mangangayaw",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731815698200,
+    "modifiedTime": 1731826231372,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!1mOt2DdHsFQevIZV"
+}

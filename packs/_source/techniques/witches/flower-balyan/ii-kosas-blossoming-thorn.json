@@ -1,0 +1,30 @@
+{
+  "folder": "hzPF9UbJxdeJXbAG",
+  "name": "II - Kosa's Blossoming Thorn",
+  "type": "technique",
+  "_id": "ssE50UNimLew9lNC",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You whisper sacred words and then fling out a sacred death thorn.</em></p><p>Spend 1 Beat to mark an enemy within 5 tiles until the end of their next riff. While marked, all attacks against them are <strong>skewering.</strong></p><p><strong>Kosa's Flowering Vines:</strong> Spend 2 Beats. You can now mark up to 2 enemies in range 4.</p><p><strong>Kosa's Corpse Touch:</strong> Spend 3 Beats. While marked, they suffer -2 to their Speed and Jump. When they suffer any hits, you can cause the mark to blossom into a <strong>burst 1 field of grasping flower-choked corpses</strong> centered on the marked target. The field is <strong>difficult and dangerous terrain</strong> for all enemies, and any enemy that starts their riff within it has a <strong>50% chance of becoming debilitated.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Hain Kosa is an ancient balyan who learned the secrets of ancient necromancy and decay. She crafted a thorn, which has since become a primary offensive technique of all flower balyan, who practice it and then learn to apply it as covetously and as hidden as possible, woven between sung incantations and empty hand forms.</em></p>",
+    "discipline": "flower-balyan",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731899411996,
+    "modifiedTime": 1731899834704,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!ssE50UNimLew9lNC"
+}

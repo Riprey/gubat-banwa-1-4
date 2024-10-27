@@ -1,0 +1,19 @@
+{
+  "name": "Virbanweño",
+  "sorting": "a",
+  "folder": "vaiIx8YWXrKlPbKv",
+  "type": "Actor",
+  "_id": "UUZjrEpsUvSHyh9i",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1732135812680,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!folders!UUZjrEpsUvSHyh9i"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "5i6ULlL33lD2FEZ1",
+  "name": "II - Dagat Lantaka",
+  "type": "technique",
+  "_id": "tlMt0M3Yr6cfYLBJ",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>Utter a prayer and brandish a swivel gun, and then unleash a pelagic blast.</em></p><p>Spend 1 Beat to attack a fighter in <strong>range 3 with Faith, dousing</strong> the target, and then <strong>push 3.</strong> If they collide, they become <strong>Slowed.</strong> All tiles in burst 1 of the target becomes <strong>shallow water.</strong></p><p><strong>Sea Raid Cannon:</strong> Spend 2 Beats to <strong>attack all fighters in an area (range 3 Blast 3) with Faith, dousing and chilling them.</strong> If they're already doused or chilled, this attack becomes <strong>Overwhelming.</strong></p><p><strong>Margosatubig's Swivel:</strong> Spend 3 Beats to increase the range to <strong>range 5 blast 4</strong> and is now <strong>Bravery + Faith.</strong> You become <strong>wide open</strong> until the end of your next riff afterwards.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A skill invented by the old Balu Warlord Panglima Sumarak, who brought with him a giant lantaka cannon as a weapon to destroy stone fortifications. By using this technique, you channel that old Balu Warlord, and summon his lantaka.</em></p>",
+    "discipline": "swordfish-cavalier",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731842177232,
+    "modifiedTime": 1731842302514,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!tlMt0M3Yr6cfYLBJ"
+}

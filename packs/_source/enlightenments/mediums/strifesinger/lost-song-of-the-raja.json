@@ -1,0 +1,30 @@
+{
+  "folder": "TS0cyTROTMvCS5JD",
+  "name": "Lost Song of the Raja",
+  "type": "enlightenment",
+  "_id": "RwsREVks6DvVZ6e6",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>1/Violence, when an ally falls to <strong>0 HP,</strong> you may immediately heal them <strong>2 HP,</strong> singing a song that returns them from the brink. Their next attack gains <strong>+2d. </strong>Additionally, when you <strong>Rally,</strong> you and all allies in burst 2 of you gains <strong>+1 Bravery, Faith, Speed, </strong>and<strong> Jump</strong> until the end of your next riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Sing full and true, Singer. Your song, your steps... It shall culminate in this moment. Your song shall be the song of a thousand weary ghosts, that sorrowsong: let them hear the cries of your heart, the blood of your soul.</em></p>",
+    "discipline": "",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731911269958,
+    "modifiedTime": 1731911349656,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!RwsREVks6DvVZ6e6"
+}

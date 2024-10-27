@@ -1,0 +1,58 @@
+{
+  "name": "Wairakawa War Attire (+3)",
+  "type": "anting",
+  "_id": "axv29HAkk0nwgUHn",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p><span style=\"font-family:Signika, sans-serif\">Gain <strong style=\"box-sizing:border-box;user-select:text;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">+3</strong> HP.</span></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><span style=\"font-family:Signika, sans-serif\"><em style=\"box-sizing:border-box;user-select:text;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Golden armor with a sun-tiger on the chest plate. This includes a set of armor: a peaked helmet, gold-and-brass lamellar, gilded dragon bracers, a golden dragonfly belt woven with a veil-thin silk as a skirt, and golden tail-eating dragon bangles. Once belonged to the ancient warriors of Put'wan. Wairakawa is one of the fierce forms of the great god Rayasaiwa, who destroyed the past world to pave the way for this one.</em></span></p>"
+  },
+  "effects": [
+    {
+      "name": "+3 HP",
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.gubat-banwa-1-4.antings.Item.axv29HAkk0nwgUHn",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "c26RhJRppy3x9e7U",
+      "changes": [
+        {
+          "key": "system.hp.max",
+          "mode": 2,
+          "value": "3"
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "flags": {},
+      "tint": null,
+      "_key": "!items.effects!axv29HAkk0nwgUHn.c26RhJRppy3x9e7U"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731966665417,
+    "modifiedTime": 1731966822034,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!axv29HAkk0nwgUHn"
+}

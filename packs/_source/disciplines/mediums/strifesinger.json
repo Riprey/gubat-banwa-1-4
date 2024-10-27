@@ -1,0 +1,80 @@
+{
+  "folder": "5222xbL5Amax0G5p",
+  "name": "Strifesinger",
+  "type": "discipline",
+  "_id": "tIa0t9G6Ir3ungSH",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Singers of the Dirge of Gubat Banwa, Exalters of Healing Through Violence, Chanters of the Sorrowsong, The Chorus That Watches The Sword Isles.</p></blockquote><p>The only two times tawo do not sing is when they are asleep or when they are dead.</p><p>Strifesingers use their voices, instruments, and ritual dances to heal and support their allies. They have created The Sorrowsong, a martial art that uses song and instruments to mystically empower their allies and produce concussive vibrations. With their healing song stories and their invigorating cacophonies, they pave the melody for a new world.</p><p>Their art is one crafted by local Siganon, and then perfected by Bulanan pandita, aligning their empowering notes with the soft philosophies of the moon to create a singer that can heal the world. Grandmasters of the Strifsinger teach the secret to amplifying instruments into thundering sonic waves that blast enemies off of their feet. Their songs from the myriad of instruments they learn summon spirits, as most of them are entreaties and pleas to the gods to help them in their war. Thus is the secret of a Strifesinger.</p><p>Most settlements that have Strifesingers learn the martial art of the Sorrowsong from other Strifesingers, although they mostly only accept students that already know how to play a few instruments, or have beautiful voices. Their voices and music do not only heal and support: some of their techniques employ the use of violent sound waves to blast enemies off of their feet, or to make weapons dance quicker.</p><p>Grandmasters of Strifesinging teach the secret to amplifying instruments into thundering sonic waves that blast enemies off of their feet. This art also deals in letting their sonorous tones bolster their allies' own with mystic resonances.</p><p>Strifesingers are few and far between. They are usually well respected by other instrumentalists and musicians, who usually do not take up the responsibility of war, or if they do, keep their music out of it. Very often, professional mourners (known as Parahaya) often become Strifesingers as well, combining their grieving with the act of violence to quicken the act of mourning.</p><p>Strifesingers tend to be bleeding hearts, especially in such a stage as war, wherein they would readily compose dirges for foes they have just killed, or about lost allies, or about the nature of the wheel that is unbroken due to war.</p><p>In recent times, Strifesingers are known in Akai as Katib. They sing not only the sorrows of this world, but also the orations and prayers in the religious services of the Bulanan faith. Strifesingers memorize the words upon the books of faith of Bulanan, and they use these truths to heal the wounds of the battlefield.</p><blockquote><p>When you become a Strifesinger, ask yourself why you sing the warsong: you are complicit to the cycle, your conscience is bloodied. Why does your healing song only bring more sorrow? Why does your invigorating tale bring violence? Whether it is yours, your allies', or your enemies?</p></blockquote><p><strong>Weapons:</strong> Instruments, Knives, Kudyapi, Agung, Tolali, Zither, Bamboo Flute, Nose Flute</p><p><strong>Armor:</strong> Headwraps, sashes, sarong, silk jackets, paruka, malong, skirts</p>",
+    "hp": {
+      "max": 8
+    },
+    "speed": 4,
+    "jump": 2,
+    "prowesses": {
+      "brv": 0,
+      "fai": 1,
+      "pos": 1,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p>You have a <strong>Singing Aura 2.</strong> When you or any ally starts their riff in your singing aura <strong>heal 1</strong> and become immune to being <strong>confused, debilitated,</strong> and <strong>slowed.</strong> When you end your riff, you may <strong>slide a fighter in the aura by 1 tile.</strong></p>",
+      "name": "Singer of Sorrows",
+      "flavor": "<p><em>Professional mourners across The Sword Isles are paid to wail and gnash teeth for important figures. This spirit of grief permeates the isles. It penetrates even you. The Song of Sorrow, nevertheless, is a martial art. An art for violence. This violent vesper, which contains two ambahan (a kind of poetry, you should know, that is sung; two lines, 7 syllables each, and make sense if the two lines are interchanged) that feed each other forever, is a song about the truth of battle: violence for violence's sake is the rule of beasts and the divinity of man. When violence is used to find truths about mortal nature, and not to kill, gain wealth, or accrue power, is when we become more than what we are.</em></p>"
+    },
+    "violences": {
+      "flavor": "<p><em>\"Sword clashes, gunshots, the ringing of war gongs, songs, lies, promises, violence... These are all things that demand repetition, for no other reason but to be heard, again and again. Love, after all, is at its best when it repeats itself.\"</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Unleash a note. <strong>Attack a fighter within 5 tiles with Faith</strong> and then <strong>Slide 2.</strong> All allies in your singing aura can <strong>move 2.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Strum Kudyapi"
+        },
+        "2": {
+          "description": "<p>Create powerful thundering reverberations: <strong>attack all fighters in an area (blast 3) with Faith,</strong> then <strong>push 1.</strong> All allies in your singing aura get <strong>Block 1.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Strike Agung"
+        },
+        "3": {
+          "description": "<p><strong>Attack a fighter within 4 tiles with Faith.</strong> All allies in your singing aura get <strong>+1d</strong> on their next attack.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Ring Bell"
+        }
+      },
+      "name": "Thundering Instruments"
+    },
+    "identifier": "strifesinger",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Strifesinger",
+    "style": "medium"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730721894180,
+    "modifiedTime": 1730777402673,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!tIa0t9G6Ir3ungSH"
+}

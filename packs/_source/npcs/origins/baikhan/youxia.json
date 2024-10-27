@@ -1,0 +1,144 @@
+{
+  "name": "Youxia",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 24,
+      "max": 24,
+      "blocks": 0
+    },
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 8
+      },
+      "fai": {
+        "value": 2
+      },
+      "pos": {
+        "value": 4
+      },
+      "res": {
+        "value": 3
+      }
+    },
+    "description": "<p>The Empire long divided, must unite; long united, must divide. The Hegemony of Baik Hu, under the great Vermilion Phoenix, of the Zhu Dynasty, faces upheaval. Many treat the Empress as weak, and they believe that they have lost the Mandate of Heaven. The Empire has begun to fracture: warlords have arisen. There are three major warlords, kings on their own, waiting for their chance to unite Baik Hu under their own sword and banner. How will all things under heaven react to the incoming end of times? The peasants rise, the warlords bring their weapon down. The Empire must divide. The Youxia are wandering warriors that constitute the best swordsmen of Baik Hu.</p><p>(The stats provided here is for a Rank 1 encounter with 4 Kadungganan. Check the book for higher ranks.)</p>",
+    "speed": 6,
+    "jump": 6,
+    "threat": 2,
+    "style": "raider",
+    "traits": [
+      {
+        "name": "Poise",
+        "description": "Whenever a Chief suffers a Status Effect or is forcibly moved, they can choose to ignore it and gain a Poise Token instead. When they gain 5 Poise Tokens, they become Poise Broken: they can suffer all Status Effects, can be forcibly moved as normal, and cannot gain any more Poise Tokens. While Poise Broken, a Chief loses 1 Poise Token whenever they start their riff. When they lose all Poise Tokens, they lose Poise Broken and can again gain Poise Tokens."
+      },
+      {
+        "name": "Dragon Eye",
+        "description": "Chiefs can riff a number of times per Resound equal to the Kadungganan."
+      },
+      {
+        "name": "Heirs of the Dragon",
+        "description": "When a Baikhan fighter starts their riff, they and all adjacent Baikhan are ignited until the end of their next riff. All Ignited Baikhan have +1d to all Attack and Defense dice. Ignited Baikhan cannot be ignited again."
+      },
+      {
+        "name": "All Subjects Under Heaven",
+        "description": "At the start of a Youxia's riff, all adjacent enemies are blown wide open. When the Youxia ignites allies, they gain +1d per ally to their next attack, to a maximum of +4d."
+      },
+      {
+        "name": "Without Equal",
+        "description": "1/riff, when the Youxia suffers a non-area attack, they may inflict violence at the attacker, if possible. If not, just inflict violence."
+      },
+      {
+        "name": "Unbroken, Unbowed",
+        "description": "The Youxia becomes immune to forced movement until the end of their next riff and they gain +1d to their next Defense roll after they rush 6 tiles."
+      }
+    ],
+    "attacks": "<p><strong>Inflict Violence: Heavenly Saber.</strong> Fly 2 and then attack an adjacent enemy with Bravery, then <strong>juggle</strong> the target.</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong><span style=\"text-decoration: underline;\">Phase 1: Hidden Swordsman.</span></strong><span style=\"text-decoration: underline;\"> A swordsman wearing a robe and straw hat.</span></p><p><strong>1-4:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>5-8:</strong> Rush &gt; Inflict Violence &gt; <strong>Faster Than A Picosecond [1]:</strong> Inflict Violence without Combo Breaker.</p><p><strong><span style=\"text-decoration: underline;\">Phase 2: August Xia.</span></strong><span style=\"text-decoration: underline;\"> The swordsman sheds all precautions, and fights full on. A true god of war. Triggers once they fall to 0 HP: </span><em><span style=\"text-decoration: underline;\">they heal to full HP again and keep fighting.</span></em></p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; <strong>Twin Dragon Strike [1]:</strong> Attack twice with Faith against two different fighters without Combo Breaker. May <strong>teleport 3</strong> between attacks.</p><p><strong>3-4:</strong> Rush &gt; <strong>Culling Blade [1]:</strong> <strong>Attack an adjacent enemy with Faith,</strong> then inflict <strong>-1 to all Defenses</strong> until the end of their next riff. Then, <strong>pull 2</strong> all enemies in burst 3. &gt; <strong>Faster Than A Picosecond [1].</strong></p><p><strong>5-6:</strong> Rush &gt; <strong>Eight Headed Dragon Blade [1]</strong>: Attack all enemies in an area (burst 2) with Bravery + Faith, setting aflame.</p><p><strong>7-8:</strong> <strong>The Army Arrives [3]:</strong> Cannot use this until Resound 7+. At the end of the next Resound, the fight ends as a Baikhan Army arrives. The Youxia puts their hat back on and flies away, and the war drums of Baikhan armies resound in the horizon. The Kadungganan must choose to either flee or stay: either way, they are Defeated.</p>",
+    "resource": ""
+  },
+  "prototypeToken": {
+    "name": "Youxia",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "O2smhD7ezf5ZlRwX",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731533648818,
+    "modifiedTime": 1732185614507,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "CJmpO9td541DuPE9",
+  "sort": 0,
+  "_key": "!actors!CJmpO9td541DuPE9"
+}

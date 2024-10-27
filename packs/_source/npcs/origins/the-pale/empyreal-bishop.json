@@ -1,0 +1,132 @@
+{
+  "name": "Empyreal Bishop",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 5,
+      "max": 5,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 2
+      },
+      "fai": {
+        "value": 8
+      },
+      "pos": {
+        "value": 1
+      },
+      "res": {
+        "value": 3
+      }
+    },
+    "description": "<p>\"O, ye mighty blades of the church. Mine hands and feet have been cut off from me, lest they do evil before the face of God. I am placed upon the world to eradicate sin. If thou art pure, if thou art free, then thou shalt not fear. If thou are ignorant, then thou canst be saved. If thou chooseth blasphemy and heresy, then the greatest of cognito hazards upon thee. The Mighty Lord shall unleash the Smiling Angels upon thee, for upon the bosom of God there is no Hell. There is only God. There is only God.\"</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Scathe Heathens.</strong> Attack all enemies in range 5 burst 1 with Faith, setting aflame and dazzling.</p><p><strong>Gambits</strong> [[/r d6]]</p><p><strong>1-2:</strong> Inflict Violence &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>3-4:</strong> Rush &gt; <strong>Admonition [1]:</strong> Choose a fighter in range 4 and mark them until the end of the Empyreal Bishop's next riff. While marked, they are <strong>vulnerable</strong> against all attacks. &gt; Inflict Violence</p><p><strong>5:</strong> Rush &gt; <strong>Charism [2]:</strong> Attack all enemies in blast 5 with Faith, then <strong>slide 4</strong> and <strong>stun</strong> them.</p><p><strong>6: Horrifying Fate of the Orphaned Son [3]:</strong> Choose 1 enemy in range 5. They suffer Ruin (Your HP becomes 1. If you are brought to 0 HP, lose Ruin).</p>",
+    "speed": 3,
+    "jump": 2,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Glory To The Sidereal Banner",
+        "description": "Pale steal holy items from the places they colonize. All Pale fighters have +2d to all Attacks and Defenses, though they lose these for the rest of violence the first time they're Staggered."
+      },
+      {
+        "name": "This Land Of Tears",
+        "description": "The Pale get stronger as they are Staggered, however, as they worship that bleeding god. When Staggered, they gain +1 to Speed and +1 to Jump, and Block 1. They get extra benefits as well."
+      },
+      {
+        "name": "Bleeding God's Smile",
+        "description": "Whenever the Bishop hits with an area attack, also inflict Pacification (You can never deal more than 1 Hit. When you are attacked, you suffer -2d to the Defense roll, and then you clear Pacification). When the Bishop becomes Staggered, they start Floating."
+      }
+    ],
+    "style": "witch"
+  },
+  "prototypeToken": {
+    "name": "Empyreal Bishop",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "cVPlsrwWX6ZTBouP",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732190068897,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "HDT9VEf9e8q0LZJN",
+  "sort": 0,
+  "_key": "!actors!HDT9VEf9e8q0LZJN"
+}

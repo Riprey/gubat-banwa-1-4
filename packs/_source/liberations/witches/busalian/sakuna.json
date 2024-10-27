@@ -1,0 +1,30 @@
+{
+  "folder": "RcRWz017YrZ53sJ5",
+  "name": "Sakuna",
+  "type": "liberation",
+  "_id": "AJYCNoV9B21kCoey",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 4+,</strong> you may <strong>summon certain magickal calamity thunder-lightning from the heavens to the middle world.</strong></p><p><strong>Spend 2 Beats</strong> to <strong>attack all fighters in an area (burst 25) with Faith + Faith,</strong> but ignore all fighters that are in <strong>burst 2</strong> of you. This attack is <strong>Overwhelming, Skewering, True,</strong> and has <strong>+1 True Hit.</strong> Choose the element of this destruction as well, applying fictional effects as needed.</p><p>If you're ready, you can let <strong>Sakuna</strong> strike you. If you do, you immediately die, but you also inflict <strong>180 True Hits</strong> to all enemies in the battlefield.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Jamiyun Kulisa, offer me your thunderbolt. Habagat and Amihan, offer me your winds! Si Ginarugan, let the almighty Earthquake shake the foundations of this atrocious field, and Indira Suga grant me the authority to bring godly indignation! SAKUNA!\" You raise your hand and thunderclouds gather. You incant, writhing, spiking utterations and ululations. When heaven has had enough of your blasphemy, the holy powers of heaven send a fulminating lightning bolt to the earth, embodying all eight essences.</em></p>",
+    "discipline": "busalian",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731906798654,
+    "modifiedTime": 1731906943176,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!AJYCNoV9B21kCoey"
+}

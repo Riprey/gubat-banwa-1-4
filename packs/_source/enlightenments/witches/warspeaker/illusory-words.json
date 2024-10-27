@@ -1,0 +1,30 @@
+{
+  "folder": "XQGL8mL8xGktNlob",
+  "name": "Illusory Words",
+  "type": "enlightenment",
+  "_id": "RPXhELT8qcMa1FDa",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>Whenever you inflict a <strong>status effect</strong> on an enemy, put down an <strong>illusory clone (Size 1, 2 HP)</strong> of yourself on a tile adjacent to them. All enemies adjacent to an illusory clone suffer -1d to their Defenses. You can only have up to <strong>3 Illusions</strong> at a time, and when you <strong>rush</strong> you can swap places with an illusion, teleporting.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Meditate on this poem, and then utter the words KID·LAT, which is lightning. For enlightenment is like a burst of lightning. BATALA in a humble warrior-king form gathered his warriors together, sitting atop a karakoa. \"Gather round, o warriors, and open thine ears. I sing on the topic of Ego, and it is thus: Killing God and Becoming God are goals for the lesser-minded chained to the cycle of rebirth. Embrace Violence and find Glory beyond God.\"</em></p>",
+    "discipline": "warspeaker",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731910901737,
+    "modifiedTime": 1731910980325,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!RPXhELT8qcMa1FDa"
+}

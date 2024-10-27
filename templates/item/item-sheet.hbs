@@ -1,0 +1,76 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+    <header class="sheet-header item-header">
+        <img class="profile-img item-header__image" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+        <div class="item-header__fields">
+            <h1 class="item-header__name"><input name="name" type="text" value="{{item.name}}" placeholder="Name" />
+            </h1>
+            <h3 class="item-header__type">{{localize (concat "TYPES.Item." item.type)}}</h3>
+        </div>
+    </header>
+
+    {{!-- Sheet Tab Navigation --}}
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="description">Description</a>
+        <a class="item" data-tab="attributes">Attributes</a>
+        <a class="item" data-tab="effects">Effects</a>
+    </nav>
+
+    {{!-- Sheet Body --}}
+    <section class="sheet-body">
+
+        {{!-- Description Tab --}}
+        <div class="tab" data-group="primary" data-tab="description">
+            <h2 class="section-title">{{localize "GUBAT_BANWA.UI.Description"}}</h2>
+            <div class="wysiwyg-container">
+                {{editor enriched.description target="system.description" button=true engine="prosemirror"
+                editable=editable}}
+            </div>
+            <h2 class="section-title">{{localize "GUBAT_BANWA.UI.Flavor"}}</h2>
+            {{!-- Flavor --}}
+            {{#if (isdefined system.flavor)}}
+            <div class="wysiwyg-container">
+                {{editor system.flavor target="system.flavor" button=true engine="prosemirror"
+                editable=editable}}
+            </div>
+            {{/if}}
+        </div>
+
+        {{!-- Attributes Tab --}}
+        <div class="tab" data-group="primary" data-tab="attributes">
+            {{!-- Relevant Discipline --}}
+            {{!-- Value should be same as the Discipline's identifier --}}
+            {{#if (isdefined system.discipline)}}
+            <div class="form-group">
+                <label for="system.discipline">{{localize "GUBAT_BANWA.Categories.Discipline"}}</label>
+                <div class="form-fields">
+                    <input name="system.discipline" type="text" value="{{system.discipline}}" />
+                </div>
+            </div>
+            {{/if}}
+
+            {{!-- Label for Localization --}}
+            <div class="form-group">
+                <label for="system.label">{{localize "GUBAT_BANWA.Metadata.Label"}}</label>
+                <div class="form-fields">
+                    <input name="system.label" type="text" value="{{system.label}}" />
+                </div>
+            </div>
+
+            {{!-- Rank --}}
+            {{#if (isdefined system.rank)}}
+            <div class="form-group">
+                <label for="system.rank">{{localize "GUBAT_BANWA.Categories.Rank"}}</label>
+                <div class="form-fields">
+                    <input name="system.rank" type="text" value="{{system.rank}}" placeholder="0" data-dtype="Number"
+                        inputmode="numeric" pattern="[+=\-]?\d*" />
+                </div>
+            </div>
+            {{/if}}
+        </div>
+
+        {{!-- Effects Tab --}}
+        <div class="tab effects" data-group="primary" data-tab="effects">
+            {{> "systems/gubat-banwa-1-4/templates/item/tabs/item-effects.hbs"}}
+        </div>
+    </section>
+</form>

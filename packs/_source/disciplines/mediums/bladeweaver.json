@@ -1,0 +1,80 @@
+{
+  "folder": "5222xbL5Amax0G5p",
+  "name": "Bladeweaver",
+  "type": "discipline",
+  "_id": "33I3PFCf58xiIq0N",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Holy Masters of the Sword Kinaadman, Disciples of the Art of Cutting, Sword-sorcerers.</p></blockquote><p>Bladeweavers are peerless swordsorcery knights, using their skill with the Sword Kinaadman, or Sword Wisdom to strengthen their slashes and manipulate the battlefield with flying swords and draconic winds. Through a seamless weaving of enchantment and swordplay, they dominate the battlefield.</p><p>The Bladeweavers are so called because the first of them, a kawal, or guardsman, of the City of Broken Idols named Palaliwah, learned how to use mentala, spells that were written in the ancient Classical Mataram language, the older form of the Mataram lingua franca in the isles. These writings, usually written upon bamboo and palm leaf manuscripts with Kasuratan, were to be uttered repeatedly like a mantra by someone of violent kinaadman, so that the spells may be cast.</p><p>Palaliwah began a loose order of Bladeweavers by teaching those kawal that she could, those that had either inherently powerful pohon or were eager to learn, and the teachings spread throughout the Archipelago. Eventually, Palaliwah settled in the Lakanate, becoming a right-hand counselor to the First Lakan, and an integral part of those that overthrew the Issohappan invasion. From then on, the royal guard and the elite were taught in the Sword Sorceries. This proved to have been the Lakanate's largest asset in the Lakan Conspiracy, as Bladeweavers could use magic to attain a false enlightenment for a short amount of time to teleport great distances. A particular Bladeweaver named Maranan, the Leaf Dancing in Cutting Fields, used this to steal Pale King intel from a galleon in the middle of the night, and she fended off at least two Pale King elite warriors to get the info back to the Lakanate. Unfortunately, she disappeared into nothingness the next night</p><p>Modern bladeweaving arose when Palaliwah's student, Saraka Dinasum-um, cross-trained and learned the Bladesong, as it was being killed off and subsumed into Virbanwa. Saraka taught the new style, using magick formulas engraved onto blades and then tracing the required surat into the air while performing blade strikes. She has spread it into Virbanwa, teaching in private enclaves and sword-monasteries, where it is popular among revolutionaries and antingeros. There are more sword-monasteries in Gatusan, where the philosophy of the Sword/Sorcery has arisen, with a focus on balances between dichotomies. This is the Swordsorcery Philosophy.</p><p>Bladeweaver swordplay is much respected by many of the warriors of the Archipelago, wheren they fuse not just swordsmanship but all sorts of weaponry into their sorcery. It presents a transcendent fusion of two powerful forces, all affixed with a beautiful dance-like martial art, which has been called Habul-Sulab, or blade-weaving. Bladeweavers are taught to be careful of their power, and to only accept chiefly patrons that would honor their ability. Those that they know wouldn't be using them for only wealth-gaining ends. Bladeweavers are taught a strict oral code known as the Sword Oath that boils down to: protect those that cannot protect themselves, dismantle those that hold oppressive power. Bladeweavers are respected for their oath, and they are well known across the Archipelago as altruist weapon sorcerers, although not all Bladeweavers have such an altruistic mindset in the war ravaged land of The Sword Isles.</p><blockquote><p>Why perfect the Sword Kinaadman, that great act of cutting with magick, just to cut swathes through innocent Folk instead of cutting a better path to the future? Violence explodes, and you have taken up the sword and sigil. Prove how you can bring about a better world.</p></blockquote><p><strong>Weapons:</strong> Kalis, prayer beads, prayer strips, mudras, ululations, pinute, ginunting, long kampilan</p><p><strong>Armors:</strong> Shawls, boots, sandals, pants, war jackets, breastplates, war hats, peaked helmets, cuirasses</p>",
+    "hp": {
+      "max": 9
+    },
+    "speed": 4,
+    "jump": 2,
+    "prowesses": {
+      "brv": 1,
+      "fai": 1,
+      "pos": 0,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p>You wield both magick and sword: when you <strong>attack with Faith, you and all allies in burst 2 gains +1d on their next attack with Bravery.</strong> When you <strong>attack with Bravery,</strong> you and all allies in burst 2 gain <strong>+1d</strong> on their next attack with <strong>Faith.</strong></p><p>When you attack, imprint a <strong>surat</strong> on the tile you're on after the attack. After imprinting the <strong>fourth surat,</strong> draw a straight line between each surat, creating a square as much as possible. You and all allies in the square <strong>Heal 1/4 of their HP,</strong> gain <strong>+1d on all Defenses,</strong> and gain <strong>Overwhelming attacks until the end of their next riff.</strong></p>",
+      "flavor": "<p><em>The Perfect Meditation of the Blade is this: remember the teaching of Conjunction. The sword is nothing but a tool. In fact, it was not made for killing in the first place. Therefore reap and sow and clear new branches, and become a Sword that creates harmony and life.</em></p>",
+      "name": "Sword Mage"
+    },
+    "violences": {
+      "flavor": "<p><em>Mastery of the sword is much more than just mastery of the weapon. It is, in fact, mastery of self, of tradition, of culture. It is the mastery of the principle of cutting, like a rock, oneness with the nature of something. Achieve Hiyang through swordmastery. You are not a weapon to kill, but rather, a weapon to cut away the brambles and tangles that bar you and your people from the future.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Teleport 1 and then attack a fighter within 2 tiles with Bravery. One ally that you can see within burst 3 of you gains +1d on their next defense.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Dancing Blade"
+        },
+        "2": {
+          "description": "<p>Attack all enemies in an area (line 2) with Faith. Any one ally in the line may <strong>teleport 2.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Bisecting Void Slash"
+        },
+        "3": {
+          "description": "<p>Roll Bravery or Faith. For every <strong>6+</strong> on the roll, gain a <strong>Surat.</strong> When you or 1 ally in range 3 makes an attack, you can spend X Surat to add +Xd to the attack. When you or an ally in range 3 ends their riff, you can spend X Surat to <strong>heal X.</strong></p>",
+          "rolls": {
+            "brv": true,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Surat Sundang"
+        }
+      },
+      "name": "Sword and Sorcery Cast Aloft!"
+    },
+    "identifier": "bladeweaver",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Bladeweaver",
+    "style": "medium"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730755893733,
+    "modifiedTime": 1730756859587,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!33I3PFCf58xiIq0N"
+}

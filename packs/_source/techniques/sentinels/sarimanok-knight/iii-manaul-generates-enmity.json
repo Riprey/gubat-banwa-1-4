@@ -1,0 +1,30 @@
+{
+  "folder": "UxFMSzEQMHgs8x5f",
+  "name": "III - Manaul Generates Enmity",
+  "type": "technique",
+  "_id": "bDnqxIOTZzRYhn5m",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You generate enmity between two different enemies, like Manaul who angered the Sky Father and the Sea Mother.</em></p><p>Spend 1 Beat. Choose up to two enemies that you can see within burst 6. They become <strong>taunted to each other</strong> until the end of your next riff.</p><p><strong>Instill Fury:</strong> Spend 2 Beats. The chosen enemies' attacks against each other gain <strong>Overwhelming.</strong></p><p><strong>Neverending Spite:</strong> Spend 3 Beats. If neither of the two enemies are defeated by the end of your riff, inflict <strong>1 Hit</strong> on them and <strong>juggle them.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Manaul, The King of Raptors and Fireflies, was once a king of the earthless seasky. He had owl counselors and fireflies to light his path. However he was never satiated, and tired of flying all the time, he tricked the sky and sea kings to fight each other, to create land.</em></p>",
+    "discipline": "sarimanok-knight",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731841236673,
+    "modifiedTime": 1731841349517,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!bDnqxIOTZzRYhn5m"
+}

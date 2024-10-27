@@ -1,0 +1,30 @@
+{
+  "folder": "lD63ASUydeU0yFsz",
+  "name": "Seafoam Maverick",
+  "type": "enlightenment",
+  "_id": "3FiyGGCtPwEFNyV2",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>When you <strong>rush,</strong> you turn into water for the duration of the movement. You ignore terrain and you can move through fighters, <strong>dousing</strong> all things you move through. Additionally, you can use any water terrain as the origin point for your attacks.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Seek true glory before the water that nourishes you becomes your blood,\" - Agi Sindarak, a Swordfish Cavalier warlord from the polity of Ikadan in Kalanawan. The most elite Swordfish Cavaliers are the Cavalry of Datu Margosatubig, in a distant island north of Kalanawan. This island, called Salagunting, is said to actually be the top of an underwater coral kingdom named Sugnanti. The balu here are larger, and have sharper swordnoses, and are said to rush through both air and water like arrows loosed by the sea king.</em></p>",
+    "discipline": "swordfish-cavalier",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731911376041,
+    "modifiedTime": 1731911431771,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!3FiyGGCtPwEFNyV2"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "Zi7Gjoq0Ai0HMlWS",
+  "name": "IV - Crashing Vajra",
+  "type": "technique",
+  "_id": "skY44xA5BrR9Hymh",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You twirl your weapon, charging it with fulminating lightning, and then strike with the resonance of thunder.</em></p><p>Spend 1 Beat to <strong>attack an adjacent fighter with Bravery.</strong> If they're on a higher Elevation, <strong>juggle</strong> them. If they're lower, <strong>shock</strong> them.</p><p><strong>Crushing Weight of Perfection:</strong> Spend 2 Beats. If the attacker is on a lower elevation, also add your <strong>Faith</strong> to the attack. If they're on a higher elevation, also add your <strong>Posture</strong> to the attack.</p><p><strong>Plummeting Thunder:</strong> Spend 3 Beats. After attacking, <strong>impale the target to the ground.</strong> As long as you're adjacent to the target, they cannot move nor be moved.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Taught by Abusung Samudela, a once master of low moving Skysea Raiding, he perfected this after mixing the styles together, and created one of the most dangerous attacks in Heaven Rending. Jamiyun Kulisa is the Brother Thunderbolt, husband to Indira Suga, the Mother Sun. In the ancient of days, the Sky Brother stepped upon the seven heavens and reached the highest point of the sky. There he saw the stars in the void, and realized that nothingness is part of the supreme soul. With this enlightenment, he descended into the earth, and thus thunder resounded for the first time.</em></p>",
+    "discipline": "heavenspear",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731904330528,
+    "modifiedTime": 1731904444801,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!skY44xA5BrR9Hymh"
+}

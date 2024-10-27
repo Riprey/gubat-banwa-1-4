@@ -1,0 +1,19 @@
+{
+  "name": "Sharpshooters",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "H9yFZJKysmLIbli8",
+  "sort": 0,
+  "color": "#f26821",
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731906271936,
+    "modifiedTime": 1731906271936,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!folders!H9yFZJKysmLIbli8"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Vajra Bell",
+  "type": "anting",
+  "_id": "sfFP9Zrbbd0LjiZg",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>1/Violence, when you suffer Hits from a <strong>Faith</strong> attack, you can choose to inflict that much Hits back at the attacker.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A vajra with a bell on the other end, rang when performing important rituals. Diwata dance nearby, ancestor gods look down at you. Sometimes given by Sri Dewi Wetsuwan in the northern regions of the Footsteps of the Gods, where she makes her ministry as one of the Four Warlords Under Heaven, ruling over the northern quadrant of Gubat Banwa, where she sits wielding her embroidered trident Makarishula and consorts of 180 Valkyrie Poet-Warriors, each one married to her.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731966174742,
+    "modifiedTime": 1731966283167,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!sfFP9Zrbbd0LjiZg"
+}

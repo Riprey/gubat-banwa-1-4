@@ -1,0 +1,30 @@
+{
+  "folder": "6OANfJk1hMVH1Dfz",
+  "name": "Sword Oath Consummation",
+  "type": "liberation",
+  "_id": "4Itx5sZlXZAGJ5Ut",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>At Resound 3+,</strong> <em>you can now carve the surat of enlightenment upon reality.</em></p><p>Spend 2 Beats. You and all allies in the battlefield may <strong>teleport 3.</strong> Afterwards you gain the <strong>Sword Oath Consummation:</strong> whenever you move, you may choose to <strong>teleport the distance instead,</strong> healing 1 all allies in the battlefield after the movement.</p><p>If you are defeated while you have the consummation, you vanish from reality, your essence unravelling into emptiness.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Bladeweavers can use magick to attain a false enlightenment for a short amount of time to teleport great distances. A particular Bladeweaver named Maranan, the Leaf Dancing in Cutting Fields, used this to steal Pale King intel from a galleon in the middle of the night, and she fended off at least two Pale King elite warriors to get the info back to the Lakanate. Unfortunately, she disappeared into nothingness the next night.</em></p>",
+    "discipline": "bladeweaver",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731908420862,
+    "modifiedTime": 1731908517344,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!4Itx5sZlXZAGJ5Ut"
+}

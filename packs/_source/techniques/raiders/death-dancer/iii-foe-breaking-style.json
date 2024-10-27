@@ -1,0 +1,30 @@
+{
+  "folder": "lAoIxuB1e1i8rofh",
+  "name": "III - Foe Breaking Style",
+  "type": "technique",
+  "_id": "Dv2GkburGNacbpqU",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You stomp the ground, sending dust devils into the air, and cracking it. Take on the stance of the Foebreakers.</em></p><p>Spend 1 Beat to take on the <strong>Foe Breaking Stance</strong> until the end of your next riff. While in this stance, when an adjacent enemy attacks you, you may roll <strong>1 Attack Die</strong> back at the attacker and then <strong>push 1</strong> the attacker, 1/riff.</p><p><strong>Shikari Style:</strong> Spend 2 Beats to also <strong>mark</strong> a single enemy in range 4. At any point, end the stance to teleport to a tile adjacent to that enemy, as long as they're within 5 tiles.</p><p><strong>Sundangan Style:</strong> Spend 3 Beats to make it so that you may immediately inflict violence right after you teleport.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Quoth Death: \"You are not beyond death. None are. Even immortality is temporary. Even the gods face death, for everything is part of the cycle of Diwa. Therefore, learn: something can only be beautiful if it ends\".</em></p>",
+    "discipline": "death-dancer",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731836550196,
+    "modifiedTime": 1731836730114,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!Dv2GkburGNacbpqU"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "Vm3wqmsUlWW3XkPt",
+  "name": "III - Sidereal Rosary / BATALA's Star",
+  "type": "technique",
+  "_id": "LvCD3qSp94bdSIlZ",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You cut an asterisk into the air and then calcify it with a breath.</em></p><p>Spend 1 Beat: choose a tile in range 2. Place an <strong>asterfix</strong> (Size 1 Height 2, 5 Durability) on the tile. Any enemy that starts their riff adjacent to the asterfix <strong>suffer 2 Attack Dice, Slowed </strong>and<strong> Bleeding.</strong> There can only be 1 asterfix on the field at a time.</p><p><strong>Ashen Binding:</strong> Spend 2 Beats to also <strong>bind 1 fighter in range 3 of the astefix.</strong> If they end their riff not adjacent to the Asterfix, they are <strong>pulled adjacent.</strong></p><p><strong>Asterfixion:</strong> Spend 3 Beats. Place down two <strong>asterfixes.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Aba, aba, gunitain ka makapangyarihang Makayao! You died for us, we are not worthy of you. Let your corpse bled dry cover us, let the shadow of your torture wrap around us and bring us bliss upon this land of sorrows! Let your broken ribs be my sword, your shattered halo my shield!\" This is the Technique taught by the peerless master of sword-murder Alberto Sakaran Penitente, who was bisected in the process.</em></p>",
+    "discipline": "sword-saint",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731893946971,
+    "modifiedTime": 1731894094053,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!LvCD3qSp94bdSIlZ"
+}

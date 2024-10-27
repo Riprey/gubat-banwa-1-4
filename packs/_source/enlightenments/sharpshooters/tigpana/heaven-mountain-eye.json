@@ -1,0 +1,30 @@
+{
+  "folder": "l7btWnSleMf2zmbb",
+  "name": "Heaven Mountain Eye",
+  "type": "enlightenment",
+  "_id": "7DpeM8IENH6etuZs",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>When you end your Riff, mark out a <strong>burst 5</strong> from you. When an enemy leaves a tile within the burst, you may <strong>attack them with Bravery.</strong> This can only trigger 1/Resound.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Sri Diwa Samayaw wields a weapon that cannot be broken or stolen or destroyed. The Tigpana's art teaches the same, much meditation and contemplation is focused on creating this inescapable bond between the martial artist and their ranged weapon.</em></p>",
+    "discipline": "tigpana",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731910840696,
+    "modifiedTime": 1731910885540,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!7DpeM8IENH6etuZs"
+}

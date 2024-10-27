@@ -1,0 +1,11 @@
+.collapsible {
+  &__content {
+    overflow-y: hidden;
+    transition: max-height 0.5s;
+    max-height: 30rem;
+
+    .collapsed & {
+      max-height: 0rem;
+    }
+  }
+}

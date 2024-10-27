@@ -1,0 +1,25 @@
+@mixin typography {
+  h1,
+  h2,
+  h3 {
+    font-family: var(--gubat-banwa-font-headings);
+    font-variant: small-caps;
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  .section-title {
+    border-bottom: 1px solid var(--gubat-banwa-red-darker);
+    margin-bottom: 0.5rem;
+
+    &--controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      > button {
+        flex-shrink: 1;
+      }
+    }
+  }
+}

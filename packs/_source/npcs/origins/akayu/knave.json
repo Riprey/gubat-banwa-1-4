@@ -1,0 +1,136 @@
+{
+  "name": "Knave",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 6,
+      "max": 6,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 8
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 4
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>Rogues, rapscallions, swindlers. With push dagger and fishing rod they fuck with those in power, those with wealth, and help those toiling in the farms and fields. They are quick, and have mastered the secret art of eclipses.</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Knifesmoke.</strong> Attack an adjacent fighter with Bravery, and then gain Stealth.</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>3-4: Shadeswap [1]:</strong> Swap places with any other Akai fighter in the battlefield, teleporting. &gt; Rush &gt; Inflict Violence</p><p><strong>5-6:</strong> Rush &gt; <strong>Melody of Violence [2]:</strong> Teleport 3 and then inflict violence. Repeat the effect after the attack.</p><p><strong>7-8:</strong> Rush &gt; <strong>Smoke Bomb [2]:</strong> Attack all enemies in an area (burst 2) with Bravery, and then all unoccupied tiles become <strong>haze tiles.</strong></p>",
+    "speed": 4,
+    "jump": 2,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Conviction",
+        "description": "All Folk have a reason for fighting, and if reasoned to, can cause them to rethink combat. However, they will fight for their Conviction until it looks like all is bleak."
+      },
+      {
+        "name": "Morale",
+        "description": "At the beginning of any Resound where there are twice as many Kadungganan than there are enemies (eg., If there are 4 Kadungganan and 2 Enemies left) all Folk enemies will Surrender, becoming Defeated."
+      },
+      {
+        "name": "Divine Striving",
+        "description": "Whenever a fighter falls to 0 HP, all Akayu fighters gain Striving until the end of their next riff. Their attacks gain Overwhelming and they have +1 to all Prowesses. When they lose Striving, they heal 2."
+      },
+      {
+        "name": "Hide And Seek",
+        "description": "When the Knave gains Striving, they teleport 2 spaces and become a Phantasm until start of next Fulmination. While a Phantasm, they are immune to all attacks, damage, and effects, and can move through units, but they cannot deal hits or inflict effects."
+      }
+    ],
+    "style": "raider"
+  },
+  "prototypeToken": {
+    "name": "Knave",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "oopDMHTLASt4L5w4",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732102095622,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "91GD6CpBSSUuiesq",
+  "sort": 0,
+  "_key": "!actors!91GD6CpBSSUuiesq"
+}

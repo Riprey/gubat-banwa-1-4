@@ -1,0 +1,80 @@
+{
+  "folder": "pL7acBbodkxQcN9x",
+  "name": "Mangangayaw",
+  "type": "discipline",
+  "_id": "Rvkq0xoHsZ8Fzy9j",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Demon Sword Raiders of the Endless Seas, Bane of Empires, Seizer of Heaven's Thunderclaps, Peerless Blademasters of Sea and Sky.</p></blockquote><p>Warriors who master the scallywag art of sea raiding! Ngayaw means sea raid, and it comes from the most ancient of ancestors, an honored tradition. No one knows where it came from: it might as well have arisen from the spirits of Folk! They burn through the sea upon boats that slice the waves. They raid shoreline settlements with impunity, usually forcing those living within to travel further inland to avoid them. Mangangayaw are stylish and fearless adrenaline junkies that strike quick and hard, relentlessly, until the enemy breaks, or until they get what they want.</p><p>Practitioners perfect a low form with footwork that rides with the waves so that they're never caught off guard. Most importantly, they're known for their ability to zip across the ships they ride upon, becoming uncatchable, and unleashing multiple attacks in the span of a breath.</p><p>Raiding is the main form of warfare in The Sword Isles, so the Mangangayaw shine brightly. Traveling across shore lines or looking for hapless merchant fleets, mangangayaw are the terrors of the sea, the ogres of the ocean. While raiding is the main form of warring in The Sword Isles, mangangayaw are those that are specialized in the art of Raiding. In the art of catching enemies with their shields down, in the midst of the night, and looting what they need. Mangangayaw might kill, but their main goal is resources: bahandi property wealth (like brass gongs, porcelain jars, and the like) and debtors.</p><p>Through this they get richer, stealing shoreline settlement's riches and porcelain and tradeware to sell from their own villages and towns. Mangangayaw are usually not mercenaries: they usually follow their own datu, and in truth do usually raid with their datu during raiding season, to collect money and wealth from enemy states.</p><p>Mangangayaw are not only feared within the Gatusan, but also among the shorelines of the Akai Sultanate and the Virbanwan Lakanate, although the Akai Sultanate are peerless raiders on their own.</p><p>They have mastered boat technology and sea navigation to a point that they raid upon the far southern shores of Baik Hu and terrorize the shore settlements of the Malirawat Empire.</p><p>Demons, kin-eaters, ogres, they are called, for they are unceasing in the face of adversity. Like a storm approaching that cannot be Stop, only avoided, the kayaw raiders come. Kayaw is the root word for sea raid in most of their tongues, shared among settlements in hushed and whispered tones, too afraid to speak it out loud lest they call their ire.</p><p>Mangangayaw are wont to wear light armor--and truly enough usually none at all--depending on their skin- scarred tattoos to defend them in the midst of the sea. The bravest of them all have tattoos that scrawl up to their faces, making them look like demons. Mangangayaw are brothers with Pinatikan in this regard, and in truth, many Pinatikan are also Kayaw raiders, and vice versa.</p><blockquote><p>If you take up the path of the Raid, ask yourself why and for what reason: glory? Power? Wealth? You're losing that reason. Why do you enjoy the killing?</p></blockquote><p><strong>Weapons:</strong> Kampilan, Kerambit, Push Daggers (Balaraw), Gunong, Axes, Throwing Knives</p><p><strong>Armors:</strong> War Jackets, flowing bahag, crimson headwraps, bamboo bracers, golden trinkets, armbands, anklets, tight socks, tattoos, breasplates, cuirasses, lamellars</p>",
+    "hp": {
+      "max": 8
+    },
+    "speed": 5,
+    "jump": 3,
+    "prowesses": {
+      "brv": 2,
+      "fai": 0,
+      "pos": 0,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p>When you <strong>rush</strong> your full Speed, take on the <strong>Keening Thunderhead Stance</strong> until you attack. When you attack while in this stance, the attack is <strong>Overwhelming</strong>.</p><p><strong>You ignore Combo Breaker</strong> when attacking a flanked fighter.</p>",
+      "name": "Relentless Tide",
+      "flavor": "<p><em>A mangangayaw must always be showing off, or else they die. No, really: if a sea raider slows down, they will be consumed by the waves of war. And so they must keep moving, so that they are above water. Mangangayaw are born into violence. They are the purest manifestations of strength, vigor, and ferocity. Their swords are always ready, nothing can ever catch them off guard. They are the peerless warriors of the Sword Isles. All will fall to their blades.</em></p>"
+    },
+    "violences": {
+      "attacks": {
+        "1": {
+          "description": "<p>Rush 1 tile and then attack <strong>an adjacent fighter with Bravery</strong>.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Liquid Lightning"
+        },
+        "2": {
+          "description": "<p>Rush 2 tiles, even through enemies, and then blow an adjacent fighter <strong>wide open.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Cleave Open"
+        },
+        "3": {
+          "description": "<p><strong>Attack an adjacent fighter with Bravery,</strong> and then rush 1. <strong>Fly 3</strong> if the target is Staggered from the attack.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Killing Storm Blows"
+        }
+      },
+      "name": "Dance Along Bloodied Waves",
+      "flavor": "<p><em>The root techniques of the mangangayaw deal in finding the smallest hole in your opponent's defense and ripping it wide open, a sword tearing through fabric.</em></p>"
+    },
+    "identifier": "mangangayaw",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Mangangayaw",
+    "style": "raider"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730698814977,
+    "modifiedTime": 1730754352108,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!Rvkq0xoHsZ8Fzy9j"
+}

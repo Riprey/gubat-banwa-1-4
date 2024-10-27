@@ -1,0 +1,28 @@
+{
+  "name": "Naga Mystic Raiments",
+  "type": "anting",
+  "_id": "p8SaRejB6GYvxjtE",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>You become resistant against attacks that douse, chill, and set aflame.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Naga are dragons, but commonly are guardians against fire, while serpents are guardians against earth, sickness, and beast, while crocodiles are guardians against water and death. Includes a periapt made of gold that wraps around the lower half of the face and flanges into two wing-shaped peaks that elongate the ears, giving the illusion that the wearer is a naga itself. The robe intricate cloth attire embroidered and decorated with gold. Worn by gods and kings of The Sword Isles, one can only wear this periapt when allowed by Balyan. If not, both spirits and demons will follow you.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731963491401,
+    "modifiedTime": 1731963541689,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!p8SaRejB6GYvxjtE"
+}

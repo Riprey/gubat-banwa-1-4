@@ -1,0 +1,229 @@
+{
+  "GUBAT_BANWA": {
+    "Actor": {
+      "Blocks": "Blocks",
+      "Height": "Height",
+      "HitPearls": "Hit Pearls",
+      "HitPearlsMax": "Maximum HP",
+      "Size": "Size"
+    },
+    "Attribute": {
+      "Jump": "Jump",
+      "Speed": "Speed"
+    },
+    "Categories": {
+      "Actions": "Actions",
+      "Antings": "Antings",
+      "Attacks": "Attacks",
+      "AttackNumber": "Attack {number}",
+      "Attributes": "Attributes",
+      "Biography": "Biography",
+      "Debts": "Debts",
+      "Difficulty": "Difficulty",
+      "Discipline": "Discipline",
+      "DisciplineTrait": "Discipline Trait",
+      "Enlightenments": "Enlightenments",
+      "Facets": "Facets",
+      "InflictViolences": "Inflict Violence",
+      "Liberations": "Liberations",
+      "Metadata": "Metadata",
+      "Prowesses": "Prowesses",
+      "ProwessBonuses": "Prowess Bonuses",
+      "Rank": "Rank",
+      "Style": "Style",
+      "Techniques": "Techniques",
+      "Threat": "Threat",
+      "Traits": "Traits"
+    },
+    "Dice": {
+      "Base": "Dice Pool",
+      "Bonus": "Modifiers",
+      "Faces": "Dice Type",
+      "NoSuccess": "No Successes...",
+      "Successes": "Successes",
+      "Target": "Success On"
+    },
+    "Effect": {
+      "Duration": "Duration",
+      "Inactive": "Inactive",
+      "Passive": "Passive",
+      "Source": "Source",
+      "Temporary": "Temporary",
+      "Toggle": "Toggle"
+    },
+    "Kadungganan": {
+      "Action": {
+        "Consort": "Consort",
+        "Destroy": "Destroy",
+        "Express": "Express",
+        "Glide": "Glide",
+        "Observe": "Observe",
+        "Reason": "Reason",
+        "Rule": "Rule",
+        "Speak": "Speak"
+      },
+      "ActiveDiscipline": "Active Discipline",
+      "AddDiscipline": "Choose a Discipline",
+      "AddEquippable": "Add a {itemType}",
+      "Biography": {
+        "Complications": "Complications",
+        "Conviction": "Conviction",
+        "Passions": "Passions",
+        "Culture": "Culture",
+        "Folk": "Folk",
+        "LifeEvents": "Life Events",
+        "Lineage": "Lineage",
+        "Subculture": "Subculture"
+      },
+      "Discipline": {
+        "BarilWitch": "Baril Witch",
+        "BeastHunter": "Beast Hunter",
+        "Bladeweaver": "Bladeweaver",
+        "BuwayaLancer": "Buwaya Lancer",
+        "Busalian": "Busalian",
+        "DeathDancer": "Death Dancer",
+        "FlowerBalyan": "Flower Balyan",
+        "Headtaker": "Headtaker",
+        "Heavenspear": "Heavenspear",
+        "Kawal": "Kawal",
+        "Mangangayaw": "Mangangayaw",
+        "Martyr": "Martyr",
+        "Mender": "Mender",
+        "Murderglaive": "Murderglaive",
+        "SarimanokKnight": "Sarimanok Knight",
+        "Senapati": "Senapati",
+        "Starshooter": "Starshooter",
+        "Strifesinger": "Strifesinger",
+        "SwordPoet": "Sword Poet",
+        "SwordSaint": "Sword Saint",
+        "SwordfishCavalier": "Swordfish Cavalier",
+        "Tigpana": "Tigpana",
+        "WarriorBalyan": "Warrior Balyan",
+        "Warsmith": "Warsmith",
+        "Warspeaker": "Warspeaker"
+      },
+      "Facet": {
+        "Wrathful": "Wrathful",
+        "Gentle": "Gentle",
+        "Royal": "Royal"
+      },
+      "Honor": "Honor",
+      "Legend": "Legend",
+      "NoEquippable": "No {itemType}",
+      "Rank": {
+        "Warrior": "Warrior",
+        "Hero": "Hero",
+        "King": "King"
+      },
+      "Tabs": {
+        "Drama": "War Drama",
+        "Violence": "Violence",
+        "TechniquesAndLiberations": "Techniques & Liberations",
+        "EnlightenmentsAndAntings": "Enlightenments & Antings"
+      },
+      "Thunderbolts": "Thunderbolts",
+      "Wounds": "Wounds"
+    },
+    "Keywords": {
+      "Magical": "Magickal",
+      "Physical": "Physical"
+    },
+    "Metadata": {
+      "Identifier": "Identifier",
+      "Label": "Label for Localization"
+    },
+    "Notifications": {
+      "DeletionConfirmation": "Are you sure you want to delete the {type}: {name}?",
+      "Warnings": {
+        "ExceededEquipLimit": "You cannot equip more than {numEquipped} {itemType}!",
+        "InvalidEmbed": "{itemType} cannot be created on {actorType}!",
+        "SingletonViolation": "You cannot have more than one {itemType} on a {actorType}!"
+      }
+    },
+    "Prowess": {
+      "Bravery": "Bravery",
+      "Faith": "Faith",
+      "Posture": "Posture",
+      "Resilience": "Resilience"
+    },
+    "Rolls": {
+      "Attacking": "Attacking",
+      "Defending": "Defending",
+      "Difficulty": {
+        "Risky": "Risky",
+        "Difficult": "Difficult",
+        "Formidable": "Formidable",
+        "Impossible": "Impossible"
+      },
+      "Divining": "Divining"
+    },
+    "Status": {
+      "Aflame": "Aflame",
+      "Bleeding": "Bleeding",
+      "Chilled": "Chilled",
+      "Confused": "Confused",
+      "Dazzled": "Dazzled",
+      "Debilitated": "Debilitated",
+      "Doused": "Doused",
+      "Evade": "Evade",
+      "Fear": "Fear",
+      "Flying": "Flying",
+      "Haste": "Haste",
+      "Juggled": "Juggled",
+      "Marked": "Marked",
+      "Poisoned": "Poisoned",
+      "Slowed": "Slowed",
+      "Stealth": "Stealth",
+      "Shocked": "Shocked",
+      "Stunned": "Stunned",
+      "WideOpen": "Wide Open"
+    },
+    "Style": {
+      "Medium": "Medium",
+      "Raider": "Raider",
+      "Sentinel": "Sentinel",
+      "Sharpshooter": "Sharpshooter",
+      "Witch": "Witch"
+    },
+    "UI": {
+      "Base": "Base",
+      "Bonus": "Bonus",
+      "Cancel": "Cancel",
+      "Confirmation": "Confirm",
+      "Delete": "Delete",
+      "Description": "Description",
+      "Edit": "Edit",
+      "Equipped": "Equipped",
+      "Flavor": "Flavor",
+      "Message": "Send to Chat",
+      "Name": "Name",
+      "New": "New",
+      "Resource": "Resource",
+      "Roll": "Roll!",
+      "RollCheck": "{name} is {action} with {stat}",
+      "RollWith": "Roll Using",
+      "SeeMore": "See More",
+      "Select": "Select",
+      "Stance": "Stance",
+      "Total": "Total",
+      "Unequipped": "Unequipped",
+      "Unused": "Unused",
+      "Used": "Used"
+    }
+  },
+
+  "TYPES": {
+    "Actor": {
+      "kadungganan": "Kadungganan",
+      "npc": "NPC",
+      "object": "Object"
+    },
+    "Item": {
+      "anting": "Anting",
+      "discipline": "Discipline",
+      "enlightenment": "Enlightenment",
+      "liberation": "Liberation",
+      "technique": "Technique"
+    }
+  }
+}

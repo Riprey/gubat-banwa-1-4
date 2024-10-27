@@ -1,0 +1,25 @@
+{
+  "Actor": {
+    "types": ["kadungganan", "npc", "object"],
+    "htmlFields": ["description", "attacks"]
+  },
+  "Item": {
+    "types": [
+      "anting",
+      "discipline",
+      "enlightenment",
+      "liberation",
+      "technique"
+    ],
+    "htmlFields": [
+      "description",
+      "flavor",
+      "trait.description",
+      "trait.flavor",
+      "violences.flavor",
+      "violences.attacks.1.description",
+      "violences.attacks.2.description",
+      "violences.attacks.3.description"
+    ]
+  }
+}

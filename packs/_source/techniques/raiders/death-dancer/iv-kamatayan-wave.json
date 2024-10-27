@@ -1,0 +1,30 @@
+{
+  "folder": "lAoIxuB1e1i8rofh",
+  "name": "IV - Kamatayan Wave",
+  "type": "technique",
+  "_id": "OjzqPZyJoBeGCz8z",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You can channel the diwa of Yamadiraja into cupped hands, creating fulminating flowing waters. You then unleash it, yelling death.</em></p><p>Spend 1 Beat to attack a fighter in range 3 with Faith, <strong>with Overwhelming.</strong> Then <strong>juggle</strong> them and <strong>slide</strong> them 1.</p><p>Spend 2 Beats to instead attack all fighters in an area <strong>(line 5)</strong> with <strong>Bravery + Faith,</strong> with <strong>Overwhelming.</strong> Each target is now instead blown <strong>wide open</strong> and becomes <strong>vulnerable</strong> to the next attack against them.</p><p>Spend 3 Beats to instead attack all fighters in an area (range 5 burst 2) with Bravery + Faith, with Overwhelming. Each target is now <strong>Stunned</strong> instead.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Remember, however, that no God shall ever be Immortal. Therefore killing God enacts Cyclical Death as much as severing a slave from their master enacts Cyclical Death. Let all things end with you.\"</em></p>",
+    "discipline": "death-dancer",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731836743459,
+    "modifiedTime": 1731836865443,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!OjzqPZyJoBeGCz8z"
+}

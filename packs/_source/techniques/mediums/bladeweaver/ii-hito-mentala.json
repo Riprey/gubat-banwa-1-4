@@ -1,0 +1,30 @@
+{
+  "folder": "cMZlJpzeGpXhqFSe",
+  "name": "II - Hito Mentala",
+  "type": "technique",
+  "_id": "UtyzKwwGGvhopaCp",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You twirl your blade and twist your fingers into a mudra, granting the catfish meditation upon an ally.</em></p><p>Spend 1 Beat: you or an ally in range 3 gains <strong>Evade</strong> on the next attack against them.</p><p><strong>Naga Mentala:</strong> Spend 2 Beats to inscribe the name of water dragons. You and all allies in burst 3 gain Evade until the end of their next riff.</p><p><strong>Deep Sea Serpent Mentala:</strong> Spend 3 Beats fully inscribe the surat of the deep sea serpent. All allies in the battlefield instead gain Dragon Evade (75% of dodging an attack) against the next attack. If the attack is successfully dodged because of this, the ally may rush 3.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Bladeweaver Master Samudera Ijak, to defeat a firebreathing naga that lived in the heart of a volcano to submission, learned this mentala from the ancient catfish spirit in the rivers of his hometown.</em></p>",
+    "discipline": "bladeweaver",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731880339363,
+    "modifiedTime": 1731880619381,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!UtyzKwwGGvhopaCp"
+}

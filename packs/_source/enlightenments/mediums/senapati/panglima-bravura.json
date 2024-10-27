@@ -1,0 +1,30 @@
+{
+  "folder": "NxoEu6MKuL4HnfdT",
+  "name": "Panglima Bravura",
+  "type": "enlightenment",
+  "_id": "vuRJsQU9AKzn5PLB",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>1/Violence, when you or an ally is <strong>Staggered,</strong> you and all allies (including the one that was just Staggered) may immediately <strong>move 3, ignoring terrain.</strong> You all gain +1d to your next attack roll.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Senapati are common across the isles now, even though they as a formal tradition arose during the Lakan Conspiracy, when they needed to rally warriors and to marshal tactics required to bring down the Pale King Hegemony. Senapati have always existed even before then: the title is an ancient one, belonging to the oldest of oldest of kingdoms, written and passed down in unweatherable copperplate.</em></p>",
+    "discipline": "senapati",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731911855241,
+    "modifiedTime": 1731911910889,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!vuRJsQU9AKzn5PLB"
+}

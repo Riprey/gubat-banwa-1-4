@@ -1,0 +1,30 @@
+{
+  "folder": "7N0KUd68oqfhn9hP",
+  "name": "I - Faith Unending",
+  "type": "technique",
+  "_id": "8E0cENlmwaVtQ4oV",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You anoint your blade with oils and prayers, then charge.</em></p><p>Spend 1 Beat. Gain <strong>+2d</strong> on your next melee attack.</p><p><strong>Fury Overwhelming:</strong> Spend 2 Beats. Also make your next melee attack <strong>set aflame</strong> and <strong>dazzle.</strong></p><p><strong>Glory Undying:</strong> Spend 3 Beats. Make your next melee attack <strong>Overwhelming</strong> and add <strong>+4d</strong> instead.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The Lunar Goddess has seen it fit for you to strive. Coat yourself in the holy oils. Battle is always death, battle is always death. Let out your rage, mighty Martyr! The Lunar Palace Upon The Moon beckons you! If you are to fall, then you shall bring all those around you with you!</em></p>",
+    "discipline": "martyr",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731840073590,
+    "modifiedTime": 1731840163037,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!8E0cENlmwaVtQ4oV"
+}

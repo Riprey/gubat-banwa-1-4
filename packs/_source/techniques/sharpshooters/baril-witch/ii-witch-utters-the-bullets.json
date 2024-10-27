@@ -1,0 +1,30 @@
+{
+  "folder": "OKHxawNmHFS8D4q1",
+  "name": "II - Witch Utters The Bullets",
+  "type": "technique",
+  "_id": "MGD2FSYA3j4sWCI0",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You can speak with the spirits of your bullets and then shoot them into the battlefield, and they stay, dancing.</em></p><p>Spend 1 Beat to put <strong>3 Bullets</strong> (Size 1/4, Height 1/2, 1 Durability) in three different tiles within range 3. Anyone that collides with the bullet suffers <strong>1 True Hit.</strong> At the start of your next riff, the bullets <strong>fly 3,</strong> colliding with fighters they move into the tile of, and then removed from the battlefield. If the bullet is destroyed by being Hit, it inflicts <strong>1 Hit</strong> on all fighters adjacent to it before being removed from the battlefield.</p><p><strong>Witch Queen Rifles:</strong> Spend 2 Beats to put up to <strong>4 Bullets</strong> instead and then <strong>rush 2.</strong></p><p><strong>Witch King Multi-Strike:</strong> Spend 3 Beats to mark a single enemy in the battlefield. When you start you riff, you can let all your bullets in the battlefield fly towards them and collide with them, as long as there is a straight unbroken line toward the target.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>With a secret word, Baril Witches can stop time for bullets. At the end of it all, reckoning.</em></p>",
+    "discipline": "baril-witch",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731879613180,
+    "modifiedTime": 1731879735757,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!MGD2FSYA3j4sWCI0"
+}

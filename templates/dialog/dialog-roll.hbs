@@ -1,0 +1,50 @@
+<form id="dialog-roll">
+    <h2 class="form-header">{{title}}</h2>
+
+    {{!-- Starting Dice Amount --}}
+    <div class="form-group">
+        <label>{{localize "GUBAT_BANWA.Dice.Base"}}</label>
+        <div class="form-fields">
+            <input name="value" type="text" value="{{value}}" placeholder="0" data-dtype="Number" inputmode="numeric"
+                pattern="[+=\-]?\d*" {{#if value}}disabled{{/if}}>
+        </div>
+    </div>
+
+    {{!-- Dice Amount Modifiers --}}
+    <div class="form-group">
+        <label>{{localize "GUBAT_BANWA.Dice.Bonus"}}</label>
+        <div class="form-fields">
+            <select name="bonus">
+                {{selectOptions bonusOptions selected=0 nameAttr="key" labelAttr="label"}}
+            </select>
+        </div>
+    </div>
+
+    {{!-- Dice Faces --}}
+    <div class="form-group">
+        <label>{{localize "GUBAT_BANWA.Dice.Faces"}}</label>
+        <div class="form-fields">
+            <select name="faces" {{#if faces}}disabled{{/if}}>
+                {{#select faces}}
+                <option value="4">d4</option>
+                <option value="6">d6</option>
+                <option value="8">d8</option>
+                <option value="10">d10</option>
+                <option value="12">d12</option>
+                <option value="20">d20</option>
+                <option value="100">d100</option>
+                {{/select}}
+            </select>
+        </div>
+    </div>
+
+    {{!-- Target --}}
+    <div class="form-group">
+        <label>{{localize "GUBAT_BANWA.Dice.Target"}}</label>
+        <div class="form-fields">
+            <input name="target" type="text" value="{{target}}" placeholder="0" data-dtype="Number" inputmode="numeric"
+                pattern="[+=\-]?\d*">
+        </div>
+    </div>
+
+</form>

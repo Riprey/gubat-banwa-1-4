@@ -1,0 +1,30 @@
+{
+  "folder": "7g9rywdcUEH12FPW",
+  "name": "II - Channeling Naga",
+  "type": "technique",
+  "_id": "hSsFXdW5qDGnG6VJ",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>Dance, channeling the grand dragons.</em></p><p>Spend 1 Beat to take on the <strong>Channeling Naga Stance,</strong> as dragons dance about you. You and all allies in burst 2 of you are marked until they attack. When they attack, they can choose to make their attack inflict (choose 1): <strong>shocked, aflame, chill, bleed, slow.</strong></p><p><strong>Channel Galaxy Dragons:</strong> Spend 2 Beats to make it so that you and marked allies may choose up to <strong>3</strong> when they attack.</p><p><strong>Channel Greater Gods:</strong> Spend 3 Beats to also make their next attack <strong>Skewering</strong> and <strong>Overwhelming.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Naga are blessed serpent gods that live within the rivers, the under-earths and the seas. They are divine, nature spirits that represent the inherent divinity and other-ness of the sea, and they protect the Seven Realms of the Waters, and are constantly opposed by the Garuda that guard the Seven Realms of the Heavens. They are invoked for merit, blessings, good rains, and protection against the flood. If they appear, it is often a sign of good fortune, though sometimes it might also be an ill omen.</em></p>",
+    "discipline": "warrior-balyan",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731833489768,
+    "modifiedTime": 1731833740184,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!hSsFXdW5qDGnG6VJ"
+}

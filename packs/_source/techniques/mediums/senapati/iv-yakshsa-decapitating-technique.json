@@ -1,0 +1,30 @@
+{
+  "folder": "atC3RZwc46xjrBJw",
+  "name": "IV - Yakshsa Decapitating Technique",
+  "type": "technique",
+  "_id": "Ifhgxn1MkkvuWgby",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You bellow the command to strike, and then burst forward.</em></p><p>Spend 1 Beat to make an ally in range 3 <strong>inflict violence.</strong> If there are no allies, you may instead <strong>attack an adjacent enemy with Bravery.</strong> If the target is <strong>Staggered,</strong> this attack becomes <strong>overwhelming.</strong></p><p><strong>Diwasin Kilat Fulmination:</strong> Spend 2 Beats to make you and another ally <strong>inflict violence with +2d to the attack if it is an attack,</strong> and the attack is <strong>Overwhelming.</strong></p><p><strong>Brother Thunderbolt Burns Bright:</strong> Spend 3 Beats to make you and all allies in burst 3 <strong>fly 2</strong> and <strong>inflict violence</strong> instead.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"I bring this spear and shield before you, great Brother Thunderbolt, so that I may slay you, and perhaps I will free my people from this horrible cycle. The river flows, Diwasin Kilat, God of Lightning, but perhaps I can stop it.\" - The Song of the Rajaraya</em></p>",
+    "discipline": "senapati",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731886907480,
+    "modifiedTime": 1731887029820,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!Ifhgxn1MkkvuWgby"
+}

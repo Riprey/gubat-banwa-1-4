@@ -1,0 +1,30 @@
+{
+  "folder": "cGFHL7IAH8arfXTG",
+  "name": "III - Sibat Caligo",
+  "type": "technique",
+  "_id": "RCKF3Yai8gZkzCRT",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>With an incantation and a bleeding of the palm, you manifest your passion as a spear of fulminating dark.</em></p><p><strong>Spend 1 Beat</strong> to choose an <strong>enemy in range 3,</strong> and <strong>slide them 2 tiles,</strong> then <strong>debilitate</strong> them.</p><p><strong>Lance of Darkness:</strong> Spend 2 Beats. <strong>Attack all enemies in an area (line 3) with Faith,</strong> then <strong>Debilitate</strong> all targets.</p><p><strong>Souleating Trident:</strong> Spend 3 Beats. Increase the area to <strong>Line 6</strong> and you <strong>heal 1 per target hit.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The Bloody Handed Redemption was created by a great datu of light, said to have been Datu Chakara, who was killed by Kampi Yador, and subsumed Kalakatri into the greater Saint of Murder and Penitence, Saint Qali.</em></p>",
+    "discipline": "murderglaive",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731883447535,
+    "modifiedTime": 1731883551771,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!RCKF3Yai8gZkzCRT"
+}

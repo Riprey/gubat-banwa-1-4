@@ -1,0 +1,30 @@
+{
+  "folder": "Ipzu7G2K0b9Z2ubl",
+  "name": "III - Aurelian Chorus",
+  "type": "technique",
+  "_id": "achUuhbwwgfvos0V",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You play a quick chorus with your instrument of choice, letting the sound waves thunder and suture the resonant akasha.</em></p><p>Spend 1 Beat. You and allies in burst 2 <strong>heal 1,</strong> all enemies in the burst are <strong>pushed 1.</strong></p><p><strong>Verse of Rosy Gold:</strong> Spend 2 Beats. You and all allies can now <strong>heal 2</strong> <em>and</em> <strong>cleanse a status,</strong> all enemies in the burst are blown <strong>wide open.</strong></p><p><strong>Bulawan Agung:</strong> Spend 3 Beats. This now affects you and all allies in the battlefield, and they gain <strong>+1d to all Defenses</strong> until the end of their next riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A remembrance to the ancient times of the Sword Isles, when it was called the Isles of Gold, back when war was the furthest from the minds of warriors. Back when songs were sung under peach trees, songs about play, about the great conflict of the Twin Gods of the Northwest Wind and the Southeast Monsoon, about the dancing of monkeys and mouse deers. The Tranquil Missionaries from the Far Southeast brought with them Gods of Tranquility.</em></p>",
+    "discipline": "strifesinger",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731841778902,
+    "modifiedTime": 1731841882045,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!achUuhbwwgfvos0V"
+}

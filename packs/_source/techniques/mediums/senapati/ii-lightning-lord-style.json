@@ -1,0 +1,30 @@
+{
+  "folder": "atC3RZwc46xjrBJw",
+  "name": "II - Lightning Lord Style",
+  "type": "technique",
+  "_id": "aWjUuKTU3mMKJL75",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>Signal your allies to advance, and you all burst like lightning.</em></p><p>Spend 1 Beat for you and your ally to <strong>rush+1,</strong> moving through enemies. If the two of you move through an enemy at the same time, <strong>inflict 1 Hit</strong> and blow them <strong>wide open.</strong> Once per enemy.</p><p><strong>Thunderbolt Sage King Style:</strong> Spend 2 Beats to let one other ally rush as well. If three of you move through the same fighter, also <strong>stun</strong> them.</p><p><strong>Thunderstorm Keening Lord:</strong> Spend 3 Beats to let you and all allies in the battlefield may <strong>rush.</strong> If all of you move through the same fighter, they also get <strong>juggled.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>After Rajaraya Pintas learned what he never could grasp from his student, he began asking Ilakat Salandra to teach what she had learned to the rest of the world, and so she did. She taught cooperation, diplomacy, a continued and cooperative violence that can be the only road to true peace. Not peace in word only, not peace for one or for some, but rather, a peace for all. \"To achieve true peace, one must give up one's self in some aspects. There is enough for us in this world.\"</em></p>",
+    "discipline": "senapati",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731886522425,
+    "modifiedTime": 1731886649359,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!aWjUuKTU3mMKJL75"
+}

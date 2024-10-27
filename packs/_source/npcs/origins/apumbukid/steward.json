@@ -1,0 +1,148 @@
+{
+  "name": "Steward",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 24,
+      "max": 24,
+      "blocks": 0
+    },
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 3
+      },
+      "fai": {
+        "value": 2
+      },
+      "pos": {
+        "value": 6
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p><strong>Chief.</strong> A Kadungganan infused with the vengeful properties of nature, to better protect the sanctity of all of nature. Kadungganan become Stewards only by choosing, and by undergoing a vision quest and ritual alongside a powerful balyan. Once becoming a Steward, their Conviction becomes strictly to protect a particular place of spiritual power, and they cannot leave it.</p><p>(The stats provided here is for a Rank 1 encounter with 4 Kadungganan. Check the book for higher ranks.)</p>",
+    "speed": 4,
+    "jump": 2,
+    "threat": 2,
+    "style": "sentinel",
+    "traits": [
+      {
+        "name": "Poise",
+        "description": "Whenever a Chief suffers a Status Effect or is forcibly moved, they can choose to ignore it and gain a Poise Token instead. When they gain 5 Poise Tokens, they become Poise Broken: they can suffer all Status Effects, can be forcibly moved as normal, and cannot gain any more Poise Tokens. While Poise Broken, a Chief loses 1 Poise Token whenever they start their riff. When they lose all Poise Tokens, they lose Poise Broken and can again gain Poise Tokens."
+      },
+      {
+        "name": "Dragon Eye",
+        "description": "Chiefs can riff a number of times per Resound equal to the Kadungganan."
+      },
+      {
+        "name": "Warriors Of The World Unite!",
+        "description": "Place up to 5 pieces of Tall Grass terrain in the battlefield (which cannot be adjacent to each other). Apumbukid fighters have +1 to all Prowess except for Speed when they start their turn within or adjacent tall grass (and they do not suffer tall grass terrain's normal effects). At Resound 2+, at the start of every Resound, a new piece of tall grass sprouts up in the battlefield, which cannot be adjacent to any existing tall grass."
+      },
+      {
+        "name": "Harmony",
+        "description": "Apumbukid fighters are immune to all terrain. If they move into or start their riff within tall grass, they may teleport to any other unoccupied tall grass tile in the battlefield."
+      },
+      {
+        "name": "Wrathful God",
+        "description": "While Staggered, gain +1d to all Attacks."
+      },
+      {
+        "name": "Vengeance",
+        "description": "Attacks gain Overwhelming against enemies with statuses."
+      },
+      {
+        "name": "Immortality",
+        "description": "Unless the Steward is Poise Broken, they heal 1 every start of riff."
+      }
+    ],
+    "attacks": "<p><strong>Inflict Violence: Wrathful Palm.</strong> Attack an adjacent fighter with Bravery then Push 3. If they collide teleport to an adjacent square and make the attack again. Can only teleport once.</p><p><strong>Gambits</strong> [[/r d12]]</p><p><strong><span style=\"text-decoration: underline;\">Phase 1: Tawurupa (Human Form)</span></strong></p><p><strong>1-6:</strong> Rush &gt; Inflict Violence &gt; Rush</p><p><strong>7-12:</strong> Rush &gt; <strong>Meditation [1]:</strong> The Steward's next attack gains +1d &gt; Inflict Violence</p><p><strong><span style=\"text-decoration: underline;\">Phase 2: Sikarupa (Wrathful Form).</span></strong><span style=\"text-decoration: underline;\"> Parrot heads explode, seventy arms arise. Trigger automatically when Staggered.</span></p><p><strong>1-5:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>6-8:</strong> Rush &gt; <strong>Meditation [1]:</strong> The Steward's next attack gains +1d &gt; Inflict Violence</p><p><strong>9-11:</strong> Rush &gt; <strong>Enlighten [2]:</strong> Attack all enemies in burst 2 with Bravery, dazzling with holy radiance.</p><p><strong>12:</strong> <strong>Fulfill Duty [3]:</strong> At the end of the Strike, violence ends, and all enemies are teleported far away from the guarded place. Trigger immediately at Resound 6+.</p>",
+    "resource": ""
+  },
+  "prototypeToken": {
+    "name": "Steward",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "wdOCEhXxAjKbBROi",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731533648818,
+    "modifiedTime": 1732137536788,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "dbU5SSCy0R1JjX5W",
+  "sort": 25000,
+  "_key": "!actors!dbU5SSCy0R1JjX5W"
+}

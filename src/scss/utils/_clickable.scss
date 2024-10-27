@@ -1,0 +1,8 @@
+.js-rollable,
+.js-toggle-collapsible {
+  cursor: pointer;
+
+  &:hover {
+    text-shadow: 0 0 5px var(--color-shadow-primary);
+  }
+}

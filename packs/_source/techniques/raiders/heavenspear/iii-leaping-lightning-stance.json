@@ -1,0 +1,30 @@
+{
+  "folder": "Zi7Gjoq0Ai0HMlWS",
+  "name": "III - Leaping Lightning Stance",
+  "type": "technique",
+  "_id": "TReaJMAEyKW3mP0K",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You dance the thunder-jive and arise.</em></p><p>Spend 1 Beat to take on the <strong>Leaping Lightning Stance</strong> until the end of your next riff. While in this stance, you are <strong>floating</strong> and are considered on +1 Elevation.</p><p><strong>Thundercloud Form:</strong> Spend 2 Beats to also gain <strong>Evade</strong> while in the stance.</p><p><strong>Pinamaskan Embodiment:</strong> Spend 3 Beats to rush double your speed after taking on the stance, moving through enemies. Every enemy you move through is <strong>shocked</strong> and suffers <strong>1 Hit,</strong> once per enemy.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>In Gatusan, the Pinamaskan is an heirloom spear that is important to the wielder, named and decorated with gold flame inlays, and are usually longer and have longer blades than the usual spears.</em></p>",
+    "discipline": "heavenspear",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731904088649,
+    "modifiedTime": 1731904181703,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!TReaJMAEyKW3mP0K"
+}

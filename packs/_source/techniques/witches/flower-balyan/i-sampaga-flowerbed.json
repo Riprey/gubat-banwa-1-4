@@ -1,0 +1,30 @@
+{
+  "folder": "hzPF9UbJxdeJXbAG",
+  "name": "I - Sampaga Flowerbed",
+  "type": "technique",
+  "_id": "LIO15ijZkP93D78Z",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>With a hand sign and a releasing of a jasmine, you summon a flowerbed of corpses and jasmines.</em></p><p>Spend 1 Beat to choose a tile in range 4 and summon a <strong>burst 1 jasmine field</strong> from it. All enemies in the jasmine field suffer <strong>-1d</strong> to all their defenses.</p><p><strong>Riverside Flowerbed:</strong> Spend 2 Beats to increase the field to <strong>burst 2</strong> and make it <strong>difficult terrain</strong> for all enemies.</p><p><strong>Grand Petals Choking The Sailendra:</strong> Spend 3 Beats. Whenever an enemy is attacked while in the flower field, <strong>heal 1.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Sampaga or sampaguita are jasmines that represent death and also purity.</em></p>",
+    "discipline": "flower-balyan",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731899219531,
+    "modifiedTime": 1731899347484,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!LIO15ijZkP93D78Z"
+}

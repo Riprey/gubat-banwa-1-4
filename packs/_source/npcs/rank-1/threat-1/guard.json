@@ -1,0 +1,122 @@
+{
+  "folder": "szMpgSuAIYyJlii6",
+  "name": "Guard",
+  "type": "npc",
+  "_id": "segdBiI8vcakwejb",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 7,
+      "max": 7,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 4
+      },
+      "fai": {
+        "value": 1
+      },
+      "pos": {
+        "value": 4
+      },
+      "res": {
+        "value": 2
+      }
+    },
+    "description": "<p>A warrior well-versed with the arts of protection. Not just for themselves but their allies as well. Despite their strength, they're vulnerable particularly to fire.</p>",
+    "attacks": "<p><strong>Inflict Violence: Sword and Shield.</strong> Attack an adjacent fighter with Bravery, and then taunt them until the end of the Guard's next riff.</p><p><strong>Gambits</strong> [[/r d4]]</p><p><strong>1:</strong> Rush &gt; Rush to a better position to guard allies &gt; Inflict Violence</p><p><strong>2:</strong> Rush &gt; <strong>Mass Threat [2]:</strong> Roll 1 attack die against all enemies in burst 3, and then taunt them until the end of the Guard's next riff.</p><p><strong>3:</strong> Rush &gt; Inflict Violence &gt; <strong>Shield Bash [1]:</strong> Attack an adjacent fighter with Bravery, and then 50% chance of <strong>stunning</strong> them.</p><p><strong>4:</strong> <strong>Shield Charge [1]:</strong> Rush double your Speed, moving through enemies. Any enemies moved through are <strong>slowed</strong> &gt; <strong>Shield Bash [1]</strong> &gt; Inflict Violence</p>",
+    "speed": 4,
+    "jump": 1,
+    "threat": 1,
+    "traits": [
+      {
+        "name": "Guardian",
+        "description": "All allies adjacent to the village guard are guarded by them."
+      }
+    ],
+    "style": "sentinel"
+  },
+  "prototypeToken": {
+    "name": "Guard",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732010849075,
+    "modifiedTime": 1732011227003,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!actors!segdBiI8vcakwejb"
+}

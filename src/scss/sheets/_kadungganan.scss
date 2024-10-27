@@ -1,0 +1,130 @@
+@mixin kadungganan {
+  .kadungganan {
+    .kadungganan-header {
+      background-color: var(--gubat-banwa-red-darker);
+      color: var(--gubat-banwa-color-text-light);
+
+      h1 input {
+        border-bottom: 1px solid var(--gubat-banwa-white);
+        color: var(--gubat-banwa-color-text-light);
+        margin: 0;
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+
+    .sheet-tabs {
+      border: none;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 0 0.5rem;
+      padding: 0.25rem 0.25rem 0.25rem 1rem;
+      background: var(--gubat-banwa-violet);
+      color: var(--gubat-banwa-color-text-light);
+
+      &__active {
+        flex: 1;
+      }
+
+      a.item {
+        opacity: 0.6;
+        text-shadow: none;
+
+        &:hover,
+        &.active {
+          opacity: 1;
+        }
+      }
+    }
+
+    .actions {
+
+      &__grid {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 0.25rem;
+        grid-column-gap: 0.5rem;
+      }
+    }
+
+    .biography {
+      &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+      }
+    }
+
+    .discipline {
+
+      &__name {
+        margin-bottom: 0.5rem;
+      }
+
+      &__banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+
+        &--medium {
+          background-color: var(--gubat-banwa-green);
+        }
+
+        &--raider {
+          background-color: var(--gubat-banwa-carmine-darker);
+        }
+
+        &--sentinel {
+          background-color: var(--gubat-banwa-blue);
+        }
+
+        &--sharpshooter {
+          background-color: var(--gubat-banwa-orange-darker);
+        }
+
+        &--witch {
+          background-color: var(--gubat-banwa-violet);
+        }
+
+        &--empty {
+          justify-content: center;
+          border: 2px dashed var(--color-border-light-2);
+          background-color: var(--gubat-banwa-off-white);
+          opacity: 0.3;
+          cursor: pointer;
+
+          &:hover {
+            opacity: 0.6;
+          }
+        }
+
+        button {
+          color: var(--gubat-banwa-color-text-light);
+        }
+      }
+
+      &__name-wrapper {
+        color: var(--gubat-banwa-white);
+      }
+    }
+
+    .inflict-violence {
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid var(--color-border-light-primary);
+
+      &:last-child {
+        margin-bottom: 0;
+        border-bottom: none;
+      }
+
+      &__content {
+        margin-right: 1rem;
+      }
+    }
+  }
+}

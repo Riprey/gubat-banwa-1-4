@@ -1,0 +1,80 @@
+{
+  "folder": "pL7acBbodkxQcN9x",
+  "name": "Heavenspear",
+  "type": "discipline",
+  "_id": "CCqwsDG3XNoihoN3",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Renders of Heaven, Denouncers of Kings, Cloud Surfers, Ever Alight Javelins, Attainment of Minor Enlightenment.</p></blockquote><p>No gods, no rulers. This is the first Technique of the Piercers of Heaven. Their teachings then go on to teach of the great unbreaking, that unlashing from the earth, that great wind-calling. With a flex of your kalag, a honing of your Kinaadman, an expression of Gahum, you can fly upon silk wings to sail the clouds.</p><p>The Heavenspear style focuses on techniques that not only perfect the use of polearms, but also allow the practitioner to dance across the battlefield upon the winds, and even leap into the air and descend like a comet. They are not vulnerable to the ground: it is not real to them.</p><p>The first Heavenspear was Sarripada Pak-an. To fend off an incoming Akai raid, they rode upon catapults, and when the war barges sounded, they launched themselves into the air, sailing across the sky, and rending sails from masts and inflicting chaos upon the raiders.</p><p>The Sarripada would continue to do this until one day, he launched himself so high that he spoke with Lawu, the great eagle that will eat the sun. The eagle took him into his clutches and showed him the seven heavens, at the top of which there was no throne but simply infinite bliss. When asked why there was no great god that ruled over them all, the Eagle responded: \"Rulership is a mistake and a lie built by your ancestors and descendants. Rejoice in the glory of combat.\"</p><p>Sarripada Pak-an descended back into the earth upon a silken kite that he had fashioned himself with the help of biraddali-rainbow-winged angels- from one of the seven heavens. With this, he fought like a hawk, swooping and killing and destroying boats.</p><p>After fending off that particular raid, he returned to the cliff where his catapult was, and he broke it. With an intonation of his Kinaadman, he detached himself free from the earth. And upon this blasphemy against the natural order he founded a house of sky-warriors, and called them the Heavenspears. The Heaven Rending Style is then the truth of your Kinaadman: unbind yourself from the tyrant-gods of the earth, who lash you down to the ground.</p><p>\"No thrones, rend heaven and hell.\" As a Heavenspear, you are taught the Heaven-Rending Arts. These are a set of techniques that let you reflexively move about the air as if there were innumerable platforms about you, using your spirit to bounce off of thin air. This, combined with a martial art focused on using polearms, makes the Heavenspear adept at staying at range but also quick. Their unorthodox angles of attack has been the downfall of many warbands.</p><blockquote><p>If you become a Heavenspear, ask yourself: with your enlightened knowledge of there being no Over God, why do you fight? Do you fight for liberation, so that all men can fly across the sky? Or do you fight for more selfish reasons? You rend the sky but make sure that your spear thrust is true, from your heart, and not from your doubts.</p></blockquote><p><strong>Weapons:</strong> Sibat, bangkaw, tridents, barbed spears, kalises, gunongs, longknives, lances, pinamaskan, halberds, glaves, sodok</p><p><strong>Armors:</strong> Breastplates, sarongs, pants, slippers, bracers, headwraps</p>",
+    "hp": {
+      "max": 7
+    },
+    "speed": 6,
+    "jump": 5,
+    "prowesses": {
+      "brv": 2,
+      "fai": 0,
+      "pos": 0,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p>Whenever you move, you <strong>fly for the duration of that movement.</strong> At the end of that movement, deal <strong>1 Hit</strong> on all enemies adjacent to you as you slam down to the ground, once per riff.</p><p>You are <strong>immune to any damage from falling.</strong></p>",
+      "flavor": "<p><em>The final lie is the Earth-Binding. That one must stay bound to the earth. That one must fall down. BATALA, the Absolute Reality, tells that this reality is nothing but phenomenon that we can overcome.</em></p>",
+      "name": "Unbound"
+    },
+    "violences": {
+      "flavor": "<p><em>The 41st Tenet of Heaven Rending: Stillness is illusion, as with all things. To Achieve Conjunction you must learn to be unbound.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Move half your speed. At any point during the movement, you may <strong>attack an adjacent fighter with Bravery</strong> with any piercing weapon.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Extremespeed"
+        },
+        "2": {
+          "description": "<p><strong>Attack a fighter in 2 tiles with Bravery</strong> with a piercing weapon. This is still melee. Then, push the target 1 tile and move into the tile they vacated.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Thundering Spear"
+        },
+        "3": {
+          "description": "<p>Swap with a fighter within 3 tiles of you, flying.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Pole Vault"
+        }
+      },
+      "name": "Heaven Wheel Breaker"
+    },
+    "identifier": "heavenspear",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Heavenspear",
+    "style": "raider"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730760127726,
+    "modifiedTime": 1730760728473,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!CCqwsDG3XNoihoN3"
+}

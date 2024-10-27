@@ -1,0 +1,80 @@
+{
+  "folder": "pL7acBbodkxQcN9x",
+  "name": "Martyr",
+  "type": "discipline",
+  "_id": "FFn9QTsN3n2VDdzD",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Warriors of the Most High, Sacrifical Berserkers, Those Who Fury, Triumphing In Adversity.</p></blockquote><p>Martyrs kill and die in the name of their conviction. They go into a sacred war trance known as <strong>Fury,</strong> which they fight fully knowing that they can die, and are willing to die, for what they truly believe in. While Faith in the Moon Goddess isn't a prerequisite to Fury (as the Marty Art arose from Akai), conviction is. A conviction to die in the face of imminent, and sometimes quite certain, death.</p><p>All warriors can perform the Fury, that sacrosanct war-ritual of giving one's self to Goddess (or whatever faith, code, or ideal they profess). However, Martyrs dedicate their entire lives to the sabil. Every venture they go out on is a venture they are prepared to die for their faith in. This has caused Martyrs to be particularly feared, due to their total lack of self-preservation. They vest themselves in the trappings of burial: wear white, anointed in oil by the pandita. And then they go to battle to die, bringing as many as they can with them, so that they can arrive in heaven and stand alongside Goddess.</p><p>The first Martyr was said to be Baginda Sumongsuklay herself. She arrived upon the islands in times now long gone, and traveled into the sky palace of Indira Suga and Jamiyun Kulisa, and immediately went into a frenzy. She succeeded in breaking the sky gates, and in her total lack of self-preservation, leapt onto the Thunderbolt and wounded him. Brother Lightning and Mother Sun have since left that sky palace, and now Baginda Sumongsuklay commands the faith and trust of the warriors of Akai.</p><p>The <strong>Fury</strong> has been known since the dawn of time, once practiced in supreme deference and respect for the datu, they will dress themselves in the vestures and raiment of death and go on a frenzy. You sharpen this glorious fury into your weapon. You have forged yourself into the ultimate killing machine: your heart is a sword, the pain you suffer is fire to the furnace.</p><p>During the end of the Seventh Moon Era, the Fury has become easier to initiate and invoke with the help of sugapa and other psychedelics and stimulants to elevate the fury to one transcendental, communing with the spirits of war.</p><p>Akayu Martyrs give themselves to the Mad Moon Frenzy in the name of GODDESS, blessing them with gleaming silver haloes. Should they die, they shall meet Her in Lunar Heaven. Martyrs from other cultures cannot become Martyrs lest they have something they are willing to die for. Virbanweño martyrs are willing to die for their faith or their general, Gatusanon are willing to die for the raid, for wealth, or their own ancestors. Indeed, martyrs can also be found all across the archipelago, especially those that have the same amount of zeal and loyalty to their leaders and the spirits of their settlements. They are, however, few and far in between in number, a small number of warrior braves who are always ready to die for their leader and faith.</p><p>Before going out on a venture, you dress yourself in the raiment of death and then anoint yourself with oils, as if you were being carried off to be buried, and then dress yourself in your best jewelry, to make sure that you bring with you your earthly wealth to the next life and be accepted into heaven with open arms.</p><p>Martyrs often cannot die until they have killed. The paradox of death is that it cannot reach you if you are not afraid of it. May all be taken by Goddess.</p><blockquote><p>Who do you profess your zeal to? Why? Do you wish heaven? Or is this a convenient excuse for you to inflict indiscriminate violence?</p></blockquote><p><strong>Weapons:</strong> Panabas, gunong, barong, kalis, kampilan, golok, pira</p><p><strong>Armors:</strong> Bare chest, silk jackets, white headwraps, white bahag, silk slippers</p>",
+    "hp": {
+      "max": 10
+    },
+    "speed": 4,
+    "jump": 2,
+    "prowesses": {
+      "brv": 0,
+      "fai": 1,
+      "pos": 0,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p>When you fall to 0 HP, you can choose to keep fighting in a <strong>Death Trance.</strong> While in the Death Trance, you gain all benefits below, but you die immediately after the fight ends.</p><p>You get stronger as the fight rages on, gain the following accumulative benefits, as your Fury burns:</p><ul><li><p><strong>At Resound 1: Frenzy.</strong> After making a melee attack, you may <strong>attack a different adjacent fighter with Bravery.</strong></p></li><li><p><strong>At Resound 2: Virtue.</strong> Your combo breaker is now -0/-2.</p></li><li><p><strong>At Resound 3: Self-Offering.</strong> All your melee attacks now attack with <strong>Bravery and Faith</strong>.</p></li><li><p><strong>At Resound 4: Death Raiments.</strong> While you're Staggered, you <strong>heal equal to your Resilience</strong> whenever you start your riff.</p></li><li><p><strong>At Resound 5: Berserk.</strong> All your attacks are <strong>True</strong> and all your <strong>Hits</strong> are True. When you end your riff, <strong>inflict violence.</strong></p></li></ul>",
+      "name": "The Fury",
+      "flavor": "<p><em>You clad yourself in the raiments of death, white to reach the Moon Goddess' eternal blissful palace. Breathe now, breathe. If it be your time, then it is your time. Be not afraid. Be not afraid. Who are they to say that your faith-rage is unjustified? This world is sundered and torn: break it even further, and in so doing bring light to bear. This is the Principle of Fury: kill all things indiscriminately to attain true Harmony. Remember, loved one. Your rage is not simply anger, wrath. It is justice, Goddess's Vengeance, Holy Moon Striving. You fulfill the purpose of your life in this, submit wholly to the Moongleam.</em></p>"
+    },
+    "violences": {
+      "flavor": "<p><em>Wield the Moon's Holy Blade, which is you. You! This is your strength, let GODDESS wield you and bring the final triumph of victory. Who else could it be but you? With this internalization, you wield the holy blade of tenacity, and nothing shall ever stop your advance.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Attack an adjacent fighter with Faith. Add +1d per status effect on the target, and then clear every status effect on the target.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Purification"
+        },
+        "2": {
+          "description": "<p>Attack an adjacent fighter with Faith. If the target is Staggered, the target suffers -1d on their next Defense roll.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Annihilate"
+        },
+        "3": {
+          "description": "<p>Attack an adjacent fighter with Faith. This attack is dazzling and burns with holy radiance. If the target is Staggered, add <strong>+Bravery</strong> to the attack.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Salvation"
+        }
+      },
+      "name": "Holy Moon Blade"
+    },
+    "identifier": "martyr",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Martyr",
+    "style": "raider"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730720576852,
+    "modifiedTime": 1730754389635,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!FFn9QTsN3n2VDdzD"
+}

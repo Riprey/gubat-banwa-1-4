@@ -1,0 +1,30 @@
+{
+  "folder": "Zi7Gjoq0Ai0HMlWS",
+  "name": "II - Sky Rave",
+  "type": "technique",
+  "_id": "FnatDGs3SH1DN1FG",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You twirl your spear and then strike suddenly, like lightning.</em></p><p>Spend 1 Beat to <strong>attack an adjacent enemy with Bravery,</strong> then <strong>push 3</strong> and <strong>juggle them.</strong> If the target is already <strong>juggled,</strong> this attack becomes <strong>overwhelming</strong> and then you <strong>slam them to the ground</strong> after the attack, <strong>slowing</strong> them. Then <strong>fly 1</strong> in the direction you push them.</p><p><strong>Celestial Shooter:</strong> Spend 2 Beats. You may <strong>rush 2</strong> before the attack, through enemies. Any enemy moved through is <strong>blown wide open.</strong></p><p><strong>Crashing Dive:</strong> Spend 3 beats. Push 5 the target now. If they collide, they become <strong>shocked,</strong> and you may <strong>teleport adjacent to them.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A technique mastered by winged eaglefolk Nawilani, who perfected it when they resolved to ignore their weakness as someone that cannot fly.</em></p>",
+    "discipline": "heavenspear",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731903897895,
+    "modifiedTime": 1731904025426,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!FnatDGs3SH1DN1FG"
+}

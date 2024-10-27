@@ -1,0 +1,30 @@
+// The HTML layout here does not work with the TinyMCE/ProseMirror WYSIWYG Editor.
+// These mixins attempt to try and fix any weird editor display issues.
+@mixin wysiwyg {
+  .tab.active {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .editor {
+      flex: 1;
+      min-height: 8rem;
+    }
+  }
+
+  .wysiwyg-container,
+  .wysiwyg-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    &--longer {
+      flex: 2;
+    }
+  }
+
+  .wysiwyg-content {
+    background: rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+}

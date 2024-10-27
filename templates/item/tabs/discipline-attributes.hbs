@@ -1,0 +1,62 @@
+{{!-- Metadata --}}
+<h3 class="form-header">{{localize "GUBAT_BANWA.Categories.Metadata"}}</h3>
+<div class="form-group">
+    <label for="system.identifier">{{localize "GUBAT_BANWA.Metadata.Identifier"}}</label>
+    <div class="form-fields">
+        <input name="system.identifier" type="text" value="{{system.identifier}}" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="system.label">{{localize "GUBAT_BANWA.Metadata.Label"}}</label>
+    <div class="form-fields">
+        <input name="system.label" type="text" value="{{system.label}}" />
+    </div>
+</div>
+
+{{!-- Style --}}
+<h3 class="form-header">{{localize "GUBAT_BANWA.Categories.Style"}}</h3>
+<div class="form-group">
+    <label>{{localize "GUBAT_BANWA.Categories.Style"}}</label>
+    <div class="form-fields">
+        <select name="system.style">
+            {{selectOptions config.styles selected=system.style localize=true}}
+        </select>
+    </div>
+</div>
+
+{{!-- Attributes (Game Term) --}}
+<h3 class="form-header">{{localize "GUBAT_BANWA.Categories.Attributes"}}</h3>
+<div class="form-group">
+    <label for="system.hp.max">{{localize "GUBAT_BANWA.Actor.HitPearlsMax"}}</label>
+    <div class="form-fields">
+        <input name="system.hp.max" type="text" value="{{system.hp.max}}" placeholder="0" data-dtype="Number"
+            inputmode="numeric" pattern="[+=\-]?\d*" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="system.speed">{{localize "GUBAT_BANWA.Attribute.Speed"}}</label>
+    <div class="form-fields">
+        <input name="system.speed" type="text" value="{{system.speed}}" placeholder="0" data-dtype="Number"
+            inputmode="numeric" pattern="[+=\-]?\d*" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="system.jump">{{localize "GUBAT_BANWA.Attribute.Jump"}}</label>
+    <div class="form-fields">
+        <input name="system.jump" type="text" value="{{system.jump}}" placeholder="0" data-dtype="Number"
+            inputmode="numeric" pattern="[+=\-]?\d*" />
+    </div>
+</div>
+
+{{!-- Prowess Bonuses --}}
+<h3 class="form-header">{{localize "GUBAT_BANWA.Categories.ProwessBonuses"}}</h3>
+{{#each system.prowesses}}
+<div class="form-group">
+    <label for="system.prowesses.{{@key}}">{{#with (lookup ../config.prowesses @key)}}{{localize
+        label}}{{/with}}</label>
+    <div class="form-fields">
+        <input name="system.prowesses.{{@key}}" type="text" value="{{this}}" placeholder="0" data-dtype="Number"
+            inputmode="numeric" pattern="[+=\-]?\d*" />
+    </div>
+</div>
+{{/each}}

@@ -1,0 +1,30 @@
+{
+  "folder": "sX3EM7yh8jRQ8Vb5",
+  "name": "IV - Krishawisu's Lotus Blossoming Hammer",
+  "type": "technique",
+  "_id": "YYGm4IbPvrLcB6b9",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You exhale, and petals burst forth! Godly strength blesses your weapon and you swing.</em></p><p>Spend 1 Beat to <strong>attack all enemies in an area (blast 3) with Bravery.</strong> All objects in the blast suffer <strong>3 True Hits</strong> immediately. The enemy adjacent to you is <strong>Stunned.</strong></p><p><strong>The Dark Spear Gores The Sun:</strong> Spend 2 Beats. You condense your power into a single spear: the attack now targets an area <strong>line 10,</strong> and attacks with Bravery and Faith. All objects in the line are destroyed.</p><p><strong>Krishawisu's Lotus Spear Skewers False Reality:</strong> Spend 3 Beats. The attack now targets an area (path 6), and also now inflicts <strong>Dazzled</strong> on all other fighters that are not adjacent.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>An art made famous by the Kawal of Apumbukid. A giant swing of both weapon and shield, flowing about so that it strikes all in your path, imitating the lotus of the great god Krishawisu, the Guardian Lord of the North. He is asleep, it is said, within a frozen lotus, and will only awake if chaos has subsumed Gubat Banwa. Others say that Krishawisu came down to the world and formed it into a lotus: \"Imagine the Sea of Wine as exactly that, a Sea of Wine, and the various universes as Lotuses floating upon that Sea of Wine. We are simply in one of those, now.\"</em></p>",
+    "discipline": "kawal",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731813647184,
+    "modifiedTime": 1731813962203,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!YYGm4IbPvrLcB6b9"
+}

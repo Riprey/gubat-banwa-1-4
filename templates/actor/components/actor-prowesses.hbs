@@ -1,0 +1,41 @@
+<div class="prowesses section">
+    <h2 class="section-title">{{localize "GUBAT_BANWA.Categories.Prowesses"}}</h2>
+    <div class="prowesses__grid">
+
+        {{#each system.prowesses}}
+        <div class="prowess">
+            {{#with (lookup ../config.prowesses @key)}}
+            <div class="prowess__name{{#if ../../editable}} js-rollable{{/if}}" data-roll-type="{{use}}" data-roll-stat="{{@key}}">
+                <h2 class="prowess__title">{{localize label}}</h2>
+            </div>
+            {{/with}}
+
+            <div class="prowess__fields">
+                <div class="prowess__field">
+                    {{#if (isdefined bonus)}}
+                    <label for="system.prowesses.{{@key}}.value" class="prowess__field-label">{{localize
+                        "GUBAT_BANWA.UI.Base"}}</label>
+                    {{/if}}
+                    <input name="system.prowesses.{{@key}}.value" class="prowess__field-value" type="text"
+                        value="{{value}}" placeholder="0" data-dtype="Number" inputmode="numeric" pattern="[+=\-]?\d*">
+                </div>
+                {{#if bonus includeZero=true}}
+                <div class="prowess__field">
+                    <label for="system.prowesses.{{@key}}.bonus" class="prowess__field-label">{{localize
+                        "GUBAT_BANWA.UI.Bonus"}}</label>
+                    <span class="prowess__field-value">{{numberFormat bonus sign=true}}</span>
+                </div>
+                {{/if}}
+                {{#if total includeZero=true}}
+                <div class="prowess__field">
+                    <label for="system.prowesses.{{@key}}.total" class="prowess__field-label">{{localize
+                        "GUBAT_BANWA.UI.Total"}}</label>
+                    <span class="prowess__field-value">{{numberFormat total sign=true}}</span>
+                </div>
+                {{/if}}
+            </div>
+        </div>
+        {{/each}}
+
+    </div>
+</div>

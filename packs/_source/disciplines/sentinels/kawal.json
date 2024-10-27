@@ -1,0 +1,80 @@
+{
+  "folder": "oxCgChzrgbjI3FLA",
+  "name": "Kawal",
+  "type": "discipline",
+  "_id": "mhS8mrlpOW4704aq",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Masters of the Eight Direction Guardian, Disciples of the Lakapati, Protectors of the World, not Kings.</p></blockquote><p>Kawal are faithful shields and defenders of their communities. The greatest paragons among the Kadungganan: they exemplify all the virtues of a Kadungganan and then more, protecting their fellow Kadungganan by attracting the attention of the enemy and stopping them in their tracks. Kawal only get their prestigious name after undergoing a grueling training process, which weeds out those that cannot handle the pressures and responsibilities of a kawal. Using techniques that synthesize native forms as well as learned arts from Madaki and Naksuwarga, the Kawal excels in keeping their allies safe while staying alive. Rajanate Datu employ techniques of the Kawal, and more often than not they do it so that they can keep their people safe.</p><p>Clad in a mix of metal chainmail and kalabaw hide armor, kalabaw horn breastplate, and hardwood shields, the Kawal is an indomitable force in the battlefield, controlling the battlefield with superior movement, tactics, weaponmastery, and their force of will.</p><p>Akai has deployed their own contingent of Satariya, which use giant ceremonial blades instead of spears to guard their allies. Apumbukid is known to train entire settlements in this art as well, the most well known one being Saginda in Pumirang, where they're trained by ancient guardian spirits in deep underground coral river caves.</p><p>In the ancient of days, the Guardians of the Eight Directions (<strong>Ang Diwatasin Walong Tudlo</strong>) came together and taught their Art to mortals, because they had foreseen that they would need their help to defend the world. Thus was the Eight Direction Guardian Art born, which practices and perfects the manifestation of the Lakapati, the combined form of the Eight Guardian Gods. Imawasura the Guardian Lord of the Southeast, of Pagodas and Fortunes and Jades, wields a spear that is as long as ten thousand palms of Rayasaiwa (whose palm measures fifteen universes), and is named Tudlo, and this spear has become the symbol for all Kawal. It is said that Imawasura was the one that affixed the eight directions.</p><p>The Shield is a symbol of strength. In the Sword Isles, it is not common to stay and fight for your settlement when being raided. However, in the event of a revenge raid, where the warriors will try to slay your datu as a ritual offering to their own ancestors, only the shield can stay the tide. Either they die, or the raiders fail.</p><blockquote><p>If you choose to take up the mantle of the Kawal, say who you pledge your allegiance to and why, and why your faith in them has led you to making sure that they will never be harmed. Ask why you give your life to them. Is loyalty your virtue or your sin? Why do you break the sky for someone who might not do the same for you?</p></blockquote><p><strong>Weapons:</strong> Treasured Spears, barongs, giant panabas, kalasag, taming, spiked shields, giant kampilan</p><p><strong>Armors:</strong> War Hats, Buffalo Cuirasses, Bamboo Legplates, Plated Tassets, Lamellars, Wooden Sandals</p>",
+    "hp": {
+      "max": 10
+    },
+    "speed": 4,
+    "jump": 1,
+    "prowesses": {
+      "brv": 0,
+      "fai": 0,
+      "pos": 2,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p>1/Riff, when an adjacent ally moves, you may <strong>move with them</strong>, keeping adjacency as much as possible. As long as you're adjacent to your allies, they are considered <strong>Guarded</strong> by you.</p>",
+      "name": "Eight Direction Guardian",
+      "flavor": "<p><em>In the ancient of days, the Guardians of the Eight Directions (Ang Diwatasin Walong Tudlo) came together and taught their Art to mortals, because they had foreseen that they would need their help to defend the world. Thus was the Eight Direction Guardian Art born, which practices and perfects the manifestation of the Lakapati, the combined form of the Eight Guardian Gods.</em></p>"
+    },
+    "violences": {
+      "attacks": {
+        "1": {
+          "description": "<p>Move half your Speed and then <strong>attack an adjacent fighter with Bravery</strong>. The target becomes <strong>taunted</strong> to you until the end of your next riff.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Shield Charge"
+        },
+        "2": {
+          "description": "<p><strong>Attack an adjacent fighter with Bravery,</strong> then <strong>Push 1</strong>, and then gain <strong>Block</strong> for every <strong>8+</strong> on the Attack roll.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Shield Bash"
+        },
+        "3": {
+          "description": "<p><strong>Attack a fighter within 2 tiles</strong> with a melee weapon <strong>with Bravery</strong>. If the target is <strong>Taunted</strong>, you can <strong>bleed</strong> them.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Skewer"
+        }
+      },
+      "name": "Lokapala Shields",
+      "flavor": "<p><em>You meditate upon the guardian deities of nature and perfect the guardian art that they have taught.</em></p>"
+    },
+    "identifier": "kawal",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Kawal",
+    "style": "sentinel"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730697860264,
+    "modifiedTime": 1730754897344,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!mhS8mrlpOW4704aq"
+}

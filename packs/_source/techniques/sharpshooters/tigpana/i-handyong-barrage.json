@@ -1,0 +1,30 @@
+{
+  "folder": "AOOTY2UGtU1dPiaS",
+  "name": "I - Handyong Barrage",
+  "type": "technique",
+  "_id": "S3jBcCpCxdIvVGkt",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You sharpen your focus to a needle point, and then unleash a barrage quicker than lightning.</em></p><p>Spend <strong>1 Beat:</strong> you cannot move voluntarily until the end of your next riff, but you may <strong>attack up to 2 different fighters in 6 squares with Bravery.</strong></p><p><strong>Samayaw Sikarom:</strong> Spend <strong>2 Beats</strong> to attack up to <strong>3 different fighters instead.</strong></p><p><strong>Baltog Skewers Rabot:</strong> Spend 3 Beats to attack up to <strong>4 different fighters</strong> instead, and then <strong>teleport 2.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>This Discipline was made by the Sikarom (bamboo longbows) wielders of Ibalnong. They stood upon bamboo watchtoweres known as bantara to be able to protect their settlements from every raid.</em></p>",
+    "discipline": "tigpana",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731837612763,
+    "modifiedTime": 1731837724569,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!S3jBcCpCxdIvVGkt"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Chthonian Balyan Raiments",
+  "type": "anting",
+  "_id": "3OX0Bca1BKMRwBbk",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>When you heal an ally, you gain <strong>Block 2</strong> and they gain +1d on their next attack (can only gain +1 from this Anting).</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Raiments of bone and blacksilk, of ruddy blood gold and deep cavernous stones. Decorated with the boar tusk and crocodile faces of the earthen gods. Sumpoy is the Slaver of Souls and Batara Yamakala is the God of the Underworld, the Keeper of Justice, and of all Death. The God of Life, funnily enough, is Si Dapa, The Kneeling One, whom many-due to the fact that Life is an antecedent of Death-worship wrongfully as the God of Death. By bearing Si Dapa's face upon the shield, you can enact the retort of the living.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731930964074,
+    "modifiedTime": 1731931031933,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!3OX0Bca1BKMRwBbk"
+}

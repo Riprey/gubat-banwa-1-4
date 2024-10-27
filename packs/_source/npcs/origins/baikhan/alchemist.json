@@ -1,0 +1,136 @@
+{
+  "name": "Alchemist",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 6,
+      "max": 6,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 1
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 5
+      },
+      "res": {
+        "value": 6
+      }
+    },
+    "description": "<p>Alchemists are erudite philosophers and sages. Using internal alchemies they strengthen themselves, collecting Orange Qi within, and then granting them to allies with external alchemies, expulsing Azure Qi.</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Close-Open Fist.</strong> Attack an adjacent enemy with Faith, then push 3. The next time the Alchemist inflicts violence they perform the combo attack instead: attack an enemy in range 4, then give all allies adjacent to the enemy <strong>Block 2.</strong></p><p><strong>Gambits</strong> [[/r d12]]</p><p><strong>1-3:</strong> Inflict Violence &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>4-6:</strong> Rush &gt; Inflict Violence &gt; <strong>Noxious Winds [1]:</strong> All enemies in range 4 burst 1 becomes <strong>poisoned,</strong> and all allies in the burst may cleanse 1 status.</p><p><strong>7-9:</strong> Inflict Violence &gt; Inflict Violence &gt; <strong>Five Phases [1]:</strong> One ally in range 4 may make their next attack do one: <em>set aflame, chill, bleed, slow,</em> or <em>poison.</em> If the ally is <strong>ignited,</strong> they also gain +1d on that attack.</p><p><strong>10-12:</strong> <strong>White Tiger Elixir [3]:</strong> The Alchemist grants all allies in the battlefield either <strong>Azure Qi</strong> or <strong>Orange Qi</strong> (they choose), and then they <strong>heal 2.</strong> If the ally is ignited, they may <strong>fly 2</strong> as well.</p>",
+    "speed": 5,
+    "jump": 2,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Conviction",
+        "description": "All Folk have a reason for fighting, and if reasoned to, can cause them to rethink combat. However, they will fight for their Conviction until it looks like all is bleak."
+      },
+      {
+        "name": "Morale",
+        "description": "At the beginning of any Resound where there are twice as many Kadungganan than there are enemies (eg., If there are 4 Kadungganan and 2 Enemies left) all Folk enemies will Surrender, becoming Defeated."
+      },
+      {
+        "name": "Heirs of the Dragon",
+        "description": "When a Baikhan fighter starts their riff, they and all adjacent Baikhan are ignited until the end of their next riff. All Ignited Baikhan have +1d to all Attack and Defense dice. Ignited Baikhan cannot be ignited again."
+      },
+      {
+        "name": "Qi",
+        "description": "When the Medium ignites, they may fly 1 before they ignite others. When they ignite others, they must choose Orange or Azure Qi. They gain a special benefit:\nOrange Qi: The fighter adds the Alchemist's Resilience to their next attack, then they lose Orange Qi.\nAzure Qi: The fighter adds the Alchemist's Faith to their next Defense roll, then they lose Azure Qi."
+      }
+    ],
+    "style": "medium"
+  },
+  "prototypeToken": {
+    "name": "Alchemist",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "O2smhD7ezf5ZlRwX",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732185199366,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "21I8AV5fr3ok1ozE",
+  "sort": 0,
+  "_key": "!actors!21I8AV5fr3ok1ozE"
+}

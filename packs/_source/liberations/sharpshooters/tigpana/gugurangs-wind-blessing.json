@@ -1,0 +1,30 @@
+{
+  "folder": "V8mW90IXN4Exrco4",
+  "name": "Gugurang's Wind Blessing",
+  "type": "liberation",
+  "_id": "FuiUI2CtzzlLcXT7",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 3+, you can call upon the gods that you have befriended to help you out in the battlefield.</strong></p><p>Spend 2 Beats and choose up to <strong>3 tiles in the battlefield,</strong> none of which can be within <strong>2 tiles of each other.</strong> Wind gods arise from these squares. You or an ally's ranged attack can target the wind god to make that wind god the origin point. For every wind god the ranged attack \"bounces off\" of, gain +1d to the attack, and +1 range. The wind gods are <strong>Height 6 Blocking Terrain</strong> for enemies.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Gods of the wind are common: they float upon the air carried by the breeze, they dance on falling kapok, or rising dust devils. Tigpana are taught to befriend them: they are their greatest ally.</em></p>",
+    "discipline": "tigpana",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731907249717,
+    "modifiedTime": 1731907561158,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!FuiUI2CtzzlLcXT7"
+}

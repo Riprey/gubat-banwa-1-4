@@ -1,0 +1,30 @@
+{
+  "folder": "FRkDVG5vQyWJv2v3",
+  "name": "Shatter Haraya",
+  "type": "liberation",
+  "_id": "hLkSOgsC2Dadl8tM",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 5+, you can shatter the illusion of reality with the greatest mantras, their sound ripping through akasha.</strong></p><p>Spend 2 Beats to <strong>stun, juggle,</strong> and <strong>blow wide open</strong> all enemies in the battlefield, and then set their defenses to <strong>0</strong> until the end of the next Resound.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"I leave you with this final mentala. Inscribe these upon your souls, or your bamboo slates, or your swords. This is NI·BA·TA·LA. Thus is the word for all my followers. All my followers will have my enlightenment, and know the truth of the Trichiliocosm. All things are Haraya, or Imagination. To find the truth of the world, one must find me.\" These are the words of BATALA upon the Lake of Pulilan, before riding upon a water lotus to the grand unending seas and returning to His abode. Speak HA·RA·YA and manipulate the illusion itself.</em></p>",
+    "discipline": "warspeaker",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731907500361,
+    "modifiedTime": 1731907619303,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!hLkSOgsC2Dadl8tM"
+}

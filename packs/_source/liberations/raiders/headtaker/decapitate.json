@@ -1,0 +1,30 @@
+{
+  "folder": "QKoYtgocl5gTmpHq",
+  "name": "Decapitate",
+  "type": "liberation",
+  "_id": "zjEEqn5zWRpNJ16o",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>At Resound 5+, you can move on the speed of shadow and scorn and then completely decapitate another fighter.</strong></p><p>Spend 3 Beats to defeat any one fighter in the battlefield that is <strong>Staggered.</strong> Against Braves and Chiefs, this instead <strong>halves their current HP again,</strong> to a minimum of 1, and then <strong>stuns</strong> them.</p><p><strong>If you're willing,</strong> decapitate yourself. You decapitate <strong>all enemies in the battlefield that are Staggered.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>One of the many Gods of Fated Death is said to be the god/goddess Yamakala Lakibayibatara (Male- Female Deity). It is said that the God of Cyclical Death, Yamadiraja, and the Goddess of Vengeance, Kalakatri, were once one being of all death.</em></p>",
+    "discipline": "headtaker",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731907090611,
+    "modifiedTime": 1731907163592,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!zjEEqn5zWRpNJ16o"
+}

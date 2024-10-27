@@ -1,0 +1,80 @@
+{
+  "folder": "LnAo5BZsPk9wDjck",
+  "name": "Sword Saint",
+  "type": "discipline",
+  "_id": "cq1c4pOcmEhnKGAO",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Artists whose souls have been cut in twain. Swordsmen that will complete the cutting motion of existence.</p></blockquote><p>Sword Saints are the faithful patrons, preachers, and priests who worship the violent aspect of Makagagahum, Makaubos, and pray to Gattalim, the intercessor of swords, to bring their woes to God. Makaubos is the aspect of God who will arrive at the end of all things. He will cleanse it in a single blood tornado of steel and gnashing of teeth.</p><p>Sword Saints are given the Blade Commission: they must travel from settlement to settlement to teach the word and truth of the Ashen Star, the upcoming Edge Eschatology, or as they call it: the Paguubos, the emptying of the land. They are taught extensively the teachings of the Sword, and their primary conviction is this: \"All things will be cut in the end by Makaubos. We are the end.\"</p><p>Those that follow the aspect of Makaubos are also taught extensively the ways and arts of their God's violent and jealous aspect, which they say is the human state of their God, as all things have the binary states of man and nature. Through communion and following the 77 Sword Tenets of Gattalim, they sharpen their souls until they turn their very spirits into blades. Sharper than any other soul, they will never find love, for those that try to embrace a Sword Soul will be bisected.</p><p>Sword Saints are seen as strangers and outsiders by the settlements. Those of Apumbukid see them as bastards, mindless, idiots. That they have turned themselves into \"Swords\" is stupid, for they have honed themselves to be Swords that Kill, not Swords that Cut. In essence, they are useless, and forever will be.</p><p>The truth of all things is much more complicated, of course. The Sword Saint was once a different Discipline, now rent in half, like the bisection that it truly is. Sword Saints that practice the opposite philosophy exist in Ba-e, born from the Blade Gospel's original form.</p><p>The Blade Gospel was once simply the Blade Song. It has since been changed, now, once the Ashen Star Priests took hold of it. Many of the original followers of the Blade Song created the Blade Weaving after splitting from them, while those that chose to become warriors for the new Ashen Star religion created the Blade Gospel.</p><p>However, very recently, a larger portion of these martial artists have broken apart from the Ashen Star and have begun following a rural folk syncretism of Ashen Star teachings and the ancient religions of northern Rusunuga. These martial artists, in a Fulmination of hard-headed defiance, keep both the name Sword Saint and Blade Gospel and teach in pagodas in Ba-e as well as the communal feasts of Gatusan. They are revivalists of the original Blade Song, which sing the true Blade Gospel: \"the might of the sword- used-to-kill must be used with justice and compassion, lest it be nothing but the very thing that causes the Wheel of Violence to turn.\" These revivalists are commonly known as Graceless, while those faithful to the Ashen Star Blade Commission are those Graced.</p><blockquote><p>If you choose to be a Sword Saint, your soul has been sharpened into a killing sword. Your soul kills you. Once you achieve peace, you become worthless. Will you survive enlightenment?</p></blockquote><p><strong>Weapons:</strong> Sundang, bolo, pinute, garol, ginunting, katana, kampilan, kalis, barong, pira, saber</p><p><strong>Armors:</strong> War jacket, war pants, sarongs, war boots, war hat, loose robes, swordpriest vestments</p>",
+    "hp": {
+      "max": 6
+    },
+    "speed": 3,
+    "jump": 1,
+    "prowesses": {
+      "brv": 2,
+      "fai": 0,
+      "pos": 0,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p><strong>Whenever you make an area attack, gain a d4 Makaubos Blade,</strong> a gleaming sword that orbits you. If you have to roll your Makaubos Blades, you roll them as d4s, <em><strong>hitting or parrying on a 2+.</strong></em> You can spend Makaubos Blades…</p><ul><li><p>…<strong>as Defense Dice against ranged attacks.</strong></p></li><li><p>…<strong>as Attack Dice when you make ranged attacks.</strong></p></li></ul><p>You can only have up to 6 Makaubos Blades at a time.</p>",
+      "flavor": "<p><em>\"The Principle of the Sword is this: if your soul is not sharp enough to cut your own flesh, then you have not learned the true principle of the sword. The Principle of Gattalim is this: if your flesh is cut by your own soul, then you have achieved the Sword Nirvana: that you are now worthless and harm all those around you. Have you ever noticed why you cannot cut down trees with your techniques?\" - The 77 Tenets of Gattalim</em></p>",
+      "name": "Sword / Soul"
+    },
+    "violences": {
+      "flavor": "<p><em>\"The Principle of Diwahati, the diwata who lives in all Bisections, is this: we are cause-effect, love-evisceration. We are both bisected and the whole. Who are we but all in that eternal process of the cut? The cut ends when we die, this is the final Mastery of our truths. We are in a perpetual cutting motion: that is life. Changing and hurting and dying. Therefore apply this cutting motion to everything else: to bamboo, to politics, to datu, to love. What else are we but bisections?\"</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Attack all fighters in an area (line 4) with Bravery.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Cut"
+        },
+        "2": {
+          "description": "<p>Attack all fighters in an area (line 3) with Bravery. This attack is <strong>dazzling</strong> and burns with holy radiance.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Slash"
+        },
+        "3": {
+          "description": "<p>Attack a fighter in range 4 with <strong>Bravery.</strong> If they're <strong>3+ squares away,</strong> pull them 1 and their next defense roll suffers -1d.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Rip"
+        }
+      },
+      "name": "Principle of Slashing"
+    },
+    "identifier": "sword-saint",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.SwordSaint",
+    "style": "sharpshooter"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730758831156,
+    "modifiedTime": 1730759465437,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!cq1c4pOcmEhnKGAO"
+}

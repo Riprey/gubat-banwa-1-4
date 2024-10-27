@@ -1,0 +1,30 @@
+{
+  "folder": "eTLutlO6tSaB1V8C",
+  "name": "IV - Jade Naga Statue",
+  "type": "technique",
+  "_id": "omIp99Y7hsKOpB6x",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You utter the incantations and pray for a moment, and then perform a striking anyo. Every strike creates a scale and a part of a jade naga statue.</em></p><p>Spend 1 Beat to <strong>attack an adjacent fighter with Bravery,</strong> and then <strong>rush 3.</strong> You leave a part of a jade naga in every tile you leave. The jade naga is a single object (Blocking Terrain, Durability 6) that occupies all the tiles you left.</p><p>At the end of your next riff, the naga crumbles into the earth, <strong>slowing all enemies adjacent to the naga.</strong></p><p><strong>Great Nagaraja Larawan:</strong> Spend 2 Beats. You can now <strong>rush 5</strong> instead. The jade naga gains <strong>Durability 8</strong> and is immune to ranged attacks.</p><p><strong>Sawadaku Diraja Coils Around Batalang Maykapal:</strong> Spend 3 Beats. You can now <strong>rush 10</strong> and the naga has <strong>Durability 10</strong> instead. <strong>If you create a diamond or square shape,</strong> all those within suffer <strong>1 True Hit, Stun,</strong> and <strong>-1d</strong> on all Defenses until the end of their next riff, but the naga is immediately destroyed.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Naga are water and air serpent-spirits of protection, and are one of the dragonkind in the Sword Isles, the others being the Sawa earth-underworld serpents, and the Buwaya earth-water crocodiles. By brandishing a Jade Naga you create a spiritual boundary that prevents the targets of your hatred from inflicting violence.</em></p>",
+    "discipline": "warsmith",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731905954680,
+    "modifiedTime": 1731906119081,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!omIp99Y7hsKOpB6x"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "cGFHL7IAH8arfXTG",
+  "name": "I - Scarlet Edge of Love",
+  "type": "technique",
+  "_id": "8L2Ry0MY8rSxsFPJ",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You can use your own blood to enchant your blade into scarlet flame.</em></p><p>Spend 1 Beat to <strong>attack an adjacent fighter with Faith.</strong> You can suffer <strong>X True Hits</strong> (to a maximum of your Resilience) to gain +X Attack Dice.</p><p><strong>Fulminating Blade of Passion:</strong> Spend 2 Beats to also inflict <strong>slow</strong> on the target and <strong>taunt</strong> them until the end of your next riff. If they end their riff and have not attacked you, they become <strong>Stunned.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>This is the love of lowly mortals that toil evermore. Evisceration is nothing to the gods, but everything to us. Death is spoken of in soft tunes, like a lover.</em></p>",
+    "discipline": "murderglaive",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731883042664,
+    "modifiedTime": 1731883138168,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!8L2Ry0MY8rSxsFPJ"
+}

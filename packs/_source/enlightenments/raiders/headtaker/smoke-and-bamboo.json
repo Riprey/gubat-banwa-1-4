@@ -1,0 +1,30 @@
+{
+  "folder": "vZHnUDjO14zzeD6S",
+  "name": "Smoke and Bamboo",
+  "type": "enlightenment",
+  "_id": "FxAgTMgaPFJk9Htd",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>1/Violence, when you <strong>rush,</strong> you can <strong>teleport your speed</strong> instead. If you're not adjacent to any ally at the end of the teleport, gain <strong>Stealth</strong> and +1d on your next attack.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The Decapitation Rite teaches that the shadows are your friends. The darkness is not evil; in fact, it is a respite and a safe space from the overbearing hegemony of the sun's scorching rays. Therefore use it to your advantage, and let your axe burn with love.</em></p>",
+    "discipline": "headtaker",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731910760648,
+    "modifiedTime": 1731910820129,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!FxAgTMgaPFJk9Htd"
+}

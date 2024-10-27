@@ -1,0 +1,30 @@
+{
+  "folder": "sX3EM7yh8jRQ8Vb5",
+  "name": "II - Perfect Block",
+  "type": "technique",
+  "_id": "xaCZpfM1R0SlHAGD",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You ready your shield or weapon, anticipating an attack.</em></p><p>Spend 1 Beat to ready yourself. Gain <strong>Block 2.</strong></p><p><strong>Hesitation Is Defeat:</strong> Spend 2 Beats. Before gaining Block, rush 4, moving through enemies, inflicting 1 Hit on each enemy and <strong>taunting</strong> them until the end of your next riff.</p><p><strong>Perfect Parry:</strong> Spend 3 Beats. Before the end of your next riff, if Block gained from this technique is lost, immediately <strong>inflict 1 True Hit</strong> back at the one that depleted your Block.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Ever ready. That is what kawal must be. Now bring your weapons up. We have a datu to save.\" - War Leader Katuna, as he goes on to save a hostaged datu from a rival banwa.</em></p>",
+    "discipline": "kawal",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731804945683,
+    "modifiedTime": 1731813948051,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!xaCZpfM1R0SlHAGD"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Wicked Panabas",
+  "type": "anting",
+  "_id": "2XrRRktIVNwTCOob",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>All your melee attacks while flanking or while in vantage gain <strong>Overwhelming.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A giant, broad-bladed panabas, once used only for ceremony, now used for inflicting violence. Moonflowers are inscribed upon the base of its blade.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731967040909,
+    "modifiedTime": 1731967099534,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!2XrRRktIVNwTCOob"
+}

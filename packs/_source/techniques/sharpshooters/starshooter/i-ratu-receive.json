@@ -1,0 +1,30 @@
+{
+  "folder": "K9ElAPZA6itez0OD",
+  "name": "I - Ratu Receive",
+  "type": "technique",
+  "_id": "e0NLk6EACPk1BfNY",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You raise your knees and ready to receive a strike.</em></p><p>Spend 1 Beat to take on the <strong>Ratu Receive Stance</strong> until the start of your next riff. While in this stance you have +1 Speed and cannot be pushed or pulled. When an ally targets you or an enemy's ranged attack goes through your tile, end the stance to catch the attack and launch it at any other fighter in the attack's range.</p><p><strong>Rahu Rebuff:</strong> Spend 2 Beats. The caught attack gains +2 attack dice and you may <strong>fly 2</strong> before releasing it.</p><p><strong>Kedu Catches The Moon:</strong> Spend 3 Beats. You gain <strong>+2 Speed and Jump</strong> while in the Stance, and you can now catch up to <strong>2 attacks,</strong> which you keep until the end of your next riff. You launch the attacks when you lose them, and you lose your stance only then.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"THE GREAT IWAS-IWAS HAS DODGED THE DIMAKAUSOG'S FIREBALL STRIKE! HIS COUNTERATTACK IS SET TO FINISH THIS MATCH! CATCH HEAVEN!\" - Shoutcaster Basaka Tagaka, during the semifinals match point of the Shooting Star Massacre.</em></p>",
+    "discipline": "starshooter",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731905026763,
+    "modifiedTime": 1731905213491,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!e0NLk6EACPk1BfNY"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Copper Cat Vestiges",
+  "type": "anting",
+  "_id": "dV17yGejjURGVTKt",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>When you roll a <strong>9 or 10</strong> on a melee attack, <strong>bleed</strong> the target. All your attacks against bleeding targets gain +1d.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Contains fingernail ornaments that create the visage of musang claws that can rend entire ships, copper ear ornaments that, instead of depicting the wings of an eagle, showcase razor sharp feline ears, and a mask depicting a tusked bearcat, grinning indefinitely, in defiance of the sun.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731931048788,
+    "modifiedTime": 1731931082534,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!dV17yGejjURGVTKt"
+}

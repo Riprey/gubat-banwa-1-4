@@ -1,0 +1,86 @@
+{{!-- Facets --}}
+<div class="facets section">
+    <h2 class="section-title">{{localize "GUBAT_BANWA.Categories.Facets"}}</h2>
+    <div class="flexrow">
+        {{#each schema.fields.facets.fields}}
+        <div class="form-group-stacked">
+            <div class="form-label">
+                <label for="system.facets.{{@key}}">{{localize this.label}}</label>
+            </div>
+            <div class="form-fields">
+                <input name="system.facets.{{@key}}" type="text" value="{{lookup ../system.facets @key}}">
+            </div>
+        </div>
+        {{/each}}
+    </div>
+
+</div>
+
+{{!-- Actions --}}
+<div class="actions section">
+    <h2 class="section-title">{{localize "GUBAT_BANWA.Categories.Actions"}}</h2>
+    <div class="actions__grid">
+        {{#each system.actions as | value |}}
+        {{#with (lookup ../config.actions @key)}}
+        <div class="form-group">
+            <div class="form-label{{#if ../../editable}} js-rollable{{/if}}" data-roll-type="divine" data-roll-stat="{{@key}}">
+                <i class="fas {{icon}}"></i>
+                <span>{{localize label}}</span>
+            </div>
+            <div class="form-fields">
+                <input name="system.actions.{{@key}}" type="text" value="{{value}}" placeholder="0" data-dtype="Number"
+                    inputmode="numeric" pattern="[+=\-]?\d*">
+            </div>
+        </div>
+        {{/with}}
+        {{/each}}
+    </div>
+</div>
+
+{{!-- Biography --}}
+<div class="biography section">
+    <h2 class="section-title">{{localize "GUBAT_BANWA.Categories.Biography"}}</h2>
+    <div class="biography__grid">
+        <div class="form-group-stacked">
+            <label for="system.biography.conviction" class="form-label">{{localize
+                "GUBAT_BANWA.Kadungganan.Biography.Conviction"}}</label>
+            <textarea name="system.biography.conviction">{{system.biography.conviction}}</textarea>
+        </div>
+        <div class="form-group-stacked">
+            <label for="system.biography.passions" class="form-label">{{localize
+                "GUBAT_BANWA.Kadungganan.Biography.Passions"}}</label>
+            <textarea name="system.biography.passions">{{system.biography.passions}}</textarea>
+        </div>
+        <div class="form-group-stacked">
+            <label for="system.biography.folk" class="form-label">{{localize
+                "GUBAT_BANWA.Kadungganan.Biography.Folk"}}</label>
+            <input name="system.biography.folk" type="text" value="{{system.biography.folk}}">
+        </div>
+        <div class="form-group-stacked">
+            <label for="system.biography.culture" class="form-label">{{localize
+                "GUBAT_BANWA.Kadungganan.Biography.Culture"}}</label>
+            <input name="system.biography.culture" type="text" value="{{system.biography.culture}}">
+        </div>
+        <div class="form-group-stacked">
+            <label for="system.biography.lineage" class="form-label">{{localize
+                "GUBAT_BANWA.Kadungganan.Biography.Lineage"}}</label>
+            <textarea name="system.biography.lineage">{{system.biography.lineage}}</textarea>
+        </div>
+        <div class="form-group-stacked">
+            <label for="system.biography.subculture" class="form-label">{{localize
+                "GUBAT_BANWA.Kadungganan.Biography.Subculture"}}</label>
+            <textarea name="system.biography.subculture">{{system.biography.subculture}}</textarea>
+        </div>
+
+        <div class="form-group-stacked">
+            <label for="system.biography.lifeEvents" class="form-label">{{localize
+                "GUBAT_BANWA.Kadungganan.Biography.LifeEvents"}}</label>
+            <textarea name="system.biography.lifeEvents">{{system.biography.lifeEvents}}</textarea>
+        </div>
+        <div class="form-group-stacked">
+            <label for="system.biography.complications" class="form-label">{{localize
+                "GUBAT_BANWA.Kadungganan.Biography.Complications"}}</label>
+            <textarea name="system.biography.complications">{{system.biography.complications}}</textarea>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,122 @@
+{
+  "folder": "9wpSmsHfJ11axQYY",
+  "name": "Swordmaiden",
+  "type": "npc",
+  "_id": "BdVx8DnoJ9jnJm9O",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 6,
+      "max": 6,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 6
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 2
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>Sword wielding warriors that carry with them the prestige of the blade. They can set up attacks for allies as they batter down their foes.</p>",
+    "attacks": "<p><strong>Inflict Violence: Sword Dance.</strong> Attack all adjacent fighters with Bravery with a blade.</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Rush</p><p><strong>3-4:</strong> Rush &gt; <strong>Blade Beam [2]:</strong> Attack all fighters in an area (line 3) with Bravery.</p><p><strong>5-6:</strong> Rush &gt; <strong>Sword Smear [2]:</strong> Rush 6, ignoring terrain and moving through enemies. <strong>Attack each enemy moved through with Bravery, ignoring Combo Breaker.</strong></p><p><strong>7-8:</strong> <strong>Kalis Sayaw [3]:</strong> Fly 2 and then Inflict Violence. Do this effect twice more, ignoring combo breaker.</p>",
+    "speed": 5,
+    "jump": 2,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Blade Grace",
+        "description": "Can move 2 before or after an attack."
+      }
+    ],
+    "style": "raider"
+  },
+  "prototypeToken": {
+    "name": "Swordmaiden",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732011461670,
+    "modifiedTime": 1732011601944,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!actors!BdVx8DnoJ9jnJm9O"
+}

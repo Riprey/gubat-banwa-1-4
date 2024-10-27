@@ -1,0 +1,28 @@
+{
+  "name": "Sorcerer Robes",
+  "type": "anting",
+  "_id": "hN7razECL1fXrTaw",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>All your area attacks increase their pattern size by 1.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Robes of bright gold, embroidered with flowers and dragons. Designs common to Baikhan Agama Goh religion. Grants one a certain gravity. Agama Goh is a folk religion in Baik Hu. Professes the existence of a supreme principle known as GOH, or, The Way.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731965666723,
+    "modifiedTime": 1731965790085,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!hN7razECL1fXrTaw"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "EE5P0Rw3mEZgfIjC",
+  "name": "Ripping Comrade",
+  "type": "enlightenment",
+  "_id": "G3XDWMWugIiB81gO",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>You start Violence with a <strong>Pet,</strong> another hunting companion, adjacent to you. They share your <strong>Prowesses-1, minimum 1,</strong> but only have <strong>6 HP.</strong> They Rush when you Rush. Any enemy in 2 tiles of the Pet suffers +1d from all attacks. If they are defeated, you can only heal them when you <strong>find repose.</strong></p><p>When you <strong>Rally,</strong> your Pet may <strong>rush,</strong> and then all tiles adjacent to the pet becomes <strong>dangerous terrain</strong> vs all enemies.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Hunters in the Sword Isles make best friends with their pets, giving them names and treating them like siblings or their own children. They create lavish burials for their pets that die while in duty.</em></p>",
+    "discipline": "beast-hunter",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731910999579,
+    "modifiedTime": 1731911079532,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!G3XDWMWugIiB81gO"
+}

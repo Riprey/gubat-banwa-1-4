@@ -1,0 +1,30 @@
+{
+  "folder": "atC3RZwc46xjrBJw",
+  "name": "I - Forge The Bonds",
+  "type": "technique",
+  "_id": "9ukg8mObPuGgc8Bx",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>Depend on your allies, and forge bonds with them. You can call upon them as needed: they trust you and you trust them.</em></p><p>Spend 1 Beat to give yourself or 1 ally in range 5 a <strong>Bond Token,</strong> of which they can only have one. They can spend the Bond Token to reroll any single roll, but they must take the second result. Regale why you trust them so much.</p><p><strong>Temper The Ties:</strong> Spend 2 Beats to give yourself and all allies in burst 2 <strong>Bond Tokens.</strong></p><p><strong>Cool The Sword-Links:</strong> Spend 3 Beats. In addition to Bond Tokens, you now also give yourself and all your in the burst <strong>+Your Bravery</strong> to all their defenses until the start of your next riff. You however must riff <strong>last</strong> on the next Resound, after all other fighters have riffed at least once.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Rajraya Pintas' greatest student, Ilakat Salandra, was said to have perfected what the Rajaraya could not in the beginning: she perfected the form of being one with your warband, coordination and cooperation with one another.</em></p>",
+    "discipline": "senapati",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731886050319,
+    "modifiedTime": 1731886509449,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!9ukg8mObPuGgc8Bx"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "SELT6A2mCcLu4Lbv",
+  "name": "Flower Balyan",
+  "type": "discipline",
+  "_id": "pS8QDemQSjgVOCRK",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Channelers and Priests of the Sampaguita: the Jasmine of Death and the Ancestors, Speakers of the Departed, Ministers of Blessed Flower Corpses.</p></blockquote><p>Flower Balyan are a specialized martial clan of balyan that have focused on speaking with the dead: commonly wandering souls. More and more necromancers arise in modern times due to the rapid rise in violence and death. The wandering souls of those recently departed all cry the same thing: Where is the justice? When will it end?</p><p>Flower Balyan are usually, but not strictly, those alabay when they were younger, or shaman apprentices. Through this they learn the foremost important necromancy ritual: the ritual of pag-uli. Through this, they may be able to resurrect a person if their kalag is close enough. If not, then they would perform the rituals to send off the kalag to their final resting place. Flower Balyan are a step forward. They took this advantage during the rise of killing through violence, which has caused many kalag to not be sent properly to the afterlife.</p><p>Balyan see them in a negative light. Thus, Flower Balyan are much rarer than the usual balyan. In a very real sense, Flower Balyan are simply warrior- priestesses who have absorbed the teachings of death and used it to gain an edge. This kind of thinking is something Ba-e obviously loves, and they patronized and hired Flower Balyan alongside balyan in their polities. Only the most traditionalist of balyan sneer at them. Unfortuantely, that is still the majority. Dealing in matters of death is anathema to them, too close to the witcheries of the Uswang. Despite this, Flower Balyan follow the tenets of Dalankalag to the bitter end, the spiritual Path of the Soul.</p><p>Flower Balyan command death through flowers. <strong>Flowers</strong> are a symbol of not just life and blossoming, but also death. The jasmine, the <em>sampaga</em>, is a common flower associated with the dead. If you smell it out of the blue, it means the spirits of the ancestors watch over you, or your dead relatives are nearby.</p><p>Flower Balyan perfect these symbols to animate corpses, control bones, and inflict diseases through magickal formulas and their bargains with ghosts and wandering souls. Flower Balyan are sometimes known as <em>talo-patay,</em> or <em>dead courtiers,</em> because they are the best-skilled at speaking with wandering souls.</p><blockquote><p>If you become a Flower Balyan, you bring with you at all times your cord of sampaguita. Why do you carry it? Is it atonement? You lay to rest those that are dead, but can you ever give your own soul respite?</p></blockquote><p><strong>Weapons:</strong> Mudras, ritual knives, gunong, kris, prayer strips, sampaguita wreaths, flower thorns, laurels</p><p><strong>Armors:</strong> Ritual vestments, raiments, shawls, robes, sashes, malong, tapis, sarong</p>",
+    "hp": {
+      "max": 6
+    },
+    "speed": 3,
+    "jump": 1,
+    "prowesses": {
+      "brv": 0,
+      "fai": 1,
+      "pos": 0,
+      "res": 1
+    },
+    "trait": {
+      "description": "<p>Your <strong>fields</strong> cannot be removed by fire and are <strong>+1 size larger</strong> (a burst 2 field is burst 3). Any enemy in your fields suffer -1 to all defenses.</p><p>Any poison inflicted by you is <strong>Death</strong> (which is still considered poison). Death inflicts 2 True Hits at the end of the riff instead.</p>",
+      "flavor": "<p><em>Flower Balyan very often cultivate gardens of their own, either in their own houses or perhaps in their own settlements. These gardens are pieces of wonder, though their most striking part will always be a corpse flower in the middle of it all. Flower Balyan are fond of sampaguita, or jasmines, as they are the flowers of the dead. They cultivate the gardens because it is very often taught that to take a life, you must bring something else to life.</em></p>",
+      "name": "Flower Garden"
+    },
+    "violences": {
+      "flavor": "<p><em>These necromancers carry with them flowers inlaid with sorcerous script. When fired, they burn and execute a variety of magical effects. These sorcerous scripts are also found written in palm leaf strips, which Necromancers very often rip or tear to perform a variety of effects.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p><strong>Attack a fighter within 3 tiles with Faith,</strong> and then <strong>slide them 2.</strong> If they collide, they become <strong>wide open.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Jade Whip"
+        },
+        "2": {
+          "description": "<p>Choose an unoccupied tile in range 6. A <strong>burst 1 sampaguita field</strong> arises from it. Whenever an enemy starts their riff within the field, they become <strong>poisoned</strong>. If they're already poisoned, they suffer 1 Attack Die.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Sampaguita Fields"
+        },
+        "3": {
+          "description": "<p><strong>Attack a fighter in range 3 with Faith,</strong> and then <strong>bleed</strong> them. When the target suffers the Hit from Bleed, all allies in burst 2 of the target <strong>heal 1.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Harvest"
+        }
+      },
+      "name": "Death Blossom"
+    },
+    "identifier": "flower-balyan",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.FlowerBalyan",
+    "style": "witch"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730759538237,
+    "modifiedTime": 1730760011031,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!pS8QDemQSjgVOCRK"
+}

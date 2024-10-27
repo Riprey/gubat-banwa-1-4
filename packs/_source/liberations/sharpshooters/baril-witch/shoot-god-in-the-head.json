@@ -1,0 +1,30 @@
+{
+  "folder": "K2RXtcqdnckDMyx5",
+  "name": "Shoot God In The Head",
+  "type": "liberation",
+  "_id": "kIxzKhlnbqlBdZPZ",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 4+, you can summon the god of your gun and shoot it.</strong></p><p>Spend 1 Beat to <strong>change the weather into Bullet Hell</strong> until the end of violence, any enemy that leaves a tile suffers <strong>1 Hit.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Anything it takes,\" the ancestors tell you. Anything it takes to win? You've forged such an intimate connection with your GUN. \"The gun is but a tool,\" BALAHARI GILUSOT tells you. \"Do not get attached to beings that have never been human. Fool, kill it! Kill it now! Before it realizes your soul and shoots itself through you! A Gun Diwata is new and excited, and it does not know yet its power. The power to level entire nations. Now KILL IT! Bask in the bullet hell you've made, witch!\"</em></p>",
+    "discipline": "baril-witch",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731908285069,
+    "modifiedTime": 1731908402571,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!kIxzKhlnbqlBdZPZ"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Origins",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "vaiIx8YWXrKlPbKv",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1732050199155,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!folders!vaiIx8YWXrKlPbKv"
+}

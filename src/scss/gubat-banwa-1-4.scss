@@ -1,0 +1,53 @@
+@use "utils/clickable";
+@use "utils/editor" as *;
+@use "utils/variables";
+
+@use "sheets/actor" as *;
+@use "sheets/item" as *;
+
+@use "sheets/kadungganan" as *;
+@use "sheets/npc" as *;
+
+@use "base/typography" as *;
+@use "layout/header" as *;
+@use "layout/nav" as *;
+@use "layout/sidebar" as *;
+@use "components/arrays" as *;
+@use "components/buttons" as *;
+@use "components/chat";
+@use "components/collapsible";
+@use "components/debts" as *;
+@use "components/effects" as *;
+@use "components/form" as *;
+@use "components/equippables" as *;
+@use "components/pips" as *;
+@use "components/prowesses" as *;
+
+.gubat-banwa-1-4 {
+  @include buttons;
+  @include effects;
+  @include typography;
+
+  &.sheet {
+    @include arrays;
+    @include header;
+    @include nav;
+    @include pips;
+    @include sidebar;
+    @include wysiwyg;
+
+    &.actor {
+      @include actor;
+      @include debts;
+      @include equippables;
+      @include formFields;
+      @include kadungganan;
+      @include npc;
+      @include prowesses;
+    }
+
+    &.item {
+      // @include item;
+    }
+  }
+}

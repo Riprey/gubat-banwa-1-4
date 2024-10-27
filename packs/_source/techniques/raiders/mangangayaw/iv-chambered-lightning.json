@@ -1,0 +1,30 @@
+{
+  "folder": "8N8ulG4W3ZU86uV1",
+  "name": "IV - Chambered Lightning",
+  "type": "technique",
+  "_id": "uoT9fsjP64eA3i7c",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><strong>You chamber your blade, raising it high, finding the perfect opportunity to strike as needed.</strong> Spend 1 Beat to gain a chambered blade token. When you end a movement, or a fighter moves into adjacency of you, or you make an attack, you can spend the tokens to immediately inflict 1 Hit on an adjacent fighter.</p><p><strong>Gatling Blade:</strong> Spend 2 Beats to gain 3 Chambered Blade Tokens.</p><p><strong>Shri Bishaya's Sundering Mitrailleuse:</strong> Spend 3 Beats to rush 3 before gaining a token. If you end in a tile without any enemies adjacent, gain <strong>4 Chambered Tokens</strong> and taunt 1 enemy until they attack you.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Your blade is always ready. Now, you chamber it: it seems like an innocuous position, but it is actually a striking position. The calm before the storm. Mangangayaw are feared across the Sword Isles for this technique. Taught most widely by Grandmaster Liyasara of the Bladed Stick, who mastered the technique to remember his master</em></p>",
+    "discipline": "",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731826401477,
+    "modifiedTime": 1731826592731,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!uoT9fsjP64eA3i7c"
+}

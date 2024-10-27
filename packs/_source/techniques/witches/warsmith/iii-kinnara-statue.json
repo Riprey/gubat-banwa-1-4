@@ -1,0 +1,30 @@
+{
+  "folder": "eTLutlO6tSaB1V8C",
+  "name": "III - Kinnara Statue",
+  "type": "technique",
+  "_id": "OZA5WrEYXKvF6vqf",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>Utter incantations, meditate upon the great architect god and grow multiple hands to craft the statue of a kinnara.</em></p><p>Spend 1 Beat to put a gold kinnara (Size 1 Height 2, 6 Durability) on an adjacent square. All enemies adjacent to the kinnara suffer <strong>-2 Bravery.</strong> You can only have one kinnara statue at a time, putting down a new one dismantles the last one.</p><p><strong>Kinnara Icon:</strong> Spend 2 Beats. Put down a <strong>Size 2 Height 3</strong> version of the gold kinnara instead.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Kinnara statues judge the savage, as a Kinnara is created to protect her royalty. Gold is a holy metal in the isles. It is abundant, but only because the spirits grant it. Gold is so abundant, in fact, that entire houses are covered in sheets of it. However, it is still a mark of royalty. Gold is often used in sorcerous pursuits as well.</em></p>",
+    "discipline": "warsmith",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731905870059,
+    "modifiedTime": 1731905944002,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!OZA5WrEYXKvF6vqf"
+}

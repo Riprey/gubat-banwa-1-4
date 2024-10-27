@@ -1,0 +1,28 @@
+{
+  "name": "Great Shield",
+  "type": "anting",
+  "_id": "y7Wh4p9Gh0mn4zx8",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p><strong>1/Violence,</strong> you can use your <strong>Posture</strong> to defend against a <strong>Faith attack.</strong> Afterward you may <strong>Rush 2.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>This is a giant kalasag made of holy strangler fig fibers and wood, strengthened by balyan ritual.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731931623251,
+    "modifiedTime": 1731931657833,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!y7Wh4p9Gh0mn4zx8"
+}

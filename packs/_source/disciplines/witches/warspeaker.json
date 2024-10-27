@@ -1,0 +1,80 @@
+{
+  "folder": "SELT6A2mCcLu4Lbv",
+  "name": "Warspeaker",
+  "type": "discipline",
+  "_id": "JHmn4ZujfKpEYqvd",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Combat Mediators of the World, Lovers of Mantra, Channelers of Batala the Destroyer, Virtuosos of Warspeaking, Practitioners of Domination.</p></blockquote><p>The art of Speaking has not been lost upon the warriors of old. Of course not. Speech developed alongside violence. In many ways they are one and the same, the two sides of a single sword.</p><p>A few eras ago the counselors of an ancient God-King came together to create a martial art that would bind the two sides of the sword into one. To create a martial art that would cut through both falsehoods, politics, diplomacy, and violence to be able to arrive at a better world through peaceful speech instead of violent conquest. They spoke with the BATALA- BUDDHA, incarnated as the Devaraja Dharmadewa (known sometimes as Vatara Guru and Debata Siwa), the Creator- Destroyer, and they were given the Batalamentala, the Mentala of the Destroyer. These mentala (sacred utterances, a form of prayer-mantra) were used to invoke Batala's power, and were also used to influence the minds and dominate others through speech.</p><p>Of course, as with all things that are not completely Hiyang, they were not able to achieve this. Nay, perhaps that is too harsh. They turned the Batalamantras into the Gubatmantras, or War Mantras. It was meant to cut past any uncertainties to create a more harmonious bond, but it did anything but that. The War Mantras, when employed into combat, is known under the martial art of Warspeaking: utterances and rhetoric turned into attacks, logic and declarations as defenses.</p><p>The War Mantras are still perfected by many parawali today, thus why the Apumbukid term for the Warspeaker is Sundang Parawali, Sword Counselor. However, the term Warspeaker is strictly reserved for those that practice and perfect the convoluted art of Warspeaking.</p><p>It is one part rote (\"you must learn these particular rhetoric for they counter all swords\"), other parts theory (\"this particular word sequence requires proper application and proper context\") and even other parts psychology (\"know your enemy before employing this ironshield logic gate\"). However, once perfected, Warspeakers are known for traveling throughout the battlefield without wielding weapon nor armor, and being able to turn enemies traitor.</p><p>The five major techniques of Warspeaking deals in inflicting disarray with entropic mantras, domination which deals in controlling enemies with proper rhetoric, logic, and sacred utterance, inspiration which deals in imbuing allies with strength through proper speech, and illusion, the greatest of the Warspeaker's abilities, in which they are able to utter words that both destroy the illusion of the Trichiliocosm as well as manipulate the illusion. Through this they understand: the Trichiliocosm is an illusion of action, created through our senses, as we try and understand God.</p><blockquote><p>If you become a Warspeaker, ask yourself: you have perfected the art of talking, and choose to employ it in the battlefield? Why must you use it in the same way an ape would use a particularly sharp rock? With the right words you can bend buddhas and bodhisattvas to your will, let others find glory, and yet you choose to cutting ignorance. Your words might be sharp and your understanding of the illusion of the world strong, but who is the real fool?</p><p>You are nothing but a sword.</p></blockquote><p><strong>Weapons:</strong> Staff, fan, words, whispers, mockery, swords, daggers, hammers, silk sleeves, fly whisks</p><p><strong>Armors:</strong> Cloaks, silk jackets, silk pants, sarongs, headwraps, diadems, silk slippers</p>",
+    "hp": {
+      "max": 6
+    },
+    "speed": 3,
+    "jump": 2,
+    "prowesses": {
+      "brv": 0,
+      "fai": 2,
+      "pos": 0,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p>When you start your riff, choose which sutra of mantra you're <strong>uttering.</strong> The effect lasts until the start of your next riff:</p><ul><li><p><strong>Mantra of Suffering:</strong> All enemies in burst 3 of you suffer -1d to all Defenses.</p></li><li><p><strong>Mantra of Enervation:</strong> All enemies in burst 3 of you suffer -1d to all Attacks.</p></li><li><p><strong>Mantra of Obfuscation:</strong> All enemies that start their riff in burst 3 of you suffer <strong>slow.</strong></p></li></ul>",
+      "name": "War Mantras",
+      "flavor": "<p><em>The conception of Batala as the Supreme God arrived in the Isles after the Ashinin Missionaries brought the term BHATTARAKA meaning Noble Lord. BHATTARAKA is one of the names they used for their Auspicious God, the Absolute Reality, known as SRIWA.</em></p>"
+    },
+    "violences": {
+      "flavor": "<p><em>Warspeaking deals in inflicting disarray with entropic mantras, domination which deals in controlling enemies with proper rhetoric, logic, and sacred utterance, inspiration which deals in imbuing allies with strength through proper speech, and illusion, the greatest of the Warspeaker's abilities, in which they are able to utter words that both destroy the illusion of the Trichiliocosm as well as manipulate the illusion. Through this they understand: the Trichiliocosm is an illusion of action, created through our senses, as we try and understand God.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Attack an enemy in range 3 with Faith, and an ally in range 4 may taunt them until the end of their next riff.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Gossip"
+        },
+        "2": {
+          "description": "<p>Attack an enemy in range 3 with Faith, and then blow them wide open and inflict -1d on their next attack.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Mock"
+        },
+        "3": {
+          "description": "<p>Attack an enemy in range 3 with Faith and then slide them 3 tiles.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Superior Tactic"
+        }
+      },
+      "name": "Biting Commands"
+    },
+    "identifier": "warspeaker",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Warspeaker",
+    "style": "witch"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730719455392,
+    "modifiedTime": 1730754940149,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!JHmn4ZujfKpEYqvd"
+}

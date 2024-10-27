@@ -1,0 +1,28 @@
+{
+  "name": "Amihan Jasper",
+  "type": "anting",
+  "_id": "paKCfJ9qdDmGjyHZ",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>All your non-area attacks can now <strong>chill,</strong> and blow out <strong>fires,</strong> and have a <strong>25% chance</strong> of <strong>juggling</strong> their target.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A gleaming precious stone that can commonly be fitted into weapons. When done, imbues the weapon with a chilling wind.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731930233925,
+    "modifiedTime": 1731930280557,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!paKCfJ9qdDmGjyHZ"
+}

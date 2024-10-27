@@ -1,0 +1,30 @@
+{
+  "folder": "xV6f6w6qxrIfEsKW",
+  "name": "Ever Fiercer The Heart!",
+  "type": "liberation",
+  "_id": "1JiUuXpV5hNWiwEf",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 4+, you can blow your bodyong and fill your allies' hearts with the promise of triumph.</strong></p><p>Spend 2 Beats to make all your allies <strong>Riff twice per Resound,</strong> including the current one. If the Warband is still Defeated after using this Liberation, lose an additional 1 Honor.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"For many datu in the isles, some sort of divinity is a useful claim to royalty. This is because a ruler's powerbase in the isles depend on how much virtue or merit the commonfolk see that you have. If they realize that another, different warrior-brave or king has a more powerful claim to royalty, whether it be divine heritage, bloodline, or superior ultraviolence, then they will switch allegiance on a dime, following the more powerful one. Why would you follow a non-virtuous person? If you followed a virtuous leader, then you will cultivate virtue yourself.\" - Sermons on Virtue and Rulership by Sri Kadasiga Mahawagas</em></p>",
+    "discipline": "senapati",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731908662426,
+    "modifiedTime": 1731908744526,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!1JiUuXpV5hNWiwEf"
+}

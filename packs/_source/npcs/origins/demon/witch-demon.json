@@ -1,0 +1,140 @@
+{
+  "folder": "OMEj6aVEGRtjgjHq",
+  "name": "Witch Demon",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 5,
+      "max": 5,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 2
+      },
+      "fai": {
+        "value": 8
+      },
+      "pos": {
+        "value": 1
+      },
+      "res": {
+        "value": 3
+      }
+    },
+    "description": "<p>A demon that has perfected witchcraft. Attracted to places of powerful sorceries, and wishes to destroy all witchcraft. Weaker mortals might create pacts with this demon to access sorcery.</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Sulfur.</strong> Attack an enemy in range 5 with Faith, setting them aflame and poisoning them.</p><p><strong>Gambits</strong> [[/r d6]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>3-4:</strong> Rush &gt; <strong>Enrage [1]:</strong> Choose a fighter in range 3. They suffer -2 to all Defenses but +2 to all attacks until the end of their next riff &gt; Inflict Violence</p><p><strong>5:</strong> Rush &gt; <strong>Witchpact [2]:</strong> Choose up to 2 different fighters in burst 5. They must attack with an inflict violence.</p><p><strong>6:</strong> Rush &gt; <strong>Blood Rope [1]:</strong> Connect two fighters or objects within range 5 of the Witch Demon to each other. A rope of blood binds them together: they cannot move further from each other. They must take time to remove the rope.</p>",
+    "speed": 3,
+    "jump": 2,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Fester",
+        "description": "At the start of Resound 2+, all demons fester: their unique trait triggers and they gain +1d to all attacks until the end of the Resound. They fester every start of Resound afterwards."
+      },
+      {
+        "name": "Atrocious Residue",
+        "description": "When a Demon is Defeated, they discorporate and roll 1 Attack Die on all enemies in the battlefield. Unless the battlefield is purified or cleansed by proper rituals, they will rise again after eighty seven days."
+      },
+      {
+        "name": "Violent Devil God",
+        "description": "At the start of a Resound, if there are exactly 3 demons left in the battlefield, they may combine into a Violent Devil God: choose one demon as the main body. Add all remaining HP together, and the main body gains +1 to all Prowesses and becomes Size 3."
+      },
+      {
+        "name": "Antigod",
+        "description": "All demons are vulnerable to anything that might sear away corruption and darkness."
+      },
+      {
+        "name": "Pact",
+        "description": "When the witch hits a fighter, they can form a pact with the fighter until the end of the fighter's next riff. The fighter with a pact cannot directly attack the Witch. When the witch festers, they bleed all enemies in the battlefield. Already bleeding enemies suffer poison."
+      }
+    ],
+    "style": "witch"
+  },
+  "prototypeToken": {
+    "name": "Witch Demon",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732051041614,
+    "modifiedTime": 1732189033717,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "nGTpioSfTwTsw1Yo",
+  "sort": 400000,
+  "_key": "!actors!nGTpioSfTwTsw1Yo"
+}

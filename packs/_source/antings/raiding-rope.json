@@ -1,0 +1,28 @@
+{
+  "name": "Raiding Rope",
+  "type": "anting",
+  "_id": "63PAxv5biFnpB5D5",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>When you <strong>rush,</strong> you can instead to choose a tile in range 3, and then pull yourself to that tile or move into any tile adjacent to it.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A rope made of abaca, with a hook at the end. Used for boats, but equally useful against warriors.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731965034922,
+    "modifiedTime": 1731965060202,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!63PAxv5biFnpB5D5"
+}

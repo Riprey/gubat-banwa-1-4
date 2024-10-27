@@ -1,0 +1,30 @@
+{
+  "folder": "ubiLMevFQYbYP1ii",
+  "name": "Gajasangkra's Meditation",
+  "type": "enlightenment",
+  "_id": "il5LGqcH9Am9bZqd",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>1/Riff, you can ignore any instance of <strong>forced movement.</strong></p><p>When you end your riff, choose one of the eight directions that you're <strong>blocking against.</strong> Gain <strong>+1 Parry</strong> against all attacks from that direction.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Gajasangkra is the Guardian Lord of the Northwest, which is the land of constant monsoons and whirlpools. If she doesn't guard that place with her thousand hands, the seas will drain into wine and milk, killing all Folk in Gubat Banwa. And so she keeps the sea from overflowing, and so does she suffer the corroding chaos of wine.</em></p>",
+    "discipline": "kawal",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731910167498,
+    "modifiedTime": 1731910272706,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!il5LGqcH9Am9bZqd"
+}

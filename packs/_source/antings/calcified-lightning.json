@@ -1,0 +1,28 @@
+{
+  "name": "Calcified Lightning",
+  "type": "anting",
+  "_id": "NclOMHvaUyobuYl6",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>When you roll an <strong>10</strong> on an attack, you can <strong>shock</strong> the target. Your attacks that shock deal +1d.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A piece of lightning that has been frozen and put into a necklace or a bangle. Turns one's eyes bright orange and their hair white.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731930873126,
+    "modifiedTime": 1731930913008,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!NclOMHvaUyobuYl6"
+}

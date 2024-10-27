@@ -1,0 +1,10 @@
+@mixin header {
+  .sheet-header {
+    flex: 0;
+
+    h1 input {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}

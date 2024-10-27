@@ -1,0 +1,30 @@
+{
+  "folder": "7g9rywdcUEH12FPW",
+  "name": "IV - Consort With The Sun And Stars",
+  "type": "technique",
+  "_id": "BebAfHrZusWApU7O",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You perform the cleansing rites and reach out to the Light, filled with burning holy radiance. This ritual dance is even more crazed than before, and arms of light erupt from the dancer.</em></p><p>Spend 1 Beat to take on the <strong>Astral Dance Stance</strong> until the start of your next riff. While in this stance, all enemies in burst 2 are considered as <strong>dazzled,</strong> and you and all allies gain <strong>+1d</strong> on all attacks.</p><p><strong>Dance With The Mahadiwa:</strong> Spend 2 Beats. All enemies in the burst when taking on this stance are <strong>Stunned.</strong></p><p><strong>Make Love With The Great Night:</strong> Spend 3 Beats. You and all allies in the burst when taking on this stance gain <strong>+1 to all Prowesses</strong> instead until you lose this stance on the end of your next riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The Ten Mahadiwa are said to be great gods and goddesses who live in heaven, earth, and hell to help and mingle with the lives of mortals. It is important to consider then that these Mahadiwa were once warriors, who all died in war, and thus were made gods by the rainbow that carried them to the Sky. Thus each of the Mahadiwa are capable of human thought, speech, and understanding. They possess the Knowledge of Good and Evil that they used to have when they were humans. When a Mahadiwa dies or is killed, they simply reincarnate as another Mahadiwa. Through this, they live 999,999,999,999 lives.</em></p><p><em>Mahadiwa Tala Kinabanaagan is the Bronze Multiplicitous Sidereal Steward of Stars, who lives in the Morning Star that brings with it the dawn. Mahadiwa's karakoa and coterie of 180 Star Servants Upon Astral Palanquins are said to fly across the sky, pulling the dark blankets of night away and giving it back to the Moon, Tsandira Dayawa. She watches the earth, and guards many secrets to sorcery, as the givers of sorcery are hidden away in the darkest voids of night. Mahadiwa Tala Kinabanaagan is also said to grant Hiyang to those that spend their 305 lives trying to achieve it.</em></p><p><em>Those she grants Hiyang to are given corporeal forms as stars upon the sky. Her being can be seen in the dawn, the dusk, the lightning bolts, the shooting stars, the comets, and the asteroids. She has lived her entire life in enlightenment. It is said that when she died, she was on the cusp of Hiyang, and when she was killed by a Ten- Fathoms Long Lance, she became a star that exploded upon the field, burning all in smokeless flame, and then shot up into the sky as the Evening Star. She is said to have a mirror image: Mahadiwa Kalakatri Duumanun, her darker side, the shadow that wraps around each star at night. They are both all at once the same and also different. The Bulakdiwa say: she is like this because she dared venture into the deepest parts of the night sky, further and further, past the void and the world jaws and the endless seas of chaos. Past the firmament, and past the darkness.</em></p><p><em>The Bulakdiwa say: what she found, apparently, was not God, nor the Throne, nor Enlightenment - for how could she? She is already nature itself - but instead she found that she was swimming up, up, up, and up into the ocean.</em></p><p><em>Her enlightenment is thus: the depths of the ocean and the farthest reaches of the void are one and the same. And when she understood the cyclical nature of reality and metareality, she realized that she lived in a world of unconstrained principles, she realized then that she lived in a world fabricated by dancers and singers and artists singing songs and laughing about a bonfire, and that split her into two, and her enlightenment-beyond-enlightenment was lost. But she still remembers. She knows the kinds of god-beings - many just as powerful as her - living in the Depths|Void.</em></p><p><em>The Evening Star burns continuously. She is an evershining flame. Aba, aba, glory to the Morning Star. In the Eclipse Era, only she has the sidereal violence to shine into the new world.</em></p>",
+    "discipline": "warrior-balyan",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731834310670,
+    "modifiedTime": 1731834642440,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!BebAfHrZusWApU7O"
+}

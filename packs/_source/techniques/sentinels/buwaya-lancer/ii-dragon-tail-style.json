@@ -1,0 +1,30 @@
+{
+  "folder": "Ub6O0B1Z1JrnVnPY",
+  "name": "II - Dragon Tail Style",
+  "type": "technique",
+  "_id": "0rIotCUW4eJympfo",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><strong>You strike with a giant weapon or your crocodile tail, breaking enemies:</strong> spend 1 Beat to attack all enemies in an area (blast 3) with Bravery. All adjacent targets are <strong>slowed.</strong></p><p><strong>Immense Crocodile Technique:</strong> Spend 2 Beats to blow all targets wide open as well and <strong>taunt</strong> them until the end of your next riff.</p><p><strong>Dragon Blade Cuts Swathes:</strong> Spend 3 Beats to <strong>rush 3</strong> before the attack. 1 adjacent target is <strong>stunned.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<ol><li><p><em>Woe, woe be to those that would dare defy the Buwaya!</em></p></li><li><p><em>That ancient god of the rivers, that dragon of the lake.</em></p></li><li><p><em>Woe, and calamity. - Daknunuk Sutla 98</em></p></li></ol>",
+    "discipline": "buwaya-lancer",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731814212893,
+    "modifiedTime": 1731814737348,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!0rIotCUW4eJympfo"
+}

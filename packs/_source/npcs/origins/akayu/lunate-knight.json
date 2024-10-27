@@ -1,0 +1,144 @@
+{
+  "name": "Lunate Knight",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 24,
+      "max": 24,
+      "blocks": 0
+    },
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 8
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 4
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p><strong>Chief.</strong> A warrior that has on the vestments and raiments of death and violence. These warriors offer their lives for Goddess, knowing they will enjoy Bliss in Lunar Heaven as their reward for dying in violence. They are almost impossible to kill, and many have had to create new weapons to simply deal with them. Their tenacity is unmatched.</p><p>(The stats provided here is for a Rank 1 encounter with 4 Kadungganan. Check the book for higher ranks.)</p>",
+    "speed": 5,
+    "jump": 3,
+    "threat": 2,
+    "style": "raider",
+    "traits": [
+      {
+        "name": "Poise",
+        "description": "Whenever a Chief suffers a Status Effect or is forcibly moved, they can choose to ignore it and gain a Poise Token instead. When they gain 5 Poise Tokens, they become Poise Broken: they can suffer all Status Effects, can be forcibly moved as normal, and cannot gain any more Poise Tokens. While Poise Broken, a Chief loses 1 Poise Token whenever they start their riff. When they lose all Poise Tokens, they lose Poise Broken and can again gain Poise Tokens."
+      },
+      {
+        "name": "Dragon Eye",
+        "description": "Chiefs can riff a number of times per Resound equal to the Kadungganan."
+      },
+      {
+        "name": "Divine Striving",
+        "description": "Whenever a fighter falls to 0 HP, all Akayu fighters gain Striving until the end of their next riff. Their attacks gain Overwhelming and they have +1 to all Prowesses. When they lose Striving, they heal 2."
+      },
+      {
+        "name": "Juggernaut",
+        "description": "The Lunate Knight can move through enemies, pushing them 1 and colliding with them, but the Lunate Knight does not suffer Hits from Collision."
+      },
+      {
+        "name": "Overwhelming Fury",
+        "description": "At Resound 3+, all of the Lunate Knight's Melee Attacks become Overwhelming."
+      },
+      {
+        "name": "Blessed By Goddess",
+        "description": "When they rush, they Fly for the duration of the movement. If they end on a higher elevation, they gain +1d on their next attack."
+      }
+    ],
+    "attacks": "<p><strong>Inflict Violence: Waxing Moon Blade.</strong> Attack all enemies in an area (blast 4) with Bravery, with burning holy radiance.</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong><span style=\"text-decoration: underline;\">Phase 1: Cloth Wrapped.</span></strong><span style=\"text-decoration: underline;\"> Wrapped in burial garments. They have already died before the fight has begun.</span></p><p><strong>1-4:</strong> Rush &gt; Inflict Violence &gt; Rush</p><p><strong>5-8:</strong> Rush &gt; <strong>Cleave [2]:</strong> Attack all fighters in an area (Line 5) with Bravery+Faith.</p><p><strong><span style=\"text-decoration: underline;\">Phase 2: Moonclad.</span></strong><span style=\"text-decoration: underline;\"> Ripped off garments, clad in the cloth-plate of moonsilk. Scars all about. Cuts don’t seem to bleed. Every start of riff, </span><strong><span style=\"text-decoration: underline;\">heal 1.</span></strong></p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>3-4:</strong> Rush &gt; <strong>Cleave [2]:</strong> Attack all fighters in an area (Line 5) with Bravery+Faith.</p><p><strong>5-6:</strong> Rush &gt; <strong>Moon Dive [2]:</strong> Fly 5 and then attack all enemies in burst 1 with Bravery, burning with holy radiance.</p><p><strong>7-8: Lunar Heaven [3]:</strong> Fly 10 towards the center of the battlefield. At the end of the current Resound, destroy the battlefield, making it a flat square no terrain or elevation changes. The second time this is used, instead bring all enemies in the field to 0 HP, then set all Defenses to <strong>1</strong> for the rest of the fight. Use this automatically at Resound 4.</p>",
+    "resource": ""
+  },
+  "prototypeToken": {
+    "name": "Lunate Knight",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "oopDMHTLASt4L5w4",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731533648818,
+    "modifiedTime": 1732137481300,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "HeGHzXJz8Ok9EJqp",
+  "sort": 0,
+  "_key": "!actors!HeGHzXJz8Ok9EJqp"
+}

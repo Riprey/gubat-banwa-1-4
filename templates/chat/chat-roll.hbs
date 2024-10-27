@@ -1,0 +1,18 @@
+<div class="gubat-banwa-chat dice-roll dice-tooltip">
+    <div class="dice-result">
+        {{#if statLabel}}<header class="gubat-banwa-chat__name"><h2>{{localize statLabel}}</h2></header>{{/if}}
+        <ol class="dice-rolls">
+            {{#each results}}
+            <li class="roll die d{{../faces}}{{#if this.success}} success{{/if}}">{{{this.result}}}</li>
+            {{/each}}
+        </ol>
+        {{formula}}
+        {{#if (eq total 0)}}
+        <h4 class="dice-total">{{localize
+            "GUBAT_BANWA.Dice.NoSuccess"}}</h4>
+        {{else}}
+        <h4 class="dice-total">{{{total}}} {{localize
+            "GUBAT_BANWA.Dice.Successes"}}{{#times total}}!{{/times}}</h4>
+        {{/if}}
+    </div>
+</div>

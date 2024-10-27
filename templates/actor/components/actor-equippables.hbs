@@ -1,0 +1,94 @@
+<div class="equippables section">
+    <div class="equippables__header-row">
+        <h2 class="equippables__heading">{{localize titleLabel}}</h2>
+        <div class="equippables__limits">
+            {{#if equippables.maxEquipped}}
+            {{equippables.numEquipped}} / {{equippables.maxEquipped}}
+            {{/if}}
+        </div>
+    </div>
+    {{#if (or equippables.unequipped.length equippables.equipped.length)}}
+    <ul class="equippables__list equippables__list--equipped">
+        {{#each equippables.equipped}}
+        <li class="equippable collapsible collapsed" data-item-id="{{_id}}">
+            <div class="equippable__row">
+                <div class="equippable__name{{#if ../editable}} js-toggle-collapsible{{/if}}">
+                    <img src="{{img}}" alt="{{name}}" class="equippable__image">
+                    <div class="equippable__titles equippable__titles--stacked">
+                        <span class="equippable__title">{{name}}</span>
+                        {{#if system.disciplineLabel}}
+                        <span class="equippable__subtitle">{{localize system.disciplineLabel}}</span>
+                        {{/if}}
+                    </div>
+                </div>
+                <div class="equippable__controls">
+                    {{#if ../editable}}
+                    {{#if (isdefined system.used)}}
+                        {{#if system.used}}
+                            <button class="js-item-control" type="button" data-action="toggle-use" data-tooltip="{{localize "GUBAT_BANWA.UI.Used"}}">
+                                <i class="far fa-hand"></i>
+                            </button>
+                        {{else}}
+                            <button class="js-item-control" type="button" data-action="toggle-use" data-tooltip="{{localize "GUBAT_BANWA.UI.Unused"}}">
+                                <i class="fas fa-hand"></i>
+                            </button>
+                        {{/if}}
+                    {{/if}}
+                    <button class="js-item-control" type="button" data-action="unequip" data-tooltip="{{localize "GUBAT_BANWA.UI.Equipped"}}">
+                        <i class="fas fa-shirt"></i></button>
+                    <button class="js-item-popout" type="button" data-tooltip="{{localize "GUBAT_BANWA.UI.SeeMore"}}">
+                        <i class="fas fa-circle-info"></i></button>
+                    <button class="js-send-message" type="button" data-action="message" data-tooltip="{{localize "GUBAT_BANWA.UI.Message"}}"
+                        data-title="name" data-content="system.description"><i class="fas fa-message"></i></button>
+                    <button class="js-item-control" type="button" data-action="delete" data-tooltip="{{localize "GUBAT_BANWA.UI.Delete"}}">
+                        <i class="fas fa-trash"></i></button>
+                    {{/if}}
+
+                </div>
+            </div>
+            <div class="equippable__description collapsible__content">{{{system.description}}}</div>
+        </li>
+        {{/each}}
+    </ul>
+    <ul class="equippables__list equippables__list--unequipped">
+        {{#each equippables.unequipped}}
+        <li class="equippable collapsible collapsed" data-item-id="{{_id}}">
+            <div class="equippable__row">
+                <div class="equippable__name{{#if ../editable}} js-toggle-collapsible{{/if}}">
+                    <img src="{{img}}" alt="{{name}}" class="equippable__image">
+                    <div class="equippable__titles equippable__titles--stacked">
+                        <span class="equippable__title">{{name}}</span>
+                        {{#if system.disciplineLabel}}
+                        <span class="equippable__subtitle">{{localize system.disciplineLabel}}</span>
+                        {{/if}}
+                    </div>
+                </div>
+                <div class="equippable__controls">
+                    {{#if ../editable}}
+                    <button class="js-item-control" type="button" data-action="equip" data-tooltip="{{localize "GUBAT_BANWA.UI.Unequipped"}}">
+                        <i class="far fa-shirt"></i></button>
+                    <button class="js-item-popout" type="button" data-tooltip="{{localize "GUBAT_BANWA.UI.SeeMore"}}">
+                        <i class="fas fa-circle-info"></i></button>
+                    <button class="js-send-message" type="button" data-action="message" data-tooltip="{{localize "GUBAT_BANWA.UI.Message"}}"
+                        data-title="name" data-content="system.description"><i class="fas fa-message"></i></button>
+                    <button class="js-item-control" type="button" data-action="delete" data-tooltip="{{localize "GUBAT_BANWA.UI.Delete"}}">
+                        <i class="fas fa-trash"></i></button>
+                    {{/if}}
+                </div>
+            </div>
+            <div class="equippable__description collapsible__content">{{{system.description}}}</div>
+        </li>
+        {{/each}}
+    </ul>
+    {{else}}
+    <div class="equippables__empty{{#if editable}} js-open-compendium{{/if}}" data-action="open"
+        data-target="{{compendium}}">
+        {{#if editable}}
+        <i class="fas fa-plus"></i>
+        <div class="equippables__empty-message">{{localize "GUBAT_BANWA.Kadungganan.AddEquippable" itemType=equippableType}}</div>
+        {{else}}
+        <div class="equippables__empty-message">{{localize "GUBAT_BANWA.Kadungganan.NoEquippable" itemType=equippableType}}</div>
+        {{/if}}
+    </div>
+    {{/if}}
+</div>

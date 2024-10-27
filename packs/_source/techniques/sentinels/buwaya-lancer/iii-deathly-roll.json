@@ -1,0 +1,30 @@
+{
+  "folder": "Ub6O0B1Z1JrnVnPY",
+  "name": "III - Deathly Roll",
+  "type": "technique",
+  "_id": "C8RmHoaXxQDPv4AQ",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><strong>You burst forward, ripping into a target, and then savage them.</strong> Spend 1 Beat to attack an adjacent fighter on the same elevation as you with Bravery + 2. This attack has <strong>Overwhelming.</strong> If the target is <strong>slowed or stunned,</strong> this hits on <strong>4+.</strong></p><p><strong>Maws of Hell:</strong> Spend 2 Beats to target up to three targets in blast 3.</p><p><strong>Divine Consumption:</strong> Spend 3 Beats to <strong>heal 1</strong> per <strong>Hit inflicted,</strong> after parries.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Usa: Who will find you when you are in fragments? </em></p><p><em>Duha: Do you not quiver at the sight?</em></p><p><em>Tulo: This is the divine butchering, the ancestors ripping the world.</em></p><p><em>Upat: Do you understand? You are not meant to see this.</em></p><p><em>Lima: Rejoice, then. Rejoice. Here, you shall taste bliss. Only in Sulad will you achieve enlightenment.\"</em></p><p><em>- Pagoda Tree Sage Sutla 44</em></p>",
+    "discipline": "buwaya-lancer",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731814526027,
+    "modifiedTime": 1731814723205,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!C8RmHoaXxQDPv4AQ"
+}

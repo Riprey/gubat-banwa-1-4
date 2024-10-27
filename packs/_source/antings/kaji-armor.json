@@ -1,0 +1,28 @@
+{
+  "name": "Kaji Armor",
+  "type": "anting",
+  "_id": "T4PkGJYKUXqXiYNl",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>You're immune to being set aflame and fire, and you're resistant to attacks of fire and heat.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Kaji is the god of fire found in the isles, from the Ashinin god of fire Ajki. The armor dances with the smokeless flame of sacrificial ritual fire. The first to find and wield this armor was known as the Magmabreaker Tunggadiraja, who conquered the volcano naga of the isle of Kadaki. Must be obtained from Kajibalyan, priests of Kaji.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731931761921,
+    "modifiedTime": 1731931799672,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!T4PkGJYKUXqXiYNl"
+}

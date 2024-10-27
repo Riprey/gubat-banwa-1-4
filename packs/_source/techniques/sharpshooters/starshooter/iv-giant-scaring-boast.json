@@ -1,0 +1,30 @@
+{
+  "folder": "K9ElAPZA6itez0OD",
+  "name": "IV - Giant Scaring Boast",
+  "type": "technique",
+  "_id": "Q1HxlA4PWjS8ByuJ",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You shout so loud that it throws your opponents off - a classic tactic.</em></p><p>Spend 1 Beat and blast all enemies in blast 3 <strong>wide open</strong> and <strong>slow</strong> them.</p><p><strong>Soul-Breaking Screech:</strong> Spend 2 Beats. Instead <strong>stun</strong> all enemies in burst 2.</p><p><strong>Soul Piercing Strike:</strong> Spend 3 Beats: <strong>attack a single fighter in range 6 with Bravery</strong> afterwards. If the attacker is exactly 6 tiles away, they are <strong>stunned,</strong> blown <strong>wide open,</strong> and their defenses suffer -1d until the end of their next riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"WALAAAAAA PUKININGINA MO DUKHA WALA ANG HINA MO TANGINA HAHA TANGINA BA'T KA PA NAGLALARO TANGINAMO WEAKSHIT KALANG EH ANO ANO ANO ANO IIYAK KA ANO ANO ANO—\" - Boasting by Team Naga-nagaan in the Match in the Cold Lonely Valley deep in Kalanawan.</em></p>",
+    "discipline": "starshooter",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731905463711,
+    "modifiedTime": 1731905586799,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!Q1HxlA4PWjS8ByuJ"
+}

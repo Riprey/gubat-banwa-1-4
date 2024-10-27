@@ -1,0 +1,30 @@
+{
+  "folder": "Zi7Gjoq0Ai0HMlWS",
+  "name": "I - Ghokong Vaults to Heaven",
+  "type": "technique",
+  "_id": "4hcy6VjhtgFUCzh0",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You leap across the battlefield upon the wings of thunderclouds and lightning.</em></p><p>Spend 1 Beat to <strong>fly 4.</strong> If you end adjacent to an enemy, gain +1d on your next melee attack and it <strong>shocks.</strong></p><p><strong>Ghokong Challenges The Devaraja:</strong> Spend 2 Beats. <strong>Juggle</strong> all enemies adjacent to you after the flight.</p><p><strong>Ghokong Battles The Buddha:</strong> Spend 3 Beats. After juggling, <strong>attack an adjacent juggled enemy with Bravery,</strong> and then <strong>slam them to the ground,</strong> inflicting <strong>Stunned</strong> and <strong>1 Hit.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Ghokong is an ancient monkey warrior, one of the best to have lived, who helped the ancient ascetic shaman-monk Tulopitaka to the far Southeast to collect ancient manuscripts lost to time in ancient Stillshrines. He is one of the greatest Kadungganan to ever live.</em></p>",
+    "discipline": "heavenspear",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731903467004,
+    "modifiedTime": 1731903571759,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!4hcy6VjhtgFUCzh0"
+}

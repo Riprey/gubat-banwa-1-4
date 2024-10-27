@@ -1,0 +1,30 @@
+{
+  "folder": "cMZlJpzeGpXhqFSe",
+  "name": "I - Musang Talon Mentala",
+  "type": "technique",
+  "_id": "vT9ppjvQcPmBG2he",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You incant mentala that sharpens blades, then strike the air with blistering speed, inscribing the surat with every sword stroke.</em></p><p>Spend 1 Beat <strong>attack an enemy with range 4 with Faith,</strong> then you or one ally in range 3 of the target <strong>Hits on a 5+</strong> on their next attack.</p><p><strong>Miro Fangs Mentala:</strong> Spend 2 Beats to inscribe a more complex mentala: you or the chosen ally also gains <strong>Overwhelming</strong> and <strong>Skewering</strong> on their next attack.</p><p><strong>Harimau Claw Mentala:</strong> Spend 3 Beats to draw a tiger in the air with surat. The benefit now lasts until the end of your next riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Taught to Bladeweavers by a traveling cat who chopped trees with a single claw. Your heart sings: your sword is oiled by the blood of your soul. All your strikes will find their way. When this mentala is incanted, warriors take upon the fierce visages of wild cats and tigers.</em></p>",
+    "discipline": "bladeweaver",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731880247781,
+    "modifiedTime": 1731880324903,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!vT9ppjvQcPmBG2he"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "wtcklgWTS3lxrquR",
+  "name": "Star of Morning",
+  "type": "liberation",
+  "_id": "FvjF3iAMmIy2xYyG",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 2+, you can kick anything into the sky.</strong></p><p>Spend 1 Beat: the kicked thing scintillates in heaven, and then turns into a <strong>meteor</strong> slowly falling into the battlefield, bursting through the clouds. </p><p>It starts as a <strong>Size 2 object.</strong> Every beginning of a Resound, its size grows by <strong>1.</strong> For 1 Beat, you may <strong>teleport to the sky</strong> and then axe kick the meteor to the ground, dealing <strong>1 + Size Hits</strong> to every fighter in the battlefield that is not behind blocking terrain (the meteor hits the centermost tile of the battlefield, the burst emanating from that).</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>This technique, taught only to those fully inducted into the arts of the Starshooter, emulates the first Sipa game with the comet god. In this alternative interpretation, Bulalakaw kills all of the 85 that saw the first game, and in the violence, the 85 became the 85 Sidereal Mansions, burning in the sky and dictating destinies if one should seek them. To this day, the Sidereal Mansions play this violent star-version of Bulalakaw's game, and it is said that they were the ones that taught this violent version of the game to the first Starshooters.</em></p>",
+    "discipline": "starshooter",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731909473369,
+    "modifiedTime": 1731909595017,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!FvjF3iAMmIy2xYyG"
+}

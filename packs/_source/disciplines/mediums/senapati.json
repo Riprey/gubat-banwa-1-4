@@ -1,0 +1,80 @@
+{
+  "folder": "5222xbL5Amax0G5p",
+  "name": "Senapati",
+  "type": "discipline",
+  "_id": "p08PxoQeumJsoI4S",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Warlords! Disciples of the Conquering King, Peerless Tacticians, Practitioner of the Martial Art of Commandment and Strategy, Ministers of the Battlefield.</p></blockquote><p>Senapati are born from blood spilled and shed on the battlefield, that wretched hive of violence. With formidable tactics and peerless knowledge of the field, they guide their allies to victory.</p><p>The first Senapati is said to be the great first Conquering King, Rajaraya Pintas, who blew open the sky-gates and spoke with the Sky God Si Gurang Tungko, the elder Sky God, son of the Ancient Formless Sky (who is crowned in majesty but is overwhelmingly humbled as he seeks his wife who has left him). Rajaraya Pintas was an ancient demigiant who accomplished the feat of Heaven-Conquest due to his peerless leading skill. His headwrap, the Batara Pudong, burns with the ancient knowledges of compassion and benevolence, as despite being a Conquering King, he was only able to conquer the sky with the strength of his allies.</p><p>To become a Senapati, one does not exactly need to be the right hand of the Datu. Senapati are trained and honed in the battlefield: anyone who gains an intuitive ability to inspire their allies, pull off impressive tactical displays, and learn the strengths and weaknesses of their comrades are viable to become Senapati. Of course, there are various masters of the Senapati art that can and will help: entire settlements have been built around the mastery of that grand martial art, wherein each technique is less an attack and more of a tactical move.</p><p>While Senapati are found across the Sword Isles, it is in Virbanwa's mandala wherein they flourished, as much of the practitioners of this style found employment and knighthood, bolstering the war machine. Despite this, much of Senapati styles are inherited from Sinukuan warriors and Gatusan war chiefs. It is obvious in the name of their techniques.</p><p>Senapati are common across the isles now, even though they as a formal tradition arose during the Lakan Conspiracy, when they needed to rally warriors and to marshal tactics required to bring down the Pale King Hegemony. Senapati have always existed even before then: the title is an ancient one, belonging to the oldest of oldest of kingdoms, written and passed down in unweatherable copperplate.</p><p>Senapati are warlords of warbands, but Panglima are commanders of warrior armies. Laksamana, a name shared by an ancient monkey god-king that killed Maharajah Lawana in Banjarmasir, is the term for admiral of a sea warband. With the rise of sky barges, the term Galura, a term for the spawn of the great Eagle God Garuda, has become used as a term for sky admirals.</p><blockquote><p>If you become a Senapati, ask yourself why you lead your allies into inevitable violence. Your skills are fine tuned for the bloodshed caused in combat. Do you revel in the melee? Do you see yourself as a god of the battlefield? Why? Why have you chosen to be a creature of battle, a master of war yet beholden by it?</p></blockquote><p><strong>Weapons:</strong> Bodyong, chopping swords, straight swords, bolo, gunong, barong, sundang</p><p><strong>Armor:</strong> Baroti (cotton), baroti (bamboo), elephant hide pakil, cuirass, paruka, bahag, tampi, sarong, headwrap</p>",
+    "hp": {
+      "max": 8
+    },
+    "speed": 5,
+    "jump": 1,
+    "prowesses": {
+      "brv": 1,
+      "fai": 0,
+      "pos": 1,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p>You have a <strong>Warlord Presence</strong> that is a <strong>Burst 3 aura.</strong> While you're not Defeated, when an ally starts their riff, they and all adjacent allies (including you) may <strong>rush 1, ignoring terrain,</strong> keeping adjacency. Additionally, as long as your allies are within burst 3 of you, they gain <strong>+1d to all Attack Rolls.</strong></p>",
+      "flavor": "<p><em>The Conquering King Art was said to have been codified by Rajaraya Pintas, the First Lord, after he returned to the earth and traveled it even as the Cycles of Violence flowed. He gave it to those that would have the Bloody Want strong enough to conquer heaven once again, and find a means to end the Cycle of Violence. Each Strike is at the same time a proclamation, a Technique, and a commandment. Yet Rajaraya Pintas learned one thing as he conquered heaven: that he could not do it alone.</em></p>",
+      "name": "Commander-At-Arms"
+    },
+    "violences": {
+      "flavor": "<p><em>Your mastery of the battlefield is apparent and well known. However, the most important thing is actually your mastery of your allies. With the proper maneuvers and training, you command the battlefield through the strength of your bonds.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Choose a fighter that can see and hear you within range 3. They may <strong>inflict violence</strong> for free. If you use this on an enemy, you can <strong>confuse</strong> them instead.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Blow The Bodyong"
+        },
+        "2": {
+          "description": "<p>You and another ally in range 3 may <strong>rush 2,</strong> and then you <strong>attack an adjacent fighter with Bravery.</strong></p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Seize The Thunderclap"
+        },
+        "3": {
+          "description": "<p>Encourage yourself or 1 ally that can see and hear you within 3 tiles: They <strong>heal 1</strong> and can <strong>rush 1.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Keep Going"
+        }
+      },
+      "name": "Our King City"
+    },
+    "identifier": "senapati",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Senapati",
+    "style": "medium"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730757666104,
+    "modifiedTime": 1730758817748,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!p08PxoQeumJsoI4S"
+}

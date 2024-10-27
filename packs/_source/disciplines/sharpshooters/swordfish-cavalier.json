@@ -1,0 +1,80 @@
+{
+  "folder": "LnAo5BZsPk9wDjck",
+  "name": "Swordfish Cavalier",
+  "type": "discipline",
+  "_id": "XGqkDN2qmFgBl4Xh",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Shaman Knights of the Seas and Rivers, of the Swordfish, Warriors that Medium the Tides of the Sea.</p></blockquote><p>Swordfish Cavaliers are shaman knights of the Swordfish, the <strong>vahana</strong> of the Seasword God <strong>Margosatubig.</strong> As spirit mediums and skilled riders of the balu, the balu mount they summon is a little god, who lives in a talisman that they wear around their necks. They can summon this balu at almost any time. The <strong>balu</strong> are giant swordfish with noses sharper than spears and wings as large as an eagle's. While they require water to breathe, they can stay up in the air for quite some time.</p><p>Swordfish Cavaliers are trained by the best of the best in their villages, as taming a balu is an entire endeavor all to itself. One must train a balu since their infancy to form a proper connection with them. Since balu are one of the quickest animals in The Sword Isles, they have been used to corrale and subdue enemy advances in war. Balu are outfitted with chain linked mails and hardwood armors as well.</p><p>Swordfish Cavaliers are said to have a distant rivalry with the other riding Disciplines, particularly the buwaya riders. This is because they have both been invented by enemy villages. Riding a balu is a sacred act of oneness with nature, and requires a balyan ritual to officiate. Swordfish Cavaliers are known to use bamboo or hardwood recurve bows for their choice of weapon, or any other long-ranged implement, to attack and skewer from mid-range.</p><p>Swordfish Cavaliers know the lay of the land and they know the movement of the sea. If you were a Swordfish Cavalier you must've begun your childhood close to water, whether it be a pond or the ocean. You are intimate with the ways of fishing, wielding harpoon and net to catch your prey. If anyone needs a helping hand when it comes to fishing and hunting, Swordfish Cavaliers are usually well-trained in this regard.</p><p>Swordfish Cavaliers tend to be the first into a battle, with their superior speed being able to move them across the battlefield with relative ease. Due to their mounts, they will be usually tasked with jobs or duties that would need quick movement or ability to float a few feet over land and water. While balu can submerge, the riders usually cannot hold their breath for long.</p><p>Swordfish Cavaliers constitute the elite cavalry of the Sultana. Elite Swordfish Cavaliers are exalted and trained from birth, and are reared up in the closest way of the Bulanan. Swordfishes are ancient and holy animals that were ridden by Baginda Sumongsuklay Themself, and were the holy steeds of Ayah Menat, the First Prophet, when they had to travel the Two Thousand and One Oceans to reach the Sword Isles.</p><p>Swordfish cavaliers are often well-versed with the sea. No land-lover can practice the Swordfish Cavalier Art: they will not be able to stomach the otherness of the ocean. But those who can, learn the secrets of Margosatubig himself, the first practitioner of this martial art.</p><blockquote><p>If you become a Swordfish Cavalier, ask yourself: why do you ride upon the wings of legends to inflict violence? The folly of men dapples your arrowhead, why must you enslave nature to scatter your enemies' entrails upon the ground?</p></blockquote><p><strong>Weapons:</strong> Bows, guns, crossbows, spears, lances, tridents, axes, hammers</p><p><strong>Armors:</strong> Silk jackets, sashes, robes, sarongs, malongs, pants, sarouels, headwraps, vests, long tunics</p>",
+    "hp": {
+      "max": 8
+    },
+    "speed": 4,
+    "jump": 2,
+    "prowesses": {
+      "brv": 0,
+      "fai": 1,
+      "pos": 1,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p>You ignore <strong>water terrain</strong> and you can <strong>rush 1 after</strong> every ranged attack.</p><p>All your area attacks have <strong>+1 to their pattern</strong> (Line 3 becomes Line 4). All your ranged attacks can now <strong>douse,</strong> gain <strong>+1d on all attacks against Shocked, Chilled, and Aflame fighters,</strong> and <strong>splash:</strong> inflict <strong>1 Hit</strong> against all enemies adjacent to the target after the attack.</p>",
+      "name": "Seawind Rider",
+      "flavor": "<p><em>Margosatubig became the seawind rider after defending a weakened Ratusamudra, the Queen of the Ocean, from the attacks of the earth demon Rusarasa. Ratusamudra's holy beast form is the flying swordfish, and so Margosatubig became the first Swordfish Cavalier</em></p>"
+    },
+    "violences": {
+      "flavor": "<p><em>As a Swordfish Cavalier, you might be mounted upon a swordfish, or some other similar piscine creature, though you can choose to not have a mount at all, and simply channel the spirit of a fish.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Douse all enemies adjacent to you, and then turn into a water jet and move half your Speed, ignoring terrain. Douse all enemies adjacent to you after the movement as well.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Wave Dash"
+        },
+        "2": {
+          "description": "<p><strong>Attack all fighters in an area (range 4 Line 4) with Faith,</strong> dousing them. If they're already doused, roll +Bravery</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Sea Spear"
+        },
+        "3": {
+          "description": "<p><strong>Attack a fighter in range 5 with Faith,</strong> and then douse them. Then, all doused enemies in burst 1 of the target suffer <strong>1 Attack Die</strong> and become <strong>Chilled,</strong> losing doused.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Frostwind Shot"
+        }
+      },
+      "name": "Knight of the Sea"
+    },
+    "identifier": "swordfish-cavalier",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.SwordfishCavalier",
+    "style": "sharpshooter"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730722352292,
+    "modifiedTime": 1730754736063,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!XGqkDN2qmFgBl4Xh"
+}

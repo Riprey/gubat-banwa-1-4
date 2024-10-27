@@ -1,0 +1,80 @@
+{
+  "folder": "SELT6A2mCcLu4Lbv",
+  "name": "Beast Hunter",
+  "type": "discipline",
+  "_id": "ouUuztVviYd2OEDJ",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Martial Artists of the Perfect Hunt, Tamers of the Divine Wilds, Seekers of Truth and Hunters of Gods.</p></blockquote><p>Hunting is a popular trade and profession in the isles. It's how one gets pig and meat, after all. And pig caught in the forest is a ritual sacrifice, filled with spiritual meaning and power. Hunting in the isles are done either by one's self, with traps, or with a dog or two, who can pin down game.</p><p>When war broke out, and constant violence loomed, specialized warrior-hunters arose, pointing their traps and their dogs at their enemies. These warrior-hunters used their dogs and traps to hunt the greatest prey: fellow warriors. They call themselves the Beast Hunters, for they both hunt and handle beasts, and what are warriors but beasts of a different name? The Akai Clan that began the Beast Hunter Art is long gone, their traditions dispersed across all of the isles. But yes, it was Akai that first saw their applicability in war, and began granting nobility and vassalage to hunters who would join the Sultana's following and army. An even smaller contingent of elite hunters serve as her royal hunters, outfitted with silks and golds and jades.</p><p>Beast Hunters use a large variety of constructed traps to control the battlefield. They might bait their enemies, use strange pits to make them fall, or soften the soil to make them slip quicker. Beast Hunters are unmatched when it comes to manipulating the battlefield with their ingenuity and closest allies. They thrive in the mid-range, putting down traps to shut down enemy movement and skill.</p><p>Most importantly, the Beast Hunter focuses on flowing, mindful movements that incorporate their Hunting Beast. Hunting beasts are fierce and they never back down, and they even prefer to fight against things larger than them, the devil bastards. They rejoice in the glory of savaging a giant boar or crocodile or stag and bringing them writhing to the floor. The most common beast is a witch dog, forest canines that can climb trees and have constantly sharp claws, but common hunting beasts also include monkey-eating eagles, fierce civets, juvenile crocodiles, an sometimes even wild warty boars.</p><p>Beast Hunters are sought after for their trapmaking expertise and their peerless skill in surviving the deep forests. They come from all walks of life, and with their hunting companions, they can take on whatever challenge that will come their way, with a combination of their wit, their innovative skill, and the fierceness of their hunting beasts.</p><blockquote><p>If you choose to be that consummate warrior-hunter, ask why you used your hunting and trade for battle. What made you hunt the ultimate predator? Why do you sic your hunting beasts at your fellow man?</p></blockquote><p><strong>Weapons:</strong> Spears, harpoon, bows, guns, crossbows, daggers, gunong, barong, throwing knives</p><p><strong>Armors:</strong> Shawls, breastplates, sarongs, pants, sandals, war jacket, lamellar</p>",
+    "hp": {
+      "max": 6
+    },
+    "speed": 4,
+    "jump": 2,
+    "prowesses": {
+      "brv": 1,
+      "fai": 0,
+      "pos": 0,
+      "res": 1
+    },
+    "trait": {
+      "description": "<p><strong>You have a hunting beast with you, choose what kind of beast they are.</strong> They share your Prowesses.</p><ul><li><p><strong>Small (Birds, Insects, Serpents):</strong> 3 HP, 4 Speed, 3 Jump. All enemies adjacent to them suffer -1d to their Defenses.</p></li><li><p><strong>Medium (Canines, Felines, Flightless Birds):</strong> 4 HP, 5 Speed, 1 Jump. Can move 2 whenever you start your riff.</p></li><li><p><strong>Behemoth (Crocodiles, Elephants, Boar):</strong> 5 HP, 3 Speed, 1 Jump. The behemoth <strong>guards</strong> all allies (including you) that are in burst 1 of them.</p></li></ul><p>When your pet loses all their HP they don't become <strong>Defeated,</strong> instead becoming unable to move until you or an ally takes time to revive them while adjacent to them.</p><p>When they move or are forcibly moved, while you're adjacent to them, you may move with them, keeping adjacency.</p>",
+      "name": "Hunting Beast",
+      "flavor": "<p><em>Beast Hunters have with them a powerful companion, a Hunting Beast, usually a dog, but possibly also boars, owls, cats, or any other beast they have created a connection with. These Hunting Beasts are very commonly chosen from birth, and you live all your life with them. They are very often anointed with lunar oils. Beast Hunters fail their best friends sometimes. It is required, a suffering lesson, to reach mastery of the Perfect Hunt.</em></p>"
+    },
+    "violences": {
+      "flavor": "<p><em>The Godbeast Hunter Jinrud Aceh Pakali could not capture a legendary tiger whose fur was whiter than lunarblooms. Therefore, in the midst of the night, when the Moon was full, he removed the balatik from its fixture on the ground and hunted down the Tiger God. The Tiger God was so impressed at Jinrud's tenacity that they fought Jinrud on his own terms, until Jinrud slew them. In thanks, Jinrud cut off the deer's antlers and gave it back to the forest. Jinrud has since then began teaching advanced Beast Hunters the art of wielding the Skewering Spear.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Shoot with a gun or a bow: attack a fighter in range 5 with <strong>Bravery,</strong> then inflict <strong>Slow.</strong></p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Hunting Shot"
+        },
+        "2": {
+          "description": "<p>Assault with a blade or spear: attack an adjacent fighter with <strong>Bravery,</strong> then inflict <strong>Bleeding.</strong></p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Bleeding Edge"
+        },
+        "3": {
+          "description": "<p>You whistle or command your pet. Choose one:</p><ul><li><p>your beast can <strong>Rush,</strong> or</p></li><li><p>your beast <strong>guards</strong> an adjacent fighter, or</p></li><li><p>your beast attacks <strong>an adjacent fighter with your Bravery.</strong></p></li></ul>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Beastmastery"
+        }
+      },
+      "name": "Mountain Dog Guardian"
+    },
+    "identifier": "beast-hunter",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.BeastHunter",
+    "style": "witch"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730720020930,
+    "modifiedTime": 1730777710591,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!ouUuztVviYd2OEDJ"
+}

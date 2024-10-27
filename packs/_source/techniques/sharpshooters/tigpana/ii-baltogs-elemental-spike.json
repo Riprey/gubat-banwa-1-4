@@ -1,0 +1,30 @@
+{
+  "folder": "AOOTY2UGtU1dPiaS",
+  "name": "II - Baltog's Elemental Spike",
+  "type": "technique",
+  "_id": "XIcR9WPTaLLVFiXD",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You attune your arrows to the elements with a breath of your enlightenment.</em></p><p>Spend 1 Beat to choose 1 from below. These effects stack and end on your next riff:</p><ul><li><p>your ranged attacks <strong>set aflame.</strong></p></li><li><p>your ranged attacks <strong>shock.</strong></p></li><li><p>your ranged attacks <strong>chill.</strong></p></li><li><p>your ranged attacks <strong>poison.</strong></p></li><li><p>your ranged attacks gain <strong>+1 range.</strong></p></li></ul><p><strong>Rabot's Dark Debilitations:</strong> Spend 2 Beats to choose 2 above, with the following new options as well:</p><ul><li><p>Your ranged attacks <strong>debilitate.</strong></p></li><li><p>Your ranged attacks <strong>dazzle.</strong></p></li></ul><p><strong>Asuang's Cursed Arrows:</strong> Spend 3 Beats to choose up to 3 and then immediately attack a fighter in range 5 with Bravery or Faith.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>With a breath and a prayer to the ancestors, your arrows start burning with elemental fervor.</em></p>",
+    "discipline": "tigpana",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731837759920,
+    "modifiedTime": 1731838325249,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!XIcR9WPTaLLVFiXD"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "hzPF9UbJxdeJXbAG",
+  "name": "IV - Gumamela Field",
+  "type": "technique",
+  "_id": "OzZhfWxJvgSVuCjE",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>With a silent whisper, you summon a field of reaping hibiscuses.</em></p><p>Spend 1 Beat and choose a tile in range 4. A <strong>burst 1 hibiscus field</strong> bursts from it. When an enemy moves into or starts their riff in the field, they suffer a Hit. If this defeats the enemy, they are bound by flower, vine, and corpse.</p><p>If the field is <strong>set aflame,</strong> it turns into a <strong>Corpseflame Field:</strong> all enemies treat the Corpseflame field as <strong>fire.</strong></p><p><strong>Mela's Promise:</strong> Spend 2 Beats. Increase the area to <strong>burst 2.</strong> All tiles in the field are difficult terrain for enemies.</p><p><strong>Gumeng's Great Glory:</strong> Spend 3 Beats. Choose up to 5 tiles in the field: corpses (Size 1 Height 1 Blocking Terrain, indestructible) arise from the chosen tiles.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A gumamela is a hibiscus native to the isles. It is so named after Gumeng and Mela, a mortal man and his diwata lover. The diwata lover killed him in a moment of grief, realizing that Mela cannot live with Gumeng forever. Then she killed herself, for she cannot suffer such blasphemy. The first gumamela flowers blossomed from their corpses. Once known simply as \"Bulaklak ni Gumeng at Mela,\" which means \"Flowers of Gumeng and Mela\", it is now known as Gumamela.</em></p>",
+    "discipline": "flower-balyan",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731903155147,
+    "modifiedTime": 1731903594440,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!OzZhfWxJvgSVuCjE"
+}

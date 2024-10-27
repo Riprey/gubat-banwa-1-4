@@ -1,0 +1,30 @@
+{
+  "folder": "K9ElAPZA6itez0OD",
+  "name": "III - Sidereal Setup Style",
+  "type": "technique",
+  "_id": "jRJw3g8F2p36mEnS",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You whistle, calling out a killing move, and then you and your allies burst into a practiced maneuver.</em></p><p>Spend 1 Beat to mark a single fighter that you can see. When you or an ally makes an attack against the marked fighter, gain +1 Attack Dice. The mark doesn't go away until the fighter has suffered a number of attacks equal to the number of Kadungganan.</p><p><strong>Break!:</strong> Spend 2 Beats. You and all allies in burst 4 of the marked fighter may also <strong>rush 3 immediately</strong> and gain <strong>Evade</strong> against the next attack, as they're moving into position.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>You dig down and kick a projectile up into the air, and your allies see this as a proper signal. The Star of Morning is a style that turns play into violence. An important aspect of Sipa is the rule that you lose if you lose your volley. The ball must always be in the air. Therefore so do you keep your burning star aloft.</em></p>",
+    "discipline": "starshooter",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731905365857,
+    "modifiedTime": 1731905445523,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!jRJw3g8F2p36mEnS"
+}

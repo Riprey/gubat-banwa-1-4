@@ -1,0 +1,247 @@
+<aside class="sidebar">
+
+    {{!-- Portrait --}}
+    <div class="portrait">
+        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
+    </div>
+
+    {{!-- Thunderbolts --}}
+    {{#if system.thunderbolts includeZero=true}}
+    <div class="form-group">
+        <div class="form-label">
+            <i class="fas fa-bolt"></i>
+            <label for="system.thunderbolts">{{localize "GUBAT_BANWA.Kadungganan.Thunderbolts"}}</label>
+        </div>
+        <div class="form-fields">
+            {{#if editable}}
+            <button class="js-value-control" data-action="decrease" data-target="system.thunderbolts" type="button"><i
+                    class="fas fa-minus"></i></button>
+            {{/if}}
+            <input name="system.thunderbolts" type="text" value="{{system.thunderbolts}}" placeholder="0"
+                data-dtype="Number" inputmode="numeric" pattern="[+=\-]?\d*">
+            {{#if editable}}
+            <button class="js-value-control" data-action="increase" data-target="system.thunderbolts" type="button"><i
+                    class="fas fa-plus"></i></button>
+            {{/if}}
+        </div>
+    </div>
+    {{/if}}
+
+
+    {{!-- Health --}}
+    <div class="form-group">
+        <div class="form-label">
+            <i class="fas fa-heart"></i>
+            <label for="system.hp.value">{{localize "GUBAT_BANWA.Actor.HitPearls"}}</label>
+        </div>
+        <div class="form-fields">
+            <input name="system.hp.value" type="text" value="{{system.hp.value}}" placeholder="0" data-dtype="Number"
+                inputmode="numeric" pattern="[+=\-]?\d*">
+            <span class="separator">&sol;</span>
+            {{#if discipline}}
+            <span class="max">{{system.hp.max}}</span>
+            {{else}}
+            <input name="system.hp.max" type="text" value="{{system.hp.max}}" placeholder="0" data-dtype="Number"
+                inputmode="numeric" pattern="[+=\-]?\d*">
+            {{/if}}
+        </div>
+    </div>
+
+    {{!-- Blocks --}}
+    {{#if system.hp.blocks includeZero=true}}
+    <div class="form-group">
+        <div class="form-label">
+            <i class="fas fa-shield-heart"></i>
+            <label for="system.hp.blocks">{{localize "GUBAT_BANWA.Actor.Blocks"}}</label>
+        </div>
+        <div class="form-fields">
+            {{#if editable}}
+            <button class="js-value-control" data-action="decrease" data-target="system.hp.blocks" type="button"><i
+                    class="fas fa-minus"></i></button>
+            {{/if}}
+            <input name="system.hp.blocks" type="text" value="{{system.hp.blocks}}" placeholder="0" data-dtype="Number"
+                inputmode="numeric" pattern="[+=\-]?\d*">
+
+            {{#if editable}}
+            <button class="js-value-control" data-action="increase" data-target="system.hp.blocks" type="button"><i
+                    class="fas fa-plus"></i></button>
+            {{/if}}
+        </div>
+    </div>
+    {{/if}}
+
+    {{!-- Wounds --}}
+    {{#if system.wounds includeZero=true}}
+    <fieldset class="pips">
+        <legend class="pips__legend">{{localize "GUBAT_BANWA.Kadungganan.Wounds"}}</legend>
+
+        <div class="pips__track">
+            {{#if editable}}
+            <button class="js-value-control" data-action="decrease" data-target="system.wounds.value" type="button"><i
+                    class="fas fa-minus"></i></button>
+            {{/if}}
+            {{#each system.wounds.options}}
+            <label class="pips__label">
+                <span class="u-sr-only">{{this}}</span>
+            </label>
+            <input class="pips__input" type="radio" id="wounds_{{this}}" name="system.wounds.value" value="{{this}}"
+                data-dtype="Number" {{#if (eq ../system.wounds.value this)}}checked{{/if}}>
+            {{/each}}
+            {{#if editable}}
+            <button class="js-value-control" data-action="increase" data-target="system.wounds.value" type="button"><i
+                    class="fas fa-plus"></i></button>
+            {{/if}}
+        </div>
+    </fieldset>
+    {{/if}}
+
+    <hr class="sidebar-divider">
+
+    {{!-- Size --}}
+    {{#if system.size}}
+    <div class="form-group">
+        <div class="form-label">
+            <i class="fas fa-universal-access"></i>
+            <label for="system.height">{{localize "GUBAT_BANWA.Actor.Size"}}</label>
+        </div>
+        <div class="form-fields">
+            <input name="system.size" type="text" value="{{system.size}}" placeholder="0" data-dtype="Number"
+                inputmode="numeric">
+        </div>
+    </div>
+    {{/if}}
+
+    {{!-- Height --}}
+    {{#if system.height includeZero=true}}
+    <div class="form-group">
+        <div class="form-label">
+            <i class="fas fa-tree"></i>
+            <label for="system.height">{{localize "GUBAT_BANWA.Actor.Height"}}</label>
+        </div>
+        <div class="form-fields">
+            <input name="system.height" type="text" value="{{system.height}}" placeholder="0" data-dtype="Number"
+                inputmode="numeric">
+        </div>
+    </div>
+    {{/if}}
+
+    {{!-- Speed --}}
+    {{#if system.speed includeZero=true}}
+    <div class="form-group">
+        <div class="form-label">
+            <i class="fas fa-person-running"></i>
+            <label for="system.speed">{{localize "GUBAT_BANWA.Attribute.Speed"}}</label>
+        </div>
+        <div class="form-fields">
+            {{#if discipline}}
+            <span>{{system.speed}}</span>
+            {{else}}
+            <input name="system.speed" type="text" value="{{system.speed}}" placeholder="0" data-dtype="Number"
+                inputmode="numeric" pattern="[+=\-]?\d*">
+            {{/if}}
+        </div>
+    </div>
+    {{/if}}
+
+    {{!-- Jump --}}
+    {{#if system.jump includeZero=true}}
+    <div class="form-group">
+        <div class="form-label">
+            <i class="fas fa-dove"></i>
+            <label for="system.jump">{{localize "GUBAT_BANWA.Attribute.Jump"}}</label>
+        </div>
+        <div class="form-fields">
+            {{#if discipline}}
+            <span>{{system.jump}}</span>
+            {{else}}
+            <input name="system.jump" type="text" value="{{system.jump}}" placeholder="0" data-dtype="Number"
+                inputmode="numeric" pattern="[+=\-]?\d*">
+            {{/if}}
+        </div>
+    </div>
+    </div>
+    {{/if}}
+
+    <hr class="sidebar-divider">
+
+    {{!-- Discipline Resource --}}
+    {{#if (isdefined system.resource)}}
+    <div class="form-group-stacked">
+        <div class="form-label">
+            <label for="system.resource">{{localize "GUBAT_BANWA.UI.Resource"}}</label>
+        </div>
+        <div class="form-fields">
+            <input name="system.resource" type="text" value="{{system.resource}}">
+        </div>
+    </div>
+    {{/if}}
+
+    {{!-- Stance --}}
+    {{#if (isdefined system.stance)}}
+    <div class="form-group-stacked">
+        <div class="form-label">
+            <label for="system.stance">{{localize "GUBAT_BANWA.UI.Stance"}}</label>
+        </div>
+        <div class="form-fields">
+            <input name="system.stance" type="text" value="{{system.stance}}">
+        </div>
+    </div>
+
+    <hr class="sidebar-divider">
+    {{/if}}
+
+    {{!-- Honor --}}
+    {{#if system.honor includeZero=true}}
+    <div class="form-group">
+        <div class="form-label">
+            <i class="fas fa-award"></i>
+            <label for="system.honor">{{localize "GUBAT_BANWA.Kadungganan.Honor"}}</label>
+        </div>
+        <div class="form-fields">
+            {{#if editable}}
+            <button class="js-value-control" data-action="decrease" data-target="system.honor" type="button"><i
+                    class="fas fa-minus"></i></button>
+            {{/if}}
+            <input name="system.honor" type="text" value="{{system.honor}}" placeholder="0" data-dtype="Number"
+                inputmode="numeric" pattern="[+=\-]?\d*">
+            {{#if editable}}
+            <button class="js-value-control" data-action="increase" data-target="system.honor" type="button"><i
+                    class="fas fa-plus"></i></button>
+            {{/if}}
+        </div>
+    </div>
+    {{/if}}
+
+    {{!-- Debts --}}
+    {{!-- Handlebars does not evaluate an empty array as truthy. --}}
+    {{#if (isdefined system.debt)}}
+    <div class="debts">
+        <header class="section-title section-title--controls">
+            <div class="debts__title">{{localize "GUBAT_BANWA.Categories.Debts"}}</div>
+            {{#if editable}}
+            <button type="button" class="js-array-control" data-action="create" data-target="system.debt"
+                data-tooltip="{{localize "GUBAT_BANWA.UI.New"}}" data-tooltip-direction="UP">
+                <i class="fas fa-plus"></i>
+            </button>
+            {{/if}}
+        </header>
+        <section class="debts__content">
+            <ol class="debts__list array-list">
+                {{#each system.debt}}
+                <li class="debt array-item">
+                    <input class="debt__description" name="system.debt.{{@index}}.description" type="text"
+                        value="{{description}}" placeholder="Description">
+                    <input class="debt__value" name="system.debt.{{@index}}.value" type="text" value="{{value}}"
+                        placeholder="0" data-dtype="Number" inputmode="numeric" pattern="[+=\-]?\d*">
+                    {{#if ../editable}}
+                    <button type="button" class="js-array-control" data-action="delete" data-target="system.debt"
+                        data-target-index="{{@index}}" data-tooltip="{{localize "GUBAT_BANWA.UI.Delete"}}"
+                        data-tooltip-direction="UP"><i class="fas fa-trash"></i></button>
+                    {{/if}}
+                </li>
+                {{/each}}
+            </ol>
+        </section>
+    </div>
+    {{/if}}
+</aside>

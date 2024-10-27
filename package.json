@@ -1,0 +1,28 @@
+{
+  "name": "gubat-banwa-1-4",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "npm run build:css && npm run build:db",
+    "build:css": "sass src/scss/gubat-banwa-1-4.scss css/gubat-banwa-1-4.css --style=expanded --no-source-map",
+    "build:db": "node ./packs.mjs package pack",
+    "build:json": "node ./packs.mjs package unpack",
+    "watch": "sass src/scss/gubat-banwa-1-4.scss css/gubat-banwa-1-4.css --style=expanded --source-map --watch"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Riprey",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsdoc": "^50.4.3",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "sass": "^1.80.4",
+    "yargs": "^17.7.2"
+  }
+}

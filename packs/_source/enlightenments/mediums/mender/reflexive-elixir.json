@@ -1,0 +1,30 @@
+{
+  "folder": "G7uWMqfeFCPd8pPr",
+  "name": "Reflexive Elixir",
+  "type": "enlightenment",
+  "_id": "E10fuun93m79coVm",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p><strong>When you or an ally is Staggered for the first time in Violence,</strong> you or they immediately heal 1/4 of their max HP. This can only trigger once per ally per Violence (a fighter cannot benefit from Reflexive Elixir twice).</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>All magical effects are just a matter of the correct combination of herbs, knowledge of the soul, and twisting of your own ghost. As a master healer, use this to your advantage, and channel Sri Dewa Sarripada Agas.</em></p>",
+    "discipline": "mender",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731912167113,
+    "modifiedTime": 1731912206675,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!E10fuun93m79coVm"
+}

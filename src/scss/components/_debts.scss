@@ -1,0 +1,15 @@
+@mixin debts {
+  .debts {
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .debt {
+    &__value {
+      flex: 0;
+    }
+  }
+}

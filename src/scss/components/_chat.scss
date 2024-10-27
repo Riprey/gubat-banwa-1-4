@@ -1,0 +1,16 @@
+.gubat-banwa-chat {
+  &__name {
+    background-color: var(--gubat-banwa-red-darker);
+    color: var(--gubat-banwa-color-text-light);
+    padding: 0.5rem 0.25rem;
+
+    h1,
+    h2,
+    h3 {
+      font-family: var(--gubat-banwa-font-headings);
+      font-variant: small-caps;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+  }
+}

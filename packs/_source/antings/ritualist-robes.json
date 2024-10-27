@@ -1,0 +1,28 @@
+{
+  "name": "Ritualist Robes",
+  "type": "anting",
+  "_id": "B3E7QhwtAR6oafBA",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>When you suffer a status effect that you don't want, you have a <strong>25% chance</strong> of clearing it immediately.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Robes belonging to balyan: a white gown, a shawl of indigo, a diadem of flowers with hornbill plumage, white gold bangles and anklets and necklaces. Imbues you with spiritual merit.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731965077652,
+    "modifiedTime": 1731965114601,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!B3E7QhwtAR6oafBA"
+}

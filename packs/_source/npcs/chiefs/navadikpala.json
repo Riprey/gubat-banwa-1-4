@@ -1,0 +1,140 @@
+{
+  "name": "Navadikpala",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 24,
+      "max": 24,
+      "blocks": 0
+    },
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 3
+      },
+      "fai": {
+        "value": 2
+      },
+      "pos": {
+        "value": 6
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>Powerful warriors that guard not just the eight, but nine directions. Many of them are attributed with supreme devotion, and are thus said to have the merit of BATALA the Supreme Auspicious God. The term Navadikpala is given only to the greatest of warriors, those that have given their lives to their Devarajas and will not hesitate to die for them.</p><p>(The stats provided here is for a Rank 1 encounter with 4 Kadungganan. Check the book for higher ranks.)</p>",
+    "speed": 4,
+    "jump": 2,
+    "threat": 2,
+    "style": "sentinel",
+    "traits": [
+      {
+        "name": "Poise",
+        "description": "Whenever a Chief suffers a Status Effect or is forcibly moved, they can choose to ignore it and gain a Poise Token instead. When they gain 5 Poise Tokens, they become Poise Broken: they can suffer all Status Effects, can be forcibly moved as normal, and cannot gain any more Poise Tokens. While Poise Broken, a Chief loses 1 Poise Token whenever they start their riff. When they lose all Poise Tokens, they lose Poise Broken and can again gain Poise Tokens."
+      },
+      {
+        "name": "Dragon Eye",
+        "description": "Chiefs can riff a number of times per Resound equal to the Kadungganan."
+      },
+      {
+        "name": "Verumkai Master",
+        "description": "The Navadikpala is immune to stun and resistant to attacks that shock or set aflame."
+      },
+      {
+        "name": "Perfect Vadivu",
+        "description": "1/riff, when an enemy attacks the Navadikpala, they may inflict 1 Hit back at the attacker."
+      },
+      {
+        "name": "Pervasive Kalari",
+        "description": "Fighters marked by the Navadikpala suffers -1 Speed."
+      }
+    ],
+    "attacks": "<p><strong>Inflict Violence: Kali Panabas.</strong> Attack all enemies in an area (blast 3) with Bravery, and then mark all hit until the end of the Resound.</p><p><strong>Gambits</strong> [[/r d4]]</p><p><strong><span style=\"text-decoration: underline;\">Phase 1: Rudra Warden</span></strong></p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Rush</p><p><strong>3-4:</strong> Rush &gt; <strong>Rudra Roar [1]</strong>: Stun 1 adjacent fighter &gt; Inflict Violence</p><p><strong><span style=\"text-decoration: underline;\">Phase 2: Ninth Direction Unlock.</span></strong><span style=\"text-decoration: underline;\"> Trigger automatically when Staggered.</span></p><p><strong>1:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>2:</strong> Rush &gt; <strong>Rudra Roar [1]</strong>: Stun 1 adjacent fighter &gt; Inflict Violence</p><p><strong>3:</strong> Rush &gt; <strong>Trishul [2]:</strong> Attack all enemies in line 10 with Bravery, setting aflame and shocking.</p><p><strong>4:</strong> <strong>Tandava [2]:</strong> Choose a tile in range 2. All enemies in burst 3 of that tile are pulled to it &gt; <strong>Astra [1]:</strong> Can only be used after Tandava. Attack all enemies within burst 2 of the chosen tile with Bravery + Faith, and then mark them all until the end of the current Resound.</p>",
+    "resource": ""
+  },
+  "prototypeToken": {
+    "name": "Navadikpala",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "C3eVgX73pwpAoVfd",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731533648818,
+    "modifiedTime": 1732137405153,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "1fQQ4JdONJMvhVyu",
+  "sort": 300000,
+  "_key": "!actors!1fQQ4JdONJMvhVyu"
+}

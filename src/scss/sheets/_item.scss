@@ -1,0 +1,7 @@
+@use "../utils/editor";
+
+@mixin item {
+  .tab {
+    @include editor.itemTabs;
+  }
+}

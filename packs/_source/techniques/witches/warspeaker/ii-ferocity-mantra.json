@@ -1,0 +1,30 @@
+{
+  "folder": "hFh06mf088aonbWA",
+  "name": "II - Ferocity Mantra",
+  "type": "technique",
+  "_id": "C65EZTy2giaWgvLp",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You utter a mantra, and then force a foe into a rage.</em></p><p>Spend 1 Beat. Choose an enemy in range 5, and then make them <strong>taunt</strong> another enemy that they can see until they suffer Hits from that enemy.</p><p><strong>Hibiscus Hatred:</strong> Spend 2 Beats. Choose up to 2 enemies. They become <strong>blinded by rage</strong> against 1 chosen fighter. While blinded by rage, they cannot treat any other fighter as a <strong>valid target</strong> but the one chosen by you.</p><p><strong>Enlightenment Blossoms From Mud:</strong> Spend 3 Beats. All chosen enemies also suffer -2 to all Defenses and are <strong>slowed.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Master this utterance and inflict doubt upon the victims of your scorn. This is how you will transcend violence.\" You utter BA·LA·SIK: the surat inscribed upon the air, you weaken your target.</em></p>",
+    "discipline": "warspeaker",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731838843060,
+    "modifiedTime": 1731838939745,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!C65EZTy2giaWgvLp"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "6MoefSerFIfc9ZF7",
+  "name": "Flower Forest",
+  "type": "liberation",
+  "_id": "J9y0C76EUrhrBg3w",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 4+, when you summon a forest of flowers from yourself,</strong> spend 2 Beats. You become a <strong>flower.</strong> You cannot move nor be forcibly moved, but choose up to 6 different tiles in the battlefield: <strong>burst 1 corpseflower fields</strong> blossom from them. Allies that start their riff in the corpseflower fields <strong>heal 1,</strong> while enemies in the burst <strong>halve their defenses</strong> and are always <strong>wide open.</strong> You can additionally target any fighter that are within your fields.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>You touch the ground and it becomes drenched in the spirit of the dead. Your heart is rent; sampaguitas blossom from your fingers, from your brow. You become inert, a living bloom, as the ghosts of the vengeful rise above the earth in reckoning.</em></p>",
+    "discipline": "flower-balyan",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731909020760,
+    "modifiedTime": 1731909121790,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!J9y0C76EUrhrBg3w"
+}

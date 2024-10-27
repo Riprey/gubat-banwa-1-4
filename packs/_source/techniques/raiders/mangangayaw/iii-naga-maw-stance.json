@@ -1,0 +1,30 @@
+{
+  "folder": "8N8ulG4W3ZU86uV1",
+  "name": "III - Naga Maw Stance",
+  "type": "technique",
+  "_id": "DesmyIJ33Bv7DCIT",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><strong>You dance upon the footsteps of the dragons, and your strikes become stronger.</strong> Spend 1 Beat to take on the <strong>Naga Maw Stance</strong> until you suffer Hits. While in this stance, when you Inflict Violence, you inflict <strong>+1 Hit.</strong></p><p><strong>Flaming Naga Style:</strong> Spend 2 Beats. All your attacks while in this stance also set <strong>aflame.</strong></p><p><strong>Dancing Dragon Style:</strong> Spend 3 Beats. You may now Rush before taking the stance. While in this stance, inflict 1 Hit on 1 adjacent enemy whenever you end your riff while in this stance.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A stance taken upon by ancient warrior-king Panglima Yulido when challenged to a deadly duel by the monkey god Laksamana, whom he defeated. Described as a naga about to bite into a prey that its caught.</em></p>",
+    "discipline": "mangangayaw",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731825678419,
+    "modifiedTime": 1731826237866,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!DesmyIJ33Bv7DCIT"
+}

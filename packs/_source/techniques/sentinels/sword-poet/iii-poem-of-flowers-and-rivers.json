@@ -1,0 +1,30 @@
+{
+  "folder": "ztSO7y2ES1IzIqzh",
+  "name": "III - Poem of Flowers and Rivers",
+  "type": "technique",
+  "_id": "2LRMdgZa3RwMWCh5",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You sing a song praising the tranquility of spirit.</em></p><p>Spend 1 Beat to sing out to burst 2: <strong>heal 1</strong> all allies that can hear you in the burst, and then all enemies that can hear you in the burst become <strong>confused.</strong> All haze tiles in the burst suffer the strong wind of your song.</p><p><strong>Let There Be No Other Road But Me:</strong> Spend 2 Beats to <strong>heal 2</strong> all allies instead and all enemies become <strong>taunted</strong> to you until the end of your next riff.</p><p><strong>No Mud, No Lotus, No Gloom, No Joy:</strong> Spend 3 Beats. This extends to the entire battlefield: all allies also now gain <strong>+1d</strong> on their next attack.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Sing a song of joy! For even in the darkest days there are burning bright bonfires. What is darkness if not an absence of light? What is pain but a consequent of life? In this Festival of the Longest Night, rejoice! Happiness cannot be obtained, it is a becoming. Become joyful, Find Glory Beyond Heaven.</em></p>",
+    "discipline": "sword-poet",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731830621150,
+    "modifiedTime": 1731830739441,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!2LRMdgZa3RwMWCh5"
+}

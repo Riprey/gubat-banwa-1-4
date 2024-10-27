@@ -1,0 +1,24 @@
+{
+  "name": "Generic Roll",
+  "type": "script",
+  "_id": "CRoWEW3q7lK47HVi",
+  "author": "zhBs3agAnkM0hsA2",
+  "img": "icons/svg/dice-target.svg",
+  "scope": "global",
+  "command": "const bonusOptions = [];\nfor (let i = -10; i <= 10; i++) {\n  let diceFormat = `${i}d`;\n  if (i > 0) diceFormat = `+${i}d`;\n  bonusOptions.push({ key: i.toString(), label: diceFormat });\n}\nconst content = await renderTemplate(\n  \"systems/gubat-banwa-1-4/templates/dialog/dialog-roll.hbs\",\n  { title: game.i18n.localize(\"GUBAT_BANWA.UI.Roll\"), bonusOptions },\n);\n\nconst rollParams = await Dialog.wait({\n  title: game.i18n.localize(\"GUBAT_BANWA.UI.Roll\"),\n  content,\n  buttons: {\n    select: {\n      label: game.i18n.localize(\"GUBAT_BANWA.UI.Select\"),\n      icon: '<i class=\"fas fa-check\"></i>',\n      callback: async (html) => {\n        const formData = new FormDataExtended(\n          html[0].querySelector(\"form#dialog-roll\"),\n          { disabled: true },\n        ).object;\n        return formData;\n      },\n    },\n    cancel: {\n      label: game.i18n.localize(\"GUBAT_BANWA.UI.Cancel\"),\n      icon: '<i class=\"fas fa-xmark\"></i>',\n    },\n  },\n});\n\nconst { value, bonus, faces, target } = rollParams;\nconst total = parseInt(value) + parseInt(bonus);\nlet roll = new Roll(`${total}d${faces}cs>=${target}`, {});\nconst rollData = await roll.evaluate();\nChatMessage.create({\n  speaker: ChatMessage.getSpeaker(),\n  content: await renderTemplate(\n    \"systems/gubat-banwa-1-4/templates/chat/chat-roll.hbs\",\n    {\n      ...rollData.dice[0],\n      total: rollData.total,\n      statLabel: \"GUBAT_BANWA.UI.Roll\",\n    },\n  ),\n  type: CONST.CHAT_MESSAGE_TYPES.ROLL,\n  rolls: [roll],\n});",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732238187529,
+    "modifiedTime": 1732238269285,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!macros!CRoWEW3q7lK47HVi"
+}

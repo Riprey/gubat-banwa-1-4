@@ -1,0 +1,100 @@
+<form class="{{cssClass}} {{actor.type}} flexcol" autocomplete="off">
+    <header class="sheet-header actor-header">
+        <div class="actor-header__fields">
+            <h1 class="actor-header__name">
+                <input name="name" type="text" value="{{actor.name}}" placeholder="Name" />
+            </h1>
+            <select name="system.style">
+                {{selectOptions config.styles selected=system.style localize=true}}
+            </select>
+        </div>
+        <div class="actor-header__power sheet-header__right">
+            <h1 class="actor-header__threat sheet-header__level">
+                <label for="system.threat">{{localize "GUBAT_BANWA.Categories.Threat"}}</label>
+                <input name="system.threat" type="text" value="{{system.threat}}" placeholder="0" data-dtype="Number"
+                    inputmode="numeric" pattern="[+=\-]?\d*">
+            </h1>
+        </div>
+    </header>
+
+    {{!-- Sheet Body --}}
+    <section class="sheet-body">
+
+        {{!-- Sidebar --}}
+        {{~> "systems/gubat-banwa-1-4/templates/actor/components/actor-sidebar.hbs"}}
+
+        <div class="main-content">
+            {{!-- Sheet Tab Navigation --}}
+            <nav class="sheet-tabs tabs" data-group="primary">
+                <a class="item" data-tab="description">Description</a>
+                <a class="item" data-tab="effects">Effects</a>
+            </nav>
+
+            <section class="tab-body">
+                {{!-- Description Tab --}}
+                <div class="tab" data-group="primary" data-tab="description">
+                    {{!-- Prowesses --}}
+                    {{~> "systems/gubat-banwa-1-4/templates/actor/components/actor-prowesses.hbs"}}
+
+                    {{!-- Description --}}
+                    <div class="description wysiwyg-section">
+                        <h2 class="section-title">{{localize "GUBAT_BANWA.UI.Description"}}</h2>
+                        <div class="wysiwyg-container">{{editor system.description target="system.description"
+                            engine="prosemirror" button=true
+                            editable=editable}}
+                        </div>
+                    </div>
+
+                    {{!-- Traits --}}
+                    <div class="traits">
+                        <header class="section-title section-title--controls">
+                            <h2>{{localize "GUBAT_BANWA.Categories.Traits"}}</h2>
+                            {{#if editable}}
+                            <button type="button" class="js-array-control" data-action="create"
+                                data-target="system.traits" data-tooltip="{{localize "GUBAT_BANWA.UI.New"}}"
+                                data-tooltip-direction="UP">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                            {{/if}}
+                        </header>
+                        <section class="traits__content">
+                            <ol class="traits__list array-list">
+                                {{#each system.traits}}
+                                <li class="trait">
+                                    <div class="trait__content">
+                                        <input name="system.traits.{{@index}}.name" type="text" class="trait__name" value="{{name}}"
+                                            placeholder="{{localize "GUBAT_BANWA.UI.Name"}}">
+                                        <textarea name="system.traits.{{@index}}.description" class="trait__description"
+                                            placeholder="{{localize "GUBAT_BANWA.UI.Description"}}">{{description}}</textarea>
+                                    </div>
+                                    {{#if ../editable}}
+                                    <div class="trait__controls">
+                                        <button type="button" class="js-array-control" data-action="delete"
+                                            data-target="system.traits" data-target-index="{{@index}}"
+                                            data-tooltip="{{localize "GUBAT_BANWA.UI.Delete"}}"
+                                            data-tooltip-direction="UP">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </div>
+                                    {{/if}}
+                                </li>
+                                {{/each}}
+                            </ol>
+                        </section>
+                    </div>
+
+                    {{!-- Attacks --}}
+                    <div class="attacks wysiwyg-section wysiwyg-section--longer">
+                        <h2 class="section-title">{{localize "GUBAT_BANWA.Categories.Attacks"}}</h2>
+                        {{editor enriched.attacks target="system.attacks" engine="prosemirror" button=true
+                        editable=editable}}
+                    </div>
+                </div>
+                {{!-- Effects Tab --}}
+                <div class="tab effects" data-group="primary" data-tab="effects">
+                    {{~> "systems/gubat-banwa-1-4/templates/actor/tabs/actor-effects.hbs"}}
+                </div>
+            </section>
+        </div>
+    </section>
+</form>

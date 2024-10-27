@@ -1,0 +1,30 @@
+{
+  "folder": "hFh06mf088aonbWA",
+  "name": "IV - Hibiscus Laughs Sutra",
+  "type": "technique",
+  "_id": "CwX5YsGC3p9htMCA",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You laugh at an enemy, agitating their soul with snarling mantras and hand signs.</em></p><p>Spend 1 Beat to <strong>dominate an enemy</strong> in range 3: they must <strong>rush 2</strong> and then <strong>inflict violence</strong> against one of their allies. If they cannot, they become <strong>stunned.</strong></p><p><strong>Peaflower Mockery Meditation:</strong> Spend 2 Beats to give the target <strong>+2d</strong> on their attack against their ally. If they still cannot, they also suffer <strong>1 True Hit.</strong></p><p><strong>Beyond Royalty Implicature:</strong> Spend 3 Beats to make the target <strong>fly their entire Speed</strong> and then <strong>inflict violence twice</strong> without Combo Breaker. If they still cannot, they also suffer <strong>dazzled</strong> and <strong>they become poisoned.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>One day the great Namulak, He Who Blossomed After 500 Thunderbolts, Paranirvana Royalty, the BATALA-BUDDHA, was ruminating upon a giant hibiscus. The laughing dog warrior Shree Bangut Pangil came up to him, thinking he could take advantage of the buddha's rumination. The Namulak spoke the mocking syllable U·LOL and split the greatest warrior to have ever lived into a thousand billion realms, and thus created the trichiliocosm.</em></p>",
+    "discipline": "warspeaker",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731839191493,
+    "modifiedTime": 1731839356228,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!CwX5YsGC3p9htMCA"
+}

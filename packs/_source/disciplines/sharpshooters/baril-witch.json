@@ -1,0 +1,80 @@
+{
+  "folder": "LnAo5BZsPk9wDjck",
+  "name": "Baril Witch",
+  "type": "discipline",
+  "_id": "daDFAE2o7W4YE4lp",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Devil Witches of the Battlefield, Masters of Witchpowder, The Bullet Through God's Skull.</p></blockquote><p><em>\"The First Technique of Gun is this: No amount of running can save you. Pay fealty, and prostrate yourself upon the bullet throne of Balahari Gilusot.\"</em></p><p>Baril Witches, otherwise known as balapari, are riflemen that use powerful arquebuses gained through trade and replicated by native panday sa luthang (gunsmiths). Baril Witches are peerless experts in the art of using the arquebuses, and they have the immaculate ability to be able to reload quickly, as if they were a bow and an arrow. Firearms in Gubat Banwa can only be fired with Witchpowder: colorful powders made by witchcraft.</p><p>Guns in Gubat Banwa are slow and ponderous. To reload them is a tedious, multi-stepped endeavor. They are dangerous, and are better treated as nothing more than opening fire, something to level the battlefield.</p><p>However, Baril Witches use a variety of gun sorceries, special spells specifically only usable with guns, to blast through the enemies' defense. With their skill, they can instantly reload their guns, sorcerously bypassing the limits of the gun.</p><p>Baril Witches are trained to be hopelessly intimate with their weapon, learning the diwata of their particular gun-not just guns in general-to be able to be efficient in the battlefield. With hand mudras and incanted mantras they can summon bullets and change their trajectories even in mid-flight. They can spin and juggle guns and hit their target without seeing the target, due to their intimate connection with their gun.</p><p>Training a Baril Witch takes years, thus making them wanted in Kadungganan parties and war armies. They're in high demand, but there are a low number of Baril Witches. They are thus treated as elite artillery and long ranged units, and elite skirmishing parties that are intended to kill will always have at least one in their ranks. Baril Witches, however, are almost always strange in the head. Their soul has been shaped into a bullet, after all.</p><p>Baril Witches arose from the ranks of the Lakanate after the witches of the wood were given the chance to serve the Lakan and be treated as nobility if they helped with the war efforts against Issohappa. A large contingent agreed, but other witches disagreed, going off to fight Issohappa on the sides of the Rajahnate or Apumbukid. Those that joined the Lakanate were given the moniker of \"Star-knelt\", for they knelt to the power of the Ashen Star.</p><p>Thus, there is a tradition among the more conventional witches in Rusunuga to spite or even pity baril witches.</p><p>The Star-knelt worked with these guns to create the Gun God Enclaves, which gave rise to Baril Witches. Baril Witches are chosen from an early age, usually those who have aptitude to sorcery. Thus, many baril witches in the ranks of the Lakanate are not too happy with their forced setup. Baril Witches have since spread across the archipelago, with the other notable creator of baril witches being the Akai Sultanate, who harness moondust to strengthen their guns.</p><blockquote><p>If you choose to become a Baril Witch, ask yourself why you have taken up secret knowledge only to inflict violence. Why do you use your knowledge and power to inflict violence? Why have you picked up the gun?</p><p>No blood on your gun; it is the bullets and sorcery that kill. Did you pick up the gun out of necessity or out of cowardice?</p></blockquote><p><strong>Weapons:</strong> Terakuls, matchlocks, arquebuses, lantakas, cetbangs, baril</p><p><strong>Armor:</strong> Silk jackets, war jackets, war hats, aristocrat vestments, sarongs, bahag, pants, boots</p>",
+    "hp": {
+      "max": 7
+    },
+    "speed": 4,
+    "jump": 1,
+    "prowesses": {
+      "brv": 0,
+      "fai": 2,
+      "pos": 0,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p><strong>When you first take on this Discipline</strong>, define first and foremost what your <strong>Gun</strong> is. When you start your riff or <strong>after you make an attack with your gun,</strong> gain a <strong>Guncharge.</strong> You have an <strong>Overwatch</strong> of <strong>burst 3.</strong> If a fighter <strong>leaves a tile within your Overwatch range,</strong> you may spend a Guncharge to inflict <strong>1 Hit</strong> on them and then <strong>rush 1.</strong></p><p>If you ever gain Guncharges equal to <strong>(Your Bravery + 1)</strong> then you explode, inflicting <strong>3 True Hits to yourself and to all enemies within 3 tiles,</strong> setting those hit <strong>aflame,</strong> then, you lose all Guncharges.</p><p>While you have <strong>Guncharges,</strong> your area attacks gain +1d.</p>",
+      "flavor": "<p><em>The originator of the Baril Witch's Blasphemous Bullet was a gun foundry owner in old Tundun who communed with Balahari Gilusot, the King of Bullets, and learned the secrets of piercing, an ancient art that is sister only to the sacred act of cutting. The secret of piercing has a branch of knowledge that deals with bullets, which always pierce through. It is called the art of Lodging.</em></p>",
+      "name": "Gun Mastery"
+    },
+    "violences": {
+      "flavor": "<p><em>You have peerless control of your gun, surpassing the limits of matchlock, flintlock, and arquebus.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p><strong>Attack a fighter within 4 tiles with Faith.</strong> Spend 1 Guncharge to ignore blocking terrain, 2 Guncharges to make the attack <strong>Hit on 5+,</strong> and 3 Guncharges to make the attack <strong>True.</strong> These options must be bought separately (it costs 3 Guncharges to ignore Blocking Terrain <em>and</em> Hit on 5+).</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Witch Bullet"
+        },
+        "2": {
+          "description": "<p>Unleash multicolor flame from your barrels: attack all fighters in an area (blast 3) with Faith, setting aflame. Tongues of flame stay: mark all enemies in the blast. Spend 1 Guncharge to also <strong>push 3</strong> yourself from the blast.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Witchflame"
+        },
+        "3": {
+          "description": "<p>Start juggling your guns! <strong>Attack all enemies in an area (burst 1) with Faith.</strong> Increase the burst to 2 by spending <strong>1 Guncharge.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Juggle Guns"
+        }
+      },
+      "name": "Channel The Gun God"
+    },
+    "identifier": "baril-witch",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.BarilWitch",
+    "style": "sharpshooter"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730755059747,
+    "modifiedTime": 1730755688775,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!daDFAE2o7W4YE4lp"
+}

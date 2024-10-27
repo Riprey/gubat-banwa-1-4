@@ -1,0 +1,28 @@
+{
+  "name": "Counter Knives",
+  "type": "anting",
+  "_id": "nx1y9brnJRbRmltX",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>1/Resound, after suffering a melee attack, you may <strong>make an attack against the triggering fighter with Bravery.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A knife used for countering. Could be a balaraw or karambit. Used for catching blades and strikes.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731931128567,
+    "modifiedTime": 1731931159786,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!nx1y9brnJRbRmltX"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "056kkfXkH6ImGtLm",
+  "name": "I - Balatik Trap",
+  "type": "technique",
+  "_id": "G2F6wRKhjjGhiqRI",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You can put down an arbalest trap.</em></p><p>Choose a tile in range 3 and spend 1 Beat to set it down: that tile and all tiles adjacent to it become <strong>dangerous terrain.</strong> </p><p>Then, mark out a line 10 from it. When a fighter moves into the line, you can trigger the arbalest to immediately inflict <strong>1 True Hit</strong> and impale the target to the ground. They cannot move voluntarily while impaled. Whenever they are forcibly moved they lose 1 HP. They must spend 1 Beat to remove the arbalest's spike.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Balatik are the most well known contraption and trap of hunters in The Sword Isles: they are small bamboo ballistas and arbalests that, when triggered, skewers the unsuspecting prey with a long bamboo spike. It turns out that this is just as effective for humans as it is for wild boar and deer.</em></p>",
+    "discipline": "beast-hunter",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731839508956,
+    "modifiedTime": 1731839590615,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!G2F6wRKhjjGhiqRI"
+}

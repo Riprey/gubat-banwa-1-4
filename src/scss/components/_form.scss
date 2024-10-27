@@ -1,0 +1,13 @@
+@mixin formFields {
+  .form-group {
+
+    .form-fields {
+      flex: 0;
+      text-align: right;
+
+      input {
+        min-width: 1.75rem;
+      }
+    }
+  }
+}

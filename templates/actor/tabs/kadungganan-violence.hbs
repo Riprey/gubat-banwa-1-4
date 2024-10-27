@@ -1,0 +1,74 @@
+{{!-- Active Discipline --}}
+<div class="discipline section">
+    <h2 class="section-title">{{localize "GUBAT_BANWA.Categories.Discipline"}}</h2>
+    {{#if discipline}}
+    <div class="discipline__banner discipline__banner--{{discipline.system.style}}" data-item-id="{{discipline._id}}">
+        <div class="discipline__name-wrapper">
+            <h1 class="discipline__name">{{localize discipline.system.label}}</h1>
+            <h3 class="discipline__style">{{localize (lookup config.styles discipline.system.style)}}</h3>
+        </div>
+        <div class="discipline__controls">
+            {{#if editable}}
+            <button class="js-item-popout" type="button" data-tooltip="{{localize "GUBAT_BANWA.UI.SeeMore"}}"
+                data-tooltip-direction="UP"><i class="fas fa-circle-info"></i></button>
+            <button class="js-item-control" type="button" data-action="delete"
+                data-tooltip="{{localize "GUBAT_BANWA.UI.Delete"}}" data-tooltip-direction="UP">
+                <i class="fas fa-trash"></i>
+            </button>
+            {{/if}}
+        </div>
+    </div>
+    {{else}}
+    <div class="discipline__banner discipline__banner--empty js-open-compendium" data-action="open"
+        data-target="gubat-banwa-1-4.disciplines">
+        <h1 class="discipline__empty-message">{{localize "GUBAT_BANWA.Kadungganan.AddDiscipline"}}</h1>
+    </div>
+    {{/if}}
+</div>
+
+{{!-- Prowesses --}}
+{{> "systems/gubat-banwa-1-4/templates/actor/components/actor-prowesses.hbs"}}
+
+{{#if discipline}}
+{{!-- Discipline Trait--}}
+<div class="discipline-trait section">
+    <header class="section-title section-title--controls">
+        <h2>{{localize "GUBAT_BANWA.Categories.DisciplineTrait"}}: {{discipline.system.trait.name}}</h2>
+        {{#if editable}}
+        <button class="js-send-message" type="button" data-tooltip="{{localize "GUBAT_BANWA.UI.Message"}}"
+            data-tooltip-direction="UP" data-item-id="{{discipline._id}}" data-title="system.trait.name"
+            data-content="system.trait.description">
+            <i class="fas fa-message"></i>
+        </button>
+        {{/if}}
+    </header>
+    <div class="discipline-trait__description">{{{discipline.system.trait.description}}}</div>
+</div>
+
+{{!-- Inflict Violence --}}
+<div class="violences section">
+    <h2 class="section-title">{{localize "GUBAT_BANWA.Categories.InflictViolences"}}:
+        {{discipline.system.violences.name}}</h2>
+    <ul class="violences__list array-list">
+        {{#each discipline.system.violences.attacks}}
+        <li class="inflict-violence array-item">
+            <div class="inflict-violence__content">
+                <h3 class="inflict-violence__name{{#if (and canRoll ../editable)}} js-rollable{{/if}}" {{#if canRoll}}
+                    data-roll-type="attack" data-roll-stat="{{canRoll}}" {{/if}}>{{name}}</h3>
+                <div class="inflict-violence__description">{{{description}}}</div>
+            </div>
+            {{#if ../editable}}
+            <div class="inflict-violence__controls">
+                <button class="js-send-message" type="button" data-tooltip="{{localize "GUBAT_BANWA.UI.Message"}}"
+                    data-tooltip-direction="UP" data-item-id="{{../discipline._id}}"
+                    data-title="system.violences.attacks.{{@index}}.name"
+                    data-content="system.violences.attacks.{{@index}}.description">
+                    <i class="fas fa-message"></i>
+                </button>
+            </div>
+            {{/if}}
+        </li>
+        {{/each}}
+    </ul>
+</div>
+{{/if}}

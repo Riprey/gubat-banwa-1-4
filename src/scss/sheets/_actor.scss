@@ -1,0 +1,62 @@
+@mixin actor {
+  .window-content {
+    padding: 0;
+  }
+
+  .sheet-header {
+    padding: 1rem;
+
+    h1 {
+      margin-bottom: 0.25rem;
+
+      input {
+        background: rgba(0, 0, 0, 0.1);
+        border: none;
+        border-radius: 0;
+      }
+    }
+
+    &__right {
+      text-align: right;
+    }
+
+    &__level {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      input {
+        width: 2rem;
+      }
+    }
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sheet-tabs {
+    margin: 0 0 4px;
+  }
+
+  .sheet-body {
+    display: grid;
+    grid-template-columns: 13rem 1fr;
+    overflow: hidden auto;
+  }
+
+  .tab-body {
+    flex: 1;
+    padding: 0 1rem;
+  }
+
+  .section {
+    margin-bottom: 0.5rem;
+  }
+
+  textarea {
+    font-family: var(--font-primary);
+    min-height: 4rem;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "Vm3wqmsUlWW3XkPt",
+  "name": "II - Passionflower Dance / Pureblade Streak",
+  "type": "technique",
+  "_id": "RFCnMBr4njt8CNW2",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You surge forward, unsheathing, and then unleash a thousand blades.</em></p><p>Spend 1 Beat to <strong>attack a fighter in range 5 with Faith.</strong> If the target is within range 3, then <strong>rush 1.</strong> If the target is adjacent, you may <strong>rush 1</strong> before the attack.</p><p><strong>Gleaming Saiva Sword:</strong> Spend 2 Beats. <strong>Attack all fighters in an area (Line 5) with Faith</strong> and then teleport to a tile adjacent to the final tile in the line.</p><p><strong>Flensing Blade of Pamegat Talim-Taliman:</strong> Spend 3 Beats. Increase the range to <strong>Path 6,</strong> and the target on the <strong>sixth tile halves</strong> their Posture on the next attack against them.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>There is a secret importance to the Sword dichotomy of the intense study of the blade (to the detriment of everything else). The Bladesong once sang of the Great Unity which contained Dichotomy: unity is thus balance, and balance is achieved with two things against each other.</em></p>",
+    "discipline": "sword-saint",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731893787589,
+    "modifiedTime": 1731893928231,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!RFCnMBr4njt8CNW2"
+}

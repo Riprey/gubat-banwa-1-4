@@ -1,0 +1,30 @@
+{
+  "folder": "UxFMSzEQMHgs8x5f",
+  "name": "II - Whirlwind Riding Mantle",
+  "type": "technique",
+  "_id": "X9izaHoF7C7TeXUe",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You summon winds to wind about you, whirling, destroying projectiles.</em></p><p>Spend 1 Beat to take on the <strong>Whirlwind Stance</strong> until the end of your next riff. While in this stance, you have Evade against all ranged attacks, and whenever you're attacked you may fly 1 after the attack.</p><p><strong>Monsoon Rider's Pledge:</strong> Spend 2 Beats to upgrade the Whirlwind Stance to <strong>Hurricane Stance.</strong> You are now considered <strong>flying</strong> while in this stance, and all enemies in burst 2 are considered <strong>taunted</strong> to you. When you attack, you can lose the stance to blow the target <strong>wide open</strong> and <strong>juggle</strong> them.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>An ancient story about the Sarimanok is about how the Elder Raja Indarapatra, King of Mournful Compassion, fell in love with a certain Moon Spirit, said to have been Baginda Sumongsuklay herself. When the Moon Spirit, named Bayi Bulan, ascended to the moon, Indarapatra wept, until a sarimanok that was his umalagad for so long offered to take him to the moon, where Indarapatra is said to now live in eternal happiness.</em></p>",
+    "discipline": "sarimanok-knight",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731840946487,
+    "modifiedTime": 1731841134561,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!X9izaHoF7C7TeXUe"
+}

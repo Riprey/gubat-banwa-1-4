@@ -1,0 +1,30 @@
+{
+  "folder": "9I0G8G8V5qO5GBKC",
+  "name": "Witch Dog Summons",
+  "type": "liberation",
+  "_id": "ojxwtG6dbyTFuxbc",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><span style=\"font-family:Signika, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">On Resound 2+, you can whistle to summon a Witch Dog, a spirit of the forest.</strong></span></p><p style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Signika, sans-serif\">Spend 2 Beats to summon a <strong style=\"box-sizing:border-box;user-select:text\">Witch Dog:</strong> they are <strong style=\"box-sizing:border-box;user-select:text\">Size 2,</strong> are <strong style=\"box-sizing:border-box;user-select:text\">Height 2 Blocking Terrain,</strong> and have <strong style=\"box-sizing:border-box;user-select:text\">10 HP.</strong> All tiles in burst 1 of the witch dog are dangerous terrain against enemies. For 1 Beat by you or any ally, they may <strong style=\"box-sizing:border-box;user-select:text\">fly 4.</strong></span></p><p style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Signika, sans-serif\">The Witch Dog can be <strong style=\"box-sizing:border-box;user-select:text\">mounted,</strong> putting you constantly on +2 Elevation . While on the Witch Dog, you gain <strong style=\"box-sizing:border-box;user-select:text\">skewering</strong> on all your ranged and melee attacks.</span></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><span style=\"font-family:Signika, sans-serif\"><em style=\"box-sizing:border-box;user-select:text;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Witch dogs are diwata that guard the forests. Only the most skilled of hunters can summon them. These black-mouthed, large and wide-shouldered dogs have severely sharp claws that regularly shed.</em></span></p>",
+    "discipline": "beast-hunter",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731907799161,
+    "modifiedTime": 1731907826457,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!ojxwtG6dbyTFuxbc"
+}

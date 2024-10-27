@@ -1,0 +1,132 @@
+{
+  "name": "Astral Lancer",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 6,
+      "max": 6,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 8
+      },
+      "fai": {
+        "value": 4
+      },
+      "pos": {
+        "value": 2
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>\"O, see me, O Lord of Stars. See what mine faith hast turned me into! Witness my sanguine flesh, the lions grafted upon my putrid flesh. The rotten skin turned black. I am turned monster, sailing across the stars. Is this what thou wisheth upon thine flock? Hast thou forgotten me? Has thou... FORSAKEN ME? I hath been of utmost faith, I hath worked most tirelessly, to accomplish the mission of the Church! I am nothing without thee. Thou hast made me NOTHING WITHOUT THEE. HOW CANST THOU FORSAKE ME, THOU MOST OBEDIENT SERVANT?</p><p>O, Holy Lance of Starlight, thou hast been by my side all this time. Come and let us bring upon ruin upon the heathens. Perhaps, once the great Church and Hellstar has scourged all of Gubat Banwa, canst mine own calvary end. Maybe then I can rest. I fear I will never find rest. The great Star hath work for me even in death. It is my work that matters to them. It is my function. 'Tis the only Nirvana.\"</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Starlight Lance.</strong> Attack all enemies in an area (Line 2) with Bravery, dazzling.</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>3-4:</strong> Rush &gt; Inflict Violence &gt; <strong>Star Blade [1]:</strong> Attack an adjacent fighter with Bravery + Faith, setting aflame.</p><p><strong>5-6:</strong> Rush &gt; <strong>Damascene [1]:</strong> Mark all enemies in the battlefield until the end of the Astral Lancer's next riff. All the their attacks against marked enemies are <strong>Overwhelming.</strong> &gt; Inflict Violence</p><p><strong>7-8: Wings of Justice [3]:</strong> Fly 4, then attack all enemies in an area (burst 2) with Bravery + Faith.</p>",
+    "speed": 6,
+    "jump": 2,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Glory To The Sidereal Banner",
+        "description": "Pale steal holy items from the places they colonize. All Pale fighters have +2d to all Attacks and Defenses, though they lose these for the rest of violence the first time they're Staggered."
+      },
+      {
+        "name": "This Land Of Tears",
+        "description": "The Pale get stronger as they are Staggered, however, as they worship that bleeding god. When Staggered, they gain +1 to Speed and +1 to Jump, and Block 1. They get extra benefits as well."
+      },
+      {
+        "name": "The Great Commission",
+        "description": "Ignore flanking, and can move through enemies when rushing. Every enemy moved through suffers 1 Hit, once per riff. While Staggered, they fly when they rush."
+      }
+    ],
+    "style": "raider"
+  },
+  "prototypeToken": {
+    "name": "Astral Lancer",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "cVPlsrwWX6ZTBouP",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732189793224,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "sDqxepEGL1EtHGnZ",
+  "sort": 300000,
+  "_key": "!actors!sDqxepEGL1EtHGnZ"
+}

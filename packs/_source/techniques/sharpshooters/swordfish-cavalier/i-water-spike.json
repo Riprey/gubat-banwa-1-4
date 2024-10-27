@@ -1,0 +1,30 @@
+{
+  "folder": "5i6ULlL33lD2FEZ1",
+  "name": "I - Water Spike",
+  "type": "technique",
+  "_id": "oBrBtu9gMa6DVPJI",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>Utter a prayer and a ritual hand sign, then shoot a javelin of shearing water.</em></p><p>Spend 1 Beat to <strong>attack a fighter in range 5 with Faith, dousing, and chilling them.</strong></p><p><strong>Corsair Blades:</strong> Spend 2 Beats. You now instead <strong>attack all enemies in an area (line 8) with Faith, dousing and chilling all hit.</strong></p><p><strong>Sea Lord Trident:</strong> Spend 3 Beats. All tiles in <strong>burst 1 of the last tile of the line becomes deep water,</strong> and then you <strong>heal 1.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Taught by Hiling Makar, peerless archer. With this, you fire a piercing jet of water from your bow, shredding through armor.</em></p>",
+    "discipline": "swordfish-cavalier",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731842068517,
+    "modifiedTime": 1731842163538,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!oBrBtu9gMa6DVPJI"
+}

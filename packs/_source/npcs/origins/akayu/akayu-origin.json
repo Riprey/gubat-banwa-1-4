@@ -1,0 +1,132 @@
+{
+  "name": "_Akayu Origin",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 1
+      },
+      "fai": {
+        "value": 1
+      },
+      "pos": {
+        "value": 1
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>(This is a template for you to build your own fighter!)</p>",
+    "attacks": "",
+    "speed": 0,
+    "jump": 0,
+    "threat": 0,
+    "traits": [
+      {
+        "name": "Conviction",
+        "description": "All Folk have a reason for fighting, and if reasoned to, can cause them to rethink combat. However, they will fight for their Conviction until it looks like all is bleak."
+      },
+      {
+        "name": "Morale",
+        "description": "At the beginning of any Resound where there are twice as many Kadungganan than there are enemies (eg., If there are 4 Kadungganan and 2 Enemies left) all Folk enemies will Surrender, becoming Defeated."
+      },
+      {
+        "name": "Divine Striving",
+        "description": "Whenever a fighter falls to 0 HP, all Akayu fighters gain Striving until the end of their next riff. Their attacks gain Overwhelming and they have +1 to all Prowesses. When they lose Striving, they heal 2."
+      }
+    ],
+    "style": "sentinel"
+  },
+  "prototypeToken": {
+    "name": "Akayu",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "oopDMHTLASt4L5w4",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732101118868,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "vlfNipkPNuZeEWmX",
+  "sort": 0,
+  "_key": "!actors!vlfNipkPNuZeEWmX"
+}

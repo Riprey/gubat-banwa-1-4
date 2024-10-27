@@ -1,0 +1,122 @@
+{
+  "folder": "szMpgSuAIYyJlii6",
+  "name": "Balyan",
+  "type": "npc",
+  "_id": "gcvkgPfUfD9SxXDX",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 6,
+      "max": 6,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 1
+      },
+      "fai": {
+        "value": 4
+      },
+      "pos": {
+        "value": 2
+      },
+      "res": {
+        "value": 4
+      }
+    },
+    "description": "<p>Balyan are common across all the Sword Isles. Sorcerers, philosophers, priests, and shamans all the same.</p>",
+    "attacks": "<p><strong>Inflict Violence: Smite.</strong> Attack a fighter in range 3 with <strong>Faith,</strong> with a light-spike of holy radiance, then one ally gains <strong>Evade</strong> against their next attack.</p><p><strong>Gambits</strong> [[/r d12]]</p><p><strong>1-3:</strong> Rush &gt; Inflict Violence &gt; Rush to allies</p><p><strong>4-6:</strong> Rush &gt; <strong>Shelter [1]:</strong> Give the closest ally in range 3 <strong>Block 2</strong> &gt; Inflict Violence</p><p><strong>7-9:</strong> Rush &gt; <strong>Invigoration [2]:</strong> Heal 1 all allies in burst 2.</p><p><strong>10-12:</strong> Inflict Violence &gt; <strong>Fire God Blessing [2]:</strong> Give all allies in burst 3 the following benefits: their next attack <strong>sets aflame</strong> and <strong>hits on 5+.</strong></p>",
+    "speed": 4,
+    "jump": 2,
+    "threat": 1,
+    "traits": [
+      {
+        "name": "Blessing",
+        "description": "All allies in burst 2 add +1d on all attack rolls."
+      }
+    ],
+    "style": "medium"
+  },
+  "prototypeToken": {
+    "name": "Balyan",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732011244409,
+    "modifiedTime": 1732011415575,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!actors!gcvkgPfUfD9SxXDX"
+}

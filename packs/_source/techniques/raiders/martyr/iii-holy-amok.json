@@ -1,0 +1,30 @@
+{
+  "folder": "7N0KUd68oqfhn9hP",
+  "name": "III - Holy Amok",
+  "type": "technique",
+  "_id": "e3YzylTx0fDxDmei",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You inhale sugapa, or bury yourself deep into your justice and zeal.</em></p><p>Spend 1 Beat to <strong>push 1 all adjacent enemies</strong> and then take on the <strong>Amok Stance</strong> until you end a riff without making an attack. While in this stance, you may <strong>fly 1</strong> before or after a melee attack, and you are considered <strong>Hasted.</strong></p><p><strong>Upon The Altar Of Violence:</strong> Spend 2 Beats. You <strong>mark an enemy you can see.</strong> When you lose your stance, you may <strong>fly 4</strong>. If you end adjacent to your mark, <strong>inflict violence with Overwhelming</strong> on the mark, and then remove the mark.</p><p>Only Violence Can Save This World: Spend 3 Beats to <strong>fly 3</strong> and then <strong>attack an adjacent fighter with Bravery</strong> before taking this stance. Now additionally, you <strong>Heal 2</strong> when you start your riff while you're in this stance and you now cannot be forcibly moved.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Verily, I say unto you: should you shed blood for your Goddess, thus shall you find eternal life. But should you rip open Heaven in the name of the Moon, then shall you be liberated.\" - Masteries of Pandita Ashakarwa.</em></p>",
+    "discipline": "martyr",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731840343696,
+    "modifiedTime": 1731840501744,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!e3YzylTx0fDxDmei"
+}

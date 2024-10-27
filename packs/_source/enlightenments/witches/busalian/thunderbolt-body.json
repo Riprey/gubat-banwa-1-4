@@ -1,0 +1,30 @@
+{
+  "folder": "X79im7JicThskDaN",
+  "name": "Thunderbolt Body",
+  "type": "enlightenment",
+  "_id": "dWS6EG6hmzm44Y2l",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>Every start of your Riff, you gain a <strong>1 Gahom,</strong> a mote of fulminating spiritual power primed for destruction. When you make a <strong>faith attack,</strong> you can spend <strong>Gahom</strong> to add +1d to the attack per Gahom spent. You can spend 1 Beat to meditate and gain <strong>1 Gahom.</strong></p><p><strong>While you have 3+ Gahom, your Thunderbolt Body overwhelms you:</strong> start <strong>Floating</strong> and all your area attacks become <strong>Overwhelming</strong> and <strong>Skewering.</strong></p><p><strong>If you ever gain 6 Gahom, your spiritual power overwhelms you and bursts from you:</strong> you gain 1 <strong>Wound</strong> and lose all HP, then inflict <strong>3 True Hits to all enemies in burst 5.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Busalian eventually learn the ritual to become like the gods they've bargained with, a form of shape shifting.</em></p>",
+    "discipline": "busalian",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731910534173,
+    "modifiedTime": 1731910645439,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!dWS6EG6hmzm44Y2l"
+}

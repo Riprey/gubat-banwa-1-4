@@ -1,0 +1,140 @@
+{
+  "folder": "OMEj6aVEGRtjgjHq",
+  "name": "Warrior Demon",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 6,
+      "max": 6,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 8
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 2
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>Crimson-skinned creatures, wearing bahag and clad in golden amulets, shocks of shorn black hair, crimson streaks across their body like tiger-stripes, and shattered halos looking like crescent moon horns.</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Hateful Claws.</strong> Attack an adjacent enemy with Bravery. If the target is Staggered, add +2d.</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>3-4:</strong> Rush &gt; <strong>Rejoice [2]:</strong> Inflict Violence. If it staggers or defeats the target, the demon can <strong>fly 2</strong> and gain <strong>Block 1.</strong></p><p><strong>5-6:</strong> Rush &gt; <strong>Shattering Talons [2]:</strong> Attack all fighters in blast 3 with Bravery.</p><p><strong>7-8: Carnage [3]:</strong> Fly 6 tiles. Inflict 1 True Hit per enemy the warrior demon becomes adjacent to, once per enemy.</p>",
+    "speed": 5,
+    "jump": 2,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Fester",
+        "description": "At the start of Resound 2+, all demons fester: their unique trait triggers and they gain +1d to all attacks until the end of the Resound. They fester every start of Resound afterwards."
+      },
+      {
+        "name": "Atrocious Residue",
+        "description": "When a Demon is Defeated, they discorporate and roll 1 Attack Die on all enemies in the battlefield. Unless the battlefield is purified or cleansed by proper rituals, they will rise again after eighty seven days."
+      },
+      {
+        "name": "Violent Devil God",
+        "description": "At the start of a Resound, if there are exactly 3 demons left in the battlefield, they may combine into a Violent Devil God: choose one demon as the main body. Add all remaining HP together, and the main body gains +1 to all Prowesses and becomes Size 3."
+      },
+      {
+        "name": "Antigod",
+        "description": "All demons are vulnerable to anything that might sear away corruption and darkness."
+      },
+      {
+        "name": "Rage Unending",
+        "description": "The warrior demon's Bravery attacks can target Resilience. When they fester, warrior demons can fly 4"
+      }
+    ],
+    "style": "raider"
+  },
+  "prototypeToken": {
+    "name": "Warrior Demon",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732051041614,
+    "modifiedTime": 1732189033717,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "wdCHmLMQGZnhQdL2",
+  "sort": 500000,
+  "_key": "!actors!wdCHmLMQGZnhQdL2"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "ztSO7y2ES1IzIqzh",
+  "name": "I - Poem of Swords and Spears",
+  "type": "technique",
+  "_id": "efev9FKGKb0mG2mU",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You sing a gallant song of battles won, aggravating those that hear you.</em></p><p>Spend 1 Beat to give all allies in burst 2 +1d to their next attack, and then <strong>taunt</strong> all enemies in the burst until the end of their next riff, and all haze tiles in the burst suffer the strong wind of your song.</p><p><strong>Tandava Blades:</strong> Spend 2 Beats. All enemies taunted by this attack are slowed.</p><p><strong>Sword Glossolalia:</strong> Spend 3 Beats to incant mystick songs: slide 3 each enemy in the burst and then dazzle them.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A flamboyant Sword Poet, Si Pahimuot, once performed this amidst the kawal of Datu Mabigi, from the league of Pannai, who hunted him down due to him killing his bride.</em></p>",
+    "discipline": "sword-poet",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731827186867,
+    "modifiedTime": 1731829912520,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!efev9FKGKb0mG2mU"
+}

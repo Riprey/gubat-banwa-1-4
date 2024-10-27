@@ -1,0 +1,80 @@
+{
+  "folder": "oxCgChzrgbjI3FLA",
+  "name": "Sword Poet",
+  "type": "discipline",
+  "_id": "kqVTzmEH4n6kHfE2",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Ang Sundang Balaknon: Master of Song and Sword, Protector of the Living World, Preserver Through Epic and Poetry, Bearers of the Holy Word of Rhythm.</p></blockquote><p>This is the Blossoming Swordsong: striking and slashing attacks performed in conjunction with melody and metaphor. The witik are snares, the fan strikes are drum beats, the combinations are marching drum cacophonies.</p><p>It has been long said that the only time the people of the Rajahnate are not singing are when they are sick, asleep, or dead. This is doubly true for the Sword Poet an elite Discipline of Kadungganan that focuses on fighting while singing. Even in battle, even without the accompaniment of agung, they sing a song of beauty and sorrow, one that wrenches the hearts of enemies, forces them to rethink, or performs unignorable provocations. Through their Swordsong, they protect their culture, community, and nature.</p><p>These warrior-poets, through their battles and shared techniques, use their words and songs to defend their fellow men, letting their violence-charged verses and words strike the hearts of enemies that attack their allies, like the ogres they are.Their heart wrenching melodies force enemies to focus on the Warrior-Poet, lest they face the weight of the world. Their Gahom emanates from them, carried upon the winds of their words, strengthening allies and crippling enemies.</p><p>This philosophy has created a subset of Hiyang faith called Hiyang Awitan, which focuses on the philosophy that song is the source of all life, and that Diwa is a harmony constantly played across all time, and is what connects all things together.</p><p>The Sword is in itself a metaphor, a calcification of the core tenet of Hiyang, the dichotomy of Cause-Effect, Love-Evisceration, the condensation of idiom into a weapon used to cut, as that is the only permitted course of action. An attack is a beat, a beat is part of a rhythm, an entire attack is a song, a poem. With biting remarks comes specifically crafted verbal attacks that flay a warrior's defenses, and makes you insufferable, and brings all the attention to the Sword Poet.</p><p>Not just that, but whenever Sword Poet sing, they echo similes and metaphors and personifications in a different language: one more flowery and filled with impossible metaphors and idioms that only they can truly understand. This language is known as Flower Tongue, and it is said to be the most beautiful language never spoken, only sung.</p><blockquote><p>When you become a Sword Poet, ask yourself: why do you fight for a land that does not hear the notes of your sorrowsong? Your song falls upon Staggered ears and corpses. Will you wait until your song ends?</p></blockquote><p><strong>Weapons:</strong> Bell-swords, kudyapi (boat lutes), korlong (bamboo zithers), bamboo flutes, jaw harps, nose flutes, chopping blades, bell-maces</p><p><strong>Armors:</strong> Long robes, cloaks, headwraps, breastplates, wooden sandals, lamellars, rainbow gowns, footwraps, sapin (silk socks), brocaded sarongs</p>",
+    "hp": {
+      "max": 10
+    },
+    "speed": 4,
+    "jump": 2,
+    "prowesses": {
+      "brv": 0,
+      "fai": 0,
+      "pos": 1,
+      "res": 1
+    },
+    "trait": {
+      "description": "<p>At the end of your riff, <strong>taunt</strong> all enemies in burst 1 until the end of your next riff. You have <strong>overwhelming defenses</strong> against all enemies taunted to you, and when a taunted enemy attacks you, <strong>confuse</strong> them.</p>",
+      "name": "Flower Tongue",
+      "flavor": "<p><em>When you leap into violence, you begin singing a song of war. A song of your warband overcoming overwhelming odds. A song of you and your friends fighting for a better world. A song of you and your family, your closest loved ones, proving their conviction in a world of death and war. Your words truly now become edges, cutting points. You wave away spear strikes with a deft tongue, you parry blades with broken rhythms.</em></p>"
+    },
+    "violences": {
+      "attacks": {
+        "1": {
+          "description": "<p><strong>Attack an adjacent fighter with Faith</strong> and <strong>taunt</strong> them until they Hit you, and then you may <strong>push</strong> them 2.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Mocking Sword"
+        },
+        "2": {
+          "description": "<p><strong>Attack all enemies in an area (burst 1) with Faith.</strong> All enemies taunted by you suffer +1d. The shockwave from this attack extinguishes fires and removes haze.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Sword Ambahan"
+        },
+        "3": {
+          "description": "<p><strong>Attack an enemy within 2 tiles with Faith</strong>, and then <strong>debilitate</strong> them.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Devastating Curse"
+        }
+      },
+      "name": "Song of Blood",
+      "flavor": "<p><em>Let the petal on this chapter / close with a contented sigh / flowers over Dalumat / brightness in the sky</em></p>"
+    },
+    "identifier": "sword-poet",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.SwordPoet",
+    "style": "sentinel"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730700576675,
+    "modifiedTime": 1730777576785,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!kqVTzmEH4n6kHfE2"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "UxFMSzEQMHgs8x5f",
+  "name": "IV - Kartike's Arrow",
+  "type": "technique",
+  "_id": "jtyHXCrmUBzbE9He",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p>With a breath, you fire an arrow or javelin or strike with a halberd of incandescent fulgur.</p><p>Spend 1 Beat to <strong>attack a fighter in range 5 with Faith,</strong> then <strong>pull 3</strong> and <strong>dazzle</strong> the target.</p><p><strong>Yskanda's Auspicious Shrike:</strong> Spend 2 Beats to attack all fighters in an area (Line 10) with Faith, setting aflame, burning with holy radiance and dazzling, and then <strong>taunt them</strong> until they hit you. If they're set aflame by this attack, they suffer +1 Hit from all attacks while they're burning.</p><p><strong>Raja Indarapatra's Vengeance:</strong> Spend 3 Beats. Change the area to <strong>path 8,</strong> and each fighter is <strong>marked.</strong> Each marked fighter cannot treat any fighter but you as a valid target.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The First Sarimanok Knight was said to have been the son of Siwa, the Triumphant and Auspicious God, who is very frequently known as Raja Indarapatra of the Thunderclouds in more modern Akai literature. His eldest son, Yskanda Kartike, Archer of the Rainbow Raptor, was said to have come down upon the world upon the Sarimanok that took his father to the moon. There he taught the truths of the Sarimanok Knight, and how to properly befriend them, and how to treat them not as a horse but as a fierce brother. Yskanda Kartike eventually helped the ancient Put'wanon King Sri Bata Shaja conquer much of the Gatusan Isles in an ancient war, now lost to memory.</em></p>",
+    "discipline": "sarimanok-knight",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731841363990,
+    "modifiedTime": 1731841494214,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!jtyHXCrmUBzbE9He"
+}

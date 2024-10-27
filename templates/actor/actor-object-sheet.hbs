@@ -1,0 +1,42 @@
+<form class="{{cssClass}} {{actor.type}} flexcol" autocomplete="off">
+    <header class="sheet-header actor-header">
+        <div class="actor-header__fields">
+            <h1 class="actor-header__name">
+                <input name="name" type="text" value="{{actor.name}}" placeholder="Name" />
+            </h1>
+            <h3 class="actor-header__subtitle">{{localize "TYPES.Actor.object"}}</h3>
+        </div>
+    </header>
+
+    {{!-- Sheet Body --}}
+    <section class="sheet-body">
+
+        {{!-- Sidebar --}}
+        {{~> "systems/gubat-banwa-1-4/templates/actor/components/actor-sidebar.hbs"}}
+
+        <div class="main-content">
+            {{!-- Sheet Tab Navigation --}}
+            <nav class="sheet-tabs tabs" data-group="primary">
+                <a class="item" data-tab="description">Description</a>
+                <a class="item" data-tab="effects">Effects</a>
+            </nav>
+
+            <section class="tab-body">
+                {{!-- Description Tab --}}
+                <div class="tab" data-group="primary" data-tab="description">
+                    {{!-- Description --}}
+                    <div class="description wysiwyg-section">
+                        <div class="wysiwyg-container">{{editor system.description target="system.description"
+                            engine="prosemirror" button=true
+                            editable=editable}}
+                        </div>
+                    </div>
+                </div>
+                {{!-- Effects Tab --}}
+                <div class="tab effects" data-group="primary" data-tab="effects">
+                    {{~> "systems/gubat-banwa-1-4/templates/actor/tabs/actor-effects.hbs"}}
+                </div>
+            </section>
+        </div>
+    </section>
+</form>

@@ -1,0 +1,30 @@
+{
+  "folder": "7N0KUd68oqfhn9hP",
+  "name": "II - Crescent Cleaving The Earth",
+  "type": "technique",
+  "_id": "v3A0bUf3bBlJPd3f",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You throw your weapon, flying like a lunar boomerang.</em></p><p>Spend 1 Beat and attack a fighter within 4 tiles with Faith. Then your weapon falls on an adjacent tile to the the target (Size 1 Object, Indestructible, Difficult Terrain). When you next start your riff, you can call your weapon back: draw a line from the weapon to you. Any enemy in the line suffers <strong>1 True Hit.</strong> You cannot use this technique if your weapon is still out in the battlefield.</p><p><strong>Rebounding Crescent:</strong> Spend 2 Beats. Your weapon now <strong>bounces</strong> after the first attack, dealing 1 Hit against a different fighter in range 4 of the first target. Repeat this one more time if possible. The weapon lands on a tile adjacent to the last target. While your weapon is out, your melee attacks gain <strong>Overwhelming,</strong> but your weapon returns to you immediately at the start of your next riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The Moon's Holy Blade has express techniques for dealing when you are hobbled or disarmed. In fact, you are taught to be even more dangerous when you are in this state, as you are driven to a corner, and you must become more than a beast.</em></p>",
+    "discipline": "martyr",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731840176355,
+    "modifiedTime": 1731840330778,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!v3A0bUf3bBlJPd3f"
+}

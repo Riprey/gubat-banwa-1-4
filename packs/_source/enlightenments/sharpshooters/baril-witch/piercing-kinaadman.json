@@ -1,0 +1,30 @@
+{
+  "folder": "vtn0Za5o0hACiogb",
+  "name": "Piercing Kinaadman",
+  "type": "enlightenment",
+  "_id": "mRTfdqZgqIHIbJoH",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>All your <strong>area attacks</strong> cannot be <strong>evaded.</strong> Burst and Blasts now have a <strong>25% chance of Stunning all Hit.</strong> Lines and Paths gain <strong>+1d</strong> and convert 1 Hit into a <strong>True Hit.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Guns were invented in the ancient of days by a god, who was killed by the Sage of Spears, he who had perfected the art of piercing. \"With this implement piercing shall become a lesser art!\" The Sage of Spears hath said. Therefore thou must keep in mind the art of piercing. It is no frail, baser art. It is, in fact, the most perfect art, a forgotten art. The Art of Cutting reminds one of dichotomy. The Art of Piercing shows you that all things can become one.</em></p>",
+    "discipline": "baril-witch",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731911577167,
+    "modifiedTime": 1731911654997,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!mRTfdqZgqIHIbJoH"
+}

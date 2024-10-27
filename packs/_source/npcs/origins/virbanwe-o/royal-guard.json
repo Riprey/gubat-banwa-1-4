@@ -1,0 +1,136 @@
+{
+  "name": "Royal Guard",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 7,
+      "max": 7,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 5
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 6
+      },
+      "res": {
+        "value": 4
+      }
+    },
+    "description": "<p>A heavily clad warrior in the stylings of Issohappa, wearing breastplates, greaves, sabatons, tassets, and intricate helmets made to look like the giant king eagles that Virbanwa is so proud of, but have contributed to the destruction of their habitats.</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence:</strong> <strong>Greatsword.</strong> Attack all enemies in an area (line 2) with Bravery.</p><p><strong>Gambits</strong> [[/r d4]]</p><p><strong>1:</strong> Rush &gt; Inflict Violence &gt; Rush</p><p><strong>2:</strong> Rush &gt; <strong>Defender Aura [2]:</strong> The Royal Guard and all allies in burst 2 gain <strong>Block 1,</strong> all enemies in the burst are <strong>taunted</strong> until their next riff.</p><p><strong>3:</strong> Rush &gt; Inflict Violence &gt; <strong>Counter [1]:</strong> Gain <strong>Block 1.</strong> Until the start of the Guard's next riff, if they're attacked, they may inflict 1 Hit back, 1/riff.</p><p><strong>4:</strong> Rush &gt; <strong>Sunsplitter [2]:</strong> Attack all enemies in an area (line 8) with Bravery + Faith. All enemies hit are <strong>Taunted</strong> until they reduce the Royal Guard's HP by any amount.</p>",
+    "speed": 3,
+    "jump": 1,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Conviction",
+        "description": "All Folk have a reason for fighting, and if reasoned to, can cause them to rethink combat. However, they will fight for their Conviction until it looks like all is bleak."
+      },
+      {
+        "name": "Morale",
+        "description": "At the beginning of any Resound where there are twice as many Kadungganan than there are enemies (eg., If there are 4 Kadungganan and 2 Enemies left) all Folk enemies will Surrender, becoming Defeated."
+      },
+      {
+        "name": "Ashen Conquest",
+        "description": "All Virbanwans adjacent to each other are considered In Line. While In Line, they have +1 to all Defenses. When they start their riff while In Line, they and all Virbanwans In Line with them may rush 1, never breaking adjacency."
+      },
+      {
+        "name": "Knight March",
+        "description": "When an ally that is In Line with the Royal Guard suffers an attack, the Royal Guard may change the target to themselves."
+      }
+    ],
+    "style": "sentinel"
+  },
+  "prototypeToken": {
+    "name": "Royal Guard",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "UUZjrEpsUvSHyh9i",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732137976488,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "sVqNf7xiVbBFfqLE",
+  "sort": 400000,
+  "_key": "!actors!sVqNf7xiVbBFfqLE"
+}

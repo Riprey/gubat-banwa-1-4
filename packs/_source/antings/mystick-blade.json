@@ -1,0 +1,28 @@
+{
+  "name": "Mystick Blade",
+  "type": "anting",
+  "_id": "UcY7KmmgicN7sViY",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>Adds +1 to all <strong>attacks with Faith.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p>An edged weapon used for magickal rituals, for carving magicked formulas and for inflicting spells upon others.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731933245165,
+    "modifiedTime": 1731933309814,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!UcY7KmmgicN7sViY"
+}

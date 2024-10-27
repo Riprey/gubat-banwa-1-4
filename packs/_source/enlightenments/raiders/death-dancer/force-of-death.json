@@ -1,0 +1,30 @@
+{
+  "folder": "jGszZithIqxcsUlv",
+  "name": "Force of Death",
+  "type": "enlightenment",
+  "_id": "o4VkS2C0MU6expkr",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>When you make a melee attack <strong>right after moving your entire unmodified Speed,</strong> gain <strong>+2d to your attack,</strong> the attack can <strong>Push 2</strong>, and becomes <strong>Overwhelming.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Let Death speak for one last time: \"There are things that are meant to cycle, such as the flow of the universe, and things that are not meant to cycle, such as the generational evils. Therefore with your internalization of Cyclical Death, you will know which cycles to kill, and which cycles to preserve.\"</em></p>",
+    "discipline": "death-dancer",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731910671150,
+    "modifiedTime": 1731910732091,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!o4VkS2C0MU6expkr"
+}

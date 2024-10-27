@@ -1,0 +1,30 @@
+{
+  "folder": "QibD3erNpmEEozsJ",
+  "name": "IV - Batubalani",
+  "type": "technique",
+  "_id": "ypL2ygGO2zKrxl1r",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You alter gravity with the pull of the darkness of the ocean through proper magickal formulas, incantations, and hand signs.</em></p><p>Spend 1 Beat to attack 1 fighter in range 5 with Faith, <strong>dousing and slowing them.</strong></p><p><strong>Kusobatubalani:</strong> Spend 2 Beats to instead <strong>attack all enemies in an area (range 5 burst 2),</strong> also <strong>dousing and debilitating them,</strong> and then <strong>slide them 2 tiles.</strong></p><p><strong>Devabatubalani:</strong> Spend 3 Beats to increase the area to <strong>range 5 burst 3,</strong> and sliding <strong>up to 3 tiles</strong> instead.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Whisper, bleed and burst forth! The overwhelming oppressive force of the gods of the soil herald thee! Batubalani!\" The concept of rocks having its own force of attraction is ubiquitous across the isles, and it is said that this is the reason why people are drawn to the earth: the earth gods have an innate spiritual attraction that brings all mortals down.</em></p>",
+    "discipline": "busalian",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731836014720,
+    "modifiedTime": 1731836129645,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!ypL2ygGO2zKrxl1r"
+}

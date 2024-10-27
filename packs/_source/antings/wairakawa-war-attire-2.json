@@ -1,0 +1,58 @@
+{
+  "name": "Wairakawa War Attire (+2)",
+  "type": "anting",
+  "_id": "GCqdPM4TlAX43z2F",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>Gain <strong>+2</strong> HP.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Golden armor with a sun-tiger on the chest plate. This includes a set of armor: a peaked helmet, gold-and-brass lamellar, gilded dragon bracers, a golden dragonfly belt woven with a veil-thin silk as a skirt, and golden tail-eating dragon bangles. Once belonged to the ancient warriors of Put'wan. Wairakawa is one of the fierce forms of the great god Rayasaiwa, who destroyed the past world to pave the way for this one.</em></p>"
+  },
+  "effects": [
+    {
+      "name": "+2 HP",
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.gubat-banwa-1-4.antings.Item.GCqdPM4TlAX43z2F",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "K3Eyqh3E2KVrCTJX",
+      "changes": [
+        {
+          "key": "system.hp.max",
+          "mode": 2,
+          "value": "2"
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "flags": {},
+      "tint": null,
+      "_key": "!items.effects!GCqdPM4TlAX43z2F.K3Eyqh3E2KVrCTJX"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731966293357,
+    "modifiedTime": 1731966498218,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!GCqdPM4TlAX43z2F"
+}

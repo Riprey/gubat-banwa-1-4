@@ -1,0 +1,30 @@
+{
+  "folder": "5i6ULlL33lD2FEZ1",
+  "name": "IV - Sea Grasps The Moon",
+  "type": "technique",
+  "_id": "VSHVLwxiF02TsVLc",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You perform the rituals and ring the kettlebells: you summon the moon into the battlefield.</em></p><p>Spend 1 Beat to summon the <strong>moon</strong> into the battlefield in a tile within 5. It is an <strong>indestructible size 1 object.</strong> You can use it as the origin point of your attacks. </p><p>When you summon the moon, and at the start and end of every Resound, the moon <strong>pulses.</strong> Every pulse: inflict <strong>1 Hit</strong> on all enemies and <strong>douse</strong> all allies in burst 2 of it. All enemies the burst are also vulnerable to attacks that douse and chill. </p><p>Summoning a new moon removes the last moon, as you can only have 1 moon at a time.</p><p><strong>Moon Princess Style:</strong> Spend 2 Beats to make the moon a <strong>Shivering Moon.</strong> All enemies that start their riff in burst 2 of it become <strong>chilled.</strong> If already chilled, they suffer <strong>1 Hit.</strong> If attacked, it pulses, and then explodes, dealing <strong>1 Hit</strong> on all enemies in burst 5. All tiles in burst 1 of the shivering moon's tile becomes <strong>deep water.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The Moon is perfectly intertwined with the sea. It is long said that an aspect of the Moon, Raya Chandra, came down as a beautiful winged lunar woman, named Ayakassa Rawena, and Margosatubig fell in love with her, which caused him to abandon perfecting the art of Swordfish Cavalier. The martial art is eternally imperfect, but there is a sect of Swordfish Cavalier's that argue that this is good, and is their responsibility to continue mastery.</em></p>",
+    "discipline": "swordfish-cavalier",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731842460527,
+    "modifiedTime": 1731842636496,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!VSHVLwxiF02TsVLc"
+}

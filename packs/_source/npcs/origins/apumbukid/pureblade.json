@@ -1,0 +1,140 @@
+{
+  "name": "Pureblade",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 6,
+      "max": 6,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 8
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 4
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>Ascetic sword-priests who fulfill the holy duty of Hiyang through the perfection of the cutting motion of the sword. They are siblings to the Bladeweavers, who perfect the sword itself. The creator of the Pureblade Art was a student of Bladeweaving.</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Harmonious Cut.</strong> Attack an adjacent enemy with Bravery. If the Pureblade or the target is in tall grass, gain +1d.</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>3-4:</strong> Rush &gt; <strong>Cleansing Flame [1]:</strong> Set one adjacent fighter or tile aflame &gt; Inflict Violence</p><p><strong>5-6:</strong> Rush &gt; <strong>Purifying Gleamblade [2]:</strong> move equal to Speed, through enemies. Each enemy moved through is Dazzled, and then inflict violence at the end of the movement.</p><p><strong>7-8:</strong> <strong>White Wind Slicing [3]:</strong> Teleport to any tall grass terrain in the battlefield, remove it, and then <strong>attack all enemies in an area (burst 1) with Bravery + Faith.</strong> If no tall grass terrain, put one down in an adjacent tile and then perform the attack.</p>",
+    "speed": 4,
+    "jump": 2,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Conviction",
+        "description": "All Folk have a reason for fighting, and if reasoned to, can cause them to rethink combat. However, they will fight for their Conviction until it looks like all is bleak."
+      },
+      {
+        "name": "Morale",
+        "description": "At the beginning of any Resound where there are twice as many Kadungganan than there are enemies (eg., If there are 4 Kadungganan and 2 Enemies left) all Folk enemies will Surrender, becoming Defeated."
+      },
+      {
+        "name": "Warriors Of The World Unite!",
+        "description": "Place up to 5 pieces of Tall Grass terrain in the battlefield (which cannot be adjacent to each other). Apumbukid fighters have +1 to all Prowess except for Speed when they start their turn within or adjacent tall grass (and they do not suffer tall grass terrain's normal effects). At Resound 2+, at the start of every Resound, a new piece of tall grass sprouts up in the battlefield, which cannot be adjacent to any existing tall grass."
+      },
+      {
+        "name": "Harmony",
+        "description": "Apumbukid fighters are immune to all terrain. If they move into or start their riff within tall grass, they may teleport to any other unoccupied tall grass tile in the battlefield."
+      },
+      {
+        "name": "Cleansing Blade",
+        "description": "All the Pureblade's melee attacks against slowed, poisoned, stunned, aflame, bleeding, dazzled or wide open have +2d."
+      }
+    ],
+    "style": "raider"
+  },
+  "prototypeToken": {
+    "name": "Pureblade",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "wdOCEhXxAjKbBROi",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732097251398,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "ISiZxf2dx8yHVRmk",
+  "sort": 0,
+  "_key": "!actors!ISiZxf2dx8yHVRmk"
+}

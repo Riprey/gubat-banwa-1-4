@@ -1,0 +1,28 @@
+{
+  "name": "Healer's Vestments",
+  "type": "anting",
+  "_id": "5G7dQRAtQ63ZO2Vt",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>All your healing gains +1. When you end your riff without making an attack, <strong>heal 1</strong> all adjacent allies.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A holy diadem made of palm leaf and gold, a cloak woven with holy patterns of the sacred spirits, and a beautiful multicolor sarong that touches the ground to better channel the healing properties of nature.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731931666947,
+    "modifiedTime": 1731931749698,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!5G7dQRAtQ63ZO2Vt"
+}

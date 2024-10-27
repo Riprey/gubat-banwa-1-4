@@ -1,0 +1,30 @@
+{
+  "folder": "jPbc49n7061eK6NM",
+  "name": "Wield The Hammer",
+  "type": "enlightenment",
+  "_id": "O44590lxGz9s2mjM",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>When you start violence, choose a part of the God-Body you have equipped.</p><ul><li><p><strong>Sheathe of Ghatotkacha:</strong> 1/Resound, when an enemy within 3 tiles <strong>attacks with Bravery,</strong> you may <strong>slide them 2 tiles</strong> before the attack.</p></li><li><p><strong>Foot of Sagarawivara:</strong> 1/Resound, when an enemy in 2 tiles leaves a tile, you may immobilize them: they cannot move voluntarily until the end of their next riff.</p></li><li><p><strong>Crown of Kuwanchin:</strong> 1/Resound, when an enemy within 4 tiles makes <strong>attacks with Faith,</strong> inflict <strong>1 Hit</strong> against them after the attack.</p></li></ul>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The Godbody is the magnum opus of Warsmiths. Warsmith training is usually done in conjunction with the formation of a personal Godbody. When they achieve Master level, only then will they have the techniques required to finish the crafting of the ancient Godbody, which will become their holy implement against darkness and violence.</em></p>",
+    "discipline": "warsmith",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731912359555,
+    "modifiedTime": 1731912456001,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!O44590lxGz9s2mjM"
+}

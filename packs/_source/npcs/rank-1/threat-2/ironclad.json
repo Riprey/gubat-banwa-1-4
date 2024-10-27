@@ -1,0 +1,122 @@
+{
+  "folder": "9wpSmsHfJ11axQYY",
+  "name": "Ironclad",
+  "type": "npc",
+  "_id": "FYSf4Jk6U2uzTfcG",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 4
+      },
+      "fai": {
+        "value": 1
+      },
+      "pos": {
+        "value": 6
+      },
+      "res": {
+        "value": 2
+      }
+    },
+    "description": "<p>Slow moving inevitability clad in the fullest of armors in the Isles, wielding large weapons that smash through.</p>",
+    "attacks": "<p><strong>Inflict Violence: Great Hammer.</strong> Attack all enemies in an area (range 1 burst 1). Choose 1 enemy to <strong>slow.</strong></p><p><strong>Gambits</strong> [[/r d4]]</p><p><strong>1:</strong> Rush &gt; Inflict Violence &gt; Rush</p><p><strong>2:</strong> Rush &gt; <strong>Challenge [1]:</strong> <strong>Taunt</strong> a fighter within 3 tiles until the end of the Ironclad's next riff. &gt; Challenge.</p><p><strong>3:</strong> Rush &gt; Inflict Violence &gt; <strong>Armor Meditation [1]:</strong> Gain <strong>Block 3.</strong></p><p><strong>4:</strong> Rush &gt; <strong>Armor Meditation [1]</strong> &gt; <strong>Skull Crack [1]:</strong> Attack an adjacent enemy with Bravery, and then <strong>stun</strong> them.</p>",
+    "speed": 0,
+    "jump": 0,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Armored",
+        "description": "Ignores non-attack Hits and cannot be forcibly pushed."
+      }
+    ],
+    "style": "sentinel"
+  },
+  "prototypeToken": {
+    "name": "Ironclad",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732011784908,
+    "modifiedTime": 1732011911935,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!actors!FYSf4Jk6U2uzTfcG"
+}

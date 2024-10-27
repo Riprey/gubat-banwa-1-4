@@ -1,0 +1,28 @@
+{
+  "name": "Witch Robes",
+  "type": "anting",
+  "_id": "IJYdfn3ARxoRkWAm",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>Any <strong>Faith attack</strong> you make now has a <strong>30% chance</strong> of inflicting <strong>Fear</strong> on the target.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Consists of frayed and ruddy robes with embroidered patterns of spider-lilies, a talisman with a magical beast's tooth, nail, eye, or hair lock tied to it, a veil made of blacksilk attached to a bone diadem that stretches down to one's eyes.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731967107006,
+    "modifiedTime": 1731967165986,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!IJYdfn3ARxoRkWAm"
+}

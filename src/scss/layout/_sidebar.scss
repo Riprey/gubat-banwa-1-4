@@ -1,0 +1,6 @@
+@mixin sidebar {
+  .sidebar {
+    padding: 1rem;
+    box-shadow: 5px -5px 1rem rgba(0,0,0,0.2);
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Spiraling Dagger",
+  "type": "anting",
+  "_id": "slTA9Wg9FEpnAhFc",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>All your melee attacks always deal <strong>1 Hit,</strong> minimum. This does not ignore resistances or immunity.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A dagger that spins around, like a furling wave.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731965802508,
+    "modifiedTime": 1731965827303,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!slTA9Wg9FEpnAhFc"
+}

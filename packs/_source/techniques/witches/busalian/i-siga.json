@@ -1,0 +1,30 @@
+{
+  "folder": "QibD3erNpmEEozsJ",
+  "name": "I - Siga",
+  "type": "technique",
+  "_id": "iUMlnzrQtd9uXSJo",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p>You summon flames and scathing light from a magickal formula and incantation.</p><p>Spend 1 Beat to attack a fighter in range 4 with Faith, setting the target aflame.</p><p><strong>Kusiga:</strong> Spend 2 Beats to instead attack all fighters in an area (Range 4 burst 1) with Faith, <strong>setting fighters aflame and dazzling them.</strong></p><p><strong>Devasiga:</strong> Spend 3 Beats to instead attack all fighters in an area (range 4 burst 2) with Faith, <strong>setting fighters and tiles in the area aflame and dazzling them.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Heaven crumbles and the seas boil! With nothing but my name writ across the stars... Siga!\" This spell was perfected by Busalian warriors that needed to sneak through ancient temples guarded by Akayu invaders.</em></p>",
+    "discipline": "busalian",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731834869594,
+    "modifiedTime": 1731834958278,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!iUMlnzrQtd9uXSJo"
+}

@@ -1,0 +1,122 @@
+{
+  "folder": "szMpgSuAIYyJlii6",
+  "name": "Lancer",
+  "type": "npc",
+  "_id": "CVSOJlXEdF7jGmdM",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 6,
+      "max": 6,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 5
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 2
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>A spearman, strong and true. Their spear is tasselled and embroidered and decorated with palm leaves. They know how to fight. Will the Sword Isles reward them?</p>",
+    "attacks": "<p><strong>Inflict Violence: Spear.</strong> Attack a fighter within 2 squares with Bravery. Still a melee attack.</p><p><strong>Gambits </strong>[[/r d8]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Rush</p><p><strong>3-4:</strong> Rush toward enemy with lowest HP &gt; Inflict Violence &gt; <strong>Polearm Master [1]:</strong> Slide 1 a fighter in IV range.</p><p><strong>5-6:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>7-8:</strong> Rush &gt; <strong>Naga Skewer [2]:</strong> Attack all enemies in an area (line 2) with Bravery, blasting them <strong>wide open.</strong></p>",
+    "speed": 5,
+    "jump": 2,
+    "threat": 1,
+    "traits": [
+      {
+        "name": "Charge",
+        "description": "If the spearman rushes their full speed, their next inflict violence gains +1d."
+      }
+    ],
+    "style": "raider"
+  },
+  "prototypeToken": {
+    "name": "Lancer",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732009770542,
+    "modifiedTime": 1732011230049,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!actors!CVSOJlXEdF7jGmdM"
+}

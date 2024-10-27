@@ -1,0 +1,30 @@
+{
+  "folder": "UK7SY2iTOEEwRing",
+  "name": "Sword Rhetoric",
+  "type": "enlightenment",
+  "_id": "WAlardGRrPbDs9Ul",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>When you <strong>Hit</strong> an enemy, <strong>mark</strong> them with a biting remark and magicked poetry until the end of your next riff. When the marked target makes an attack, remove the mark and inflict <strong>1 Hit</strong> against them. If the attacker is taunted, inflict <strong>2 Hits</strong> instead.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Dasig lang gihapon. Keep going. The sword is still a sword. Cut yourself off with that sorrowful song. Maybe then, maybe then, there will be peace. But not yet, not yet. A technick perfected by Sword Poet Sialo Baguna I, a King who spurned rulership to travel with a troupe of professional singers. This requires a quick wit and an even quicker tongue: you perform a poem so quickly that your sword swings are bolstered to follow the rhythm, so fast that it creates a physical barrier of strikes.</em></p>",
+    "discipline": "sword-poet",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731910385454,
+    "modifiedTime": 1731910449808,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!WAlardGRrPbDs9Ul"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "5222xbL5Amax0G5p",
+  "name": "Warrior Balyan",
+  "type": "discipline",
+  "_id": "xmnAmTP5ftVB76iw",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Exorcists, Priests, Shamans, Healers, and Channelers of the Myriad Gods of Violence, which fills our world and then overflows.</p></blockquote><p>Warrior Balyan are warrior-priests that wade into the frontlines of violence to mend hurting souls and channel violence. They come with their superior knowledge of healing spells and their affinity and rapport with the the unseen powers of the cosmos to help alleviate their allies in a war without end.</p><p>Balyan are the spiritual leaders of the faith that encompasses almost all of the Sword Isles, which is known to outside people as Anitu. Usually female, but men can also become Balyan, although they must take upon the trappings and present as female, becoming the asug gender. Asug, however, is said like an honorific or a title. Anitu has commonly subsumed most of the religions that have arrived within: while it does live alongside the other common religions in the isles, such as the Ashinin Faith of the Myriad Gods, and the Annuvaran Faith of Tranquilities, it also takes inspiration from them and takes their own gods.</p><p>They are the masters of ritual, performing all rituals such as the ritual before travel, ritual for war, ritual for the death of a Datu, burial rites, and more. They know rites for casting off diseases, healing wounds, as well as inflicting wounds and diseases. They speak and ask guidance from the ancestor spirits, known as umalagad, to give them power or answers, or to defend them in forthcoming tribulations as guardian spirits.</p><p>The most powerful of the gods, are worshipped in temples, altars, pagodas, and churches.</p><p>As the spiritual leaders, they must know the principles of nature and the world, including the imperative to live harmoniously with nature, where all spirits live, as well as to do what the ancestor spirits find good and right, so as to not incur their wrath and accrue grave misfortune.</p><p>As Balyan, they know the truth of the world: that nature is alive and all things have souls, nature spirits. Nature gods are Diwata, ancestor spirits are Apo, Guardian Spirits are umalagad, of which many Apo are. Flowing through the world is Diwa, the essence of all things. When something loses Diwa, they lose their own essence, similar to how a tawo without a soul becomes a bumbling animal fool. A sword without its diwa becomes a sword that cannot cut, which is what makes a sword a sword. When a balyan is possessed by a spirit, whether apo or diwata, they go into a fevered trance-dance, wherein the spirit speaks through them, overwhelming their body.</p><p>Balyan are all at once sage-philosopher-scientist. They learn about the natural world and its secrets and teach it to their settlement. These inscriptions stand the test of time. Warrior Balyan are those that study and channel the gods of Violence, the very circle of killing.</p><blockquote><p>Why do you abuse your connection with the divine to perpetuate this cycle of endless violence? You have blood on your hands, balyan. Does it matter whether it is yours, your allies', or your enemies?</p></blockquote><p><strong>Weapons:</strong> Ritual staffs, ritual spears, wreaths, bundles of blessed grass, incense, tattooed hands, vajras, monk staffs, bells, ritual knives</p><p><strong>Armor:</strong> Multicolored robes, grieving raiments, cloaks, capes, golden sandals, flower diadems, breastplates, ritual war jackets, lamellars inlaid with gold trinkets, oversized gold ornaments, brocaded sarongs</p>",
+    "hp": {
+      "max": 8
+    },
+    "speed": 4,
+    "jump": 2,
+    "prowesses": {
+      "brv": 0,
+      "fai": 1,
+      "pos": 0,
+      "res": 1
+    },
+    "trait": {
+      "description": "<p>You can now take on up to <strong>2 stances at a time.</strong> Whenever you take on or leave a stance, you <strong>perform a ritual dance</strong>: heal 1 all allies in burst 2. When you gain a third stance, choose which of the previous stances you leave.</p><p>You have a <strong>spirit familiar</strong> that starts within 3 tiles of you in violence, it has 6 HP and dissipates when defeated. You must spend 1 Beat to recall your spirit familiar to a tile adjacent to you. You can choose the spirit familiar as the origin point of your techniques, even techniques that target you, and even while the spirit is possessing another fighter.</p><p>When you or an ally moves into a spirit familiar's tile, you can let the spirit <strong>possess</strong> them. Any effect that the spirit familiar gets benefits the possessed as well. You can end possession at any time, letting the spirit emerge in an adjacent tile.</p>",
+      "name": "Dinaitan",
+      "flavor": "<p><em>During the alabay stages of training (apprenticeship), each balyan undergoes a vision quest under a strangler fig and there in the abode of spirits they are expected to find their familiar, or their abayan, their companion.</em></p>"
+    },
+    "violences": {
+      "attacks": {
+        "1": {
+          "description": "<p>You and your spirit familiar <strong>rush half your Speed.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Consort"
+        },
+        "2": {
+          "description": "<p>Take on the <strong>Ritual Chant Stance</strong> until the end of your next riff. While in this stance, you and all allies in burst 2 of you gain <strong>+1d</strong> to all attacks.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Ritual Chant"
+        },
+        "3": {
+          "description": "<p>Attack all enemies in an area (burst 1) with Faith, then take on the <strong>Ritual Dance Stance</strong> until the end of your next riff. While in this stance, you and all allies in burst 2 of you gain <strong>+1d</strong> to all Defenses.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Ritual Spear Dance"
+        }
+      },
+      "name": "Xenoglossy",
+      "flavor": "<p><em>Warrior Balyan have perfected the art of going into a violent trance-dance in the middle of combat, and use that erratic movement to both channel the strength of the gods to their allies, as well as to make their own attacks unpredictable. The divinity of a god forces a ritualist's body to contort in inhuman ways to try and accommodate the god's being.</em></p>"
+    },
+    "identifier": "warrior-balyan",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.WarriorBalyan",
+    "style": "medium"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730701554342,
+    "modifiedTime": 1730754207727,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!xmnAmTP5ftVB76iw"
+}

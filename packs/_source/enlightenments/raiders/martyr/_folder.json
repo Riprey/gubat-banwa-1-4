@@ -1,0 +1,19 @@
+{
+  "name": "Martyr",
+  "sorting": "a",
+  "folder": "8odyXtoanGcBSTQa",
+  "type": "Item",
+  "_id": "fCQL1EEnDVCaTTyu",
+  "sort": 400000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1731926818955,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!folders!fCQL1EEnDVCaTTyu"
+}

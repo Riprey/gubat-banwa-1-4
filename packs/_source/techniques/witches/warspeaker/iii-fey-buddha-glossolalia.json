@@ -1,0 +1,30 @@
+{
+  "folder": "hFh06mf088aonbWA",
+  "name": "III - Fey Buddha Glossolalia",
+  "type": "technique",
+  "_id": "HqtaMTlBKbpPdmJp",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You incant a mantra, and then words that befuddle and confuse.</em></p><p>Spend 1 Beat to choose 1 enemy in range 4. <strong>Dazzle</strong> them and inflict <strong>-2d</strong> to all their attacks until the end of their next riff.</p><p><strong>Flensing Buddha:</strong> Spend 2 Beats to increase the range to all enemies in blast 3.</p><p><strong>Kritanagara's Oath:</strong> Spend 3 Beats. Teleport your Speed before inflicting the effects and then gain <strong>float</strong> until the end of your next riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Master this utterance and know that the Absolute Reality is I, and the imperfect senses cannot comprehend perfection.\" You utter KA·RIK·TAN, and you show a warrior perfect beauty, so hard to comprehend that they are dazzled.</em></p>",
+    "discipline": "warspeaker",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731838960901,
+    "modifiedTime": 1731839173971,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!HqtaMTlBKbpPdmJp"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "5222xbL5Amax0G5p",
+  "name": "Mender",
+  "type": "discipline",
+  "_id": "OzyQJ6xySeQDIMCb",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Healers of Sword, the Traveling Doctors, Masters of the Convalescent Art.</p></blockquote><p>Known as <strong>Tambalan</strong> [tam-BA-lan] in Gatusan, and <strong>Manggagamot</strong> in Ba-e and Virbanweño, Menders are <strong>balyan </strong>who focus on their studies of Dalankalag, the path of the soul, Dalanlikas, the path of nature, and Dalandiwa, the path of essence. They pay less heed to Dalananito, the path of worship, and truly this has led them to come at heads with other balyan. Menders travel the isles as healers and doctors, and in recent times they have become even more in demand due to the rising tensions of war and violence.</p><p>They specialize in healing physical and spiritual harm. Spiritual including any intellectual and emotional damage. Most balyan coteries in a settlement now usually include Menders among their ranks, always at the ready to heal. They have entire longhouses dedicated to their patients, healing those wounded and cleansing of disease.</p><p>The first Mender was said to be none other than the panganitohan Sri Dewa Sarripada Agas. The Mender, embodying the best of both masculine and feminine energies, learned to combine the disparate parts of nature to create harmonifying tinctures. These healing remedies became known as tambal. Thus the tambalan arose: those that used or worked with tambal. They have knowledge of advanced healing techniques as well, although not as broad in their expertise as balyan. They know the basics of hilot, and usually know the correct oils to apply to the proper muscles.</p><p>Sri Dewa Sarripada Agas, known to many Menders as The Blue Man, as they manifested before them when a Mender would first begin their journey. Sri Dewa Sarripada Agas also taught the truth of the soul to the Mender: there are four souls: The Vigor, The Power, The Thought, and finally The Immortal. The Vigor is the life principle, known usually as Diwa. It is what makes us alive. The Power is that which can leave us during our sleep, or can be filled with puhon, and is the soul that activates whenever sorcery is used. Without The Power, we are like husks. Then there is the The Thought, which can leave us if we do not cultivate proper spiritual and mental life. Staying alone for long periods of time can cause this.</p><p>Finally, The Immortal is the soul that collects all of our thoughts and actions and personality. When we die, The Immortal travels to our chosen afterlife, and can be called upon as ancestors. </p><p>Finally, Sri Dewa Sarripada Agas teaches that most ailments happen due to destruction and imbalances within the soul caused by an element. Most ailments begin spiritual, and only those powerful boil over into the physical, affecting us physically. The most grievous of ailments, such as cutting and slashes and crushing blows, for example, is a perfect example of the element of Space separating or pushing together the Vigor. Thus, Menders are taught to heal the soul first, so that the physical may heal properly afterwards.</p><p>Not just that, but their knowledge of nature has them memorizing names of flora and fauna and their functions when mixed with each other, something that balyan don't exactly need to do (but most of them do anyway). While in a venture, having a Mender is necessary to avoid eating poisonous herbs or omen flowers, as well as finding a way to purify water and make it potable. They do this with their clay pots and through burning of various herbs. They learn various drugs to enhance the capabilities of their allies.</p><p><strong>Weapons:</strong> Jade beads, parasols, clothing, sashes, fans, hats, oils, perfumes</p><p><strong>Armors:</strong> Ritual vestments, healer tunics, cloaks, hoods, sashes, robes, gowns</p>",
+    "hp": {
+      "max": 8
+    },
+    "speed": 4,
+    "jump": 1,
+    "prowesses": {
+      "brv": 0,
+      "fai": 0,
+      "pos": 0,
+      "res": 2
+    },
+    "trait": {
+      "description": "<p>All healing you give to allies heals an extra +1, and then you heal 1. After healing an ally, you may <strong>rush 1.</strong> When you <strong>Rally,</strong> one ally in range 5 also <strong>heals</strong> the same amount that you did.</p>",
+      "flavor": "<p><em>The Mender is the perfection of the healing mantle. They can heal even more than the balyan can. They are born as inherent rejection of the Eclipse Era's violence. You are taught the perfect places to hit, strike, massage, as well as the right oils to use, to soothe your allies. These healing remedies became known as tambal. Thus the tambalan arose: those that used or worked with tambal. They have knowledge of advanced healing techniques as well, although not as broad in their expertise as balyan. They know the basics of hilot, and usually know the correct oils to apply to the proper muscles.</em></p>",
+      "name": "Folk Healer"
+    },
+    "violences": {
+      "flavor": "<p><em>Each Mender is given a snake-twin - something usually only given as a guardian spirit to specific chosen children - crafted by Sri Dewa Sarripada Agas themself. Then they will explain that all tawo came from snake within bamboo, and that the snake's ability to shed is indicative of inherent regenerative abilities within man. Thus, man was taught healing through natural means, instead of forced regeneration.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Place a shielding implement (Height 1 Object, Durability 6) in range 3 of you. It is blocking terrain for enemies, but not for allies, and guards any ally adjacent to it. You cannot use this IV as long as the parasol is out. You can make the parasol return to you at any time, repairing all durability.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Barrier"
+        },
+        "2": {
+          "description": "<p>You can utter incantations that spark alchemical flame: <strong>attack a fighter within 4 tiles with Faith,</strong> and then an ally adjacent to the target gains <strong>+1d on their next Attack.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Incantation"
+        },
+        "3": {
+          "description": "<p>Toss a potion. Heal 1 or cleanse any Status from an ally within 4 tiles.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Potion"
+        }
+      },
+      "name": "Smoke Wafting From Bamboo"
+    },
+    "identifier": "mender",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Mender",
+    "style": "medium"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730760749990,
+    "modifiedTime": 1730761846850,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!OzyQJ6xySeQDIMCb"
+}

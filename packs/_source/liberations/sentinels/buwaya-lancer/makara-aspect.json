@@ -1,0 +1,30 @@
+{
+  "folder": "yrzWzBFyoQGogArZ",
+  "name": "Makara Aspect",
+  "type": "liberation",
+  "_id": "psP6zVmV1RJYNs6S",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 3+, you may channel your piety and reverence to strengthen the buwaya you ride upon, turning them into a legendary makara.</strong></p><p>Spend 1 Beat: you become <strong>Size 2 (Height 2),</strong> you <strong>ignore</strong> all terrain, you <strong>Heal 1</strong> when you start your riff, and you gain +1 to your <strong>Posture</strong> and <strong>Resilience.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Makara are the gods of the crocodiles of the Isles, the great vessels of ancient heroes and demigods who waged war to seize wealth.</em></p><p><em>Makara are said to be the first of the crocodiles, and are the original dragons: their spiritual pairing created the three draconic forms that many gods take on: Naga, the Flying Water Guardian Spirits. Pythons, the Deep Earth and Tree Serpent. And finally, the Crocodile, the Sea and Soil Dragon. It is said that a Makara encircles the entire cosmos, all of Kalibutan, and in the end times when violence has consumed like a bleeding, threading flame, it will consume all of reality.</em></p>",
+    "discipline": "buwaya-lancer",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731754375298,
+    "modifiedTime": 1731755288615,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!psP6zVmV1RJYNs6S"
+}

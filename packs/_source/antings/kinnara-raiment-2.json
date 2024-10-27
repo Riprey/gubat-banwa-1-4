@@ -1,0 +1,58 @@
+{
+  "name": "Kinnara Raiment (+2)",
+  "type": "anting",
+  "_id": "Iq3uHjcgjrrf3Gc6",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p><span style=\"font-family:Signika, sans-serif\">Gain <strong style=\"box-sizing:border-box;user-select:text;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">+2</strong> to your Speed.</span></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><span style=\"font-family:Signika, sans-serif\"><em style=\"box-sizing:border-box;user-select:text;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Robes and cloaks that make one look like the kinnara, celestial dancers that are part bird. They look like angels, with wings attached to their backs.</em></span></p>"
+  },
+  "effects": [
+    {
+      "name": "+2 Speed",
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.gubat-banwa-1-4.antings.Item.Iq3uHjcgjrrf3Gc6",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "XcsKw3gAfUM72DRF",
+      "changes": [
+        {
+          "key": "system.speed",
+          "mode": 2,
+          "value": "2"
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "flags": {},
+      "tint": null,
+      "_key": "!items.effects!Iq3uHjcgjrrf3Gc6.XcsKw3gAfUM72DRF"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731932758696,
+    "modifiedTime": 1731932817721,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!Iq3uHjcgjrrf3Gc6"
+}

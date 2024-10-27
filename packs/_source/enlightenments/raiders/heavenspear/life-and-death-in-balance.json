@@ -1,0 +1,61 @@
+{
+  "folder": "8uO8tWzZapwQEosz",
+  "name": "Life and Death In Balance",
+  "type": "enlightenment",
+  "_id": "EeaP6x5I1Tozky97",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>You gain <strong>+2 to your Jump.</strong> Once per Resound, you can rush for free when a fighter starts their riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Learn the truth of the Waling-Waling Surat: that they themselves are not real. Gods, Kings... they are created things. When all are kings, none are.</em></p>",
+    "discipline": "heavenspear",
+    "used": false
+  },
+  "effects": [
+    {
+      "name": "+2 Jump",
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.gubat-banwa-1-4.enlightenments.Item.EeaP6x5I1Tozky97",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "i5Da1stTVZQ9LSAk",
+      "changes": [
+        {
+          "key": "system.jump",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "flags": {},
+      "tint": null,
+      "_key": "!items.effects!EeaP6x5I1Tozky97.i5Da1stTVZQ9LSAk"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731912115101,
+    "modifiedTime": 1731929747199,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!EeaP6x5I1Tozky97"
+}

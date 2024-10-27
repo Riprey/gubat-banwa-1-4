@@ -1,0 +1,30 @@
+{
+  "folder": "0ioRQZHitZuCGVUX",
+  "name": "Sword God Rider",
+  "type": "enlightenment",
+  "_id": "uMDEV74wkRyXXmeh",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>When you make a melee attack, you can choose to skate upon your hovering blade: you become <strong>Floating</strong> until the end of your next riff. While skating on your blade, you also gain <strong>+1 Speed and Jump.</strong> When you lose this Floating, give yourself and all adjacent allies <strong>+1d</strong> on their next attack, as you catch your blade and the enchantments disperse.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Bladeweavers are taught to be careful of their power, and to only accept chiefly patrons that would honor their ability. Those that they know wouldn't be using them for only wealth-gaining ends. Bladeweavers are taught a strict oral code known as the Sword Oath that boils down to: protect those that cannot protect themselves, dismantle those that hold oppressive power.</em></p>",
+    "discipline": "bladeweaver",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731911678893,
+    "modifiedTime": 1731911743827,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!uMDEV74wkRyXXmeh"
+}

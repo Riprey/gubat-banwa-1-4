@@ -1,0 +1,28 @@
+{
+  "name": "Bulawan Vestments",
+  "type": "anting",
+  "_id": "WThxOZftz1Di30Ny",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>When you first become Staggered in Violence, gain <strong>+1 to your Speed</strong> and <strong>+1d to all attacks</strong> until the end of your next riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Bulawan is that reddish Bloodgold, but it is also a holy color, of scarlet, that has pine-like fibers soaked in the reddest of reds-so red that they are gold. The bulawan color is only saved for the most brave of warriors, and within it is the unyielding spirit of one thousand warriors. These vestments and ear-wings attune your soul to the slaughter, and causes you to sink into ultraviolence when you can smell blood. Bloodgold is the purest form of gold in the Isles, and is said to represent the God of Crimson War Idda Mangubat, the Greatest Warrior of the Echoing Annals, who now travels the isles as a warrior-for-hire for those datu that he deems worthy.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731930789194,
+    "modifiedTime": 1731930851392,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!WThxOZftz1Di30Ny"
+}

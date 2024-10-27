@@ -1,0 +1,30 @@
+{
+  "folder": "n21nkoSLn9A3JFil",
+  "name": "Katawan Batara",
+  "type": "liberation",
+  "_id": "wadxZ3kapq6FCUbG",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 3+, you can summon from the heavens the God Body, gleaming pure gold.</strong></p><p>Spend 2 Beats to <strong>INITIATE GODFALL</strong> and climb into your God Body. Your <strong>Size</strong> becomes <strong>2,</strong> gain <strong>Block 4,</strong> and all your attacks <strong>slide 3.</strong> All enemies adjacent to you <strong>must target you,</strong> and all enemies in 2 tiles of you are <strong>wide open.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>You submerge yourself into the blood of the battle and you are quenched. The battlefield becomes your anvil. Your arms become your hammers. And the VIOLENCE YOU BRING WILL BE THE SWORD YOU FORGE!</em></p>",
+    "discipline": "warsmith",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731909636540,
+    "modifiedTime": 1731909950001,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!wadxZ3kapq6FCUbG"
+}

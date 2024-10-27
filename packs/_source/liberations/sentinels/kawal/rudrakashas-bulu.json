@@ -1,0 +1,30 @@
+{
+  "folder": "oQo55e2PIDSeoVPy",
+  "name": "Rudrakasha's Bulu",
+  "type": "liberation",
+  "_id": "FqQT6OxkAlRkV1li",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 4+, you may call out a fighter to challenge you in a duel to the death.</strong></p><p>Spend <strong>1 Beat to declare a bulu</strong> with them. Until the end of the encounter, they cannot attack any other fighter that is not you. If they do, they suffer <strong>1 True Hit.</strong> You similarly suffer -3d to all attacks that don't include your bulu partner as a target. You and your bulu partner become <strong>immune</strong> to taunts not from each other and neither of you can be <strong>forcibly moved</strong> by other warriors.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Rudrakasha is the Guardian Lord of the Southwest Corner, where the land is barren and eventually becomes a white void, the horizon between Sky and Sea. They guard this impossibility, but with their single eye (which is the Eye of the Hurricane) they can see all, and they can strike at any warrior from afar, gaining their ire, becoming their fate, with his bow and arrow, known only as Kalma, or Destiny</em></p>",
+    "discipline": "kawal",
+    "used": false
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731756415960,
+    "modifiedTime": 1731756530985,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!FqQT6OxkAlRkV1li"
+}

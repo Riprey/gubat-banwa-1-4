@@ -1,0 +1,30 @@
+{
+  "folder": "056kkfXkH6ImGtLm",
+  "name": "III - Pit Trap",
+  "type": "technique",
+  "_id": "6EVH0cUU6uGCxvgD",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>Put down a trap that caves in!</em></p><p>Choose a tile within burst 3. Mark that out. When a fighter moves into that tile, or adjacent to it, you can trigger the trap: all tiles in burst 1 of the tile fall -2 elevations, inflict 2 True Hits, turns into <strong>dangerous terrain,</strong> and then inflicts <strong>Stun.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Perfect for heavier creatures. This is a shallow pit that has multiple bamboo spikes with fire- hardened tips at the bottom. Learning to create and use this trap effectively necessitates harmony with the land.</em></p>",
+    "discipline": "beast-hunter",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731839733296,
+    "modifiedTime": 1731839799615,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!6EVH0cUU6uGCxvgD"
+}

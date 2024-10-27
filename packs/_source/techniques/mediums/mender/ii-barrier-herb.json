@@ -1,0 +1,30 @@
+{
+  "folder": "3MTdacdqAtZQJkz8",
+  "name": "II - Barrier Herb",
+  "type": "technique",
+  "_id": "BgMzps0yBz5ACS5M",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You crush barrier herbs and lawaan flower petals together, utter a mentala, and then bless your allies.</em></p><p>Spend 1 Beat to give yourself or 1 ally in burst 3 <strong>+1d</strong> to all Defense rolls until the end of their next riff.</p><p><strong>Kalasag Tambal:</strong> Spend 2 Beats. Give yourself and all allies in the burst the defense bonus. +2d if they're <strong>Staggered.</strong></p><p><strong>Protective Tambal:</strong> Spend 3 Beats. Also give all targets in the burst <strong>Block 3.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Barrier herbs are exceedingly rare, only found in gorges and ravines deep in the islands of the Central Sword Isles. These azure herbs are tears of Sri Dewa Agas.</em></p>",
+    "discipline": "mender",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731904587158,
+    "modifiedTime": 1731904654329,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!BgMzps0yBz5ACS5M"
+}

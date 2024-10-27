@@ -1,0 +1,58 @@
+{
+  "name": "Sage Staff",
+  "type": "anting",
+  "_id": "m8RpEMNLz7ccQSqN",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>You gain +1 to your <strong>Resilience.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A pewter staff that wherein cocoons blossom from, wherein scarlet butterflies erupt whenever the bell is rung. Scarlet Butterflies are an important symbol of metamorphosis and symbiosis for the First Makinaadmanon, who ascertained that it was nature's beauty, cyclical nature and inherent unity condensed into a single being. Its fluttering and beauty is brief, but the fact that it ends make it important, and the spores it spreads with its wings ensure that life continues evermore.</em></p>"
+  },
+  "effects": [
+    {
+      "name": "+1 Resilience",
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.gubat-banwa-1-4.antings.Item.m8RpEMNLz7ccQSqN",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "cr1CUnTb1SLMmJM5",
+      "changes": [
+        {
+          "key": "system.prowesses.res.bonus",
+          "mode": 2,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "flags": {},
+      "tint": null,
+      "_key": "!items.effects!m8RpEMNLz7ccQSqN.cr1CUnTb1SLMmJM5"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731965276992,
+    "modifiedTime": 1731965382473,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!m8RpEMNLz7ccQSqN"
+}

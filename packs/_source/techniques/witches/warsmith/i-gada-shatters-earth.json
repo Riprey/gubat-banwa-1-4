@@ -1,0 +1,30 @@
+{
+  "folder": "eTLutlO6tSaB1V8C",
+  "name": "I - Gada Shatters Earth",
+  "type": "technique",
+  "_id": "oJMLQieHG3HzFBir",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You strike with a mace empowered by nephrite jade-tek.</em></p><p>Spend 1 Beat. Attack an adjacent fighter with Bravery, and then <strong>push them 2</strong>. If they collide with terrain, they become <strong>Stunned.</strong></p><p><strong>Mahagada Breaks Hell:</strong> Spend 2 Beats. Turn the attack into an <strong>area,</strong> targeting a <strong>Blast 3.</strong></p><p><strong>Palo Destroys Heaven:</strong> Spend 3 Beats. Increase the area to <strong>blast 5.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Use your hammer to make a better world. Warsmiths wield all sorts of weapons, constantly shifting, masters of every possible armament so that they are never caught off-guard. Their strikes are thus universal, across all weapons, a skill and feature that makes them feared across the martial arts world.</em></p>",
+    "discipline": "warsmith",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731905623835,
+    "modifiedTime": 1731905698813,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!oJMLQieHG3HzFBir"
+}

@@ -1,0 +1,60 @@
+{
+  "folder": "8BeDdBnitCraewY7",
+  "name": "Whirlpool Movement",
+  "type": "enlightenment",
+  "_id": "zDWUccBQJDhBLcSU",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>You gain <strong>+1 to your Speed,</strong> and you ignore <strong>shallow water</strong> and <strong>difficult terrain.</strong> You can also now take on up to <strong>2 Stances at a time.</strong> When you take a third stance, choose which of the 2 stances is replaced. Whenever you take a stance, <strong>rush 2.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Your feet shuffle. You've internalized the perfect movement of the mangangayaw, never letting water impede them. A common teaching when fighting against premier mangangayaw is this: never get too close to them. This is how the mangangayaw sea raiders rule the waters.</em></p>",
+    "discipline": "mangangayaw",
+    "used": false
+  },
+  "effects": [
+    {
+      "name": "+1 Speed",
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.gubat-banwa-1-4.enlightenments.Item.zDWUccBQJDhBLcSU",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "pDCNc3LGmiXBEzSx",
+      "changes": [
+        {
+          "key": "system.speed",
+          "mode": 2,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "flags": {},
+      "tint": null,
+      "_key": "!items.effects!zDWUccBQJDhBLcSU.pDCNc3LGmiXBEzSx"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731910292407,
+    "modifiedTime": 1731929722125,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!zDWUccBQJDhBLcSU"
+}

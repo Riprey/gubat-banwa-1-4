@@ -1,0 +1,30 @@
+{
+  "folder": "OKHxawNmHFS8D4q1",
+  "name": "III - Crimson Steel Rain",
+  "type": "technique",
+  "_id": "jxowi6vb5zJhMYkh",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You leap into the sky and twirl, raining down hell with bullets, a waltz of fire and missile.</em></p><p>Spend 1 Beat to <strong>fly 2,</strong> and then you may <strong>attack a fighter in range 3 with Faith, hitting on a 5+,</strong> and setting aflame. If you do not attack anyone, your next area attack gains <strong>+2d.</strong></p><p><strong>Bala Buhawi:</strong> Spend 2 Beats to <strong>fly 4.</strong> At any point in the movement, you may <strong>attack all fighters in an area (burst 1) with Faith,</strong> though this does not hit on a <strong>5+.</strong></p><p><strong>Baladeva Whirlwind:</strong> Spend 3 Beats to <strong>fly 8</strong> instead and the attack <strong>hits on a 5+.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The creator of the Baril Witch art was a gunsmith named Pande Pire, who traveled the length of the Sword Isles and collected knowledge about the art of piercing.</em></p>",
+    "discipline": "baril-witch",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731879757002,
+    "modifiedTime": 1731879960018,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!jxowi6vb5zJhMYkh"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kinnara Raiment (+1)",
+  "type": "anting",
+  "_id": "u8gDsRfAOcnw8VoQ",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>Gain <strong>+1</strong> to your Speed.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Robes and cloaks that make one look like the kinnara, celestial dancers that are part bird. They look like angels, with wings attached to their backs.</em></p>"
+  },
+  "effects": [
+    {
+      "name": "+1 Speed",
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.gubat-banwa-1-4.antings.Item.u8gDsRfAOcnw8VoQ",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "lOFJPtkjrDW5y8n7",
+      "changes": [
+        {
+          "key": "system.speed",
+          "mode": 2,
+          "value": "1"
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "flags": {},
+      "tint": null,
+      "_key": "!items.effects!u8gDsRfAOcnw8VoQ.lOFJPtkjrDW5y8n7"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731931883762,
+    "modifiedTime": 1731932773495,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!u8gDsRfAOcnw8VoQ"
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Cataphract",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 7,
+      "max": 7,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 5
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 6
+      },
+      "res": {
+        "value": 2
+      }
+    },
+    "description": "<p>Cataphracts are armored horse riding warriors clad in steel and brigandine, carrying spears and shields to move across the field and break ranks.</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Dragoncharge.</strong> Attack an adjacent enemy with Bravery and then <strong>slow</strong> them.</p><p><strong>Gambits</strong> [[/r d4]]</p><p><strong>1:</strong> Rush &gt; Inflict Violence &gt; Rush</p><p><strong>2:</strong> Rush &gt; Inflict Violence &gt; <strong>Dragon Guard [1]:</strong> Taunt all enemies in burst 2 until the end of the Cataphract’s next riff.</p><p><strong>3:</strong> Rush &gt; <strong>Lightning Spills From The Goblet [2]:</strong> Fly 2 and then attack all enemies in burst 1 with Bravery.</p><p><strong>4:</strong> <strong>Dragonspear [3]:</strong> Move 7 tiles in a straight line, through enemies. Inflict 1 True Hit and <strong>slow</strong> all enemies moved through.</p>",
+    "speed": 6,
+    "jump": 1,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Conviction",
+        "description": "All Folk have a reason for fighting, and if reasoned to, can cause them to rethink combat. However, they will fight for their Conviction until it looks like all is bleak."
+      },
+      {
+        "name": "Morale",
+        "description": "At the beginning of any Resound where there are twice as many Kadungganan than there are enemies (eg., If there are 4 Kadungganan and 2 Enemies left) all Folk enemies will Surrender, becoming Defeated."
+      },
+      {
+        "name": "Heirs of the Dragon",
+        "description": "When a Baikhan fighter starts their riff, they and all adjacent Baikhan are ignited until the end of their next riff. All Ignited Baikhan have +1d to all Attack and Defense dice. Ignited Baikhan cannot be ignited again."
+      },
+      {
+        "name": "Shi",
+        "description": "The Cataphract is mounted: all melee attacks with Bravery against the Cataphract suffer -1d and are considered on +1 Elevation. When the Cataphract ignites, the Cataphract and all ignited fighters gain Block 2."
+      }
+    ],
+    "style": "sentinel"
+  },
+  "prototypeToken": {
+    "name": "Cataphract",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "O2smhD7ezf5ZlRwX",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732184719387,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "tSMAZ66psnH0V4nt",
+  "sort": 200000,
+  "_key": "!actors!tSMAZ66psnH0V4nt"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "oxCgChzrgbjI3FLA",
+  "name": "Murderglaive",
+  "type": "discipline",
+  "_id": "bBSOrkbrEpdGUjYB",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Monstrances of Passion, Channelers of Mahadiwa-KALAKATRI, Murder Goddess, Fulfillers of the Promise of Blood.</p></blockquote><p>In the ancient past, the Suladnon of Murder, Mahadiwa Kalakatri Duumanun, raised an order of warrior-monks whose sole purpose was to use their passions and pain to protect those around them. These revenant martyrs were called the <strong>Bayad-Sala</strong> <em>[bah-yahd SA-lah],</em> those who pay for their sins, and only a scant few of them remain today. They have been stolen by the Pinakalakan, the Goddess of Murder turned into Saint Qali.</p><p>The final initiation of a Murderglave is being immersed into a blood pond before an altar to Mahadiwa Kalakatri Duumanun. Using this near-death experience, they come face to face with the Mother of Ten Thousand Bloody Spears, and they become transcendent.</p><p>In their transcendence, they come to enlightenment. A petty enlightenment, but still an enlightenment to be sure: that violence should not be the end. This was obvious, they know, but they never wished to admit it. It is like realizing that you are being stabbed in the face by an enemy lance at the last second because you did not bring your shield. Thus, the Murderglave's passion is inherently hamstrung with regret. Mahadiwa Kalakatri Duumanun always leaves them with the words: \"There is no atonement for this, sinner.\"</p><p>Murderglaves are dark knights and magickal warriors that rely on their atonement. Many Murderglaves arise from martial artists that suffer a certain guilt for their violences. Their magicks and techniques come from a mix of mastery over the <strong>giant blade</strong> as well as the mastery of their <strong>passions,</strong> which they manifest as <strong>shadow and fulminating darkness.</strong></p><p>They have been cultivated the most by Virbanwa, who creates Murderglave chapels and training monasteries at the edges of Virbanwan territory and conquest. They are inherently distrusted, since they channel their power outside of Sampalataya, the Ashen Star Faith: the Bloody Handed Redemption was created by a datu and his village of Kalakatri faithfuls who lived as warrior-priests, in the northern plains of Rusunuga. The datu is said to have been Datu Sakara, who was killed by El Kampeyador, and subsumed Kalakatri into the greater Saint of Murder and Penitence, Saint Qali.</p><p>The Murderglaves were integral to the Battle of Binangku River, where five poweful Murderglaves stood their ground and staved off an entire Issohappan battalion and river fleet long enough for their allies to be saved by Sinuku war barges.</p><p>These passions of the Murderglave manifest as tendrils of darkness, of shadow. They understand that to embrace humanity is to embrace darkness. And that using that darkness, they can bring about life and light. By their pain, they create walls of obsidian. By their fear, they shield their allies. By their love, they grant others another chance.</p><blockquote><p>If you become a Murderglave, ask yourself why you have chosen such a bloody path. The Left-Handed Path of the Blackened Blood is not the safest path, and is not the friendliest. Why do you suffer to help others, when you know that all your suffering is potentially in vain?</p></blockquote><p><strong>Weapons:</strong> Colossal hammers, giant panabas, ceremonial swords, executioner's axes, straight sword</p><p><strong>Armors:</strong> Cuirasses, peaked helmets, greaves, tassets, steel sabatons, boots, shoulderguards, bracers, gloves</p>",
+    "hp": {
+      "max": 10
+    },
+    "speed": 3,
+    "jump": 1,
+    "prowesses": {
+      "brv": 0,
+      "fai": 1,
+      "pos": 0,
+      "res": 1
+    },
+    "trait": {
+      "description": "<p>Whenever you start your riff, you gain <strong>Malice</strong> (<strong>2</strong> if you're Staggered). <strong>When you are attacked or an enemy leaves an adjacent tile of you,</strong> you may spend 1 Malice to immediately inflict 1 Hit on them, 1/Riff.</p><p>When an enemy in burst 3 of you starts their riff while you have <strong>Malice,</strong> they must roll a d6. If the result is equal to or lower than your current Malice, you become their only valid target for that riff.</p><p><strong>You're vulnerable against attacks of holy radiance.</strong></p>",
+      "flavor": "<p><em>Saint Qali is the Fell Lady, and through faith and orations to her one can use her power, to manipulate death and darkness. The Murderglave Art teaches its disciples to properly channel the Fell Lady by piercing themselves. A Murderglave channeling Saint Qali is sheathed in night blackness, like a penitent veil, choking them as the one million hands of Kalakatri reach out into the field. Pain is an easy passion.</em></p>",
+      "name": "Darkheart"
+    },
+    "violences": {
+      "flavor": "<p><em>The passion of the Murderglaves are harnessed through Kinaadman, esoteric will. They turn it, naturally, into shadow and darkness. Stronger passions, like love or hate, burn bright azure-crimson.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>You can control the shadows with prayer: <strong>attack a fighter in range 3</strong> with Faith and then <strong>Pull 2.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Shadowbringer"
+        },
+        "2": {
+          "description": "<p>A giant weapon once used for farming, now used for tearing viscera and reaping penitence. <strong>Attack all fighters in an area (blast 2) with Bravery.</strong> 1 fighter adjacent to you in the blast is blown <strong>wide open.</strong></p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Reaping Panabas"
+        },
+        "3": {
+          "description": "<p>Incense smoke billows from you. Choose 1 fighter in range 2 and taunt them until the end of your next riff. Gain 1 Malice.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Incense"
+        }
+      },
+      "name": "Bloody Handed Redemption"
+    },
+    "identifier": "murderglaive",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Murderglaive",
+    "style": "sentinel"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730756974023,
+    "modifiedTime": 1730757503295,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!bBSOrkbrEpdGUjYB"
+}

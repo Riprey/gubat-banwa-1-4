@@ -1,0 +1,30 @@
+{
+  "folder": "K9ElAPZA6itez0OD",
+  "name": "II - Naga Breaker Straight",
+  "type": "technique",
+  "_id": "jDV280sZEG8BjpDX",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You kick with the force with which to puncture the universe.</em></p><p>Spend 1 Beat to <strong>attack an enemy in range 6, dazzling and setting aflame with Posture.</strong> If they're already dazzled or aflame, gain +1d and slide them 2 tiles.</p><p><strong>Mahanaga Punctures The Cosmos:</strong> Spend 2 Beats to increase the range to an <strong>area (line 6).</strong></p><p><strong>Serpent Of The Galaxy:</strong> Spend 3 Beats to increase the area to <strong>path 8.</strong> <strong>Stun</strong> the fighter in the last tile of the path.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"HE'S DONE IT! HE HAS PERFORMED A PERFECT SHOOTING STAR SET UP! KABAKA TAKES THE SETUP AND PERFORMS THAT IMMORTAL FORBIDDEN TECHNIQUE, THE ONE TO END IT ALL: NAGA! BREAKER! STRAIGHT!!!\" - Shoutcaster Sinuka-ang-bala, during the grand finals of the Shooting Star Massacre between the Balangiga Crimson Pudongs and Obertura Straightened Axes.</em></p>",
+    "discipline": "starshooter",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731905228439,
+    "modifiedTime": 1731905341198,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!jDV280sZEG8BjpDX"
+}

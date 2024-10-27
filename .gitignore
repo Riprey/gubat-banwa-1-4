@@ -1,0 +1,9 @@
+# NPM
+node_modules/
+
+# Foundry VTT Packs
+packs/*
+!packs/_source/
+
+# CSS
+css/

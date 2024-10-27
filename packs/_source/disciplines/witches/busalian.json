@@ -1,0 +1,80 @@
+{
+  "folder": "SELT6A2mCcLu4Lbv",
+  "name": "Busalian",
+  "type": "discipline",
+  "_id": "4yVpEoEPAhSzTYGh",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Sorcerers true, harnessers of the elements through magick formulas and occult knowledge. Greater Than lightnings and Cannons.</p></blockquote><p>There has ever been magick in Gubat Banwa, and it is ever more concentrated here, in the Sword Isles, the Center of the Trichiliocosm. Kinaadman is a potent thing. It is less a source of power but a burning field of experiences. A differing state of being where one is exposed to the greater mysteries in life, and no answers are given to you. Only questions, questions, questions.</p><p>Across the isles, a common name for magickal knowledge is <strong>Kinaadman</strong>, which means \"erudition\". Kinaadman can be gained with proper cultivation, study, meditation with the Cosmic Soul, or bargains and pledges with beings greater than who we are. Other beings might have kinaadman as a consequent of their nature, such as gods and demons.</p><p>There are many kind of kinaadman: the magickal lore to change the size of something, the magickal lore to summon mystic flame, the magickal lore to control the thunderbolt, the magickal lore to heal others, the lore to levitate, the magickal lore to become impervious to harm. There are many, many more.</p><p>Application of Kinaadman into manipulation of the elemental forces is known as <strong>busali</strong>, once meaning just a healing art. Busali now applies to anything that manipulates the natural world.</p><p>Busalian cultivate kinaadman through study of natural laws, memorization of magickal formulas upon lontar and bamboo, as well as speaking with the invisible things, the spirit underworld, making bargains and memorizing incantations and mudras (hand signs) to affect the natural world. Busalian have evolved from just witches to specifically war witches: they have become indispensable artillery in Warbands and armies henceforth in the Sword Isles, becoming natural counterparts to lantaka. Gatusan and Apumbukid, for example, use Busalian and Mambabarang liberally to supplement their artillery.</p><p>The ability to mix mudra and mentala into a single seamless mystic martial art has proven to be exceedingly effective, however: Busalian fight with a mix of kinetic movement that interweave mudra gesturing with intricate kick katas, mentala utterings with dodges, and the planting of mentala- inscribed bamboo strips is combined with powerful lock-punches.</p><blockquote><p>Why do you ply the land looking for forbidden knowledge? Answer the question: why do you chase after the dark and not use it for light? You hold limitless power in your hands, why inflict violence instead of healing the land? Your answer will never be enough, sorcerer.</p></blockquote><p><strong>Weapons:</strong> Meditations, vajras, staffs, mudras, mantras, bamboo prayer strips, burning bolts of energy</p><p><strong>Armors:</strong> Meditational Robe, silk jackets, voluminous cloaks, flowing sarongs, gleaming paruka</p>",
+    "hp": {
+      "max": 6
+    },
+    "speed": 3,
+    "jump": 1,
+    "prowesses": {
+      "brv": 0,
+      "fai": 2,
+      "pos": 0,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p><strong>Whenever you start your riff</strong>, you can choose an element that you have <strong>attuned to</strong>, gods that you have created pacts with. If an attack already does the effect of your currently attuned element, gain <strong>+1d</strong> to the attack. Choose:</p><ul><li><p><strong>Fire:</strong> Your attacks <em>set aflame.</em></p></li><li><p><strong>Water:</strong> Your attacks <em>douse</em> and 45% chance of <em>Slow.</em></p></li><li><p><strong>Air:</strong> Your attacks <em>chill.</em></p></li><li><p><strong>Earth:</strong> Your attacks <em>poison.</em></p></li><li><p><strong>Metal:</strong> Your attacks <em>bleed.</em></p></li><li><p><strong>Lightning:</strong> Your attacks <em>shock.</em></p></li><li><p><strong>Light:</strong> Your attacks <em>dazzle.</em></p></li><li><p><strong>Dark:</strong> Your attacks are <em>skewering.</em></p></li></ul>",
+      "name": "Elemental Bargain",
+      "flavor": "<p><em>Busalian learn special rituals and magicked words from beings beyond mortal ken. These occult things are part and parcel in Gubat Banwa: chthonic gods, deep sea spirits, black magick ancestors... all these can teach the formulas of magick.</em></p>"
+    },
+    "violences": {
+      "flavor": "<p><em>The common medium of busali spells are words, and so they learn to utter the invisible magicked phrases under their breath. Many fear when a busali can speak, but they know how to utter them even while their mouths are covered or gagged. They command the elements of the world as a poet commands words, with a mixture of stances and flowing body movements that replicate the characteristics of the elements they control. Sometimes they also rely on the use of palm leaf magic strips to empower their attacks.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>An incantation that unleashes an invisible, skewering lance. <strong>Attack all enemies in an area (Line 3) with Faith</strong>, the fighter in the middle of the line suffers <strong>+1d</strong> and is blown <strong>wide open.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Hokot"
+        },
+        "2": {
+          "description": "<p>An incantation that unleashes elements: <strong>attack all enemies in an area (range 4 burst 1) with Faith.</strong> All allies in the burst become <strong>resistant</strong> to your attuned element until the end of their next riff.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Element Blast"
+        },
+        "3": {
+          "description": "<p>You incant a formula: <strong>teleport 1</strong> and then you may <strong>switch the element you're attuned to.</strong></p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Incant Formulas"
+        }
+      },
+      "name": "The Invisible Words"
+    },
+    "identifier": "busalian",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Busalian",
+    "style": "witch"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730715874648,
+    "modifiedTime": 1730754820254,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!4yVpEoEPAhSzTYGh"
+}

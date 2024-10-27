@@ -1,0 +1,19 @@
+{
+  "name": "Mediums",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "5222xbL5Amax0G5p",
+  "sort": 0,
+  "color": "#00a76a",
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730701507862,
+    "modifiedTime": 1730701515839,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!folders!5222xbL5Amax0G5p"
+}

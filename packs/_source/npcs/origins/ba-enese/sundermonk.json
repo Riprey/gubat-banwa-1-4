@@ -1,0 +1,136 @@
+{
+  "name": "Sundermonk",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 6,
+      "max": 6,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 8
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 4
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>Axe ascetics trained by farmers who wield the veritable sword-axe the panabas. Sundermonks value the soul of the weapon, and believe the panabas is the perfect combination of the sword, axe, and spear, and seek to win in as much violence as possible to prove it.</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Dervish.</strong> Attack an adjacent fighter with Bravery, then roll <strong>(1 + Merit) Attack Dice</strong> against all enemies adjacent to the target.</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>3-4:</strong> Rush &gt; Inflict Violence &gt; <strong>Gut [1]:</strong> Inflict 1 True Hit on the last fighter in <strong>path 3.</strong></p><p><strong>5-6:</strong> Rush &gt; <strong>Devastate [2]:</strong> Fly 2, then attack an adjacent enemy with Bravery + Faith. If the target is <strong>Staggered,</strong> gain 1 Merit. If Merit is full, deal <strong>1 True Hit</strong> to the target.</p><p><strong>7-8:</strong> Rush &gt; <strong>Sunyata Slash [2]:</strong> Attack all enemies in an area (blast 3) with Bravery + Faith.</p>",
+    "speed": 4,
+    "jump": 2,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Conviction",
+        "description": "All Folk have a reason for fighting, and if reasoned to, can cause them to rethink combat. However, they will fight for their Conviction until it looks like all is bleak."
+      },
+      {
+        "name": "Morale",
+        "description": "At the beginning of any Resound where there are twice as many Kadungganan than there are enemies (eg., If there are 4 Kadungganan and 2 Enemies left) all Folk enemies will Surrender, becoming Defeated."
+      },
+      {
+        "name": "Turn The Wheel",
+        "description": "At the beginning of every Resound, all Ba-enense fighters gain 1 Merit, which they can gain up to 3 of. All Ba-enense add their current Merit as attack dice."
+      },
+      {
+        "name": "Sandata Atman",
+        "description": "A Sundermonk with Merit ignores all terrain and elevation. They can spend Merit to convert dice into Hits immediately."
+      }
+    ],
+    "style": "raider"
+  },
+  "prototypeToken": {
+    "name": "Sundermonk",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "WucrrXYxuXZQifZo",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732181681984,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "b9FtVA4sbz0cLAbt",
+  "sort": 200000,
+  "_key": "!actors!b9FtVA4sbz0cLAbt"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "B09SqXV0jLzRMcEb",
+  "name": "Gods Revel In Rivers",
+  "type": "enlightenment",
+  "_id": "P0O1j7ZUeoPAa2dc",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>You are immune to <strong>water</strong> terrain and <strong>cannot be chilled.</strong> When you suffer an attack that douses, you may <strong>rush 1,</strong> sliding. Whenever you end your riff, roll your <strong>Bravery.</strong> For every 5+, pull a fighter within burst 5 by 1 tile.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Crocodiles are hardy and they are not hampered at all by water and hard to cross terrain. Even more, their tails work as powerful weapons. When used in tandem with spears, buwaya lancers are a force to be reckoned with.</em></p>",
+    "discipline": "buwaya-lancer",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731910073510,
+    "modifiedTime": 1731910140920,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!P0O1j7ZUeoPAa2dc"
+}

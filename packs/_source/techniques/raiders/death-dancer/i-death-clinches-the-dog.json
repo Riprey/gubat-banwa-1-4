@@ -1,0 +1,30 @@
+{
+  "folder": "lAoIxuB1e1i8rofh",
+  "name": "I - Death Clinches The Dog",
+  "type": "technique",
+  "_id": "JIaHlWTJFkhVxZSr",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You flex your muscles and get in close, grip them with demeanor, mien, and fist. They cannot leave while engaged.</em></p><p>Spend 1 Beat to <strong>attack an adjacent fighter with Bravery</strong> and then <strong>clinch</strong> them until they leave adjacency. While clinched, they have to spend +2 Speed to leave your adjacency, and all your attacks against them gain <strong>Overwhelming.</strong></p><p><strong>Dog Fights Back:</strong> Spend 2 Beats to also <strong>slide the fighter to any tile adjacent to you</strong> and then blow them <strong>wide open.</strong></p><p><strong>Death And Dog Seizes The Gods:</strong> Spend 3 Beats to clinch up to any number of fighters adjacent to you.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Yamadiraja, as Sri Dapa, measures the lives of every mortal on earth upon a tree on the Mountain of Kibalu, in Sonyoh. There, those that would travel to the Tree of Life would be met by him, and taught by him.</em></p>",
+    "discipline": "death-dancer",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731836172436,
+    "modifiedTime": 1731836287194,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!JIaHlWTJFkhVxZSr"
+}

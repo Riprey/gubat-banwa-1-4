@@ -1,0 +1,132 @@
+{
+  "name": "Katuuran",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 24,
+      "max": 24,
+      "blocks": 0
+    },
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 1
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 2
+      },
+      "res": {
+        "value": 6
+      }
+    },
+    "description": "<p>Katuuran are elder balyan, head priests of a city-state, deified at death, assisted by a crowd of assistant balyan. Katuuran conduct the most important rituals, and more importantly channel the most important of the gods. Purveyors of devotion, they lead their flock to the right path to let them accrue spiritual merit. Both spiritual merit and devotion to the ancestors are important to the spiritual cultivation of mortals.</p><p>(The stats provided here is for a Rank 1 encounter with 4 Kadungganan. Check the book for higher ranks.)</p>",
+    "speed": 5,
+    "jump": 1,
+    "threat": 2,
+    "style": "medium",
+    "traits": [
+      {
+        "name": "Poise",
+        "description": "Whenever a Chief suffers a Status Effect or is forcibly moved, they can choose to ignore it and gain a Poise Token instead. When they gain 5 Poise Tokens, they become Poise Broken: they can suffer all Status Effects, can be forcibly moved as normal, and cannot gain any more Poise Tokens. While Poise Broken, a Chief loses 1 Poise Token whenever they start their riff. When they lose all Poise Tokens, they lose Poise Broken and can again gain Poise Tokens."
+      },
+      {
+        "name": "Summoner",
+        "description": "The Katuuran always has one of each NPC type of the appropriate Threat on the battlefield. These are spirit summons with half their normal HP. The Katuuran only riffs 3 times per Resound."
+      },
+      {
+        "name": "Xenoglossy",
+        "description": "The Katuuran can use any ally as an origin point for any effect."
+      }
+    ],
+    "attacks": "<p><strong>Inflict Violence: Ultrasoul.</strong> Attack an enemy in range 3 with Faith, and then an ally may inflict violence.</p><p><strong>Gambits</strong> [[/r d12]]</p><p><strong><span style=\"text-decoration: underline;\">Phase 1: Spirit Channeler</span></strong></p><p><strong>1-6:</strong> Rush &gt; Inflict Violence &gt; Rush</p><p><strong>7-12:</strong> Rush &gt; <strong>Chant [1]:</strong> Give all allies +2d on their next attack. &gt; Inflict Violence</p><p><strong><span style=\"text-decoration: underline;\">Phase 2: God Face.</span></strong><span style=\"text-decoration: underline;\"> Trigger automatically when Staggered.</span></p><p><strong>1-3:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>4-6:</strong> Rush &gt; <strong>Chant [1]:</strong> Give all allies +2d on their next attack. &gt; Inflict Violence</p><p><strong>7-9:</strong> Rush &gt; <strong>Shelter [1]:</strong> Grant all allies in burst 3 <strong>Block 2.</strong> &gt; <strong>Consort [1]:</strong> All allies in the battlefield may <strong>fly 3.</strong></p><p><strong>10-12:</strong> Rush &gt; <strong>Summon [2]:</strong> Summon another fighter of appropriate Threat (fill in any lacking styles). Cannot summon more than 5 fighters at a time. If this is rolled while there are 5 fighters, either replace any ally on the battlefield or teleport all allies by 3 tiles.</p>",
+    "resource": ""
+  },
+  "prototypeToken": {
+    "name": "Katuuran",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "C3eVgX73pwpAoVfd",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731533648818,
+    "modifiedTime": 1732137374613,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "FBSsWoWEz2HYyo6k",
+  "sort": 600000,
+  "_key": "!actors!FBSsWoWEz2HYyo6k"
+}

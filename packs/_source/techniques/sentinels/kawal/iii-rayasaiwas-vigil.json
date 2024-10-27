@@ -1,0 +1,30 @@
+{
+  "folder": "sX3EM7yh8jRQ8Vb5",
+  "name": "III - Rayasaiwa's Vigil",
+  "type": "technique",
+  "_id": "TEmww5eaa4xnOUEe",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You expand your perceptions to those of your allies, ready to leap when they're in need.</em></p><p>Spend 1 Beat to take on the <strong>Vigilant Stance</strong> until the end of your next riff. 1/Riff, when an enemy would attack an adjacent ally, you may swap places with the ally - flying - and suffer the attack. If the enemy is adjacent, also <strong>inflict violence</strong> against them.</p><p><strong>Farther Vigil:</strong> Spend 2 Beats to increase the trigger to any enemy that would attack an ally in burst 3.</p><p><strong>The Flame Shines Bright In Darkness:</strong> Spend 3 Beats to let Rayaiwa's flames burn through you. Heal 2 when you take on the stance and rush 1. When you are attacked while in this stance, set the attacker aflame.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Rayasaiwa is the Guardian Lord of the Center, and is also said to be the Supreme and sometimes the Absolute, He Who Holds All In His Palm. It is said that Gubat Banwa's Cosmos, Kalibutan, balances upon the tip of his trident, Kadaut Rishud.</em></p>",
+    "discipline": "kawal",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731813332167,
+    "modifiedTime": 1731813953115,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!TEmww5eaa4xnOUEe"
+}

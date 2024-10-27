@@ -1,0 +1,30 @@
+{
+  "folder": "lAoIxuB1e1i8rofh",
+  "name": "II - Hornbill Bladekick",
+  "type": "technique",
+  "_id": "85jr8qLuFpKqmZE1",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You spin, and then unleash a rising kick, sending the target flying.</em></p><p>Spend 1 Beat to <strong>attack an adjacent fighter with Bravery</strong> and then <strong>juggle them.</strong></p><p><strong>Hornbill Combination:</strong> Spend 2 Beats to <strong>attack them again immediately afterwards</strong> with <strong>Bravery + Faith.</strong></p><p><strong>King Eagle Rends The Skysea:</strong> Spend 3 Beats to <strong>attack them again with Bravery + Faith.</strong> You can slam the target to the ground, ending Juggled, to add <strong>Overwhelming</strong> and <strong>Skewering</strong> to the attack, and then <strong>stun</strong> them. You become <strong>wide open</strong> until the end of your next riff afterwards.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>This is a gentle strike, be not afraid to use it. With it, you shall sunder boulders. Death crumbles all things, even mountains.</em></p>",
+    "discipline": "death-dancer",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731836340805,
+    "modifiedTime": 1731836465634,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!85jr8qLuFpKqmZE1"
+}

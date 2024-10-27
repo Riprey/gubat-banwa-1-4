@@ -1,0 +1,30 @@
+{
+  "folder": "QibD3erNpmEEozsJ",
+  "name": "II - Kilat",
+  "type": "technique",
+  "_id": "D6w8RrNrZxHod7g2",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You summon lightning and monsoon winds with magickal formula and incantation.</em></p><p>Spend 1 Beat to <strong>attack a fighter in range 5 with Faith,</strong> shocking them.</p><p><strong>Kusoliat:</strong> Spend 2 Beats to instead <strong>attack all fighters in an area (range 3 path 4) with Faith, shocking and juggling them.</strong></p><p><strong>Devakilat:</strong> Spend 3 Beats to instead <strong>attack all fighters in an area (range 5 Path 6) with Faith,</strong> shocking, and juggling all of them.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"As I gather my fulminations, the violences upon my heart bursts forth! Uncontainable like the lightnings: I shall streak brighter than Jamiyun Kulisa! Now feel my sun-searing spite: Kilat!\" This technique was perfected by Busalian Keravu, from the highest mountains of Rusunuga in Sinuku, who was said to have been struck by lightning ten times and deflected each one.</em></p>",
+    "discipline": "busalian",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731835035558,
+    "modifiedTime": 1731835436735,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!D6w8RrNrZxHod7g2"
+}

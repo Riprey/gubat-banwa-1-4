@@ -1,0 +1,30 @@
+{
+  "folder": "KnoVW4ypc0gEL5LI",
+  "name": "Sayaw Ng Kamatayan",
+  "type": "liberation",
+  "_id": "Pg3LIHV4i2FnDJuC",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>At Resound 3+, you may summon the death of avatar with a burning dance.</strong></p><p>Spend 2 Beats. The death avatar hovers over you. Until the end of violence, all your melee attacks can hit targets up to 2 tiles away, and you always roll <strong>Bravery + Faith</strong> for all melee attacks.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>You breathe out, and then break into the blissful dance, all to summon Sayawraja, the King of Dance, the most violent aspect of Yamadiraja: a six-armed, flaming-eyed Avatar of Violence. The Ultimate Hypocrite. They Who Will Kill Those That Threaten Ang Hiyang, Transcendent Dharmapala. The Four-Armed Thunderbolt Wielder is one of the primal versions of Yamadiraja. If there would be any that lights the wick of his ire, he will take upon this form to remind humans the most visceral and primordial face of death.</em></p>",
+    "discipline": "death-dancer",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731906972709,
+    "modifiedTime": 1731907026320,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!Pg3LIHV4i2FnDJuC"
+}

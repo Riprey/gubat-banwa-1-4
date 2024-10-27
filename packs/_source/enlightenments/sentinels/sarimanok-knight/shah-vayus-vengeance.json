@@ -1,0 +1,30 @@
+{
+  "folder": "iEDtPzIZyUAiBZIx",
+  "name": "Shah Vayu's Vengeance",
+  "type": "enlightenment",
+  "_id": "iOIEpc8dye888IDt",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": "<p>You are now <strong>Height 3 Blocking Terrain</strong> for your allies for the purposes of line of sight/effect. Additionally, when you rush, you <strong>fly</strong> for the duration of that movement.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The Sarimanok are also the loyal steeds of Shah Vayu, known also as the Storm Prince, who ruled an ancient empire of floating isles to the east of the Footsteps of the Gods. It was destroyed when Jamiyun Kulisa released his arrows to kill the great Fen Ying, God of Heaven Mountain in the continent that is now known as Baik Hu. As apology, Shah Vayu's kingdom was turned into an eternal city in the fourth heaven. He is seeking revenge now, however. In his ambition, he seeks to take Jamiyun Kulisa's Thunderbolt for himself and become the new God of Thunder and Lightning.</em></p>",
+    "discipline": "sarimanok-knight",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731911176762,
+    "modifiedTime": 1731911243889,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!iOIEpc8dye888IDt"
+}

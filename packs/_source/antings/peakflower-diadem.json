@@ -1,0 +1,28 @@
+{
+  "name": "Peakflower Diadem",
+  "type": "anting",
+  "_id": "ExAi0CrK3umBUb8Y",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>1/Resound, when you suffer an attack from an adjacent enemy, you may <strong>root</strong> them in place: they cannot move or be moved until the end of their next riff or until they suffer an attack that sets aflame (which they're vulnerable to as long as they're rooted).</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>This sheathes the wearer in a veil of chill, and causes them to cough out peakflower petals. As your legend grows, its flower grows, and begins strangling you. The Peakflower is a colorful blossom with multiple petals, reminiscent of chrysanthemum, that can only grow in the coldest areas at the peak of mountains in the Sword Isles, where the caps are sheathed in frost and snow.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731963890059,
+    "modifiedTime": 1731963942659,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!ExAi0CrK3umBUb8Y"
+}

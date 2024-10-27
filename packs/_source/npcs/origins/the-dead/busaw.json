@@ -1,0 +1,132 @@
+{
+  "name": "Busaw",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 7,
+      "max": 7,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 5
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 6
+      },
+      "res": {
+        "value": 2
+      }
+    },
+    "description": "<p>Those that die with vengeful hearts or because of horrible butchering sometimes become restless dead known as busaw, especially if they are warriors, priests, and nobles. Busaw can walk among folk, sleep in trees, and steal items from corpses so that those corpses are not saved by Iraon Daron.</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Flesh Goreclaw.</strong> Attack an adjacent enemy with Bravery, and then grab them and throw them: <strong>slide 4</strong> the target.</p><p><strong>Gambits</strong> [[/r d4]]</p><p><strong>1:</strong> Rush &gt; Inflict Violence &gt; Rush</p><p><strong>2:</strong> Rush &gt; Inflict Violence &gt; <strong>Diseased Body [1]:</strong> If there are any enemies adjacent to the busaw, they <strong>poison</strong> all adjacent enemies and then they <strong>heal 2.</strong></p><p><strong>3:</strong> Rush &gt; <strong>Break Earth [2]:</strong> Attack an adjacent fighter with Bravery and then blow them <strong>wide open.</strong> If there is an object or blocking terrain adjacent to the busaw, it can pick it up and slam it against the fighter, inflicting <strong>+1 Hit</strong> and <strong>Push 1,</strong> and then put the object down at the square vacated.</p><p><strong>4: Corpse Omen [1]:</strong> Put down a corpse (Height 0 Size 1 object, indestructible) in range 4 &gt; Rush &gt; <strong>Consume [1]:</strong> The busaw can consume an adjacent corpse, heal 2 and then inflicting -2d to the next attack of all enemies in burst 2.</p>",
+    "speed": 4,
+    "jump": 1,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Walking Dead",
+        "description": "When Dead fall to 0 HP, they become a pile of grudge. However, they still Riff: at the start of their Riff, they have a 33% chance of reforming and heal 2 HP, and they can riff again. Piles of grudges can be exorcised by spending 1 Beat while close to them. Once Exorcised, they are removed from play. Any Dead that falls to 0 HP by fire or burning holy radiance are immediately exorcised."
+      },
+      {
+        "name": "Earthen Body",
+        "description": "All Dead are immune to poison, bleed, and chill."
+      },
+      {
+        "name": "Corpse Eater",
+        "description": "The busaw is Size 2 and all enemies adjacent to the busaw suffer -1 to all Defenses."
+      }
+    ],
+    "style": "sentinel"
+  },
+  "prototypeToken": {
+    "name": "Busaw",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "H2OeOB0gUh0kLvA5",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732187340621,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "P9ULS1uK8BzTvpAh",
+  "sort": 0,
+  "_key": "!actors!P9ULS1uK8BzTvpAh"
+}

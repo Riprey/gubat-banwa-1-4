@@ -1,0 +1,82 @@
+{
+  "name": "Buwaya Lancer",
+  "type": "discipline",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Lords of the Seas, Friends of the Revered, Unstoppable Juggernauts of Lakes and Rivers.</p></blockquote><p>Buwaya Lancers are crocodile guardsmen, often considered a threat upon the entirety of The Sword Isles. Born from the need to travel quickly across both water and land, an ancient warrior tamed one of the first buwaya. It has since become the name for buwaya that are bred to become mounts: tall, long-legged crocodiles that are fast and have a huge amount of stamina.</p><p>Buwaya Lancers arose during the end of the Seventh Moon Era. To escape capture from powerful Put'wan cataphracts, which rode upon great six-legged steeds, the great Laksamana Tuhon Langkasingbangis and his reduced warband of a measly 12 managed to escape by speaking to a buwaya and the buwaya accepting his oath, remembering that ancient warrior that tamed the first buwaya. Thus, twelve buwaya managed to ride down the river and boarded their biray to escape to the distant land of Sonyoh. There they honed their ability in buwaya taming, creating saddles and tasselled bardings, made of gold and mother-of-pearl and bamboo and more. Rajahnate Buwaya are painted in a same manner the warriors were, although not tattooed. In this way their bond becomes tighter, stronger.</p><p>Buwaya Lancers break the enemy's frontline. In The Sword Isles archipelago warfare, this would not be the end of an enemy's formation, as war was waged not through formations but through force of will: a buwaya lancer breaking ranks will break spirits. It is like seeing a great warrior riding upon the back of the gods.</p><p>The Buwaya Lancers have since become one of the most well- known Disciplines across The Sword Isles. It has become a stable cavalry, one used extensively by Rajahnate polities that could afford it, and the Akai Sultanate to combat the cavalry of the other polities.</p><p>Buwaya Lancers are usually trained to use spears (bangkaw) or tridents (salapang), but other kinds of weapons are just as viable. Therefore, Buwaya Lancers are much wanted in Kadungganan parties, as they are made to crush the frontline and stay there, using crocodile and military armament to crush the opposition.</p><p>Even in land, the crocodile beast can gallop, quick and unstoppable. The Crocodile is one of the most well- respected beasts: they are very often considered to be avatars of the ancestors themselves, and are treated like Grandfathers - that is, with utmost care and respect. They are the great masters of both sea and land, protectors of the places where water and earth meet.</p><blockquote><p>If you become a Buwaya Lancer, ask yourself why you ride upon the greatest of spirits only to bring violence. You are one with a beast known both for death and for the ancestors. You say you protect, so why do you let your buwaya rip that man's head off? Why do you stab while atop your enslaved holy power? Why do you think you are as great as the gods themselves?</p></blockquote><p><strong>Weapons:</strong> Tridents, harpoons, fishing rods, shields</p><p><strong>Armors:</strong> Tattoos, Cotton-padded armor, silk jackets, bronze breastplate, long flowing cloaks</p>",
+    "hp": {
+      "max": 11
+    },
+    "speed": 4,
+    "jump": 1,
+    "prowesses": {
+      "brv": 0,
+      "fai": 0,
+      "pos": 1,
+      "res": 1
+    },
+    "trait": {
+      "description": "<p>You always have your <strong>Lair</strong>, which is an <strong>Aura 1</strong>. Any enemy that ends their riff adjacent to your aura are pulled 1 into the aura. Any enemy that tries to leave your aura must spend +1 Speed and you may <strong>inflict violence</strong> on them, once per Riff.</p>",
+      "name": "Crocodile Knight",
+      "flavor": "<p><em>As a Buwaya Lancer, you might be mounted upon a crocodile, or some other similar draconic creature, though you can choose to not have a mount at all, and simply channel the spirit of a crocodile.</em></p>"
+    },
+    "violences": {
+      "attacks": {
+        "1": {
+          "description": "<p>Attack a fighter within 2 tiles with Bravery, dousing them. This is still a melee attack. <strong>Pull</strong> 1 afterwards.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Harpoon"
+        },
+        "2": {
+          "description": "<p>Move half your Speed and then <strong>taunt</strong> all adjacent enemies until the end of your next riff</p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Barreling Dragon"
+        },
+        "3": {
+          "description": "<p>Your crocodile snaps: attack an adjacent fighter with Bravery, then slide them to any other adjacent square.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Snapping Dragon"
+        }
+      },
+      "name": "Dragon Guards The Rivers",
+      "flavor": "<p><em>Even on land, the crocodile beast can gallop, quick and unstoppable. The Crocodile is one of the most well-respected beasts: they are very often considered to be avatars of the ancestors themselves, and are treated like Grandfathers—that is, with utmost care and respect. They are the great masters of both sea and land, protectors of the places where water and earth meet.</em></p>"
+    },
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.BuwayaLancer",
+    "identifier": "buwaya-lancer",
+    "style": "sentinel"
+  },
+  "effects": [],
+  "folder": "oxCgChzrgbjI3FLA",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730697083456,
+    "modifiedTime": 1730754410250,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "mX9gqnxriQ6KbwbC",
+  "sort": 100000,
+  "_key": "!items!mX9gqnxriQ6KbwbC"
+}

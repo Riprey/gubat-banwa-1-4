@@ -1,0 +1,30 @@
+{
+  "folder": "xEiRbysfsiNgO8Yj",
+  "name": "Glory",
+  "type": "liberation",
+  "_id": "HqFbgbpyvh18XeSb",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 5+, you may open your soul and finally achieve minor liberation.</strong> Spend 1 Beat and you attain <strong>Temporary Glory.</strong> While you have Temporary Glory, you have the following benefits:</p><ul><li><p>Whenever you suffer Hits you <strong>heal</strong> that much instead</p></li><li><p>Any amount of heal that brings you above your maximum HP gives you stacking <strong>Block</strong> instead.</p></li><li><p>Your Hits <strong>heal</strong> instead of reducing HP.</p></li><li><p>All allies in the battlefield gain <strong>+1 to all Prowesses.</strong></p></li></ul>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The first violence was when the Bulakdiwa of Violence glimpsed Blossoming when she realized the truth of the world: it is a vicious wheel. From the ancient war of the Southwest Monsoon and the Northeast Storm, to the slaying of the Ancient Dragon at the hands of Sumongsuklay, to the violence of the Giants Upon The Oldest of the Creators. All of these were Wheels of Violence, but the paradox she realized as she chose to stay corporeal upon the earth instead of achieving unity with the All, was that violence was how they were going to stop it.</em></p><p><em>Thus she became the First Bulakdiwa, a bodhisattva of violence. She forestalled Glory to bring others to Glory. She let herself be mauled by suffering to show others a better path</em></p>",
+    "discipline": "warrior-balyan",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731906583472,
+    "modifiedTime": 1731906759746,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!HqFbgbpyvh18XeSb"
+}

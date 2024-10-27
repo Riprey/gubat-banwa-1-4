@@ -1,0 +1,80 @@
+{
+  "folder": "SELT6A2mCcLu4Lbv",
+  "name": "Warsmith",
+  "type": "discipline",
+  "_id": "NhZpHvZlrXuf0Uje",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Artisans of Violence, Architects of Sorcerous Wonders, Blessed of the Forge Gods.</p></blockquote><p>\"The islands were forged in war, and in war it will be destroyed.\" This is an adage that holds true in most of the modern Sword Isles, and none dare to refute it. Warsmiths are blacksmiths that have taken up their hammers and drenched them in blood.</p><p>The Tradition of the Blood-Soaked Hammer of Hari is founded from the god Hari, known as Dewa Wisnu before becoming known as Hari in the Sword Isles. The All-Pervading Preserver, Wisnu was the protector of the World from dangers outside of the Trichiliocosm and anything that would upset the balance. In Annuvaran, they are known as the protector of Dharma.</p><p>Hari taught the Blood-Soaked Hammer to a settlement that lived in the heart of a volcano, where Naga Hasohas, the Dragon of the Forge, father of the Forge Gods, lived. After Hari (in the incarnation of Krisna) quenched Naga Hasohas' wrath, he granted a number of panday the ability to quick-craft, as well as to create implements that would win them war. Warsmiths to this day have patronage of the 120 Forge Gods.</p><p>A particularly large settlement of Warsmiths, in the region of Kumintang, allied with Ba-e, are made entirely of smiths, led by a single Kadanay king who claims that Kadanay are descended from when Hari arrived in the isles. The Kadanay are an ancient people with burning magenta eyes, said to be one of the oldest people on the island. They are the heirs of an ancient kingdom of gold and jade that they have now forgotten. Another notable settlement is the island of Tugas, an island full of sorcerers, witches, and crafters all ruled over by four Kadanay datu, near the island of Pannai. They are allied with both Pannai, Ba-e, and Gatusan.</p><p>Guro of Warsmiths are often warriors or Datu themselves. They teach a particular brand of combat, one that focuses on turning the battlefield itself into their anvil, their forge, their work sheds. The Blood- Soaked Hammer lets one embody the Preserver, letting Warsmiths to craft small items in an instant.</p><p>Warsmiths are brought up and taught in the ways of the usual smith, but they are taught to control and use the Blood-Soaked Hammer to create battlefield creations and to give it to the tradition of preserving balance. The God-Body is usually their most impressive creation, and it is usually something made in the visage of Wisnu.</p><p>Witness this and learn the truth: nothing created all things in the beginning. All things are born from cause-effect, love-evisceration. Therefore the act of creation is one both inherently divine-mortal, one that you embody. Transcend mortality.</p><blockquote><p>If you take up the Discipline of the Warsmith, ask yourself why you have made such a creative Discipline into one of the most destructive ones. Why do you blaspheme your craft? The weapons used to spill so much blood become forged encapsulations of your sins. When you see your steel, do you not feel guilt?</p></blockquote><p><strong>Weapons:</strong> Hammers, axes, pestles, anvils (tied to a rope), shields, blunt swords, maces, mallets, bludgeons</p><p><strong>Armors:</strong> Silk jackets, silk vests, feetwrap, handwraps, headwraps</p>",
+    "hp": {
+      "max": 7
+    },
+    "speed": 4,
+    "jump": 2,
+    "prowesses": {
+      "brv": 1,
+      "fai": 0,
+      "pos": 1,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p><strong>At the start of Violence: place down 3 Materiel in the battlefield at least 3+ squares away from you,</strong> and you begin with <strong>1 Materiel.</strong> At the start of a Resound past the first, put down another Materiel within 3+ squares of you.</p><p>Whenever a fighter goes through a Materiel's square, they pick up the Materiel. Attacking an enemy that is holding materiel lets you take 1 Materiel from them. Any adjacent ally can spend 1 Beat to give you any Materiel they have as well.</p><p><strong>While you have Materiel:</strong> all your attacks inflict <strong>Push +X</strong> and all forced movement against you is reduced <strong>X:</strong> X being the number of materiel on you. If forced movement against you goes below 0, you inflict the negative value on the mover. (Example: If you have 3 Materiel, and you are Pushed 1, you instead Push 2 to them, as 3 - 1 is equal to -2.)</p><p><strong>If you have no Materiel:</strong> Gain Speed+1, and you may <strong>rush 1</strong> after being attacked.</p>",
+      "flavor": "",
+      "name": "Mystic Prasad Fabrication"
+    },
+    "violences": {
+      "flavor": "<p><em>Channel Wisnu, great Hari, who created this world according to the Niharis (the worshippers of Hari). In addition to creating the world, He is also sanctioned to protect it at all times from every possible danger from outside the Trichiliocosm. As a Warsmith, claim the Blood-Soaked Hammer, and pave a way for a better world. Thus is the only way to preserve it.</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Spend X materiel. Choose 1+X tiles within burst 2 and turn them into <strong>hindering terrain.</strong> If already a hindering terrain, turn them into <strong>blocking terrain</strong>. Lasts until the end of your next riff.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Siwa's Eye"
+        },
+        "2": {
+          "description": "<p>Spend X materiel. Attack an adjacent fighter with Bravery + X, then blow them <strong>wide open.</strong> If they're already wide open, they are now <strong>stunned.</strong></p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Brahma's Fist"
+        },
+        "3": {
+          "description": "<p>Spend X materiel. Attack all enemies in an area (Line 3 + X). The fighter in the last tile starts <strong>bleeding,</strong> the fighter in the first tile is <strong>slowed.</strong></p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Rudra's Trident"
+        }
+      },
+      "name": "The Blood-Soaked Hammer of Hari"
+    },
+    "identifier": "warsmith",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Warsmith",
+    "style": "witch"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730762361678,
+    "modifiedTime": 1730763099603,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!NhZpHvZlrXuf0Uje"
+}

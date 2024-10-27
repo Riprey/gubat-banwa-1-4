@@ -1,0 +1,30 @@
+{
+  "folder": "I2aUraaYXB0gQjN1",
+  "name": "Let The Moon Cleave The Earth",
+  "type": "liberation",
+  "_id": "5480C6QWwjez8A1L",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 4+, you can harness your Fury and summon the lunar gleamblade to cut the entire battlefield.</strong></p><p>Spend 2 Beats to <strong>choose a line that goes across the entire battlefield.</strong> Bisect the battlefield according to that line, cleaving the crescent moon turned into a blade. Any enemy whose tile is touched by or adjacent to the line suffers True Hits equal to <strong>1/2 their max HP.</strong> Afterwards, all tiles that the line touched becomes a <strong>chasm.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"The Moon shall descend. And so, submit, and be faithful. The Moon shall cleave the earth.\" - Book of the New Moon, Chapter 4, Verse 36, Lunar Scriptures.</em></p>",
+    "discipline": "martyr",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731907857045,
+    "modifiedTime": 1731907922809,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!5480C6QWwjez8A1L"
+}

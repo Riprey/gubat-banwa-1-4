@@ -1,0 +1,30 @@
+{
+  "folder": "cGFHL7IAH8arfXTG",
+  "name": "II - On Blackened Wings and Talons",
+  "type": "technique",
+  "_id": "99MXrP4egH4grYsF",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You harness your penitence and summon wings of night and owl-talons of darkness.</em></p><p>Spend 1 Beat to <strong>fly 2 (4 if you're Staggered),</strong> inflict <strong>Fear</strong> on all enemies adjacent to you after the movement.</p><p><strong>Burning Hatred Grasp:</strong> Spend 2 Beats. After inflicting Fear, you may <strong>fly 2 (4 if staggered)</strong> again, bringing with you one fighter.</p><p><strong>Black Claw Solemnidad:</strong> Spend 3 Beats. After flying, attack the fighter you brought with you with <strong>Faith + Resilience,</strong> and then <strong>debilitate</strong> them.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>This is a technique perfected by Saint Sagrado, who traveled the island chain known as Jamiyun Kulisa's arrows to learn from the sorcerers of Batu Perairan. He was killed for his heresy, and in his divine suicide he destroyed a cathedral in both a final act of atonement and to spite the Church, which had become nothing more but power-hungry capitalists who cling to the destructive teachings of the Pale Kings. His shade still wanders Virbanwa's countryside.</em></p>",
+    "discipline": "murderglaive",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731883159359,
+    "modifiedTime": 1731883434230,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!99MXrP4egH4grYsF"
+}

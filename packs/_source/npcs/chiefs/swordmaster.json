@@ -1,0 +1,140 @@
+{
+  "name": "Swordmaster",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 20,
+      "max": 20,
+      "blocks": 0
+    },
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 6
+      },
+      "fai": {
+        "value": 2
+      },
+      "pos": {
+        "value": 3
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>A master of the art of slashing, who has sliced a coconut tree in a single swing. Fear their name</p><p>(The stats provided here is for a Rank 1 encounter with 4 Kadungganan. Check the book for higher ranks.)</p>",
+    "speed": 5,
+    "jump": 2,
+    "threat": 2,
+    "style": "raider",
+    "traits": [
+      {
+        "name": "Poise",
+        "description": "Whenever a Chief suffers a Status Effect or is forcibly moved, they can choose to ignore it and gain a Poise Token instead. When they gain 5 Poise Tokens, they become Poise Broken: they can suffer all Status Effects, can be forcibly moved as normal, and cannot gain any more Poise Tokens. While Poise Broken, a Chief loses 1 Poise Token whenever they start their riff. When they lose all Poise Tokens, they lose Poise Broken and can again gain Poise Tokens."
+      },
+      {
+        "name": "Dragon Eye",
+        "description": "Chiefs can riff a number of times per Resound equal to the Kadungganan."
+      },
+      {
+        "name": "Sword Fields",
+        "description": "After making an attack, put down a Size 1/2 Sword (2 Durability) adjacent to the Swordmaster."
+      },
+      {
+        "name": "Parry",
+        "description": "When the Swordmaster rolls more parries than hits on a Defense roll, deal Hits back at the attacker equal to the difference."
+      },
+      {
+        "name": "Braver Step",
+        "description": "When the Swordmaster rushes, they may fly adjacent to a Sword instead."
+      }
+    ],
+    "attacks": "<p><strong>Inflict Violence: Embroidered Blade.</strong> Attack an adjacent fighter with Bravery. Can destroy up to 3 Swords adjacent to the target to add +1d per Sword destroyed.</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong><span style=\"text-decoration: underline;\">Phase 1: Sheathed Blade.</span></strong></p><p><strong>1-4:</strong> Rush &gt; Inflict Violence &gt; Deflect</p><p><strong>5-8:</strong> Rush &gt; Inflict Violence &gt; <strong>Sword Dance [1]:</strong> Inflict 1 Hit on 1 enemy adjacent to the Swordmaster or a Sword.</p><p><strong><span style=\"text-decoration: underline;\">Phase 2: Unsheathed Blade. </span></strong><span style=\"text-decoration: underline;\">Trigger automatically when the Swordmaster is Staggered.</span></p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>3-4:</strong> Rush &gt; Inflict Violence &gt; <strong>Sword Dance [1]:</strong> Inflict 1 Hit on 1 enemy adjacent to the Swordmaster or a Sword.</p><p><strong>5-6:</strong> <strong>Summon Sword [1]:</strong> Put a sword in an adjacent tile. &gt; Rush &gt; Inflict Violence</p><p><strong>7-8:</strong> Rush &gt; <strong>Bladed Beam [2]:</strong> Attack all fighters in an area (path 7) with Bravery. Destroy any number of Swords on the battlefield to add +1d to the attack dice of this attack per Sword destroyed</p>",
+    "resource": ""
+  },
+  "prototypeToken": {
+    "name": "Swordmaster",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "C3eVgX73pwpAoVfd",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731533648818,
+    "modifiedTime": 1732137430916,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "3olaWxyxVRLX0Clw",
+  "sort": 100000,
+  "_key": "!actors!3olaWxyxVRLX0Clw"
+}

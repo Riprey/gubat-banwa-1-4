@@ -1,0 +1,72 @@
+{{!-- Trait --}}
+<h3 class="form-header">{{localize "GUBAT_BANWA.Categories.DisciplineTrait"}}</h3>
+<div class="form-group">
+    <label for="system.trait.name">{{localize "GUBAT_BANWA.UI.Name"}}</label>
+    <div class="form-fields">
+        <input name="system.trait.name" type="text" value="{{system.trait.name}}" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="system.trait.resource">{{localize "GUBAT_BANWA.UI.Resource"}}</label>
+    <div class="form-fields">
+        <input name="system.trait.resource" type="text" value="{{system.trait.resource}}">
+    </div>
+</div>
+<div class="form-group">
+    <label>{{localize "GUBAT_BANWA.UI.Description"}}</label>
+</div>
+<div class="wysiwyg-container">
+    <div class="wysiwyg-content">{{{system.trait.description}}}</div>
+</div>
+
+
+<div class="form-group">
+    <label>{{localize "GUBAT_BANWA.UI.Flavor"}}</label>
+</div>
+<div class="wysiwyg-container">
+    <div class="wysiwyg-content">{{{system.trait.flavor}}}</div>
+</div>
+
+{{!-- Inflict Violence --}}
+<h3 class="form-header">{{localize "GUBAT_BANWA.Categories.InflictViolences"}}</h3>
+<div class="form-group">
+    <label for="system.violences.name">{{localize "GUBAT_BANWA.UI.Name"}}</label>
+    <div class="form-fields">
+        <input name="system.violences.name" type="text" value="{{system.violences.name}}" />
+    </div>
+</div>
+<div class="form-group">
+    <label>{{localize "GUBAT_BANWA.UI.Flavor"}}</label>
+</div>
+<div class="wysiwyg-container">
+    <div class="wysiwyg-content">{{{system.violences.flavor}}}</div>
+</div>
+
+{{#each system.violences.attacks}}
+<h3 class="form-header">{{localize "GUBAT_BANWA.Categories.AttackNumber" number=@key}}</h3>
+<div class="form-group">
+    <label for="system.violences.attacks.{{@key}}.name">{{localize "GUBAT_BANWA.UI.Name"}}</label>
+    <div class="form-fields">
+        <input name="system.violences.attacks.{{@key}}.name" type="text" value="{{name}}" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="system.violences.attacks.{{@key}}.rolls">{{localize "GUBAT_BANWA.UI.RollWith"}}</label>
+    <div class="form-fields">
+        {{#each rolls}}
+        <label for="system.violences.attacks.{{@../index}}.rolls.{{@key}}">{{#with (lookup ../../config.prowesses
+            @key)}}{{localize
+            label}}{{/with}}</label>
+        <input name="system.violences.attacks.{{@../index}}.rolls.{{@key}}" type="checkbox" {{checked this}}>
+        {{/each}}
+    </div>
+</div>
+<div class="form-group">
+    <label>{{localize "GUBAT_BANWA.UI.Description"}}</label>
+</div>
+{{!-- Currently Foundry doesn't support editing HTMLFields inside ArrayFields --}}
+{{!-- So we're just gonna, lock everything down. Use the cli to manage these instead --}}
+<div class="wysiwyg-container">
+    <div class="wysiwyg-content">{{{description}}}</div>
+</div>
+{{/each}}

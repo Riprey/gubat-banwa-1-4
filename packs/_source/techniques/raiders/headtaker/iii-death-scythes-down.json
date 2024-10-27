@@ -1,0 +1,30 @@
+{
+  "folder": "xTKoZqcU2DDpPfv6",
+  "name": "III - Death Scythes Down",
+  "type": "technique",
+  "_id": "ximIAiPQpxbPNmJf",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You mark out the soul as the one you shall reap, the one offering to the ancestors.</em></p><p>Spend 1 Beat to <strong>mark</strong> a fighter that you can see until the end of your next riff. Whenever the mark moves, you do as well, moving as many squares as they do. When the mark goes away, you may <strong>teleport 2.</strong></p><p><strong>Death Breaks Life:</strong> Spend 2 Beats to mark any fighter, even without line of sight, until the end of your next riff and you gain a <strong>Death Die,</strong> which is a d10. When you attack the target, you may add the Death Die, dealing <strong>2 Hits on 8+,</strong> then discard it. If the mark goes away without you attacking, roll the Death Die anyway. You may teleport <strong>1 + Death Die roll.</strong> The Death Die is discarded afterwards.</p><p><strong>Death Sunders Enlightenment:</strong> Spend 3 Beats. The mark lasts for the rest of violence instead, and the Death Die is not discarded when you roll it.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Sutra III: When blood is drawn, maybe then we shall revel in ultraviolence.</em></p>",
+    "discipline": "headtaker",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731837244304,
+    "modifiedTime": 1731837363974,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!ximIAiPQpxbPNmJf"
+}

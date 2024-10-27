@@ -1,0 +1,11 @@
+<form id="dialog-stats">
+    {{!-- Choose Stat for Rolling --}}
+    <div class="form-group">
+        <label>{{localize "GUBAT_BANWA.UI.RollWith"}}</label>
+        <div class="form-fields">
+            <select name="stat">
+                {{selectOptions statChoices nameAttr="key" labelAttr="label" localize=true}}
+            </select>
+        </div>
+    </div>
+</form>

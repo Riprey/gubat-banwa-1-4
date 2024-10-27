@@ -1,0 +1,30 @@
+{
+  "folder": "Vm3wqmsUlWW3XkPt",
+  "name": "I - Makaubos' Cutting Field / Sword Pure Land",
+  "type": "technique",
+  "_id": "BiF4SYh7lUxwasTg",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You unsheathe your blade and then cut a thousand times in the span of a single second.</em></p><p>Spend 1 Beat and attack a fighter in range 5 with the lower of your <strong>Bravery or Faith,</strong> ignoring Combo Breaker.</p><p><strong>Slashing Lands:</strong> Spend 2 Beats to instead attack all fighters in an area (range 4 burst 1) with Faith and then leave behind a <strong>burst 1 cutting field.</strong> All enemies in that field suffer +1d from all attacks from edged weapons.</p><p><strong>World of Slashing Blades:</strong> Spend 3 Beats. Increase the area to <strong>range 5 burst 2,</strong> and all enemies treat the cutting field as <strong>dangerous terrain.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>All at once a prayer and a spell. With an intercession to Gattalim, Pintakasi (Patron Saint Intercessor) of Blades, Makaubos allows his blades to circle around the target of your scorn, ready to bring them down.</em></p>",
+    "discipline": "sword-saint",
+    "rank": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731893656256,
+    "modifiedTime": 1731893747742,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!BiF4SYh7lUxwasTg"
+}

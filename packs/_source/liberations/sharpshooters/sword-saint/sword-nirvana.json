@@ -1,0 +1,30 @@
+{
+  "folder": "OEAJ294vMbtW32TI",
+  "name": "Sword Nirvana",
+  "type": "liberation",
+  "_id": "pTpJrN3qhRvTz7Yz",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 3+, you can unsheathe yourself and become the cutting thing.</strong></p><p>Spend 1 Beat to enter <strong>Sword Nirvana</strong> for a short moment. While in Sword Nirvana, you have a <strong>Cutting Aura 2.</strong> Any enemy that leaves a square within the cutting aura suffers <strong>1 Hit.</strong> All your attacks can have their origin point within the Cutting Aura, even melee attacks. </p><p>Finally, at the end of any Resound, you can choose to condense your Sword Nirvana into a final Sword Himaya and bisect the battlefield horizontally: all elevations are remove, all enemies have their current HP <strong>halved,</strong> rounded down.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Cause-Effect is a single thing that is not separate from each other: therefore they are not two different things but rather two parts of the same whole. This is exemplified in the beginning of time, where all of existence was nothing but Sky and Sea, both devoid of color or light, an endless undulation, a chaotic dialogue of winds and waves. The Sky and Sea were not separate but part of the same whole, that is the Chaos, the First Cause-Effect. Thus is the importance of learning the Cutting Art of the Sword: the Sword exemplifies that anything that is 2 was once 1, simply cut in twain.</em></p>",
+    "discipline": "sword-saint",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731908764755,
+    "modifiedTime": 1731908983316,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!pTpJrN3qhRvTz7Yz"
+}

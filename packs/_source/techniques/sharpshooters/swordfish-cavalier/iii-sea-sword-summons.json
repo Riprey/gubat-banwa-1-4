@@ -1,0 +1,30 @@
+{
+  "folder": "5i6ULlL33lD2FEZ1",
+  "name": "III - Sea Sword Summons",
+  "type": "technique",
+  "_id": "j1packuDS1PF7bTY",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You can whistle, the sound ripping through and resonating. After a beat, balu erupt from all about you, skewering all enemies.</em></p><p>Spend 1 Beat to summon balu: inflict <strong>1 True Hit</strong> on all enemies in <strong>Blast 5.</strong></p><p><strong>Sea Spear Embodiment:</strong> Spend 2 Beats and choose a burst 1 within 5 tiles of you. You <strong>attack all enemies in that burst with your Faith.</strong> It becomes a <strong>Field of Flying Balu:</strong> any enemy that starts or ends their riff in the field suffers 1 True Hit. Any ally that makes an area attack that includes a tile of the Flying Balu Field as a target may cause the Flying Balu to <strong>storm,</strong> inflicting <strong>Slowed</strong> and <strong>Bleeding</strong> to all enemies in the battlefield, 1/riff.</p><p><strong>Salagunting Premonition:</strong> Spend 3 Beats to increase the burst and field to <strong>burst 2,</strong> and then you may <strong>fly 3.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The balu are royal animals, and they can skewer even better than spears. With this Technique, you embody the Satariya. You are heralded by the sounds of bodyong, and kettlebells against sharp coral weapons.</em></p>",
+    "discipline": "swordfish-cavalier",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731842317699,
+    "modifiedTime": 1731842450327,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!j1packuDS1PF7bTY"
+}

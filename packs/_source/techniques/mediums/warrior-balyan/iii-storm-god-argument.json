@@ -1,0 +1,30 @@
+{
+  "folder": "7g9rywdcUEH12FPW",
+  "name": "III - Storm God Argument",
+  "type": "technique",
+  "_id": "ReF4E5mKuTy7Stle",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>With a ritual dance, spear, bleeding, and ululation, you offer up sacrifices to the gods of the storm and raiding, worshipping with sacrifices to change the weather.</em></p><p>Spend 1 Beat to change the weather into any of the following: <em>rainy, strong winds, harsh sunlight/hazy moonlight (depending on the time), fog, hail.</em></p><p><strong>Jamiyun Kulisa's Boon:</strong> Spend 2 Beats to turn it into a <em>thunderstorm.</em> This works even indoors.</p><p><strong>Perfect Raiding Conditions:</strong> Spend 3 Beats to turn the weather clear, and also give all allies in the battlefield <strong>+2 to all Attacks and Defenses</strong> until the end of their next riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>A tale of two Gods: Lightning Lord and Dragon King.</em></p><p><em>Pray upon the thunderbolt and make offerings to the lightning flash. Jamiyun Kulisa is the burning Brother Thunderbolt, son of the Sky Father Si Gurang Tungko, He Who Holds The Sky Aloft, known sometimes as the Batala or Batara, said to have wrought the creation of Folk. The lightning does not take advice from any one, just as the flame never seeks the comfort of water. Jamiyun Kulisa arises and truly is always there, counterpart to the great Sunmother Indira Suga, who is not his Mother but rather his partner. Together they create the Great Dichotomy within the Sword Isles, the two overpowering Seasons of the Center of the World: the Dry Season of Indira Suga and the Monsoon Season of Jamiyun Kulisa.</em></p><p><em>As Jamiyun Kulisa is the bringer of Monsoon Season, he is also connected to the things that Monsoon Season brings about: rumination, calmness, peace, the soft patter of raindrops, the chill of strong storm winds. He strikes at the heart and cares not: us Mortal Folk have to bend to him when he brings with him his seasons.</em></p><p><em>Upon the Sky he is well acquainted with the Wind Gods: Amihan, the Cold Wind. Habagat the Hot Tempest. Salatan the Cavern Winds. Kanaway the Death Squall. Balahalabagyu, known also as Vayu or Batara Vayu, the God of Storms, who brings destructive hurricanes. Galura, the Great Dragon-Eagle at the End of the World, who is said to be an aspect of Jamiyun Kulisa.</em></p><p><em>\"Are you happy with what you've done?\" asked Makangayaw, grinning, with burning flame shooting out of his nostrils.</em></p><p><em>The Second Man nodded. \"I have lain retribution upon what my sister has cursed upon me.\"</em></p><p><em>\"And what have they cursed upon you?\" \"Jealousy.\"</em></p><p><em>With another mighty laugh, Apung Makangayaw answered: \"And so the cycle begins.\" Apung Makangayaw is offered to whenever a ceremonial raid is enacted, whether it be a raid to gain resources or a revenge raid. In this way, the raid itself becomes more than just war, but ritual. If the omens were bad during the offering, however, it will be a sign that Makangayaw does not approve of the raid, and the raid will be called off. This usually happens when an omen bird flies across their path, or when the sky is red, or when in the distance they hear laughter during their offerings, or when they perform their boat divinations the boat shudders wildly. Offerings to Apung Makangayaw are frequent, for the main mode of war in the islands is raiding.</em></p><p><em>Apung Makangayaw usually takes upon the form of a slave raider: wearing a short bahag with nothing else, and with tattoos that cover their entire body, the completion of the canvas. Their true form, whenever they should want to show it, is in the form of a naga-headed god, who sits upon a throne of seaspray.</em></p><p><em>Apung Makangayaw is one of the principal members of the Anito faith. Anito, meaning act of worship, is the most widespread faith in the islands, so prominent that they do consider it more as tradition and way of life, and not just performative religion.</em></p><p><em>Apung Makangayaw's spirit house is often situated by the shore, always by the shore. The usual spirit idol carved out for him is made usually with wood from sunken boats, and showcases a naga- headed man sitting cross-legged, with both hands upon his waist.</em></p><p><em>Apung Makangayaw idols are frequently carried unto boats that would embark on raids.</em></p><p></p>",
+    "discipline": "warrior-balyan",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731833887091,
+    "modifiedTime": 1731834649653,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!ReF4E5mKuTy7Stle"
+}

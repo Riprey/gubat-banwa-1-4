@@ -1,0 +1,30 @@
+{
+  "folder": "3MTdacdqAtZQJkz8",
+  "name": "III - Rumsua Palm",
+  "type": "technique",
+  "_id": "vgeISd5XetGscgXZ",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You utter mantras and imbue your palm with the power of your soul, and then strike with an open meridian.</em></p><p>Spend 1 Beat to <strong>attack a fighter in range 3 with Faith,</strong> and then push the target's soul out of their body by 4 tiles. Anything that happens to the target's soul is considered as happening to the original owner of the soul (they can only suffer effects from attacks and techniques once, an area attack cannot affect them twice).</p><p>The owner must move through their soul's tile to stop this effect. All attacks against the soul is <strong>overwhelming</strong> and <strong>skewering.</strong></p><p><strong>Eye of God Fist:</strong> Spend 2 Beats. The target becomes <strong>unable to move voluntarily</strong> until the end of their next riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The Rumsua is the Eye of Dewa Agas, the symbol of healing and faith. It blasts away all violence.</em></p>",
+    "discipline": "mender",
+    "rank": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731904664483,
+    "modifiedTime": 1731904752234,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!vgeISd5XetGscgXZ"
+}

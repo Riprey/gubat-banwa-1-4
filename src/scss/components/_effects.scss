@@ -1,0 +1,72 @@
+@mixin effects {
+  .effects {
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--gubat-banwa-red-darker);
+      color: var(--gubat-banwa-color-text-light);
+      padding: 0.5rem 0.25rem;
+    }
+
+    &__title {
+      flex: 2;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    &__column {
+      flex: 1;
+
+      &--source {
+        flex: 2;
+      }
+    }
+
+    &__controls {
+      flex: 1;
+      text-align: right;
+    }
+
+    &__list {
+      padding: 0;
+      margin: 0 0 0.5rem 0;
+      list-style: none;
+      background: #f0f0e0;
+    }
+  }
+
+  .effect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__name-container {
+      display: flex;
+      align-items: center;
+      flex: 2;
+    }
+
+    &__image {
+      width: 2rem;
+      margin-right: 0.5rem;
+    }
+
+    &__name {
+      font-weight: bold;
+    }
+
+    &__column {
+      flex: 1;
+
+      &--source {
+        flex: 2;
+      }
+    }
+
+    &__controls {
+      flex: 1;
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Ashen Vicar",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 24,
+      "max": 24,
+      "blocks": 0
+    },
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 3
+      },
+      "fai": {
+        "value": 7
+      },
+      "pos": {
+        "value": 2
+      },
+      "res": {
+        "value": 3
+      }
+    },
+    "description": "<p><strong>Chief.</strong> The vicars of the Ashen Star are master martial artists as they have been taught by the angels of war. Virbanweño villages are very commonly made around a single chapel, where the vicar lives. The vicar has the double duty as the spiritual leader and chiefly leader of Virbanweño villages. Many vicars are powerful entities that can defeat demons: things they have been taught. Ashen vicars are masters of Issohappan styles of martial arts that focuses on expunging demons and gods.</p><p>While they have good intentions, and truly might not even want to use their martial prowess, they are commonly pushed to fend off raiders and demons. Vicars are of course, filled with steel conviction, and are the closest thing to bodhisattvas. Commonly vicars are saints that have become reincarnated. Once they remember their past life, they peer past the pall of reality.</p><p>(The stats provided here is for a Rank 1 encounter with 4 Kadungganan. Check the book for higher ranks.)</p>",
+    "speed": 4,
+    "jump": 3,
+    "threat": 2,
+    "style": "witch",
+    "traits": [
+      {
+        "name": "Poise",
+        "description": "Whenever a Chief suffers a Status Effect or is forcibly moved, they can choose to ignore it and gain a Poise Token instead. When they gain 5 Poise Tokens, they become Poise Broken: they can suffer all Status Effects, can be forcibly moved as normal, and cannot gain any more Poise Tokens. While Poise Broken, a Chief loses 1 Poise Token whenever they start their riff. When they lose all Poise Tokens, they lose Poise Broken and can again gain Poise Tokens."
+      },
+      {
+        "name": "Dragon Eye",
+        "description": "Chiefs can riff a number of times per Resound equal to the Kadungganan."
+      },
+      {
+        "name": "Ashen Conquest",
+        "description": "All Virbanwans adjacent to each other are considered In Line. While In Line, they have +1 to all Defenses. When they start their riff while In Line, they and all Virbanwans In Line with them may rush 1, never breaking adjacency."
+      },
+      {
+        "name": "Gnostic Smite",
+        "description": "When a Kadungganan starts their riff, start a timer of 1 minute (1:30 when online). If they do not finish their riff in that time, they suffer 1 True Hit."
+      },
+      {
+        "name": "Mendicant",
+        "description": "The Vicar is always floating."
+      },
+      {
+        "name": "Punishment",
+        "description": "1/Violence, when the Kadungganan make an attack, another player may announce Punishment and try to pick up the required Attack Dice before the attacker does. If they do, the vicar gets the attack dice instead, which they can add on any attack that they have. In situations where this is difficult to do (such as online games) triggering this instead causes a 50% chance of the Vicar getting the dice instead."
+      }
+    ],
+    "attacks": "<p><strong>Inflict Violence: Bladed Hand.</strong> Attack an enemy in range 5 with Faith, blow them and all adjacent enemies <strong>wide open.</strong></p><p><strong>Gambits</strong> [[/r d12]]</p><p><strong><span style=\"text-decoration: underline;\">Phase 1: Meek.</span></strong><span style=\"text-decoration: underline;\"> Wreathed in the cloth and the frock.</span></p><p><strong>1-6:</strong> Inflict Violence &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>7-12:</strong> Rush &gt; <strong>Charism [2]:</strong> All enemies in the battlefield are set aflame.</p><p><strong><span style=\"text-decoration: underline;\">Phase 2: Exalted.</span></strong><span style=\"text-decoration: underline;\"> Rip cloth apart, reveal the diamond body, give yourself for the Almighty.</span></p><p><strong>1-3:</strong> Inflict Violence &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>4-6:</strong> Rush &gt; <strong>Charism [2]:</strong> All enemies in the battlefield are set aflame.</p><p><strong>7-9:</strong> <strong>Reprimand [1]:</strong> Slow an enemy in range 6 &gt; <strong>Sermon [1]:</strong> <strong>Debilitate</strong> an enemy in range 6 &gt; <strong>Forgiveness [1]:</strong> Confuse an enemy in range 6.</p><p><strong>10-12: Salvation [3]:</strong> Stun all enemies in burst 5. Then, inflict <strong>2 True Hits</strong> on all enemies in burst 3 that have status effects.</p>",
+    "resource": ""
+  },
+  "prototypeToken": {
+    "name": "Ashen Vicar",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "UUZjrEpsUvSHyh9i",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731533648818,
+    "modifiedTime": 1732137976488,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "OoPtvXzELT5XKfKJ",
+  "sort": 200000,
+  "_key": "!actors!OoPtvXzELT5XKfKJ"
+}

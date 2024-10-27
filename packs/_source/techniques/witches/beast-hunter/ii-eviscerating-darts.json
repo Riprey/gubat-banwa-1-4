@@ -1,0 +1,30 @@
+{
+  "folder": "056kkfXkH6ImGtLm",
+  "name": "II - Eviscerating Darts",
+  "type": "technique",
+  "_id": "qtiJryJLjztNUfLB",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p>You can shoot a barrage of imbued darts with your blowgun.</p><p>Spend 1 Beat to attack a fighter in range 4 with Bravery. Then they become vulnerable to attacks that: <em>set aflame, that poison, that shock, that chill, that bleed.</em> This overtakes other resistances.</p><p><strong>Tiger Hunting Meditation:</strong> Spend 2 Beats. Apply the vulnerability to all enemies in burst 2 of the target.</p><p><strong>God Hunting Blades:</strong> Spend 3 Beats. Rush 2, then you can target up to 3 fighters in range with the attack, and then your next attack (choose 1): <em>set aflame, poisons, shocks, chills, bleeds.</em></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The great Maharaja Indrajaya, one of the most well-known ancient datu under the Sultanate, once went on a hunting journey with Jaris Akai himself in Jamiyun Kulisa's Arrows. There they found large elephants, and decided that these behemoths are the greatest hunting targets. They went and killed many, but were faced with Sri Ganesh, the Elephant God. With the help of Baginda (who gave them a blessed moonsilver needle that destroyed Sri Ganesh's god nature) they defeated Sri Ganesh, who told them that they could continue hunting elephants, but must only do so as a powerful ritual offering to gods. With this agreement, Jaris Akai introduced elephants to Siga upon great war junks. Maharaja Indrajaya became known as the great Hunter King, and many Akai hunters invoke his soul when going out on hunting expeditions.</em></p>",
+    "discipline": "beast-hunter",
+    "rank": 2
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731839605219,
+    "modifiedTime": 1731839723621,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!qtiJryJLjztNUfLB"
+}

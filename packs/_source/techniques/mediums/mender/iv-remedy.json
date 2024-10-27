@@ -1,0 +1,30 @@
+{
+  "folder": "3MTdacdqAtZQJkz8",
+  "name": "IV - Remedy",
+  "type": "technique",
+  "_id": "ntLMufGOmkFUQm3U",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You give an ally a cleansing concoction, burning bright with flakes of gold, blessed cinnamon, pink-herbs, and cloud-forest jade vine seeds.</em></p><p>Spend 1 Beat to cleanse all statuses from yourself or an ally in range 6. Additionally, until the end of their next riff, the target <strong>parries on a 5+.</strong></p><p><strong>High Remedy:</strong> Spend 2 Beats. The target also gains <strong>Block 3.</strong></p><p><strong>Max Remedy:</strong> Spend 3 Beats. The target gains <strong>+1 Beat</strong> on their next riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The most difficult elixir is the remedy. It costs your own spirit and blood to create, along with being the perfect time: you can only make it on the sixth waning moon of a harvest, with ground horns of dragons.</em></p>",
+    "discipline": "mender",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731904763345,
+    "modifiedTime": 1731904824043,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!ntLMufGOmkFUQm3U"
+}

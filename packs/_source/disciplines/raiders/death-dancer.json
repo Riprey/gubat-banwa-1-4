@@ -1,0 +1,80 @@
+{
+  "folder": "pL7acBbodkxQcN9x",
+  "name": "Death Dancer",
+  "type": "discipline",
+  "_id": "dLjmYzpVMSnxWjQf",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Dancers along the lines of Cyclical Death, spirit mediums of Yamadiraja, Diwa of Death and Violence.</p></blockquote><p>Remember, faithful students, enact Cyclical Change to ensure the river ever flows.\" Death Dancers channel the tenet of Cyclical Death to cleanse Gubat Banwa. They are the purest incarnation of Gubat Banwa, fighters that excel in the styles of martial art known as Empty Hand, as well as Lightning Feet.</p><p>Heed the truth, then: Death Dancers are actually spirit mediums that channel Yamadiraja, the God of Death and Violence. In a vast number of beliefs, Yamadiraja is considered an Aspect of Rajaraya Pintas, the Ancestor God of Violence, while other sects, like the Kayama-an religion in far east Gatusan, recognizes Yamadiraja as the Supreme God and the Creator God, who created this reality by murdering the past reality. In Kayama-an, Kalakatri is not seen as an Aspect of Mahadiwa but rather, an Aspect of Yamadiraja.</p><p>The martial art of Death Dancers, the Dance of Death, originated from deep within the mountains of the isles in far east Gatusan, where it is said that there is a cave that leads into the Underworld. There, Yamadiraja (who is said to be the same person as Sri Dapa, the God of War and Mortality in Southern Regions of the Sword Isles), came to them and taught them his Dance, as a way of achieving Hiyang with him, and to become agents of Cyclical Death (that is to say, death needed to continue the cycle, so that it is not corrupted with false immortals jockeying for power).</p><p>Therefore the Dance of Death is at once an intricate ritual and a powerful martial art used to devastate. Many sages conjecture that this was actually a powerful turning point for Gubat Banwa: for the God of Death itself to teach their supreme art marked the beginning of the Eighth Star Era.</p><p>Various mediums of Yamadiraja have come down from that mountain and spread across the land, teaching their art to those that would accept the channeling and worship of Yamadiraja, or Sri Dapa. In the Eighth Star Era, they have multiplied, and various settlements have created their own versions and manifestations of Yamadiraja's supreme art.</p><p>There was a technique, however, that was given to the Death Dancers, as they were taught the final maneuver of the most lethal art in Gubat Banwa:</p><blockquote><p>\"When you have attained the awe inspiring fires of death itself, which humbles even the gods, what do you do next? Use it with the same function as an especially sharp rock?\"</p></blockquote><p><strong>Weapons:</strong> Hands, feet, head, elbows, knees, staffs, sticks</p><p><strong>Armors:</strong> Tattoos, bahag, sarongs, handwraps</p>",
+    "hp": {
+      "max": 8
+    },
+    "speed": 4,
+    "jump": 2,
+    "prowesses": {
+      "brv": 1,
+      "fai": 1,
+      "pos": 0,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p>You ready your <strong>Chambered Fists</strong>: <em>when you're attacked, take on a new stance,</em> or <em>rush</em>, gain <strong>1 Chambered Fist</strong>. At any point, you can <strong>spend a Chambered Fist</strong> to strike quicker than thought and death: inflict <strong>1 Hit</strong> on an adjacent fighter. You can spend any number of chambered fists at any time.</p><p>You can chamber fists up to your <strong>Faith</strong>.</p>",
+      "name": "Body As Weapon",
+      "flavor": "<p><em>\"With your knife fists and sword feet, dance along the lines of death, so that you may evermore be changed. Remember, faithful students, enact Cyclical Change to ensure the river ever flows.\"</em></p>"
+    },
+    "violences": {
+      "attacks": {
+        "1": {
+          "description": "<p>Move your entire Speed, moving through enemies and inflicting <strong>20 True Hits</strong> on all objects you move through, and removing any dangerous and water terrain on tiles you move into.</p>",
+          "rolls": {
+            "brv": false,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Diamond Body"
+        },
+        "2": {
+          "description": "<p><strong>Attack an adjacent fighter with the higher of your Bravery or Faith</strong> and then <strong>inflict -1d on their next Defense roll</strong>.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Swat Away Deathly Flies"
+        },
+        "3": {
+          "description": "<p>Move 2 tiles, through enemies and ignoring terrain, then attack all adjacent fighters with the lower of your <strong>Bravery</strong> or <strong>Faith.</strong> Extinguishes any tiles on fire.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": true,
+            "pos": false,
+            "res": false
+          },
+          "name": "Hundred Hands"
+        }
+      },
+      "name": "The Wheel Breaker",
+      "flavor": "<p><em>You take upon yourself the initiation of cyclical death. What do the cycles of violence see now? Dance along the lines of death.</em></p>"
+    },
+    "identifier": "death-dancer",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.DeathDancer",
+    "style": "raider"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730716614294,
+    "modifiedTime": 1730754237599,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!dLjmYzpVMSnxWjQf"
+}

@@ -1,0 +1,87 @@
+@mixin equippables {
+  .equippables {
+
+    &__header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--gubat-banwa-red-darker);
+    }
+
+    &__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      &--unequipped {
+        opacity: 0.6;
+      }
+    }
+
+    &__empty {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px dashed var(--color-border-light-2);
+      border-top: none;
+      background-color: var(--gubat-banwa-off-white);
+      padding: 1rem;
+      opacity: 0.3;
+
+      &.js-open-compendium {
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+
+    &__empty-message {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .equippable {
+    background: var(--gubat-banwa-off-white);
+    border: 1px solid var(--gubat-banwa-gold);
+    border-top: none;
+
+    &__row {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem;
+    }
+
+    &__name {
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }
+
+    &__image {
+      width: 2rem;
+    }
+
+    &__titles {
+      margin-left: 0.5rem;
+
+      &--stacked {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &__controls {
+      display: flex;
+      align-items: end;
+      gap: 0.25rem;
+    }
+
+    &__description {
+      padding: 0 0.5rem;
+    }
+  }
+}
+
+

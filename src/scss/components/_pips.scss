@@ -1,0 +1,41 @@
+@mixin pips {
+  .pips {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    &__legend {
+      text-align: center;
+    }
+
+    &__track {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.25rem;
+    }
+
+    &__input {
+      appearance: none;
+      width: 1rem;
+      height: 1rem;
+      margin: 0;
+      border-radius: 999rem;
+      border: 2px solid;
+      background: var(--color-shadow-primary);
+      cursor: pointer;
+
+      &[value="0"] {
+        display: none;
+      }
+    }
+
+    &__input:checked ~ .pips__input {
+      background: var(--color-border-light-secondary);
+    }
+
+    &__label {
+      display: none;
+    }
+  }
+}

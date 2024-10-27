@@ -1,0 +1,19 @@
+{
+  "name": "Raiders",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "pL7acBbodkxQcN9x",
+  "sort": 0,
+  "color": "#90002b",
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730698787937,
+    "modifiedTime": 1730701513240,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!folders!pL7acBbodkxQcN9x"
+}

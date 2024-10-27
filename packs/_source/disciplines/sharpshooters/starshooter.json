@@ -1,0 +1,80 @@
+{
+  "folder": "LnAo5BZsPk9wDjck",
+  "name": "Starshooter",
+  "type": "discipline",
+  "_id": "Oic4ZpWK39nw3WLd",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": "<blockquote><p>Masters of the Art of Sending Meteors, Perfection of Improvisation, Those that Perfect Play Through Violence.</p></blockquote><p>War is a sport, and you are the Ace.</p><p>The sport of sipa or sepak takraw is a competitive sport played between two teams, and is popular among children and teenagers. When not warring, sipa is what the youngerfolk of the Sword Isles spend their free time doing, other than drinking, dancing, or learning important lessons.</p><p>One night, Bulalakaw the Comet, descended upon the people of The Sword Isles with a ball of stardust. With this, he began kicking, and he launched it at people. The people caught it with their feet, and soon the volley began. At the end of the play session, Bulalakaw the Comet said: \"Such is life, like a great volley, yet just a part of the entire game, and not the entire game itself. Sunder the world.\"</p><p>Sipa is thus taught by comet-guro, teachers of shooting stars, and has spread far and wide across the archipelago, from the smallest of shore settlements to the greatest of mountain cities, played with rattan balls instead of shooting stars. Every end of harvest, those settlements dedicated to playing Sipa would go and have a sipa tournament in the most prestigious tournament of all: The Shooting Star Massacre, wherein the main stage is two large war barges lashed together.</p><p>In recent times, the best of Comet-Guro have passed down a particular style of Sipa passed down from Bulalakaw themself, and kept away from the rest of competitive Sipa. Practitioners of this particular form of Sipa, known as the Shooting Star, are known as Starshooters, and they use their superior kicking ability to bring violence upon the islands.</p><p>With their skill, they can use anything - even the smallest mote of dust - as a shooting star that they can kick at the victims of their scorn. The Star of Morning martial art focuses precisely on catching all things, even if they are bullets or javelins. This is a technique that they have primarily developed, and many other Kadungganan have begun to use them. Every part of the battlefield is fair game. As a Starshooter, your volley continues as long as your ball does not fall to the ground. In the same way, life goes on.</p><blockquote><p>As a Starshooter, ask yourself why you have turned this gift from the heavens into a Technique. The beauty of the shooting star now tarnished, turned into a horrible horrible sight in the battlefield, one that can decapitate and puncture. Do you enjoy using something seemingly more innocent than a sword as a killing instrument? Do you enjoy treating war as a sport?</p></blockquote><p><strong>Weapons:</strong> Balls, stones, motes of dust, embers, kicks, knees, elbows, forehead</p><p><strong>Armors:</strong> Silk jackets, silk vests, feetwrap, handwraps, headwraps</p>",
+    "hp": {
+      "max": 7
+    },
+    "speed": 4,
+    "jump": 3,
+    "prowesses": {
+      "brv": 1,
+      "fai": 0,
+      "pos": 1,
+      "res": 0
+    },
+    "trait": {
+      "description": "<p>Your allies can target you to make you the origin point of their ranged attacks.</p><p>When you start violence, kick out a <strong>sipa ball</strong> <em>(size 1/2 object, indestructible)</em> into the battlefield within 2 tiles of you. Whenever you or an ally <em>moves through the ball,</em> they may <strong>push</strong> it 1 tile. Every time it is pushed, it gains <strong>Momentum,</strong> to a <strong>maximum of 5.</strong> When the sipa ball <strong>collides,</strong> it inflicts <strong>1 Hit + X Attack Die,</strong> with X being the current number of momentum. It then loses all momentum.</p>",
+      "flavor": "<p><em>In recent times, the best of Comet-Guro have passed down a particular style of Sipa passed down from Bulalakaw themself, and kept away from the rest of competitive Sipa. Practitioners of this particular form of Sipa, known as the Shooting Star, are known as Starshooters, and they use their superior kicking ability to bring violence upon the islands.</em></p>",
+      "name": "Astral Volley"
+    },
+    "violences": {
+      "flavor": "<p><em>With their skill, they can use anything - even the smallest mote of dust - as a shooting star that they can kick at the victims of their scorn. The Starshooter art focuses precisely on catching all things, even if they are bullets or javelins</em></p>",
+      "attacks": {
+        "1": {
+          "description": "<p>Attack an adjacent fighter with Bravery, then <strong>push 2.</strong> If a sipa ball is adjacent to you, push it 2 tiles as well</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Kick"
+        },
+        "2": {
+          "description": "<p>Kick anything and turn it into a comet: <strong>attack a fighter in range 5 with Bravery.</strong> You can target any vertical space (like a wall, or a higher elevation) to make it bounce off of it, making that the origin point of this attack, and adding +1d to the attack. This attack can only bounce up to 3 times in this way. If the sipa ball is adjacent to you, you can kick the sipa ball in the direction of the attack, colliding with any enemies in the line of its movement. The collision against all enemies is counted as one collide.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Shoot"
+        },
+        "3": {
+          "description": "<p><strong>Attack all fighters in an area (line 5) with Bravery,</strong> and then <strong>push 1</strong> the last fighter in the line.</p>",
+          "rolls": {
+            "brv": true,
+            "fai": false,
+            "pos": false,
+            "res": false
+          },
+          "name": "Axe Kick"
+        }
+      },
+      "name": "Bouncing Lightning"
+    },
+    "identifier": "starshooter",
+    "label": "GUBAT_BANWA.Kadungganan.Discipline.Starshooter",
+    "style": "sharpshooter"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1730761865324,
+    "modifiedTime": 1730762351272,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!Oic4ZpWK39nw3WLd"
+}

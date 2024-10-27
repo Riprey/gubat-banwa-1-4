@@ -1,0 +1,30 @@
+{
+  "folder": "xTKoZqcU2DDpPfv6",
+  "name": "IV - Shadow Dies Twice",
+  "type": "technique",
+  "_id": "fI2IkcxsTPYpzbGo",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You bite into betel and utter the sacred words, before a phantasmagoric copy of you erupts.</em></p><p>Spend 1 Beat to <strong>teleport 1</strong> and then summon a <strong>shadow clone (Size/Height 1 object, 2 HP)</strong> in the tile you left. When you are the target of an attack, you may <strong>swap places</strong> with the shadow clone, <strong>teleporting,</strong> and the clone suffers the attack. You can use this technique multiple times per Riff, but you can only summon <strong>3 shadow clones</strong> at a time. When you summon a new one, choose which of the existing shadow clones is removed. </p><p>When you make a melee attack and you have shadow clones in the battlefield, you can spend any number of your shadow clones to make them attack the target, adding +2d per shadow clone.</p><p><strong>Shadow Dog Style:</strong> Spend 2 Beats to summon <strong>up to 3 shadow clones</strong> in burst 1 of the tile you left.</p><p><strong>Kedu And Rahu Eclipses The Moon:</strong> Spend 3 Beats to let you and all your shadow clones <strong>fly 3</strong> after summoning them.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>Sutra 22: \"When BA~TA-LA, That Supreme Soul, stepped into the world through the paradox of creation, Idda Mangubat vanished into the trees in Their path. The great universal consciousness' gaze seemed so serene that he felt themself melting into oneness just at Their gaze\". - SONG OF IDDA MANGUBAT</em></p>",
+    "discipline": "headtaker",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731837378217,
+    "modifiedTime": 1731837562844,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!fI2IkcxsTPYpzbGo"
+}

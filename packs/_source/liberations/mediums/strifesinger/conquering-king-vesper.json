@@ -1,0 +1,30 @@
+{
+  "folder": "phJa87yB0qTncBzS",
+  "name": "Conquering King Vesper",
+  "type": "liberation",
+  "_id": "hWgJbbGXovQ1KpSK",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 5+, you may sing the final song of combat, and rejoice in the glory.</strong></p><p>Spend 1 Beat: you and all allies gain <strong>+1 Beat, Haste, +1 to all Prowesses, Overwhelming Attacks and Defenses, Hit and Parry on 5+,</strong> and <strong>Heal 1 every start of riff</strong> for the rest of Violence. However, if you are still Defeated after this, you lose an extra <strong>1 Honor.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>The song of Rajaraya is lost now, no doubt a sad consequence of his great ambition. His mission and his achievements were liable to make him the most famous of all ancestors: he was the Conquering Giant-King, the one who will seize heaven's thunderclaps, who will destroy the gates of the sky and seize Jamiyun Kulisa's Thunderbolt. It is said that he succeeded, but that he also failed. The truth is now long forgotten, and some say that the Conquering Giant-King still walks this world, or that his corpse can be found within the deep cavern complexes that can be found near the mountain of Tauhaw, where the grand Rajahnate of Gatusan stakes its center.</em></p>",
+    "discipline": "strifesinger",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731908041008,
+    "modifiedTime": 1731908129828,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!hWgJbbGXovQ1KpSK"
+}

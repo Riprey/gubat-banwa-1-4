@@ -1,0 +1,30 @@
+{
+  "folder": "Ric5fKpSD2RAhyJ2",
+  "name": "Self-Love",
+  "type": "liberation",
+  "_id": "eMixmZEkBgzHuXu5",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><span style=\"font-family:Signika, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">On Resound 2+, you can summon the manifestation of your passion, a perfect copy of yourself, because who can love you but you?</strong></span></p><p style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Signika, sans-serif\">Spend 2 Beats to put a <strong style=\"box-sizing:border-box;user-select:text\">shadow of yourself</strong> anywhere within 4 tiles. The shadow is indestructible, but it stays where it is. Every tile within burst 2 of it is <strong style=\"box-sizing:border-box;user-select:text\">Difficult</strong> for enemies. You can launch your attacks with the shadow as an origin point.</span></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><span style=\"font-family:Signika, sans-serif\"><em style=\"box-sizing:border-box;user-select:text;color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Those that go through the training of the Murderglave are set out to the middle of the forest or the sea, and taught to face their fears. They must use their Kinaadman to harness their primal passions, their primal emotions, and turn it into powerful sorcery that can strengthen them against their heart. They understand the truth: pain, fear, love, passion, regret; all these things are what makes a human. And thus to embrace them all is the ultimate strength.</em></span></p>",
+    "discipline": "murderglaive",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731908610896,
+    "modifiedTime": 1731908632142,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!eMixmZEkBgzHuXu5"
+}

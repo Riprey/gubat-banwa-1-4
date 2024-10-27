@@ -1,0 +1,132 @@
+{
+  "name": "Mangalayo",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 6,
+      "max": 6,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 1
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 5
+      },
+      "res": {
+        "value": 6
+      }
+    },
+    "description": "<p>A ball of fire, a soul of a murdered one tainted by atrocity and seeks revenge, or a guardian flame guarding a datu. Moves quickly, chases after those alive, and can grant fires onto allies.</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Ember Strike.</strong> Attack an enemy in range 3 with Faith then all allies in burst 2 gain +1d on their next attack and it sets aflame.</p><p><strong>Gambits</strong> [[/r d6]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; <strong>Inflame [1]:</strong> Choose up to 2 allies. They become <strong>Hasted.</strong></p><p><strong>3-4:</strong> Rush &gt; Inflict Violence &gt; <strong>Guiding Warmth [1]:</strong> All allies in burst 2 gain <strong>+2d</strong> on their next Defense rolls.</p><p><strong>5:</strong> Inflict Violence &gt; Inflict Violence &gt; <strong>Alight [1]:</strong> Choose a burst 1 within range 5. Those tiles become <strong>fire.</strong></p><p><strong>6: Nova [3]:</strong> Attack all enemies in burst 3 with Faith, setting aflame. All allies in the battlefield gain <strong>Overwhelming</strong> and <strong>Skewering</strong> on their next attack, and it sets aflame.</p>",
+    "speed": 5,
+    "jump": 2,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Walking Dead",
+        "description": "When Dead fall to 0 HP, they become a pile of grudge. However, they still Riff: at the start of their Riff, they have a 33% chance of reforming and heal 2 HP, and they can riff again. Piles of grudges can be exorcised by spending 1 Beat while close to them. Once Exorcised, they are removed from play. Any Dead that falls to 0 HP by fire or burning holy radiance are immediately exorcised."
+      },
+      {
+        "name": "Earthen Body",
+        "description": "All Dead are immune to poison, bleed, and chill."
+      },
+      {
+        "name": "Watchlight",
+        "description": "All allies in burst 2 of the mangalayo are guarded by the mangalayo. All allies guarded by the mangalayo do not suffer combo breaker. All tiles in burst 3 of the mangalayo are illuminated. As long as the mangalayo is in the field, fire does not deal hits on allies but instead heals 1."
+      }
+    ],
+    "style": "medium"
+  },
+  "prototypeToken": {
+    "name": "Mangalayo",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "H2OeOB0gUh0kLvA5",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732187693372,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "Ls6R6lyAyWbYXSzD",
+  "sort": 25000,
+  "_key": "!actors!Ls6R6lyAyWbYXSzD"
+}

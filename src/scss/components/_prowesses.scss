@@ -1,0 +1,49 @@
+@mixin prowesses {
+  .prowesses {
+
+    &__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0.5rem;
+    }
+  }
+
+  .prowess {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background: var(--gubat-banwa-off-white);
+    border: 2px solid var(--gubat-banwa-gold);
+
+    &__name {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    &__fields {
+      display: flex;
+      align-items: stretch;
+      flex: 0;
+    }
+
+    &__field {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-right: 0.25rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &__field-value {
+      font-size: 1.5rem;
+      min-width: 2rem;
+      text-align: right;
+    }
+  }
+}

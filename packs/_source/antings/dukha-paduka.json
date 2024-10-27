@@ -1,0 +1,28 @@
+{
+  "name": "Dukha Paduka",
+  "type": "anting",
+  "_id": "ngDtrNf1eIJOKNjJ",
+  "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+  "system": {
+    "description": "<p>When you suffer dangerous terrain, you <strong>heal 1</strong> instead of suffering any hits instead. 1/Riff.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>\"Beggar's Sandals.\" Wooden sandals with a simple abaca fiber fit over it to keep the foot in place. It is raised on two rectangular platforms. It is not very notable otherwise. Beggar sandals are what Makinaadmanon wear to travel the lands, wandering mendicants, who have nothing to ride on but their feet.</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731931222952,
+    "modifiedTime": 1731931268427,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!ngDtrNf1eIJOKNjJ"
+}

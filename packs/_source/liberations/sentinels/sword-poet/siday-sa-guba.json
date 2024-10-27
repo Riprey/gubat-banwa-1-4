@@ -1,0 +1,30 @@
+{
+  "folder": "qGH2QJVfPuLx3yp1",
+  "name": "Siday Sa Guba",
+  "type": "liberation",
+  "_id": "1UX7hv4CVgqSE25m",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "description": "<p><strong>On Resound 3+, you may sing that song of life and death, culminating in a breaking verse.</strong></p><p>Spend 2 Beats to choose a single fighter in the battlefield that can hear you. Until the end of violence, they cannot make attacks or any other hostile action. Chiefs and Braves lose -<strong>1 Riff.</strong></p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>You sing a siday, the folk epic songs of your people. Your song bolsters those around you, and entrances your enemies. They are thrown into a reverie state, forced to play out the Siday that you sing, wherein you are the inevitable victor. However, it is a well-known fact that Siday last for up to seven days and seven nights, enumerating the exploits of great datu and dayang.</em></p>",
+    "discipline": "sword-poet",
+    "used": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731906464076,
+    "modifiedTime": 1731906549536,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!1UX7hv4CVgqSE25m"
+}

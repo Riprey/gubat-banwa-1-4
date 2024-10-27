@@ -1,0 +1,30 @@
+{
+  "folder": "Ipzu7G2K0b9Z2ubl",
+  "name": "IV - Song of The Ancients",
+  "type": "technique",
+  "_id": "mlMJvFka4F3ypmdL",
+  "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+  "system": {
+    "description": "<p><em>You sing a song of rapturous sorrow, of the truth of the tremendous violence of reality, the all-consuming demon of power. You ring your bells, you chant the ululations and grievances, and you end it with a lonely flute note.</em></p><p>Spend 1 Beat: <strong>attack an enemy in range 3 with Faith,</strong> and then <strong>slide 3</strong> the target. If an ally becomes adjacent to the target at any point in the movement, they may <strong>inflict violence.</strong></p><p><strong>A Fulmination of Songs:</strong> Spend 2 Beats. Increase the slide to <strong>slide 5,</strong> and the ally that attacks is <strong>healed 1.</strong></p><p><strong>Kulintang Of Heaven:</strong> Spend 3 Beats. You can forego attacking the target to instead let all allies in burst 2 to <strong>inflict violence.</strong> You suffer <strong>wide open</strong> afterwards.</p>",
+    "label": "",
+    "equipped": false,
+    "flavor": "<p><em>This song was sung by the first singer, a demigoddess whose name has been lost to time. She sang it to calm the two mountains that warred in a distant land. She died in the process, but became the clouds and the sky. The mountains continued on and killed each other, however, as they were bolstered by grief.</em></p><p><em>\"Bear rapture and sorrow.\" A song taught by the great warlord-paraawit apo-apo Singpuksa and since adapted by Awitan all across the archipelago. A song that quickens the hearts and souls of the beings that hear it, inexplicably, sometimes bringing heroes to jovial tears.</em></p>",
+    "discipline": "strifesinger",
+    "rank": 4
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1731841895842,
+    "modifiedTime": 1731842031963,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!items!mlMJvFka4F3ypmdL"
+}

@@ -1,0 +1,132 @@
+{
+  "name": "Patianak",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 6,
+      "max": 6,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 8
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 4
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>Ghosts that used to be women that have died during childbirth, come to haunt villages by walking under their houses. They scramble across the earth quickly and erratically.</p><p>(The stats provided here is for a Rank 1 encounter. Check the book for higher ranks.)</p>",
+    "attacks": "<p><strong>Inflict Violence: Rending Claws.</strong> Attack an adjacent enemy with Bravery, then <strong>bleed</strong> the target.</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>3-4:</strong> Rush &gt; Inflict Violence &gt; <strong>Razor Tongue [1]:</strong> Inflict 1 Hit on any 1 enemy that is bleeding, then heal 1.</p><p><strong>5-6: Unhinge Jaw [1]:</strong> Become <strong>immune to forced movement</strong> until the end of the Patianak's next riff, and then add +1d on the Patianak's next attack &gt; Rush &gt; Inflict Violence</p><p>7-8: Inflict Violence &gt; <strong>Razor Ghost [2]:</strong> Fly 5, then attack an adjacent enemy with Bravery (+Faith if the target is bleeding). Repeat this effect, ignoring Combo Breaker.</p>",
+    "speed": 4,
+    "jump": 2,
+    "threat": 2,
+    "traits": [
+      {
+        "name": "Walking Dead",
+        "description": "When Dead fall to 0 HP, they become a pile of grudge. However, they still Riff: at the start of their Riff, they have a 33% chance of reforming and heal 2 HP, and they can riff again. Piles of grudges can be exorcised by spending 1 Beat while close to them. Once Exorcised, they are removed from play. Any Dead that falls to 0 HP by fire or burning holy radiance are immediately exorcised."
+      },
+      {
+        "name": "Earthen Body",
+        "description": "All Dead are immune to poison, bleed, and chill."
+      },
+      {
+        "name": "Clattering Ghost",
+        "description": "After an attack, fly 2. Patianak cannot be slowed."
+      }
+    ],
+    "style": "raider"
+  },
+  "prototypeToken": {
+    "name": "Patianak",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "H2OeOB0gUh0kLvA5",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732049431399,
+    "modifiedTime": 1732187065512,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_id": "Kgj39UAJcPbfSZBU",
+  "sort": 0,
+  "_key": "!actors!Kgj39UAJcPbfSZBU"
+}
