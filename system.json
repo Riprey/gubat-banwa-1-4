@@ -118,7 +118,7 @@
   ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/Riprey/gubat-banwa-1-4/main/system.json",
-  "download": "This must link to a .zip file of the current version",
+  "download": "https://github.com/Riprey/gubat-banwa-1-4/releases/download/v0.0.1/system.zip",
   "gridDistance": 1,
   "gridUnits": "tiles"
 }
