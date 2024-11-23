@@ -53,7 +53,6 @@ export class GubatBanwaActor extends Actor {
   /** @inheritdoc */
   applyActiveEffects() {
     for (const effect of this.allApplicableEffects()) {
-      console.log(effect);
       effect.determineSuppression();
     }
     return super.applyActiveEffects();

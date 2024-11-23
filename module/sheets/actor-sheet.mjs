@@ -88,7 +88,6 @@ export class GubatBanwaActorSheet extends ActorSheet {
       this.actor.allApplicableEffects(),
     );
 
-    console.log(context);
     return context;
   }
 

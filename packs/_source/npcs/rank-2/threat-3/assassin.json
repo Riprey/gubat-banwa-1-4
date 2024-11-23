@@ -1,0 +1,125 @@
+{
+  "folder": "5GRCCbLqCldic1GT",
+  "name": "Assassin",
+  "type": "npc",
+  "_id": "FLPhq6N6k0p4PyEz",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 7,
+      "max": 7,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 8
+      },
+      "fai": {
+        "value": 3
+      },
+      "pos": {
+        "value": 2
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>Extremely close quarters warriors that are super fast and have phases where they cannot be hit at all. Used to get through enemy lines.</p>",
+    "attacks": "<p><strong>Inflict Violence: Assassinate.</strong> Attack an adjacent enemy with Bravery (<strong>Hit on 5+</strong> if from Stealth).</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Rush</p><p><strong>3-4: Shadowstep [1]:</strong> Gain Stealth. If already in Stealth, <strong>teleport</strong> 4. &gt; Rush &gt; Inflict Violence</p><p><strong>5-6:</strong> Rush &gt; Inflict Violence &gt; <strong>Dual Wield [1]:</strong> Can only be used after an attack. Deal 1 Hit on the attacked fighter.</p><p><strong>7-8: Unrelenting Assault [3]:</strong> <strong>Teleport 3</strong> <em>three times,</em> inflicting violence after every teleport, ignoring Combo Breaker. If done from Stealth, stealth doesn't break until the end of all attacks. Must distribute equally: as much as possible, do not attack the same fighter more than once, unless there are none that the teleport can reach.</p>",
+    "speed": 6,
+    "jump": 4,
+    "threat": 3,
+    "traits": [
+      {
+        "name": "Lurker",
+        "description": "When an assassin ends their riff without any enemy adjacent, they gain Stealth. Whenever they move while in Stealth, they can move through enemies."
+      }
+    ],
+    "style": "raider"
+  },
+  "prototypeToken": {
+    "name": "Assassin",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732317083252,
+    "modifiedTime": 1732318079808,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!actors!FLPhq6N6k0p4PyEz"
+}

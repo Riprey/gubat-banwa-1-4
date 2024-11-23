@@ -73,7 +73,6 @@ export class GubatBanwaItemSheet extends ItemSheet {
 
     // Prepare active effects for easier access
     context.effects = prepareActiveEffectCategories(this.item.effects);
-    console.log(context);
     return context;
   }
 

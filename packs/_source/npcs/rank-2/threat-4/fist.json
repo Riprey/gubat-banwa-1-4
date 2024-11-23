@@ -1,0 +1,125 @@
+{
+  "folder": "PURy1Rie04cZIGxm",
+  "name": "Fist",
+  "type": "npc",
+  "_id": "5WPFSgKPPlnt4itb",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 7,
+      "max": 7,
+      "blocks": 0
+    },
+    "resource": "",
+    "size": 1,
+    "debt": [],
+    "prowesses": {
+      "brv": {
+        "value": 8
+      },
+      "fai": {
+        "value": 7
+      },
+      "pos": {
+        "value": 2
+      },
+      "res": {
+        "value": 1
+      }
+    },
+    "description": "<p>Powerful front line pugilists who can grapple enemies and break their bones.</p>",
+    "attacks": "<p><strong>Inflict Violence: Lone Wolf Fists.</strong> Attack an adjacent enemy with Bravery. This ignores combo breaker.</p><p><strong>Gambits</strong> [[/r d8]]</p><p><strong>1-2:</strong> Rush &gt; Inflict Violence &gt; Inflict Violence</p><p><strong>3-4:</strong> Rush &gt; <strong>Gahom Internalization [1]:</strong> The Fist and all adjacent allies' next attack adds their <strong>Faith</strong> to the roll &gt; Inflict Violence</p><p><strong>5-6:</strong> Rush &gt; <strong>Blazing Wind Star [1]:</strong> Attack an enemy in range 3 with Faith, and then blow them <strong>wide open.</strong> &gt; <strong>Instant Transmission [1]:</strong> Teleport 1 three times.</p><p><strong>7-8:</strong> Rush &gt; <strong>Buddha Palm [2]:</strong> The Fist flies into the air and choose a tile in range 3. A burst 1 explodes from there as the Fist fires buddha’s palm down: attack all fighters in the burst with Bravery, dazzling with holy radiance. Then, fly into any tile within range 2 of the burst.</p>",
+    "speed": 6,
+    "jump": 4,
+    "threat": 4,
+    "traits": [
+      {
+        "name": "Grappler",
+        "description": "When the Fist makes an attack, the target they hit must spend +1 Speed to leave the Fist's adjacency."
+      }
+    ],
+    "style": "raider"
+  },
+  "prototypeToken": {
+    "name": "Fist",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "gubat-banwa-1-4",
+    "systemVersion": "0.0.1",
+    "coreVersion": "11.315",
+    "createdTime": 1732319396153,
+    "modifiedTime": 1732320111382,
+    "lastModifiedBy": "GubatBanwaPacker"
+  },
+  "_key": "!actors!5WPFSgKPPlnt4itb"
+}

@@ -2,6 +2,7 @@
   "id": "gubat-banwa-1-4",
   "title": "Gubat Banwa v1.4",
   "description": "The Gubat Banwa system for FoundryVTT. Based on version 1.41 of the TTRPG.",
+  "url": "https://github.com/Riprey/gubat-banwa-1-4",
   "authors": [
     {
       "name": "Riprey",
@@ -11,7 +12,7 @@
   "license": "LICENSE.txt",
   "readme": "README.md",
   "changelog": "CHANGELOG.md",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": 11,
     "verified": "11.315"
@@ -118,7 +119,7 @@
   ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/Riprey/gubat-banwa-1-4/main/system.json",
-  "download": "https://github.com/Riprey/gubat-banwa-1-4/releases/download/v0.0.1/system.zip",
+  "download": "https://github.com/Riprey/gubat-banwa-1-4/releases/download/v0.0.2/system.zip",
   "gridDistance": 1,
   "gridUnits": "tiles"
 }
