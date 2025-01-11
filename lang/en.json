@@ -140,6 +140,9 @@
         "SingletonViolation": "You cannot have more than one {itemType} on a {actorType}!"
       }
     },
+    "NPC": {
+      "Poise": "Poise Tokens"
+    },
     "Prowess": {
       "Bravery": "Bravery",
       "Faith": "Faith",
@@ -176,6 +179,7 @@
       "Stealth": "Stealth",
       "Shocked": "Shocked",
       "Stunned": "Stunned",
+      "Taunted": "Taunted",
       "WideOpen": "Wide Open"
     },
     "Style": {

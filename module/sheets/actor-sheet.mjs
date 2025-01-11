@@ -172,19 +172,27 @@ export class GubatBanwaActorSheet extends ActorSheet {
    */
   async _prepareNPCData(context) {
     if (context.data.type !== "npc") return;
-    const actor = context.document;
+    const document = context.document;
+    const actorData = document.system;
+
+    if (actorData.poise.max) {
+      actorData.poise.options = Array.from(
+        { length: actorData.poise.max + 1 },
+        (v, i) => i,
+      );
+    }
 
     context.enriched.attacks = await TextEditor.enrichHTML(
-      actor.system.attacks,
+      actorData.attacks,
       {
         // Whether to show secret blocks in the finished html
-        secrets: actor.isOwner,
+        secrets: document.isOwner,
         // Necessary in v11, can be removed in v12
         async: true,
         // Data to fill in for inline rolls
-        rollData: actor.getRollData(),
+        rollData: document.getRollData(),
         // Relative UUID resolution
-        relativeTo: actor,
+        relativeTo: document,
       },
     );
   }

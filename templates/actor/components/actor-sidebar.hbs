@@ -70,6 +70,31 @@
     </div>
     {{/if}}
 
+    {{!-- Poise Tokens --}}
+    {{#if system.poise includeZero=true}}
+    <fieldset class="pips">
+        <div class="pips__legend">{{localize "GUBAT_BANWA.NPC.Poise"}}</div>
+
+        <div class="pips__track">
+            {{#if editable}}
+            <button class="js-value-control" data-action="decrease" data-target="system.poise.value" type="button"><i
+                    class="fas fa-minus"></i></button>
+            {{/if}}
+            {{#each system.poise.options}}
+            <label class="pips__label">
+                <span class="u-sr-only">{{this}}</span>
+            </label>
+            <input class="pips__input" type="radio" id="poise_{{this}}" name="system.poise.value" value="{{this}}"
+                data-dtype="Number" {{#if (eq ../system.poise.value this)}}checked{{/if}}>
+            {{/each}}
+            {{#if editable}}
+            <button class="js-value-control" data-action="increase" data-target="system.poise.value" type="button"><i
+                    class="fas fa-plus"></i></button>
+            {{/if}}
+        </div>
+    </fieldset>
+    {{/if}}
+
     {{!-- Wounds --}}
     {{#if system.wounds includeZero=true}}
     <fieldset class="pips">

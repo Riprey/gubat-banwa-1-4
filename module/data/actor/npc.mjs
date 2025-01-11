@@ -12,6 +12,21 @@ export default class NPCData extends BaseDataModel {
       ...schema,
       ...ActorSharedFields.objectFields,
       ...ActorSharedFields.creatureFields,
+      poise: new SchemaField(
+        {
+          value: new NumberField({
+            ...requiredInteger,
+            min: 0,
+            initial: 0,
+          }),
+          max: new NumberField({
+            ...requiredInteger,
+            min: 0,
+            initial: 5,
+          }),
+        },
+        { label: "GUBAT_BANWA.NPC.Poise" },
+      ),
       description: new HTMLField(),
       attacks: new HTMLField(),
       speed: new NumberField({ ...requiredInteger, min: 0, initial: 0 }),
