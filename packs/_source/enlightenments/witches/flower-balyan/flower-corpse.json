@@ -5,7 +5,7 @@
   "_id": "p9YtMzEfuBwqm6gd",
   "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
   "system": {
-    "description": "<p>You start violence with an animated <strong>corpse</strong> choked with flowers. When you start your riff, the corpse can move 5 squares. The corpse is Height 1 and is an object, but it cannot die. It's already dead. All enemies in burst 2 of the corpse suffer -1 to all defenses.</p>",
+    "description": "<p>You start violence with an animated <strong>corpse</strong> choked with flowers adjacent to you. When you start your riff, the corpse can move 5 squares. The corpse is Height 1 and is an object, but it cannot die. It's already dead. All enemies in burst 2 of the corpse suffer -1 to all defenses.</p>",
     "label": "",
     "equipped": false,
     "flavor": "<p><em>You have captured wandering souls that wish to offer their ghostly consciousnesses for a virtuous cause. You know each of their names.</em></p>",
@@ -20,7 +20,7 @@
   "flags": {},
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
+    "systemVersion": "0.0.3",
     "coreVersion": "11.315",
     "createdTime": 1731912038149,
     "modifiedTime": 1731912092012,

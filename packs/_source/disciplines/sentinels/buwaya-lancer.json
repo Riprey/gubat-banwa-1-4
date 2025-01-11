@@ -16,7 +16,7 @@
       "res": 1
     },
     "trait": {
-      "description": "<p>You always have your <strong>Lair</strong>, which is an <strong>Aura 1</strong>. Any enemy that ends their riff adjacent to your aura are pulled 1 into the aura. Any enemy that tries to leave your aura must spend +1 Speed and you may <strong>inflict violence</strong> on them, once per Riff.</p>",
+      "description": "<p>You always have your <strong>Lair</strong>, which is an <strong>Aura 1</strong>. You may choose to pull 1 any enemy that ends their riff adjacent to your aura into the aura. Any enemy that tries to leave your aura must spend +1 Speed and you may <strong>inflict violence</strong> on them, once per Riff.</p>",
       "name": "Crocodile Knight",
       "flavor": "<p><em>As a Buwaya Lancer, you might be mounted upon a crocodile, or some other similar draconic creature, though you can choose to not have a mount at all, and simply channel the spirit of a crocodile.</em></p>"
     },
@@ -70,7 +70,7 @@
   },
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
+    "systemVersion": "0.0.3",
     "coreVersion": "11.315",
     "createdTime": 1730697083456,
     "modifiedTime": 1730754410250,

@@ -4,7 +4,7 @@
   "_id": "wGm374NgsN1HGWkZ",
   "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
   "system": {
-    "description": "<p>When you are healed to a surplus of your <strong>max HP,</strong> you may <strong>Fly 1</strong> and then give the surplus healing to <strong>all allies in burst 3 instead.</strong></p>",
+    "description": "<p><strong>1/Resound,</strong> when you are healed to a surplus of your <strong>max HP,</strong> you may <strong>Fly 1</strong> and then give the surplus healing to <strong>all allies in burst 3 instead.</strong></p>",
     "label": "",
     "equipped": false,
     "flavor": "<p><em>A brightly brocaded and embroidered sash, showcasing phoenixes and dragons. Woven with bright magick spells.</em></p>"
@@ -18,7 +18,7 @@
   "flags": {},
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
+    "systemVersion": "0.0.3",
     "coreVersion": "11.315",
     "createdTime": 1731933190867,
     "modifiedTime": 1731933236034,

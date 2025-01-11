@@ -5,7 +5,7 @@
   "_id": "r2JQOZ7QSNDaz1V9",
   "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
   "system": {
-    "description": "<p>1/Resound, when you are the target of an attack, you can cancel that attack against you and blow them <strong>wide open.</strong> If they're adjacent to you, <strong>push</strong> them <strong>1 tile.</strong></p>",
+    "description": "<p>1/Violence, when you are the target of an attack, you can cancel that attack against you and blow them <strong>wide open.</strong> If they're adjacent to you, <strong>push</strong> them <strong>1 tile.</strong></p>",
     "label": "",
     "equipped": false,
     "flavor": "<p><em>Preach the Blade Gospel: be as a sword, indiscriminate and betraying. To become a sword you must first betray yourself. The perfection of this technique is a recalling of its past version in the Bladesong: becoming the Sword is to realize one's self, the perfection of mindfulness within one's place in nature.</em></p>",
@@ -20,7 +20,7 @@
   "flags": {},
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
+    "systemVersion": "0.0.3",
     "coreVersion": "11.315",
     "createdTime": 1731911932484,
     "modifiedTime": 1731911994274,

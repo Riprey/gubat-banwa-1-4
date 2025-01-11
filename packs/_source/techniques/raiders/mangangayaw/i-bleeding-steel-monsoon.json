@@ -5,7 +5,7 @@
   "_id": "o1Sfcb6lpttn4kU5",
   "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
   "system": {
-    "description": "<p><em>You strike faster than your opponent can parry.</em></p><p>Spend 1 Beat to inflict 1 Hit on an adjacent enemy. End your Riff right after.</p><p><strong>Blade Churns Blood:</strong> Spend 2 Beats to Inflict Violence twice instead, suffering only -1d to the second attack. If both attacks inflict at least <strong>2 Hits,</strong> you may immediately rush your Speed, ignoring terrain and moving through enemies.</p><p><strong>Furious God Beat:</strong> Spend 3 Beats to Inflict Violence four times instead, suffering only -1d to every attack after the first, but you become <strong>wide open</strong> and all your Defenses fall to 1 until the end of your next riff.</p>",
+    "description": "<p><em>You strike faster than your opponent can parry.</em></p><p>Spend 1 Beat to attack an adjacent enemy <strong>twice</strong> with Bravery. These attacks are not Inflict Violences, and suffer from Combo Breaker as normal. End your Riff right after.</p><p><strong>Blade Churns Blood:</strong> Spend 2 Beats to Inflict Violence twice instead, suffering only -1d to the second attack. If both attacks inflict at least <strong>2 Hits,</strong> you may immediately rush your Speed, ignoring terrain and moving through enemies.</p><p><strong>Furious God Beat:</strong> Spend 3 Beats to Inflict Violence four times instead, suffering only -1d to every attack after the first, but you become <strong>wide open</strong> and all your Defenses fall to 1 until the end of your next riff.</p>",
     "label": "",
     "equipped": false,
     "flavor": "<p><em>All mangangayaw can move their weapons quicker than lightning. Their attacks are unrelenting, the waves against the shore. Mangangayaw believe that letting up even for a second is nothing but wasted time, unless that lull is to cultivate a false sense of advantage.</em></p>",
@@ -20,7 +20,7 @@
   "flags": {},
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
+    "systemVersion": "0.0.3",
     "coreVersion": "11.315",
     "createdTime": 1731815273644,
     "modifiedTime": 1731815514785,

@@ -5,7 +5,7 @@
   "_id": "ZwJRxShBTpq42HSv",
   "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
   "system": {
-    "description": "<p><strong>1/Resound,</strong> when an enemy attacks an ally, you can burst into a run: <strong>rush your Speed + 1.</strong> If you: <em>move into the attack's line of effect, end adjacent to the enemy,</em> or <em>end adjacent to the ally,</em> you can knock the attack away, cancelling it completely.</p>",
+    "description": "<p><strong>1/Violence,</strong> when an enemy attacks an ally, you can burst into a run: <strong>rush your Speed + 1.</strong> If you: <em>move into the attack's line of effect, end adjacent to the enemy,</em> or <em>end adjacent to the ally,</em> you can knock the attack away, cancelling it completely.</p>",
     "label": "",
     "equipped": false,
     "flavor": "<p><em>\"ATARAKA! Do you not understand! This is the Will of Lightning! Streak brighter and illuminate the entire sky, even for a second! That's all we have to do for people to remember our names! Now get up, GET UP! OUR WORK IS NOT DONE!\" - Usisi, The Fulmination, to her ally Sajira Ataraka of the Shattered Javelin.</em></p>",
@@ -20,7 +20,7 @@
   "flags": {},
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
+    "systemVersion": "0.0.3",
     "coreVersion": "11.315",
     "createdTime": 1731912227378,
     "modifiedTime": 1731912330506,

@@ -1,6 +1,6 @@
 {
   "name": "gubat-banwa-1-4",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "build": "npm run build:css && npm run build:db",
     "build:css": "sass src/scss/gubat-banwa-1-4.scss css/gubat-banwa-1-4.css --style=expanded --no-source-map",

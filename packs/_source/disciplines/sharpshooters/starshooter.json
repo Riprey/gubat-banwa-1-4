@@ -26,14 +26,14 @@
       "flavor": "<p><em>With their skill, they can use anything - even the smallest mote of dust - as a shooting star that they can kick at the victims of their scorn. The Starshooter art focuses precisely on catching all things, even if they are bullets or javelins</em></p>",
       "attacks": {
         "1": {
-          "description": "<p>Attack an adjacent fighter with Bravery, then <strong>push 2.</strong> If a sipa ball is adjacent to you, push it 2 tiles as well</p>",
+          "description": "<p>Attack an adjacent fighter with Bravery, then <strong>push 2.</strong> If a sipa ball is adjacent to you, push it 2 tiles as well. If the fighter or the sipa ball <strong>collides,</strong> push it 1 tile away from the thing it collided with.</p>",
           "rolls": {
             "brv": true,
             "fai": false,
             "pos": false,
             "res": false
           },
-          "name": "Kick"
+          "name": "Punt"
         },
         "2": {
           "description": "<p>Kick anything and turn it into a comet: <strong>attack a fighter in range 5 with Bravery.</strong> You can target any vertical space (like a wall, or a higher elevation) to make it bounce off of it, making that the origin point of this attack, and adding +1d to the attack. This attack can only bounce up to 3 times in this way. If the sipa ball is adjacent to you, you can kick the sipa ball in the direction of the attack, colliding with any enemies in the line of its movement. The collision against all enemies is counted as one collide.</p>",
@@ -70,7 +70,7 @@
   "flags": {},
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
+    "systemVersion": "0.0.3",
     "coreVersion": "11.315",
     "createdTime": 1730761865324,
     "modifiedTime": 1730762351272,

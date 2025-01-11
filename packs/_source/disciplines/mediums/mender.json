@@ -46,7 +46,7 @@
           "name": "Incantation"
         },
         "3": {
-          "description": "<p>Toss a potion. Heal 1 or cleanse any Status from an ally within 4 tiles.</p>",
+          "description": "<p>Toss a potion. Heal 1 and cleanse any 1 Status from an ally within 4 tiles.</p>",
           "rolls": {
             "brv": false,
             "fai": false,
@@ -70,7 +70,7 @@
   "flags": {},
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
+    "systemVersion": "0.0.3",
     "coreVersion": "11.315",
     "createdTime": 1730760749990,
     "modifiedTime": 1730761846850,

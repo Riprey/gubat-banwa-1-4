@@ -5,7 +5,7 @@
   "_id": "F3fxMoO34Jyxzj6K",
   "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
   "system": {
-    "description": "<p><em>You can summon a lantaka and unleash an explosive blast from it, filling the air with witchpowder and ember.</em></p><p>Spend 1 Beat to <strong>attack all fighters in an area (blast 3) with Faith, setting aflame.</strong></p><p><strong>Lantaka Verse:</strong> Spend 2 Beats to instead <strong>attack all fighters in an area (blast 5) with Faith, setting aflame,</strong> and <strong>pushing 2.</strong></p><p><strong>Lantaka Spasm:</strong> Spend 3 Beats to also <strong>mark</strong> all the targets until the end of your next riff, and the attack is now made with <strong>Bravery + Faith.</strong> All attacks against the targets marked by you sets aflame. The momentum pushes you 3 tiles away from the blast.</p>",
+    "description": "<p><em>You can summon a lantaka and unleash an explosive blast from it, filling the air with witchpowder and ember.</em></p><p>Spend 1 Beat to <strong>attack all fighters in range 4 burst 1 with Faith, setting aflame.</strong></p><p><strong>Lantaka Verse:</strong> Spend 2 Beats to instead <strong>attack all fighters in range 6 burst 2 with Faith, setting aflame,</strong> and <strong>pushing 2.</strong></p><p><strong>Lantaka Spasm:</strong> Spend 3 Beats to also <strong>mark</strong> all the targets until the end of your next riff, and the attack is now made with <strong>Bravery + Faith.</strong> All attacks against the targets marked by you sets aflame. The momentum pushes you 3 tiles away from the blast.</p>",
     "label": "",
     "equipped": false,
     "flavor": "<p><em>Quoth Mangkukulam: \"My Gun shall go against the Almighty. With this bullet, I shall spit in the face of God. Let Him face the force of the shooting star. I am Mangkukulam, and my flame shall never die. Not even God can extinguish my fire with His drool.\"</em></p>",
@@ -20,7 +20,7 @@
   "flags": {},
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
+    "systemVersion": "0.0.3",
     "coreVersion": "11.315",
     "createdTime": 1731879969140,
     "modifiedTime": 1731880079215,

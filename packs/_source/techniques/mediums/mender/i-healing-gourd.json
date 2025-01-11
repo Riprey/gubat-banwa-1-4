@@ -5,7 +5,7 @@
   "_id": "g46FQuKCKm3OeThR",
   "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
   "system": {
-    "description": "<p><em>You bring out a gourd of refreshing, healing springwater infused with peaflower and jasmine.</em></p><p>Spend 1 Beat to use it to heal yourself or 1 ally in range 6: <strong>heal 1, then roll Faith. Heal an extra +1 for every 6+.</strong></p><p><strong>Nourishing Gourd:</strong> Spend 2 Beats to also <strong>cleanse</strong> a single Status from the target.</p><p><strong>Springwater Gourd:</strong> Spend 3 Beats to <strong>heal yourself and all allies in burst 4.</strong></p>",
+    "description": "<p><em>You bring out a gourd of refreshing, healing springwater infused with peaflower and jasmine.</em></p><p>Spend 1 Beat to use it to heal yourself or 1 ally in range 6: <strong>heal 1/4 of the ally's max HP, then roll Faith. Heal an extra +1 for every 6+.</strong></p><p><strong>Nourishing Gourd:</strong> Spend 2 Beats to also <strong>cleanse</strong> a single Status from the target.</p><p><strong>Naga-River Gourd:</strong> Spend 3 Beats to <strong>heal yourself and all allies on the battlefield.</strong></p>",
     "label": "",
     "equipped": false,
     "flavor": "<p><em>Healing Gourds heal The Vigor Soul first, before diving into the intricacies of an ailment. The Vigor is the life principle, known usually as <strong>Diwa.</strong> It is what makes us alive.</em></p>",
@@ -20,7 +20,7 @@
   "flags": {},
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
+    "systemVersion": "0.0.3",
     "coreVersion": "11.315",
     "createdTime": 1731904474891,
     "modifiedTime": 1731904542282,
