@@ -588,7 +588,6 @@ export class GubatBanwaActorSheet extends ActorSheet {
                   statLabel: params?.statLabel,
                 },
               ),
-              type: CONST.CHAT_MESSAGE_TYPES.ROLL,
               rolls: [roll],
             });
           },

@@ -12,19 +12,31 @@
   "license": "LICENSE.txt",
   "readme": "README.md",
   "changelog": "CHANGELOG.md",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "compatibility": {
-    "minimum": 11,
-    "verified": "11.315"
+    "minimum": 12,
+    "verified": "12.343"
   },
   "flags": {
     "hotReload": {
-      "extensions": ["css", "hbs", "json"],
-      "paths": ["css", "templates", "lang"]
+      "extensions": [
+        "css",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "css",
+        "templates",
+        "lang"
+      ]
     }
   },
-  "esmodules": ["module/gubat-banwa-1-4.mjs"],
-  "styles": ["css/gubat-banwa-1-4.css"],
+  "esmodules": [
+    "module/gubat-banwa-1-4.mjs"
+  ],
+  "styles": [
+    "css/gubat-banwa-1-4.css"
+  ],
   "languages": [
     {
       "lang": "en",
@@ -32,6 +44,59 @@
       "path": "lang/en.json"
     }
   ],
+  "documentTypes": {
+    "Actor": {
+      "kadungganan": {},
+      "npc": {
+        "htmlFields": [
+          "attacks",
+          "description"
+        ]
+      },
+      "object": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    },
+    "Item": {
+      "anting": {
+        "htmlFields": [
+          "description",
+          "flavor"
+        ]
+      },
+      "discipline": {
+        "htmlFields": [
+          "description",
+          "trait.description",
+          "trait.flavor",
+          "violences.flavor",
+          "violences.attacks.1.description",
+          "violences.attacks.2.description",
+          "violences.attacks.3.description"
+        ]
+      },
+      "enlightenment": {
+        "htmlFields": [
+          "description",
+          "flavor"
+        ]
+      },
+      "liberation": {
+        "htmlFields": [
+          "description",
+          "flavor"
+        ]
+      },
+      "technique": {
+        "htmlFields": [
+          "description",
+          "flavor"
+        ]
+      }
+    }
+  },
   "packs": [
     {
       "name": "antings",
@@ -112,14 +177,19 @@
           "name": "Umalagad Resources",
           "sorting": "a",
           "color": "#f17a36",
-          "packs": ["npcs", "macros"]
+          "packs": [
+            "npcs",
+            "macros"
+          ]
         }
       ]
     }
   ],
+  "grid": {
+    "distance": 1,
+    "units": "tiles"
+  },
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/Riprey/gubat-banwa-1-4/main/system.json",
-  "download": "https://github.com/Riprey/gubat-banwa-1-4/releases/download/v0.0.3/system.zip",
-  "gridDistance": 1,
-  "gridUnits": "tiles"
+  "download": "https://github.com/Riprey/gubat-banwa-1-4/releases/download/v0.0.3/system.zip"
 }
