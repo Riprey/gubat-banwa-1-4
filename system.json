@@ -12,7 +12,7 @@
   "license": "LICENSE.txt",
   "readme": "README.md",
   "changelog": "CHANGELOG.md",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": 12,
     "verified": "12.343"
@@ -191,5 +191,5 @@
   },
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/Riprey/gubat-banwa-1-4/main/system.json",
-  "download": "https://github.com/Riprey/gubat-banwa-1-4/releases/download/v0.0.3/system.zip"
+  "download": "https://github.com/Riprey/gubat-banwa-1-4/releases/download/v0.1.1/system.zip"
 }

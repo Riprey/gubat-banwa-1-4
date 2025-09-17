@@ -14,10 +14,10 @@
   "flags": {},
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
-    "coreVersion": "11.315",
+    "systemVersion": "0.1.1",
+    "coreVersion": "12.343",
     "createdTime": 1732233263095,
-    "modifiedTime": 1732237834019,
+    "modifiedTime": 1758104839892,
     "lastModifiedBy": "GubatBanwaPacker"
   },
   "_key": "!macros!bndUF3j47F0VvlTA"

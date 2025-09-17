@@ -547,6 +547,15 @@ export class GubatBanwaActorSheet extends ActorSheet {
         name: this.document.name,
       });
     }
+    const diceFaces = [
+      { key: "4", label: "d4" },
+      { key: "6", label: "d6" },
+      { key: "8", label: "d8" },
+      { key: "10", label: "d10" },
+      { key: "12", label: "d12" },
+      { key: "20", label: "d20" },
+      { key: "100", label: "d100" }
+    ];
     // Generate a list of options to use in a <select>.
     // It should prevent you from rolling less than one die.
     const minBonus = params?.value ? Math.min(-params.value + 1, 0) : -10;
@@ -558,7 +567,7 @@ export class GubatBanwaActorSheet extends ActorSheet {
     }
     const content = await renderTemplate(
       "systems/gubat-banwa-1-4/templates/dialog/dialog-roll.hbs",
-      { ...params, title, bonusOptions },
+      { ...params, title, diceFaces, bonusOptions },
     );
 
     const dialog = new Dialog({
@@ -583,7 +592,7 @@ export class GubatBanwaActorSheet extends ActorSheet {
               content: await renderTemplate(
                 "systems/gubat-banwa-1-4/templates/chat/chat-roll.hbs",
                 {
-                  ...rollData.dice[0],
+                  dice: rollData.dice,
                   total: rollData.total,
                   statLabel: params?.statLabel,
                 },

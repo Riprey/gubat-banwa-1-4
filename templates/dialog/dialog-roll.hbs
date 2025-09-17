@@ -25,15 +25,7 @@
         <label>{{localize "GUBAT_BANWA.Dice.Faces"}}</label>
         <div class="form-fields">
             <select name="faces" {{#if faces}}disabled{{/if}}>
-                {{#select faces}}
-                <option value="4">d4</option>
-                <option value="6">d6</option>
-                <option value="8">d8</option>
-                <option value="10">d10</option>
-                <option value="12">d12</option>
-                <option value="20">d20</option>
-                <option value="100">d100</option>
-                {{/select}}
+                {{selectOptions diceFaces selected=10 labelAttr="label" valueAttr="key"}}
             </select>
         </div>
     </div>

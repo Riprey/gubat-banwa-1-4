@@ -9,7 +9,7 @@
     "label": "",
     "equipped": false,
     "flavor": "<p><em>Your blade is always ready. Now, you chamber it: it seems like an innocuous position, but it is actually a striking position. The calm before the storm. Mangangayaw are feared across the Sword Isles for this technique. Taught most widely by Grandmaster Liyasara of the Bladed Stick, who mastered the technique to remember his master</em></p>",
-    "discipline": "",
+    "discipline": "mangangayaw",
     "rank": 1
   },
   "effects": [],
@@ -20,10 +20,10 @@
   "flags": {},
   "_stats": {
     "systemId": "gubat-banwa-1-4",
-    "systemVersion": "0.0.1",
-    "coreVersion": "11.315",
+    "systemVersion": "0.1.1",
+    "coreVersion": "12.343",
     "createdTime": 1731826401477,
-    "modifiedTime": 1731826592731,
+    "modifiedTime": 1758104839892,
     "lastModifiedBy": "GubatBanwaPacker"
   },
   "_key": "!items!uoT9fsjP64eA3i7c"
